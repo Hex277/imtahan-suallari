@@ -1,0 +1,2749 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Hansı obyektlərə patentlə hüquqi mühafizə verilə bilər?",
+            "options": {
+                "A": "İxtira, kəşf, faydalı model, sənaye nümunəsi",
+                "B": "İxtira, sənaye nümunəsi, coğrafi göstəricilər",
+                "C": "İxtira, faydalı model, sənaye nümunəsi, əmtəə nişanı",
+                "D": "İxtira, faydalı model, sənaye nümunəsi",
+                "E": "Sənaye nümunəsi, coğrafi göstəricilər, müəlliflik hüququ"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 2,
+            "question": "İxtiraya dair iddia sənədi nədən ibarətdir?",
+            "options": {
+                "A": "Haqq ödənildiyini təsdiqləyən sənəd, ixtiranı tam şəkildə açıqlayan ixtiranın təsviri, ixtiranın düsturu, referat, ən yaxın analoqun surəti",
+                "B": "Patent verilməsi haqqında ərizə, ixtiranın mahiyyətini tam şəkildə açıqlayan ixtiranın təsviri, ixtiranın düsturu, ixtiranın mahiyyətini başa düşmək üçün çertyojlar və digər materiallar, referat",
+                "C": "İxtiranın mahiyyətini başa düşmək üçün çertyojlar, haqq ödənildiyini təsdiqləyən sənəd, ixtiranı tam şəkildə açıqlayan ixtiranın təsviri",
+                "D": "Patent verilməsi haqqında ərizə, ixtiranı tam şəkildə açıqlayan ixtiranın təsviri, ixtiranın mahiyyətini başa düşmək üçün çertyojlar və digər materiallar",
+                "E": "Patent verilməsi haqqında ərizə, haqq ödənildiyini təsdiqləyən sənəd, ixtiranı tam şəkildə açıqlayan ixtiranın təsviri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 3,
+            "question": "Hansı obyektlər ixtira obyekti sayılır?",
+            "options": {
+                "A": "Üsul, qurğu, maddə, mikroorqanizm ştammı, bitki və heyvan hüceyrələrinin kulturası",
+                "B": "Üsul, qurğu, maddə, bədii konstruktorluq işinin nəticəsi (dizayn)",
+                "C": "Kəşflər, elmi nəzəriyyələr, riyazi metodlar, ifalar",
+                "D": "Qurğu, bina, ərazi layihələri, maddə, informasiyanın təqdimi üsulları",
+                "E": "Üsul, kəşflər, elmi nəzəriyyələr, riyazi metodlar, oyunların qaydaları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 4,
+            "question": "Faydalı model nədir?",
+            "options": {
+                "A": "İstənilən sahədə məmulatın yeni zahiri görkəmini müəyyən edən bədii-konstruktiv həllər",
+                "B": "İstənilən sahədə məmulatın yeni zahiri görkəmini müəyyən edən bədii-konstruktiv və texniki həllər",
+                "C": "İstənilən sahədə qurğuya aid olan texniki həllər",
+                "D": "İstənilən sahədə bədii və ya bədii-konstruktiv həllər",
+                "E": "İstənilən sahədə məhsula və ya üsula aid olan texniki həllər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 5,
+            "question": "Sənaye nümunəsi nədir?",
+            "options": {
+                "A": "İstənilən sahədə məhsula və ya üsula aid olan texniki həllər",
+                "B": "Qurğunun yeni zahiri görkəmini müəyyən edən bədii həllər",
+                "C": "Məmulatın yeni zahiri görkəmini müəyyən edən bədii və ya bədii-konstruktiv həllər",
+                "D": "İstənilən sahədə üsula və qurğuya aid olan texniki həllər",
+                "E": "Qurğuya aid olan texniki həllər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 6,
+            "question": "İddia sənədinin patentlə verilən hüquqi mühafizənin həcmini müəyyənləşdirən hissəsi hansıdır:",
+            "options": {
+                "A": "ixtiranı tam şəkildə açıqlayan ixtiranın təsviri",
+                "B": "referat",
+                "C": "patent verilməsi haqqında ərizə",
+                "D": "ixtiranın düsturu",
+                "E": "patent verilməsi haqqında ərizə və referat"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 7,
+            "question": "İddia sənədi yerli hüquqi və fiziki şəxslər tərəfindən Əqli Mülkiyyət Agentliyinə necə təqdim edilə bilər?",
+            "options": {
+                "A": "İddia sənədi yalnız iddiaçının nümayəndəsi və ya Agentlikdə qeydiyyata alınmış patent müvəkkili vasitəsilə Agentliyə təqdim olunmalıdır",
+                "B": "İddia sənədi, Azərbaycan Respublikasının iştirak etdiyi beynəlxalq müqavilələrdə başqa qayda nəzərdə tutulmayıbsa, yalnız Agentlikdə qeydiyyata alınmış patent müvəkkilləri vasitəsilə təqdim olunur",
+                "C": "İddia sənədi iddiaçının özü və ya onun səlahiyyətli nümayəndəsi vasitəsilə birbaşa Agentliyə təqdim olunmalıdır",
+                "D": "İddia sənədi yalnız iddiaçının özü və ya Agentlikdə qeydiyyata alınmış patent müvəkkili vasitəsilə elektron qaydada Agentliyə təqdim olunmalıdır",
+                "E": "İddia sənədi iddiaçının özü, onun səlahiyyətli nümayəndəsi və ya Agentlikdə qeydiyyata alınmış patent müvəkkili vasitəsilə elektron qaydada və ya birbaşa Agentliyə təqdim olunmalıdır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 8,
+            "question": "İddia sənədi xarici hüquqi və fiziki şəxslər tərəfindən Əqli Mülkiyyət Agentliyinə necə təqdim edilə bilər?",
+            "options": {
+                "A": "İddia sənədi iddiaçının özü, onun səlahiyyətli nümayəndəsi və ya Agentlikdə qeydiyyata alınmış patent müvəkkili vasitəsilə elektron qaydada və ya birbaşa Agentliyə təqdim olunmalıdır",
+                "B": "İddia sənədi iddiaçının özü və ya Agentlikdə qeydiyyata alınmış patent müvəkkili vasitəsilə elektron qaydada Agentliyə təqdim olunmalıdır",
+                "C": "İddia sənədi yalnız Agentlikdə qeydiyyata alınmış patent müvəkkilləri vasitəsilə təqdim olunur",
+                "D": "İddia sənədi, Azərbaycan Respublikasının iştirak etdiyi beynəlxalq müqavilələrdə başqa qayda nəzərdə tutulmayıbsa, yalnız Agentlikdə qeydiyyata alınmış patent müvəkkilləri vasitəsilə təqdim olunur",
+                "E": "İddia sənədi iddiaçının özü və ya onun səlahiyyətli nümayəndəsi vasitəsilə birbaşa Agentliyə təqdim olunmalıdır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 9,
+            "question": "İxtira nə hesab oluna bilər?",
+            "options": {
+                "A": "İstənilən sahədə məhsula və ya üsula aid olan texniki həllər",
+                "B": "İstənilən sahədə üsula aid olan həllər",
+                "C": "İstənilən sahədə üsula aid olan və bədii-konstruktiv həllər",
+                "D": "İstənilən sahədə bədii və texniki həllər",
+                "E": "İstənilən sahədə məmulatın yeni zahiri görkəmini müəyyən edən texniki və ya bədii-konstruktiv həllər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 10,
+            "question": "Hansı obyektlər ixtira obyekti sayılır?",
+            "options": {
+                "A": "Üsul, qurğu, maddə, mikroorqanizm ştammı, bitki və heyvan hüceyrələrinin kulturası",
+                "B": "Üsul, kəşflər, elmi nəzəriyyələr, riyazi metodlar, oyunların qaydaları",
+                "C": "Üsul, elmi nəzəriyyələr, riyazi metodlar, qurğular",
+                "D": "Üsul, qurğu, maddə, bədii konstruktorluq işinin nəticəsi (dizayn)",
+                "E": "Qurğu, bina, ərazi layihələri, informasiyanın təqdimi üsulları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 11,
+            "question": "İxtiranın patent qabiliyyəti şərtləri hansılardır?",
+            "options": {
+                "A": "Yenilik, orijinallıq, ixtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "B": "Yenilik, sənayedə tətbiq edilə bilmə",
+                "C": "Yenilik, ixtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "D": "İxtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "E": "Yenilik, orijinallıq, ixtiraçılıq səviyyəsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 12,
+            "question": "Faydalı modelin patent qabiliyyəti şərtləri hansılardır?",
+            "options": {
+                "A": "Yenilik, ixtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "B": "Yenilik, orijinallıq, ixtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "C": "Yenilik, sənayedə tətbiq edilə bilmə",
+                "D": "Yenilik, orijinallıq, ixtiraçılıq səviyyəsi",
+                "E": "İxtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 13,
+            "question": "Sənaye nümunəsinin patent qabiliyyəti şərtləri hansılardır?",
+            "options": {
+                "A": "Yenilik, ixtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "B": "Yenilik, orijinallıq, ixtiraçılıq səviyyəsi, sənayedə tətbiq edilə bilmə",
+                "C": "Orijinallıq, ixtiraçılıq səviyyəsi",
+                "D": "Yenilik, orijinallıq",
+                "E": "Yenilik, orijinallıq, , ixtiraçılıq səviyyəsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 14,
+            "question": "İxtira hansı halda yeni sayılır?",
+            "options": {
+                "A": "Mövcud bilgilər məcmusunda bir hissəni təkrar etdikdə və sənayenin və təsərrüfatın hər hansı sahəsində hazırlana bildikdə",
+                "B": "Mövcud bilgilər məcmusunda bir hissəni təkrar etmədikdə",
+                "C": "Orijinal xüsusiyyətlərə malik olduqda",
+                "D": "Mövcud bilgilərdən açıq-aşkar irəli gəldikdə",
+                "E": "Mövcud bilgilər məcmusunda bir hissəni təkrar etdikdə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 15,
+            "question": "İxtira hansı halda ixtira səviyyəsinə malik hesab edilir?",
+            "options": {
+                "A": "Təsərrüfatın hər hansı sahəsində hazırlana bildikdə",
+                "B": "İxtira barəsində iddia sənədinin verildiyi günə kimi dünyada hamıya müyəssər olmazsa",
+                "C": "Sənayenin və təsərrüfatın hər hansı sahəsində hazırlana bildikdə",
+                "D": "İxtira, həmin sahədə çalışan mütəxəssis üçün mövcud bilgilərdən açıq-aşkar irəli gəlmirsə",
+                "E": "Orijinal xüsusiyyətlərə malik olduqda"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 16,
+            "question": "İxtira hansı halda sənayedə tətbiq edilə bilən sayılır?",
+            "options": {
+                "A": "Təsərrüfatın hər hansı sahəsində hazırlandıqda",
+                "B": "İxtira obyektini hazırlayan avadanlıq məlum olduqda",
+                "C": "İxtira obyektinin təcrübədən keçirildiyini və müvafiq standartlara uyğun olmasını təsdiqləyən akt olduqda",
+                "D": "İxtiranın obyekti sənayenin və təsərrüfatın hər hansı sahəsində hazırlana və ya istifadə edilə bildikdə",
+                "E": "Mövcud bilgilər məcmusunda bir hissəni təkrarlamadıqda"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 17,
+            "question": "Azərbaycanda ixtiraya dair patentin qüvvədə olma müddəti neçə ildir?",
+            "options": {
+                "A": "15 il",
+                "B": "22 il",
+                "C": "25 il",
+                "D": "10 il",
+                "E": "20 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 18,
+            "question": "Azərbaycanda ixtira patentinin predmeti inzibati prosedurlardan keçməsi tələb olunan məhsula və ya məhsulun hazırlanma üsuluna aid olarsa, patentin qüvvədə olma müddəti neçə ilə qədər uzadıla bilər?",
+            "options": {
+                "A": "3 il",
+                "B": "10 il",
+                "C": "10 il",
+                "D": "8 il",
+                "E": "5 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 19,
+            "question": "Azərbaycanda faydalı modelə dair patentin qüvvədə olma müddəti neçə ildir?",
+            "options": {
+                "A": "15 il",
+                "B": "20 il",
+                "C": "5 il",
+                "D": "10 il",
+                "E": "1 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 20,
+            "question": "Azərbaycanda sənaye nümunəsinə dair patentin qüvvədə olma müddəti neçə ildir?",
+            "options": {
+                "A": "10 il",
+                "B": "20 il",
+                "C": "1 il",
+                "D": "15 il",
+                "E": "5 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 21,
+            "question": "İxtira, faydalı model və sənaye nümunəsindən istifadə üçün müstəsna hüquq kimə məxsusdur?",
+            "options": {
+                "A": "Müəllifin varisinə",
+                "B": "Patent sahibinə və müəllifə",
+                "C": "Patent sahibinə",
+                "D": "Müəllifə",
+                "E": "Yalnız işə götürənə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 22,
+            "question": "Hansı halda patent sahibinin müstəsna hüquqları pozulmuş sayılır?",
+            "options": {
+                "A": "Patentlə mühafizə edilən ixtira, faydalı model və sənaye nümunəsi obyektlərinin elmi, eksperiment, tədqiqat və həmin obyektlərin yoxlanılması məqsədləri üçün istifadəsi",
+                "B": "Tərkibində patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsi olan vasitələrdən qeyri-kommersiya məqsədləri üçün gəlirsiz istifadəsi",
+                "C": "Patentlə mühafizə edilən ixtira, faydalı model və sənaye nümunəsi obyektlərindən kommersiya məqsədləri üçün istifadə edilməsi, təsərrüfat dövriyyəsinə başqa şəkildə daxil edilməsi",
+                "D": "Patentlə mühafizə edilən ixtira, faydalı model və sənaye nümunəsi obyektlərindən qeyri-kommersiya məqsədləri üçün istifadə edilməsi, təsərrüfat dövriyyəsinə başqa şəkildə daxil edilməsi",
+                "E": "Həkimin resepti üzrə birdəfəlik istifadə üçün dərmanın hazırlanması"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 23,
+            "question": "Yazıçı yazdığı yeni romanı dərc edib. Üçüncü şəxslər tərəfindən həmin romandan icazəsiz istifadənin qarşısını almaq üçün hansı hüquqdan istifadə edə bilər?",
+            "options": {
+                "A": "İxtiralar",
+                "B": "Əmtəə nişanları",
+                "C": "Müəllif hüququ",
+                "D": "Sənaye nümunələri",
+                "E": "Əlaqəli hüquqlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 24,
+            "question": "Müğənni öz konsertinin videoyazısına olan hüquqlarını başqasına ötürmək istəyir. Hansı hüquqlardan söhbət gedir?",
+            "options": {
+                "A": "Müəllif hüququ",
+                "B": "İxtiralar",
+                "C": "Sənaye nümunələri",
+                "D": "Əlaqəli hüquqlar",
+                "E": "Əmtəə nişanları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 25,
+            "question": "Şirkət əmin olmaq istəyir ki, heç kim onun loqotipindən istifadə etməyəcək. Hansı ƏM növünü seçməli?",
+            "options": {
+                "A": "Əmtəə nişanları",
+                "B": "İxtiralar",
+                "C": "Müəllif hüququ",
+                "D": "Əlaqəli hüquqlar",
+                "E": "Sənaye nümunələri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 26,
+            "question": "Şirkət digər qablaşdırmalardan fərqlənən yeni qablaşdırma forması hazırlayıb və bu formaya müstəsna hüquq almaq istəyir. Hansını seçməlidir?",
+            "options": {
+                "A": "İxtiralar",
+                "B": "Müəllif hüququ",
+                "C": "Əmtəə nişanları",
+                "D": "Əlaqəli hüquqlar",
+                "E": "Sənaye nümunələri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 27,
+            "question": "Süd emalının yeni üsulu ondan hazırlanan pendirin tamamilə yağsız olmasına imkan verir. Bu üsulu hansı ƏM növü ilə qorumaq olar?",
+            "options": {
+                "A": "İxtiralar",
+                "B": "Əlaqəli hüquqlar",
+                "C": "Müəllif hüququ",
+                "D": "Əmtəə nişanları",
+                "E": "Sənaye nümunələri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 28,
+            "question": "Müəlliflik hüququ ilə qorunmayan obyekti qeyd edin:",
+            "options": {
+                "A": "xoreoqrafiya əsərləri və pantomimalar",
+                "B": "törəmə obyektlər",
+                "C": "audiovizual əsərlər",
+                "D": "sənaye nümunələri",
+                "E": "memarlıq, şəhərsalma sənəti əsərləri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 29,
+            "question": "Müəlliflik hüququ barədə aşağıda qeyd edilənlər arasından səhv olanı seçin",
+            "options": {
+                "A": "müəlliflik hüququ müəllifin həyatı boyu və ölümündən sonra 70 il qorunur",
+                "B": "müəllif öz əsərindən istifadə edə və yahud başqasının istifadəsinə qadağa qoya bilər",
+                "C": "rəsmi sənədlər müəlliflik hüququ ilə qorunmur",
+                "D": "müəllifin əmlak hüquqları ayrılmaz hüquqlardır və başqasına ötürülə bilməz",
+                "E": "müəlliflik hüququ obyektlərinin qeydiyyatı könüllüdür"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 30,
+            "question": "Şəxsi qeyri əmlak hüquqları barədə aşağıda göstərilənlərdən səhv olanı seçin",
+            "options": {
+                "A": "müəllifin qeyri-əmlak hüququ həyatı boyu və ölümündən 70 il ərzində qorunur",
+                "B": "əsərinin istənilən formada açıqlamaq və ya açıqlanmasına icazə vermək hüququ",
+                "C": "əsərin müəllifi kimi tanınmaq hüququ",
+                "D": "əsərinin mənasının dəyişilməsinə, təhrif olunmasına qarşı çıxmaq hüququ",
+                "E": "əsərdən öz adı ilə, təxəllüslə, yaxud adsız (anonim) istifadə etmək və ya bu cür istifadəyə icazə vermək hüququ"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 31,
+            "question": "Aşağıda göstərilən obyektlər arasında hansı sənaye mülkiyyəti obyekti deyildir?",
+            "options": {
+                "A": "əmtəə nişanı",
+                "B": "coğrafi göstərici",
+                "C": "sənaye nümunəsi",
+                "D": "ixtira",
+                "E": "əlaqəli hüquqlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 32,
+            "question": "Patent barədə qeyd olunanlar arasından səhv olanı seçin:",
+            "options": {
+                "A": "patent ixtiraya müstəsna hüquqdur",
+                "B": "patentin qüvvəsi ərazi ilə məhdudlaşır",
+                "C": "patentin qüvvədə olma müddəti müəllifin həyatı boyu və ölümündən sonra 70 il təşkil edir",
+                "D": "patentə lisenziya verilə bilər",
+                "E": "patent sahibi ixtiranın kommersiya məqsədilə istifadəsinin qarşısını ala bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 33,
+            "question": "Fonoqram istehsalçılarının və yayım təşkilatlarının qeyri-əmlak (mənəvi) hüquqları varmı?",
+            "options": {
+                "A": "fiziki şəxs olarsa var",
+                "B": "hüquqi şəxs olarsa var",
+                "C": "yoxdur",
+                "D": "qanunvericilikdə norma nəzərdə tutularsa var",
+                "E": "hər bi halda var"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 34,
+            "question": "Dizaynerlər tərəfindən yaradılmış əqli mülkiyyəti qorumaq üçün nədən istifadə olunur?",
+            "options": {
+                "A": "Müəllif hüququ",
+                "B": "Qeydiyyatdan keçmiş sənaye nümunələri",
+                "C": "İxtira patentləri",
+                "D": "Coğrafi göstəricilər",
+                "E": "Əmtəə nişanları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 35,
+            "question": "Aşağıdakılardan hansı coğrafi göstəricidir?",
+            "options": {
+                "A": "internet",
+                "B": "adidas idman paltarı",
+                "C": "rolex saatı",
+                "D": "şampan",
+                "E": "mersedes"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 36,
+            "question": "Əmtəə nişanı nəyi qoruyur?",
+            "options": {
+                "A": "Loqotipləri, adları",
+                "B": "Məhsulun görünüşü, formasını",
+                "C": "İncəsənət əsərlərini",
+                "D": "Gizli düsturları",
+                "E": "İxtiraları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 37,
+            "question": "Əqli mülkiyyət subyektlərinin hansı hüquqları müddətsiz qorunur:",
+            "options": {
+                "A": "əmlak və mənəvi hüquqlar",
+                "B": "həm əmlak, həm də şəxsi qeyri-əmlak hüquqları",
+                "C": "əmlak hüquqları",
+                "D": "şəxsi qeyri-əmlak hüquqları",
+                "E": "yuxarıdan göstərilənlərin heç biri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 38,
+            "question": "Hansı işarələr əmtəə nişanı kimi qeydə alınan bilər:",
+            "options": {
+                "A": "əmtəələrin və ya xidmətlərin növünü, keyfiyyətini, miqdarını, təyinatını, dəyərini, habelə onların istehsal",
+                "O": "unduğu yeri, tarixi və digər xüsusiyyətlərini göstərən nişanlar (işarələr)",
+                "B": "şəxsi adlar, rəqəmlər, təsviri elementlər, qrafik xarakterli ifa olmayan, ayrıca şəkildə özündə hərfləri",
+                "C": "sözlər, şəxsi adlar, hərflər, rəqəmlər, təsviri elementlər, əmtəələrin forması və ya onların qablaşdırılması, rənglərin və yuxarıda göstərilənlərin hər hansı uzlaşması",
+                "D": "qrafik xarakterli ifa olmayan, ayrıca şəkildə özündə hərfləri, rəqəmləri əks etdirən nişanlar (işarələr)",
+                "E": "sadə həndəsi fiqurlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 39,
+            "question": "Aşağıdakı nişanların hansı əmtəələrin və xidmətlərin növünü bildirmir:",
+            "options": {
+                "A": "Portveyn",
+                "B": "Şərab",
+                "C": "Qida əlavəsi",
+                "D": "Chokolaj",
+                "E": "Polad dam örtüyü"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 40,
+            "question": "Aşağıda göstərilmiş ifadələrdən hansı yanlışdır?",
+            "options": {
+                "A": "Əmtəə nişanı 10 il qorunur və və bu müddət sonsuz sayda uzadıla bilər",
+                "B": "Əmtəə nişanı fərqləndirici xüsusiyyətə malik olmalı və yalnış təsəvvür yaratmamalıdır",
+                "C": "Geniş tanınmış əmtəə nişanları xüsusi mühafizə hüququna malikdir",
+                "D": "Əmtəə nişanı müəyyən xüsusiyyətlərə malik əmtəələr üçün qeydiyata alına bilər",
+                "E": "Əmtəə nişanı 20 il qorunur və bu müddət sonsuz sayda uzadıla bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 41,
+            "question": "Kollektiv nişan barədə göstərilənlərdən hansı düzgün cavabdır?",
+            "options": {
+                "A": "kollektiv nişan ittifaqın, assosiasiyanın, hər hansı birliyin adına qeydə alınan nişan və ya nişanların kombinasiyasıdır",
+                "B": "kollektiv nişanın qeydiyyatda olma müddəti 15 ildir",
+                "C": "kollektiv nişan qeydiyyat müddətinin bitdiyi tarixdən 3 il ərzində nişan başqa şəxsin adına yenidən qeydə alına bilər",
+                "D": "kollektiv nişan barəsində iddia sənədi həmin nişandan istifadə hüququ olan birliyin bir üzvünün razılığı ilə geri götürülə bilər",
+                "E": "kollektiv nişanın qeydiyyatda olma müddəti 5 ildir və bu müddət bir dəfə artırıla bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 42,
+            "question": "Əmtəə nişanınının qeydiyyatından imtinaya dair yalnış cavab hansıdır?",
+            "options": {
+                "A": "ictimai qaydaya, mənəviyyata və əxlaqa zidd olan ifadələrdən, şəxsiyyətin nüfuzdan düşməsinə səbəb ola bilən elementlərdən, din və dövlət rəmzlərindən ibarət nişanlar qeydiyyata alınmır",
+                "B": "əmtəələrin forması və ya onların qablaşdırılmasını özündə əks etdirən nişanlar qeydiyyata alınmır",
+                "C": "fərqlənmə qabiliyyətinə malik olmayan əmtəə nişanları, yəni əsas amillərlə fərqlənməyən nişanlar qeydiyyata alınmır",
+                "D": "təsviri elementlər, şəxsi adlar, rənglər və onların quraşması, hərflər və rəqəmlər, əmtəələrin forması və ya onların qablaşdırılmasını özündə əks etdirən nişanlar qeydiyyata alınmır",
+                "E": "əmtəələrin və ya xidmətlərin xüsusiyyətləri, keyfiyyəti və ya coğrafi mənşəyi ilə əlaqədar istehlakçını yanılda bilən əmtəə nişanları qeydiyyata alınmır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 43,
+            "question": "Aşağıdakı nişanlardan hansı əmtəənin və xidmətlərin təyinatını bildirmir?",
+            "options": {
+                "A": "Probiotik",
+                "B": "Quru saçlar üçün şampun",
+                "C": "Nəmləndirici krem",
+                "D": "Yaşıl çay",
+                "E": "Meyvita"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 44,
+            "question": "İddia sənədinin tərkibi nələrdən ibarətdir?",
+            "options": {
+                "A": "ekspertizaya zəruri olan əlavə materiallardan",
+                "B": "əmtəə və xidmətlərin beynəlxalq təsnifatından və iddia edilən nişanın qrafik təsvirdə verilmiş ottiskindən",
+                "C": "ərizə və ona qoşulan əlavə sənədlərdən",
+                "D": "patent müvəkkilinin səlahiyyətlərini təsdiq edən etibarnamədən və əmtəə və xidmətlərin beynəlxalq təsnifatından",
+                "E": "ərizədən və rüsumu təsdiq edən qəbzdən"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 45,
+            "question": "Əmtəə nişanının əmtəə və xidmətlərin qruplaşdırılmış beynəlxalq təsnifatı hansı beynəlxalq müqavilə ilə tənzimlənir:",
+            "options": {
+                "A": "Locarno sazişi",
+                "B": "Strasburq sazişi",
+                "C": "Vyana sazişi",
+                "D": "Madrid sazişi",
+                "E": "Nitsa sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 46,
+            "question": "Əmtəə və xidmətlərin qruplaşdırılmış beynəlxalq təsnifatı neçə sinifdən ibarətdir:",
+            "options": {
+                "A": "45",
+                "B": "25",
+                "C": "50",
+                "D": "40",
+                "E": "35"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 47,
+            "question": "Əmtəə nişanı kimi qeydə alınmaq üçün təqdim olunan iddia sənədinin ekspertizası ilkin ekpertizanın başa çatmasından sonra neçə müddətə aparılır?",
+            "options": {
+                "A": "İlkin ekspertiza başa çatandan 6 ay müddətinə",
+                "B": "İlkin ekspertiza başa çatandan 2 ay müddətinə",
+                "C": "İlkin ekspertiza başa çatandan 8 ay müddətinə",
+                "D": "İlkin ekspertiza başa çatandan 10 ay müddətinə",
+                "E": "İlkin ekspertiza başa çatandan 4 ay müddətinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 48,
+            "question": "“AYAQQABI DÜNYASI” adı altında “geyim və baş geyimi” əmtəələri üzrə əmtəə nişanı qeydiyyata alına bilərmi?",
+            "options": {
+                "A": "Xeyr, qeydiyyata alına bilməz, çünki bu faktor istehlakçıda əmtəənin satışa təklif olunan məkanı barədə yalnış təsəvvür yarada bilər",
+                "B": "Bəli, qeydiyyata alına bilər, çünki nişan əmtəələrin növünü bildirmir",
+                "C": "Bəli, qeydiyyata alına bilər, çünki nişan fərqlənmə qabiliyyətinə malikdir",
+                "D": "Bəli, qeydiyyata alına bilər, çünki hər iki əmtəə Nitsa təsnifatına əsasən bir sinifdə qruplaşdırılmışdırlar",
+                "E": "Xeyr, qeydiyata alına bilməz, çünki nişan fərqlənmə qabiliyyətinə malik deyildir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 49,
+            "question": "İddia sənədi üzrə qəbul edilən yekun sənəd hansıdır:",
+            "options": {
+                "A": "Qərar",
+                "B": "Arayış",
+                "C": "Bildiriş",
+                "D": "İddia",
+                "E": "Sorğu"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 50,
+            "question": "Əmtəə nişanı nədir?",
+            "options": {
+                "A": "konstruktiv həlldir",
+                "B": "sahibkarın əmtəələrini və ya xidmətlərini digər sahibkarın əmtəələrindən və ya xidmətlərindən fərqləndirən",
+                "V": "qrafik təsvir edilən nişan və ya nişanların hər hansı bir uzlaşmasıdır (kombinasiyasıdır)",
+                "C": "müəlliflik hüququnu özündə əks etdirən obyektdir",
+                "D": "istənilən sahədə məhsula və ya üsula aid olan texniki həlldir",
+                "E": "məmulatın yeni zahiri görkəmini müəyyən edən bədii və ya bədii"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 51,
+            "question": "Aşağıda göstərilmiş nişanlardan hansı fonetik (səsli) oxşarlığa malik deyildirlər?",
+            "options": {
+                "A": "“DALSO” – “DELSO”",
+                "B": "“FAYTON” –“VAYTON”",
+                "C": "“ATON” – “EATON”",
+                "D": "“VİTRAGE”- “VİTERAN”",
+                "E": "“PEYCERKOM” – “PAGERCOM”"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 52,
+            "question": "Əmtəə nişanı və coğrafi göstəricilərin qeydiyyatının qüvvədə olması müddəti neçə ildir?",
+            "options": {
+                "A": "3 il",
+                "B": "10 il",
+                "C": "7 il",
+                "D": "5 il",
+                "E": "15 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 53,
+            "question": "Doğru cavab hansıdır?",
+            "options": {
+                "A": "İddia sənədi ərizədən və ona qoşulan zəruri sənədlərdən ibarət olmaqla saysız əmtəə nişanına aid ola bilər",
+                "B": "İddia sənədi ərizədən və ona qoşulan zəruri sənədlərdən ibarət olmaqla üç əmtəə nişanına aid ola bilər",
+                "C": "İddia sənədi ərizədən və ona qoşulan zəruri sənədlərdən ibarət olmaqla iki əmtəə nişanına aid ola bilər",
+                "D": "İddia sənədi ərizədən və ona qoşulan zəruri sənədlərdən ibarət olmaqla bir əmtəə nişanına aid olmalıdır",
+                "E": "İddia sənədi ərizədən və ona qoşulan zəruri sənədlərdən ibarət olmaqla bir neçə əmtəə nişanına aid ola bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 54,
+            "question": "Əmtəə nişanına dair müstəsna hüquq haqqında sənəd hansıdır?",
+            "options": {
+                "A": "Arayış",
+                "B": "Çıxarış",
+                "C": "Bəyannamə",
+                "D": "Bildiriş",
+                "E": "Şəhadətnamə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 55,
+            "question": "Əmtəə nişanı adı altında nələr mühafizə olunur?",
+            "options": {
+                "A": "Məmulatın zahiri görünüşü",
+                "B": "İxtiralar",
+                "C": "Adlar, loqolar, qrafik kombinasiylar",
+                "D": "İncəsənət nümunələri",
+                "E": "Üsul və qurğular"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 56,
+            "question": "Əmtəə nişanlarının qeydiyyatı zamanı mühafizəsiz elementlər hesab edilmirlər:",
+            "options": {
+                "A": "Sadə həndəsi fiqurlar",
+                "B": "Standart rəqəmlər",
+                "C": "Ümumişlək simvollar",
+                "D": "Fantaziya xarakterli işarələr",
+                "E": "Növü bildirən sözlər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 57,
+            "question": "Coğrafi göstərici hansı məhsulları adlandırmaq üçün istifadə edilən anlayışdır?",
+            "options": {
+                "A": "keyfiyyət və şöhrətini aid olduğu coğrafi məkandan alan məhsulları adlandırmaq üçün istifadə edilən anlayışdır",
+                "B": "sənayedə istehsal olunan qurğuları adlandırmaq üçün istifadə edilən anlayışdır",
+                "C": "yeri və ərazini bildirmək üçün istifadə edilən anlayışdır",
+                "D": "coğrafi obyekt adı daşıyan əmtəə nişanlarını adlandırmaq üçün istifadə edilən anlayışdır",
+                "E": "sənayedə istehsal olunan yeni formaları adlandırmaq üçün istifadə edilən anlayışdır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 58,
+            "question": "Coğrafi göstərici hansı hüquqları təmin edir?",
+            "options": {
+                "A": "Əmtəənin adından müstəsna istifadə hüququnu",
+                "B": "Coğrafi göstərici hüququ onun sahibinə ondan istifadəyə dair müstəsna hüquq verir",
+                "C": "Əmtəə və xidmətdən müstəsna istifadə hüququnu",
+                "D": "Coğrafi göstərici hüququ onun sahiblərinə həmin məhsulun standartlara uyğun olmadan üçüncü şəxslər tərəfindən istifadəsinin qarşısını almaq imkanı verir",
+                "E": "Coğrafi göstərici hüququ standartlara uyğun eyniadlı məhsulu istehsal edən başqa şəxslərə mane olmağa imkan verir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 59,
+            "question": "Coğrafi göstərici termini hansı məhsullar üçün istifadə edilə bilər?",
+            "options": {
+                "A": "üsul və qurğular üçün istifadə olunur",
+                "B": "tibb sahəsindəki əczaçılıq məhsulları üzrə istifadə edilir",
+                "C": "kənd təsərrüfatı məhsulları, qida məhsulları, şərablar və spirtli içkilər, sənətkarlıq və sənaye məhsulları üçün istifadə olunur",
+                "D": "sənayedə istehsal edilən yeni dizaynlı məhsullar üçün istifadə edilir",
+                "E": "əczaçılıq məhsulları və qurğular üçün istifadə olunur"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 60,
+            "question": "Aşağıda sadalananlardan hansılar coğrafi göstəricidir?",
+            "options": {
+                "A": "Adidas",
+                "B": "Şampan şərabı",
+                "C": "Pleysteyşn",
+                "D": "İnternet",
+                "E": "BMV"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 61,
+            "question": "Kimlər coğrafi göstəricini qeydiyyata ala bilər",
+            "options": {
+                "A": "İstənilən sahibkarlıqla məşğul olan hüquqi şəxslər",
+                "B": "İstənilən sahibkarlıqla məşğul olan həm fiziki, həm də hüquqi şəxslər",
+                "C": "İstənilən sahibkarlıqla məşğul olan fiziki şəxslər",
+                "D": "Dövlət idarə strukturları",
+                "E": "Coğrafi göstəricidən istifadə həmin ərazidə xidmət göstərən sahibkarlar üçün nəzərdə tutulur"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 62,
+            "question": "Qeydiyyata alınmış coğrafi göstəricinin qüvvədə olma müddəti nə qədərdir?",
+            "options": {
+                "A": "15 il",
+                "B": "20 il",
+                "C": "10 il",
+                "D": "25 il",
+                "E": "50 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 63,
+            "question": "Coğrafi göstəricinin qeydiyyatı nə üçün vacibdir?",
+            "options": {
+                "A": "Məhsuldan istifadəyə inhisarın yaradılması üçün",
+                "B": "Coğrafi göstərici üzrə hüquqların üçüncü şəxslərə verilməsi üçün",
+                "C": "Məhsulun növə çevrilməsinin qaşısının alınması üçün",
+                "D": "Geni dəyişdirilmiş məhsulların sıxışdırılmasının və bazarların təbii məhsullarla təchiz edilməsinin qarşısının alınması üçün",
+                "E": "Rəqabəti gücləndirmək üçün"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 64,
+            "question": "Coğrafi göstərici kimi əmtəənin hansı xüsusiyyəti qorunur?",
+            "options": {
+                "A": "əmtəənin forması, növü",
+                "B": "adı",
+                "C": "məhsulun aid olduğu coğrafi regionla bağlı xüsusi şöhrəti və ya reputasiyası",
+                "D": "zahiri görünüşü",
+                "E": "əmtəənin geniş tanınması"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 65,
+            "question": "Yetkinlik yaşına çatmayan şəxs müəlliflik hüququ subyekti ola bilər?",
+            "options": {
+                "A": "yetkinlik yaşına çatandan sonra bu hüquqa sahib ola bilər",
+                "B": "ola bilməz",
+                "C": "ola bilər",
+                "D": "yalnız əlaqəli hüquq subyekti ola bilər",
+                "E": "valideynin və ya himayəçinin icazəsilə ola bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 66,
+            "question": "Qeyri əmlak hüquqlarının qorunma müddəti nə qədərdir?",
+            "options": {
+                "A": "müəllifin həyatı boyu",
+                "B": "100 il ərzində",
+                "C": "müddətsiz",
+                "D": "müəllifin həyatı boyu və ölümündən sonra 70 il",
+                "E": "70 il ərzində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 67,
+            "question": "Müəllif dünyasını dəyişəndən sonra onun vərəsələrinə hansı hüquq keçir?",
+            "options": {
+                "A": "əsərin müəllifi kimi tanınmaq hüququ",
+                "B": "ad hüququ",
+                "C": "qeyri əmlak hüququ",
+                "D": "əmlak hüququ",
+                "E": "toxunulmazlıq hüququ"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 68,
+            "question": "Audiovizual əsərin müəllifləri (şərikli müəllifləri) olmayanı seçin:",
+            "options": {
+                "A": "quruluşçu rəssam",
+                "B": "quruluşçu rejissor",
+                "C": "ssenari müəllifi",
+                "D": "səs operatoru",
+                "E": "quruluşçu operator"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 69,
+            "question": "Xidməti vəzifəsini yerinə yetirmək qaydasında yaradılmış əsərə müəlliflik hüququ kimə məxsusdur?",
+            "options": {
+                "A": "İşə götürənə",
+                "B": "Həm müəllifə, həm də işə götürənə",
+                "C": "Müəllifə",
+                "D": "Müqavilədə başqa hal qeyd olunmayıbsa müəllifə",
+                "E": "Heç birinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 70,
+            "question": "Şəxsi (qeyri-əmlak) hüquqlarına aid deyil:",
+            "options": {
+                "A": "əsərinin mənasının dəyişilməsinə, təhrif olunmasına vəmüəllifin şərəf və ləyaqətinə xələl gətirən hər hansı başqa hərəkətlərə qarşı çıxmaq hüququ",
+                "B": "istifadədən götürmək də daxil olmaqla, əsərinin istənilən formada açıqlamaq və ya açıqlanmasına",
+                "I": "azə vermək hüququ (açıqlama hüququ)",
+                "C": "surətçıxarma hüququ",
+                "D": "əsərdən öz adı ilə, təxəllüslə, yaxud adsız (anonim) istifadə etmək və ya bu cür istifadəyə icazə vermək",
+                "H": "ququ (ad hüququ)",
+                "E": "əsərin müəllifi kimi tanınmaq hüququ (müəlliflik hüququ)"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 71,
+            "question": "Müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan hansı hallara yol verilmir:",
+            "options": {
+                "A": "qanuni dərc edilmiş əsərlərin gəlir götürmədən qabarıq-nöqtəli şriftlə və ya digər xüsusi üsullarla korlar üçün surətinin çıxarılmasına",
+                "B": "qanuni əsasda dərc edilmiş cari iqtisadi, siyasi, sosial və dini məsələlər üzrə məqalələrin, yaxud efirlə verilmiş eyni xarakterli əsərlərin qəzetlərdə, jurnallarda digər dövri nəşrlərdə çap edilməsinə və ya kütləvi bildirişinə",
+                "C": "qanuni dərc edilmiş əsərlərdən qısa parçaları müəyyən məqsəd üçün lazım olan həcmdə tədris xarakterli nəşrlərdə, radio və televerilişlərdə, səs və vidioyazılmalarda istifadə etməyə",
+                "D": "elmi, tədqiqat, polemika, tənqidi və informasiya məqsədi ilə qanuni dərc edilmiş əsərdən kommersiya məqsədilə istifadəyə",
+                "E": "elmi, tədqiqat, polemika, tənqidi və informasiya məqsədi ilə qanuni dərc edilmiş əsərdən sitatın məqsədinə müvafiq həcmdə çap icmalı formasında qısa parçaların orijinalda və ya tərcümədə sitat kimi verilməsinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 72,
+            "question": "Kompüter proqramını qanuni əsasda əldə edən şəxs müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan nəyi həyata keçirə bilməz?",
+            "options": {
+                "A": "kompüter proqramının təyinatına uyğun şəkildə işlənməsi ilə bağlı hər hansı bir hərəkəti etmək",
+                "B": "kompüter proqramında istifadəçinin texniki vasitələrinin fəaliyyəti üçün lazım olan qədər dəyişikliklər etmək",
+                "C": "müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan və müəllif haqqı vermədən kommersiya məqsədləri üçün nüsxələr hazırlamaq",
+                "D": "kompüter proqramının və ya məlumat bazasının təyinatına uyğun şəkildə işlənməsi ilə bağlı hər hansı bir hərəkəti etmək, o cümlədən yazılma və kompüterin (bir kompüterin, yaxud",
+                "K": "mpüter şəbəkəsinə qoşulmuş istifadəçi kompüterin) yaddaşında saxlamaq",
+                "E": "qanuni sahibkarın kompüter proqramının itirilmiş, məhv edilmiş və ya istifadəyə yararsız formaya düşmüş nüsxəsinin dəyişdirilməsi və arxivləşdirilməsi üçün nəzərdə tutulmuş ehtiyat nüsxəni hazırlamaq"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 73,
+            "question": "Aşağıda göstərilən variantlardan səhv olanı seçin:",
+            "options": {
+                "A": "Müəllifin vəfatından sonra 30 il müddətində ilk dəfə dərc edilmiş əsərə müəlliflik hüququ onun qanuni dərc edilmə tarixindən sonra 70 il müddətində qüvvədə qalır",
+                "B": "Təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 70 il müddətində qüvvədə qalır",
+                "C": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 50 il müddətində qüvvədə qalır",
+                "D": "Kollektiv əsərə hüquqlar belə əsərin dərc edildiyi, əgər dərc edilməmişdirsə, yaradıldığı tarixdən 70 il müddətində qüvvədə qalır",
+                "E": "Şərikli əsərə müəlliflik hüququ müəlliflərin bütün həyatı boyu və şərik müəlliflərin axırıncısının vəfatından sonra 70 il müddətində qüvvədə qalır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 74,
+            "question": "Əsərə müəlliflik hüququnun qüvvədə olma müddəti qurtardıqda nə baş verir?",
+            "options": {
+                "A": "Dərhal dövlət varidatına keçir",
+                "B": "Əlaqəli hüquq obyektinə çevrilir",
+                "C": "Vərəsələrin istifadəsinə verilir",
+                "D": "Qeyri əmlak hüquqları qüvvədən düşür",
+                "E": "İctimai varidata keçir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 75,
+            "question": "Məlumat bazasını qanuni əsasda əldə edən şəxs müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan nəyi həyata keçirə bilməz?",
+            "options": {
+                "A": "məlumat bazasının təyinatına uyğun şəkildə işlənməsi ilə bağlı hər hansı bir hərəkəti etmək",
+                "B": "müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan və müəllif haqqı vermədən şəxsi istifadə üçün nüsxələr hazırlamaq",
+                "C": "müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan və müəllif haqqı vermədən kommersiya məqsədləri üçün nüsxələr hazırlamaq",
+                "D": "qanuni sahibkarın məlumat bazasının itirilmiş, məhv edilmiş və ya istifadəyə yararsız formaya düşmüş nüsxəsinin dəyişdirilməsi və arxivləşdirilməsi üçün nəzərdə tutulmuş ehtiyat nüsxəni hazırlamaq",
+                "E": "məlumat bazasında istifadəçinin texniki vasitələrinin fəaliyyəti üçün lazım olan qədər dəyişikliklər etmək"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 76,
+            "question": "Əlaqəli hüquqların subyekti deyildir:",
+            "options": {
+                "A": "ifaçılar",
+                "B": "fonoqram istehsalçıları",
+                "C": "yayım təşkilatları",
+                "D": "aktyorlar",
+                "E": "ixtiraçılar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 77,
+            "question": "Bunlardan hansı əmtəə nişanının qeydiyyata alınmasının üstünlüyü deyil?",
+            "options": {
+                "A": "Əmtəə nişanı simvolundan (işarədən) istifadə edə bilərsiniz",
+                "B": "Müəllif hüququ simvolundan (işarədən) istifadə edə bilərsiniz",
+                "C": "Başqalarını sizin əmtəə nişanınından istifadə etməkdən çəkindirir",
+                "D": "Əmtəə nişanından istifadə üzrə lisenziya vermək hüququ verilir",
+                "E": "Əmtəə nişanından istifadə üzrə tam hüquq verilir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 78,
+            "question": "simvolu (işarəsi) nəyi bildirir?",
+            "options": {
+                "A": "müəllif hüququnuzun lisenziyalaşdırıldığını bildirir",
+                "B": "əmtəə nişanınızın qeydiyyat prosedurunda olduğunu bildirir",
+                "C": "əmtəə nişanınızın qeydiyyata alındığını bildirir",
+                "D": "müəllif hüququnuzun qeydə alındığını bildirir",
+                "E": "əmtəə nişanınızın qeydiyyata alınmadığını bildirir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 79,
+            "question": "Əmtəə nişanı qeydiyyata alındıqdan sonra nə baş verir?",
+            "options": {
+                "A": "Digər istehsalçılar hələ də öz əmtəələri üçün həmin əmtəə nişanından istifadə edə bilərlər",
+                "B": "Biznes qazanc qətirməyə başlayır",
+                "C": "Digər istehsalçılar qazancın bir hissəsini hüquq sahibinə ödəməyə başlayır",
+                "D": "Digər istehsalçılar qonorar ödəmək şərtilə nişandan istifadə edir",
+                "E": "Başqa istehsalçılar həmin əmtəə və xidmətlər üçün həmin əmtəə nişanından istifadə edə bilməz"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 80,
+            "question": "Aşağıdakı obyektlərdən hansı ixtira sayılır?",
+            "options": {
+                "A": "məhsula aid olan texniki həllər",
+                "B": "elmi nəzəriyyələr",
+                "C": "informasiyanın təqdimi üsulları",
+                "D": "kompüter alqoritmləri və proqramları",
+                "E": "riyazi metodlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 81,
+            "question": "İxtiranın müəllifi kim sayılır?",
+            "options": {
+                "A": "İxtiranı yaradıcı əməyi ilə yaradan şəxs",
+                "B": "İxtiranın yaradılmasını sifariş edən şəxs",
+                "C": "İxtiranı yaradıcı əməyi ilə yaradan və işə götürən",
+                "D": "İxtiranın yaradılmasını sifariş edən və işə götürən",
+                "E": "İxtiranı yaradan şəxsi işə götürən"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 82,
+            "question": "Faydalı modelin müəllifi kim sayılır?",
+            "options": {
+                "A": "Faydalı modeli yaradıcı əməyi ilə yaradan və işə götürən",
+                "B": "Faydalı modelin yaradılmasını sifariş edən şəxs",
+                "C": "Faydalı modeli əməyi ilə yaradan şəxs",
+                "D": "Faydalı modeli yaradan şəxsi işə götürən",
+                "E": "Faydalı modelin yaradılmasını sifariş edən və işə götürən"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 83,
+            "question": "Sənaye nümunəsinin müəllifi kim sayılır?",
+            "options": {
+                "A": "Sənaye nümunəsinin yaradılmasını sifariş edən və işə götürən",
+                "B": "Sənaye nümunəsini yaradıcı əməyi ilə yaradan və işə götürən",
+                "C": "Sənaye nümunəsini yaradan şəxsi işə götürən",
+                "D": "Sənaye nümunəsini yaradıcı əməyi ilə yaradan şəxs",
+                "E": "Sənaye nümunəsinin yaradılmasını sifariş edən şəxs"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 84,
+            "question": "Xidməti vəzifələrinin həyata keçirilməsi ilə əlaqədar işçinin yaratdığı ixtira üçün patent almaq hüququ kimə məxsusdur?",
+            "options": {
+                "A": "müqavilədə başqa şərtlər nəzərdə tutulmayıbsa, işə götürənə",
+                "B": "yalnız müəllifə",
+                "C": "bütün hallarda işə götürənə",
+                "D": "həm müəllifə, həm də işə götürənə",
+                "E": "şərikli müəlliflər olarsa yalnız müəlliflərə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 85,
+            "question": "Xidməti vəzifələrinin həyata keçirilməsi ilə əlaqədar işçinin yaratdığı faydalı model üçün patent almaq hüququ kimə məxsusdur?",
+            "options": {
+                "A": "şərikli müəlliflər olarsa yalnız müəlliflərə",
+                "B": "həm müəllifə, həm də işə götürənə",
+                "C": "bütün hallarda işə götürənə",
+                "D": "müqavilədə başqa şərtlər nəzərdə tutulmayıbsa, işə götürənə",
+                "E": "yalnız müəllifə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 86,
+            "question": "Xidməti vəzifələrinin həyata keçirilməsi ilə əlaqədar işçinin yaratdığı sənaye nümunəsi üçün patent almaq hüququ kimə məxsusdur?",
+            "options": {
+                "A": "müqavilədə başqa şərtlər nəzərdə tutulmayıbsa, işəgötürənə",
+                "B": "şərikli müəlliflər olarsa yalnız müəlliflərə",
+                "C": "bütün hallarda işəgötürənə",
+                "D": "həm müəllifə, həm də işəgötürənə",
+                "E": "yalnız müəllifə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 87,
+            "question": "Sənaye nümunəsi patentinə hüquqlar bağqasına hansı formada verilə bilər?",
+            "options": {
+                "A": "yalnız tamamilə",
+                "B": "verilə bilməz",
+                "C": "yalnız istifadə üçün lisenziya verilə bilər",
+                "D": "yalnız qismən",
+                "E": "həm qismən, həm də tamamilə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 88,
+            "question": "Faydalı model patentinə hüquqlar bağqasına hansı formada verilə bilər?",
+            "options": {
+                "A": "yalnız tamamilə",
+                "B": "yalnız qismən",
+                "C": "verilə bilməz",
+                "D": "həm qismən, həm də tamamilə",
+                "E": "yalnız istifadə üçün lisenziya verilə bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 89,
+            "question": "İxtira və sənaye nümunəsindən istifadə hüququnun verilməsinə dair lisenziya müqaviləsi hansı formada ola bilər?",
+            "options": {
+                "A": "yalnız müstəsna",
+                "B": "lisenziva müqaviləsi verilə bilməz",
+                "C": "həm müstəsna, həm də qeyri-müstəsna",
+                "D": "qeydiyyatda olma müddəti bitdikdən sonra hər iki formada verilə bilər",
+                "E": "yalnız qeyri-müstəsna"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 90,
+            "question": "Patent sahibinin müstəsna hüquqlarının pozulması sayılan hallara aiddir:",
+            "options": {
+                "A": "patentlə mühafizə edilən ixtira, faydalı model və sənaye nümunəsi obyektlərinin elmi, eksperiment məqsədləri üçün patentin qüvvədə olma müddəti bitənədək böyük həcmdə istehsala və ya məhsulların toplanmasına gətirib çıxarmaması şərti ilə istifadəsi",
+                "B": "tərkibində patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsi olan vasitələrdən qeyri-kommersiya məqsədləri üçün gəlirsiz istifadəsi",
+                "C": "həkimin resepti üzrə birdəfəlik istifadə üçün dərman hazırlanması",
+                "D": "patentlə mühafizə edilən ixtira, faydalı model və sənaye nümunəsi obyektlərinin tədqiqat və həmin obyektlərin yoxlanılması məqsədləri üçün patentin qüvvədə olma müddəti bitənədək böyük həcmdə istehsala və ya məhsulların toplanmasına gətirib çıxarmaması şərti ilə istifadəsi",
+                "E": "tərkibində patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsi olan vasitələrdən kommersiya məqsədləri üçün istifadəsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 91,
+            "question": "Hansı hallarda patentin qüvvəsinə vaxtından əvvəl xitam verilmir?",
+            "options": {
+                "A": "məhkəmənin qərarı əsasında",
+                "B": "patent sahibinin səlahiyyətli orqanına verdiyi ərizə əsasında",
+                "C": "patentdən istifadə gəlir gətirmədikdə",
+                "D": "patentin qüvvədə saxlanması üçün haqqın ödənilməsi üçün müəyyən edilmiş müddətdən 12 aylıq möhlət müddəti keçənədək ödənilmədikdə",
+                "E": "patent tamamilə etibarsız sayıldıqda"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 92,
+            "question": "Faydalı model və sənaye nümunəsindən istifadə hüququnun verilməsinə dair lisenziya müqaviləsi hansı formada ola bilər?",
+            "options": {
+                "A": "həm müstəsna, həm də qeyri-müstəsna",
+                "B": "yalnız müstəsna",
+                "C": "qeydiyyatda olma müddəti bitdikdən sonra hər iki formada verilə bilər",
+                "D": "yalnız qeyri-müstəsna",
+                "E": "lisenziva müqaviləsi verilə bilməz"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 93,
+            "question": "© simvolu (işarəsi) nəyi bildirir?",
+            "options": {
+                "A": "ixtiranızın qeydiyyata alındığını bildirir",
+                "B": "əmtəə nişanınızın qeydiyyata alındığını bildirir",
+                "C": "müəllif hüququnuzun lisenziyalaşdırıldığını bildirir",
+                "D": "müəllif hüququnuzun qeydə alındığını bildirir",
+                "E": "faydalı modelin qeydiyyata alındığını bildirir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 94,
+            "question": "(P) simvolu (işarəsi) nəyi bildirir?",
+            "options": {
+                "A": "faydalı modelin qeydiyyata alındığını bildirir",
+                "B": "ixtiranın qeydiyyata alındığını bildirir",
+                "C": "müəllif hüququnun qeydə alındığını bildirir",
+                "D": "əlaqəli hüquqların qeydiyyata alındığını bildirir",
+                "E": "əmtəə nişanının qeydiyyata alındığını bildirir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 95,
+            "question": "Şəxsi (qeyri-əmlak) hüquqlarına aid deyil:",
+            "options": {
+                "A": "əsərin müəllifi kimi tanınmaq hüququ (müəlliflik hüququ)",
+                "B": "əsərinin mənasının dəyişilməsinə, təhrif olunmasına vəmüəllifin şərəf və ləyaqətinə xələl gətirən hər hansı başqa hərəkətlərə qarşı çıxmaq hüququ",
+                "C": "əsərdən öz adı ilə, təxəllüslə, yaxud adsız (anonim) istifadə etmək və ya bu cür istifadəyə icazə vermək",
+                "H": "ququ (ad hüququ)",
+                "D": "əsərdən istifadəyə müstəsna istifadə hüququ",
+                "E": "istifadədən götürmək də daxil olmaqla, əsərinin istənilən formada açıqlamaq və ya açıqlanmasına",
+                "I": "azə vermək hüququ (açıqlama hüququ)"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 96,
+            "question": "Müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan hansı hallara yol verilmir?",
+            "options": {
+                "A": "qanuni əsasda dərc edilmiş cari iqtisadi, siyasi, sosial və dini məsələlər üzrə məqalələrin, yaxud efirlə verilmiş eyni xarakterli əsərlərin qəzetlərdə, jurnallarda digər dövri nəşrlərdə çap edilməsinə və ya kütləvi bildirişinə",
+                "B": "qanuni dərc edilmiş əsərlərdən qısa parçaları müəyyən məqsəd üçün lazım olan həcmdə tədris xarakterli nəşrlərdə, radio və televerilişlərdə, səs və vidioyazılmalarda istifadə etməyə",
+                "C": "müstəsna istifadə hüququ müəllifdə olan əsərlərin çap edilməsinə və yayılmasına",
+                "D": "qanuni əsasda dərc edilmiş cari iqtisadi, siyasi, sosial və dini məsələlər üzrə məqalələrin qəzetlərdə, jurnallarda çap edilməsinə",
+                "E": "elmi, tədqiqat, polemika, tənqidi və informasiya məqsədi ilə qanuni dərc edilmiş əsərdən sitatın məqsədinə müvafiq həcmdə çap icmalı formasında qısa parçaların orijinalda və ya tərcümədə sitat kimi verilməsinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 97,
+            "question": "Kompüter proqramını qanuni əsasda əldə edən şəxs müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan hansı hərəkətləri həyata keçirə bilməz?",
+            "options": {
+                "A": "Qanuni sahibkarın kompüter proqramının itirilmiş, məhv edilmiş və ya istifadəyə yararsız formaya düşmüş nüsxəsinin dəyişdirilməsi və arxivləşdirilməsi üçün nəzərdə tutulmuş ehtiyat nüsxəni hazırlamaq",
+                "B": "Aşkar edilmiş səhvləri düzəltmək",
+                "C": "Müəllifin və ya müəlliflik hüquqlarının digər sahibinin razılığı olmadan və müəllif haqqı vermədən kommersiya məqsədləri üçün nüsxələr hazırlamaq",
+                "D": "Kompüter proqramında istifadəçinin texniki vasitələrinin fəaliyyəti üçün lazım olan qədər dəyişikliklər etmək",
+                "E": "Kompüter proqramının təyinatına uyğun şəkildə işlənməsi ilə bağlı hər hansı bir hərəkəti etmək"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 98,
+            "question": "Aşağıda göstərilən variantlardan səhv olanı seçin:",
+            "options": {
+                "A": "Müəllifin həyatı boyu və ölümündən sonra 70 il müddətində qüvvədə qalır",
+                "B": "Şərikli əsərə müəlliflik hüququ müəlliflərin bütün həyatı boyu və şərik müəlliflərin axırıncısının vəfatından sonra 70 il müddətində qüvvədə qalır",
+                "C": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 50 il müddətində qüvvədə qalır",
+                "D": "Müəllifin vəfatından sonra 30 il müddətində ilk dəfə dərc edilmiş əsərə müəlliflik hüququ onun qanuni dərc edilmə tarixindən sonra 70 il müddətində qüvvədə qalır",
+                "E": "Kollektiv əsərə hüquqlar belə əsərin dərc edildiyi, əgər dərc edilməmişdirsə, yaradıldığı tarixdən 70 il müddətində qüvvədə qalır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 99,
+            "question": "Coğrafi göstəricinin uzadılmasına məhdudiyyət qoyulurmu?",
+            "options": {
+                "A": "Yalnız 1 dəfə 5 il uzadıla bilər",
+                "B": "Yalnız 1 dəfə 10 il uzadıla bilər",
+                "C": "Yalnız 1 dəfə 20 il uzadıla bilər",
+                "D": "Məhdudiyyət qoyulmur",
+                "E": "Uzadıla bilməz"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 100,
+            "question": "Müəlliflik hüququ və əlaqəli hüquqların subyekti deyildir:",
+            "options": {
+                "A": "İfaçılar",
+                "B": "Memarlıq layihələrinin müəllifləri",
+                "C": "İxtiraçılar",
+                "D": "Yayım təşkilatları",
+                "E": "Ssenari müəllifləri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 101,
+            "question": "Azərbaycan Respublikasında əqli mülkiyyət hüquqları sahəsində dövlət siyasətini hansı qurum həyata keçirir?",
+            "options": {
+                "A": "Azərbaycan Respublikasının Əqli Mülkiyyət Agentliyi",
+                "B": "Azərbaycan Respublikası Elm və Təhsil Nazirliyi",
+                "C": "Azərbaycan Respublikası Mədəniyyət Nazirliyi",
+                "D": "Ümumdünya Əqli Mülkiyyət Təşkilatı (ÜƏMT)",
+                "E": "Avrasiya Patent İdarəsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 102,
+            "question": "Əqli mülkiyyət hüquqlarının qorunmasını beynəlxalq səviyyədə təmin edən təşkilat hansıdır?",
+            "options": {
+                "A": "Ümumdünya Turizm Təşkilatı",
+                "B": "Ümumdünya Səhiyyə Təşkilatı",
+                "C": "Ümumdünya Ticarət Təşkilatı",
+                "D": "Azərbaycan Respublikasının Əqli Mülkiyyət Agentliyi",
+                "E": "Ümumdünya Əqli Mülkiyyət Təşkilatı"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 103,
+            "question": "Yaradıcılıq fəaliyyətinin nəticəsi olan əqli mülkiyyətin qorunması üçün hansı hüquqdan istifadə olunur?",
+            "options": {
+                "A": "müəllif hüquqları",
+                "B": "coğrafi göstərişlər",
+                "C": "patentlər",
+                "D": "qeydiyyatlı dizaynlar",
+                "E": "ticarət nişanları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 104,
+            "question": "Əqli mülkiyyət kontekstində “müəllif hüququ” kateqoriyasına aid olan sahələr hansılardır?",
+            "options": {
+                "A": "Elmi kəşflər",
+                "B": "Fonoqramlar və efir yayımı",
+                "C": "İfaçı artistlərin ifaları",
+                "D": "Nişanlar, ticarət adları",
+                "E": "Ədəbi, elmi və bədii əsərlər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 105,
+            "question": "Əqli mülkiyyət kontekstində “əlaqəli hüquqlar” kateqoriyasına aid olan sahələr hansılardır?",
+            "options": {
+                "A": "Sənaye nümunələri",
+                "B": "İfaçı artistlərin ifaları",
+                "C": "Bədii əsərlər",
+                "D": "Ədəbi əsərlər",
+                "E": "Ticarət adları və göstərişləri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 106,
+            "question": "Azərbaycan Respublikası ərazisində elm, ədəbiyyat və incəsənət əsərlərinin yaradılması və istifadəsi ilə əlaqədar yaranan münasibətlər hansı Qanunla tənzimlənir?",
+            "options": {
+                "A": "“Patent haqqında” Azərbaycan Respublikasının Qanunu",
+                "B": "“Əmtəə nişanları və coğrafi göstəricilər haqqında” Azərbaycan Respublikasının Qanunu",
+                "C": "“Təhsil haqqında” Azərbaycan Respublikasının Qanunu",
+                "D": "“Turizm haqqında” Azərbaycan Respublikasının Qanunu",
+                "E": "“Müəlliflik hüququ və əlaqəli hüquqlar haqqında” Azərbaycan Respublikasının Qanunu"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 107,
+            "question": "“Müəlliflik hüququ və əlaqəli hüquqlar haqqında” Azərbaycan Respublikasının Qanununun tətbiq sahəsinə aid olan hansıdır?",
+            "options": {
+                "A": "sənaye nümunələri",
+                "B": "coğrafi göstərici kimi qeydə alınan nişanlar",
+                "C": "Azərbaycan Respublikası ərazisində olan memarlıq əsərləri",
+                "D": "əmtəə nişanı kimi qeydə alınan nişanlar",
+                "E": "ixtira, faydalı model"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 108,
+            "question": "Hansı obyektlər “Müəlliflik hüququ və əlaqəli hüquqlar haqqında” Azərbaycan Respublikasının Qanununun tətbiq sahəsinə aid deyil?",
+            "options": {
+                "A": "Azərbaycan Respublikası ərazisində ilk dəfə dərc edilmiş elmi əsərlər",
+                "B": "Azərbaycan Respublikası ərazisində ilk dəfə dərc edilmiş incəsənət əsərləri",
+                "C": "Azərbaycan Respublikası ərazisində ilk dəfə edilmiş ifalar",
+                "D": "Azərbaycan Respublikası ərazisində olan memarlıq əsərləri",
+                "E": "Coğrafi göstərici kimi qeydə alınan nişanlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 109,
+            "question": "Əmlak hüquqlarını kollektiv əsasda idarə edən təşkilatlar hansı qurumda qeydiyyatdan (akkreditasiyadan) keçməlidirlər?",
+            "options": {
+                "A": "Azərbaycan Respublikasının Əqli Mülkiyyət Agentliyində",
+                "B": "Azərbaycan Respublikası Rəqəmsal İnkişaf və Nəqliyyat Nazirliyində",
+                "C": "Azərbaycan Respublikası Elmlər Akademiyasında",
+                "D": "Azərbaycan Respublikası Elm və Təhsil Nazirliyində",
+                "E": "Azərbaycan Respublikası Mədəniyyət Nazirliyində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 110,
+            "question": "Azərbaycanda audiovizual əsərlərin istifadəsinə görə qonorarların yığılması istiqaməti üzrə fəaliyyət göstərən təşkilat hansıdır?",
+            "options": {
+                "A": "“Qlobal Əməkdaşlıq və Analitik Araşdırmalar Mərkəzi” İctimai Birliyi",
+                "B": "“Sənətşunaslığın Təbliği” İctimai Birliyi",
+                "C": "“Rəqəmli və Audiovizual Yayım Sənayesi” İctimai Birliyi",
+                "D": "“Azərbaycan Professional Kinorejissorlar Gildiyası” İctimai Birliyi",
+                "E": "“Müəllif Hüquqları Uğrunda” İctimai Birliyi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 111,
+            "question": "Azərbaycanda ifaçıların, fonoqram istehsalçılarının və yayım təşkilatlarının əmlak hüquqlarının kollektiv əsasda idarəçiliyini həyata keçirən təşkilat:",
+            "options": {
+                "A": "“Müəllif Hüquqları Uğrunda” İctimai Birliyi",
+                "B": "“Rəqəmli və Audiovizual Yayım Sənayesi” İctimai Birliyi",
+                "C": "“Sənətşunaslığın Təbliği” İctimai Birliyi",
+                "D": "“Qlobal Əməkdaşlıq və Analitik Araşdırmalar Mərkəzi” İctimai Birliyi",
+                "E": "“Azərbaycan Professional Kinorejissorlar Gildiyası” İctimai Birliyi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 112,
+            "question": "Azərbaycanda musiqili əsər müəlliflərinin əmlak hüquqlarını təmin edən təşkilat hansıdır?",
+            "options": {
+                "A": "“Azərbaycan Professional Kinorejissorlar Gildiyası” İctimai Birliyi",
+                "B": "“Rəqəmli və Audiovizual Yayım Sənayesi” İctimai Birliyi İctimai Birliyi",
+                "C": "“Müəllif Hüquqları Uğrunda” İctimai Birliyi",
+                "D": "“Sənətşunaslığın Təbliği” İctimai Birliyi",
+                "E": "“Qlobal Əməkdaşlıq və Analitik Araşdırmalar Mərkəzi” İctimai Birliyi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 113,
+            "question": "Audiovizual əsərlərin beynəlxalq standart eyniliyini müəyyən edən nömrə hansıdır?",
+            "options": {
+                "A": "İSBN",
+                "B": "İSMN",
+                "C": "İSSN",
+                "D": "İSRC",
+                "E": "İSAN"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 114,
+            "question": "Hüquq sahibinin razılığı olmadan hazırlanan (istehsal edilən) və yayılan əsər və fonoqram nüsxələri necə adlanır?",
+            "options": {
+                "A": "audiovizual əsər",
+                "B": "pirat məhsul",
+                "C": "kompüter proqramı",
+                "D": "kollektiv əsər",
+                "E": "məlumat bazası"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 115,
+            "question": "İki və ya daha çox fiziki şəxsin yaratdığı əsər hansıdır?",
+            "options": {
+                "A": "fotoqrafiya əsəri",
+                "B": "audiovizual əsər",
+                "C": "tətbiqi sənət əsəri",
+                "D": "kollektiv əsər",
+                "E": "törəmə əsər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 116,
+            "question": "İki və ya daha çox müəllifin yaratdığı əsər hansıdır?",
+            "options": {
+                "A": "fotoqrafiya əsəri",
+                "B": "törəmə əsər",
+                "C": "audiovizual əsər",
+                "D": "şərikli əsər",
+                "E": "tətbiqi sənət əsəri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 117,
+            "question": "Əsərin hər hansı maddi daşıyıcıda hazırlanmış surəti necə adlanır?",
+            "options": {
+                "A": "əsər nüsxəsi",
+                "B": "fonoqram nüsxəsi",
+                "C": "kabellə kütləvi bildiriş",
+                "D": "efirlə kütləvi bildiriş",
+                "E": "reproqrafik surətçıxarma"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 118,
+            "question": "Əsər hansı andan qorunur?",
+            "options": {
+                "A": "yarandığı andan",
+                "B": "internetdə yayıldıqdan sonra",
+                "C": "səsləndirildiyi andan",
+                "D": "dərc olunduğu andan",
+                "E": "efirdə elan olunduqdan sonra"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 119,
+            "question": "Müəlliflik hüququ ilə qorunmayan obyektlər hansılardır?",
+            "options": {
+                "A": "coğrafi xəritələr",
+                "B": "dekorativ-tətbiqi sənət əsərləri",
+                "C": "memarlıq layihələri",
+                "D": "foto əsərləri",
+                "E": "rəsmi sənədlər, dövlət rəmzləri və nişanları"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 120,
+            "question": "Kütləyə çatdırılmış və ya çatdırılmamış əsərə müstəsna müəlliflik hüquqlarının sahibləri onu müəlliflik hüququnun qüvvədə olduğu müddətdə harada qeydiyyatdan keçirə bilər?",
+            "options": {
+                "A": "Azərbaycan Respublikası Mədəniyyət Nazirliyində",
+                "B": "Azərbaycan Respublikası Elm və Təhsil Nazirliyində",
+                "C": "Sosial Tədqiqatlar Mərkəzində",
+                "D": "Əqli Mülkiyyət Agentliyi",
+                "E": "Biznes fəaliyyəti ilə məşğul olan şirkətdə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 121,
+            "question": "Azərbaycanda müəllif hüquqlarının qorunması müddəti nə qədərdir?",
+            "options": {
+                "A": "əsərin müəllifinin vəfat etdiyi gündən 50 il",
+                "B": "əsərin yaradıldığı gündən 30 il",
+                "C": "əsərin müəllifinin həyatı boyu və vəfat etdiyi tarixdən 70 il",
+                "D": "əsərin yaradıldığı gündən 50 il",
+                "E": "əsərin müəllifinin vəfat etdiyi tarixdən 10 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 122,
+            "question": "Müəllifin şəxsi (qeyri-əmlak) hüququnun qorunma müddəti nə qədər müəyyən edilmişdir?",
+            "options": {
+                "A": "Müddətsiz",
+                "B": "20 il",
+                "C": "50 il",
+                "D": "70 il",
+                "E": "30 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 123,
+            "question": "İddiaçı əmtəə nişanına dair iddia sənədi barədə ekspertizanın qərarı ilə razı olmadıqda Apellyasiya şurasına hansı müddət ərzində etiraz verə bilər?",
+            "options": {
+                "A": "1 ay ərzində",
+                "B": "3 ay ərzində",
+                "C": "10 gün ərzində",
+                "D": "Etiraz verə bilməz",
+                "E": "2 ay ərzində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 124,
+            "question": "İddiaçı coğrafi göstəriciyə dair iddia sənədi barədə ekspertizanın qərarı ilə razı olmadıqda Apellyasiya şurasına hansı müddət ərzində etiraz verə bilər?",
+            "options": {
+                "A": "2 ay ərzində",
+                "B": "1 ay ərzində",
+                "C": "10 gün ərzində",
+                "D": "Etiraz verə bilməz",
+                "E": "3 ay ərzində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 125,
+            "question": "Əmtəə nişanı kimi qeydə alınmır:",
+            "options": {
+                "A": "rənglərin və təsviri elementlərin hər hansı uzlaşması",
+                "B": "sözlər və şəxsi adların kombinasiyaları",
+                "C": "sözlər, şəxsi adlar",
+                "D": "əmtəənin mahiyyətini əks etdirən, ona mühüm dəyər verən formalar",
+                "E": "təsviri elementlər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 126,
+            "question": "Əmtəə nişanının qeydə alınması barədə iddia sənədinin tərkibinə aid deyildir:",
+            "options": {
+                "A": "əmtəə nişanının rəngi",
+                "B": "iddia edilən nişanın şəkli və ya üçölçülü forması",
+                "C": "nişanların qeydiyyatı üçün əmtəələrin və xidmətlərin Nitsa təsnifatı üzrə qruplaşdırılmış siyahısı",
+                "D": "nişanın və ya onun müəyyən hissəsinin transliterasiyası və tərcüməsi",
+                "E": "müəllif müqaviləsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 127,
+            "question": "Əmtəə nişanının qeydə alınması barədə ərizəyə qoşulan sənədlər barədə səhv olan göstərin:",
+            "options": {
+                "A": "əmtəə nişanının ilkinliyini təsdiq edən sənəd",
+                "B": "iddia sənədi patent müvəkkili vasitəsilə verildikdə onun səlahiyyətlərini təsdiq edən sənəd",
+                "C": "müəlliflə iddiaçı və yaxud patent sahibi arasında bağlanılan müqavilə",
+                "D": "xidmət haqqının (ödənişin) ödənildiyini təsdiq edən sənəd",
+                "E": "əmtəə nişanının sərgi ilkinliyini təsdiq edən sənəd"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 128,
+            "question": "Əmtəə və xidmətlərin beynəlxalq təsnifatını müəyyən edir:",
+            "options": {
+                "A": "Roma konvensiyası",
+                "B": "Madrid sazişi",
+                "C": "Paris konvensiyası",
+                "D": "Nitsa sazişi",
+                "E": "Bern Konvensiyası"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 129,
+            "question": "Ədəbi və bədii əsərlərin mühafizəsinə aid olan beynəlxalq sənədi göstərin:",
+            "options": {
+                "A": "Madrid sazişi",
+                "B": "Roma konvensiyası",
+                "C": "Bern konvensiyası",
+                "D": "Paris konvensiyası",
+                "E": "Nitsa sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 130,
+            "question": "İfaçıların, fonoqram istehsalçılarının və yayım təşkilatlarının hüquqlarına aid olan beynəlxalq sənədi göstərin:",
+            "options": {
+                "A": "Paris konvensiyası",
+                "B": "Madrid sazişi",
+                "C": "Nitsa sazişi",
+                "D": "Roma konvensiyası",
+                "E": "Bern konvensiyası"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 131,
+            "question": "Sənaye mülkiyyətinin qorunmasına aid olan beynəlxalq sənədi göstərin:",
+            "options": {
+                "A": "Paris konvensiyası",
+                "B": "Roma konvensiyası",
+                "C": "Bern konvensiyası",
+                "D": "Nitsa sazişi",
+                "E": "Madrid sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 132,
+            "question": "Nişanların beynəlxalq qeydiyyatına aid olan beynəlxalq sənədi göstərin:",
+            "options": {
+                "A": "Bern konvensiyası",
+                "B": "Roma konvensiyası",
+                "C": "Paris konvensiyası",
+                "D": "Madrid sazişi",
+                "E": "Nitsa sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 133,
+            "question": "Sənaye nümunələrinin beynəlxalq qeydiyyatına aid olan beynəlxalq sənədi göstərin:",
+            "options": {
+                "A": "Madrid sazişi",
+                "B": "Nitsa sazişi",
+                "C": "Roma konvensiyası",
+                "D": "Bern konvensiyası",
+                "E": "Haaqa sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 134,
+            "question": "Sənaye nümunələrinin beynəlxalq təsnifatını təsis edən sənədi göstərin:",
+            "options": {
+                "A": "Nitsa sazişi",
+                "B": "Bern konvensiyası",
+                "C": "Lokarno sazişi",
+                "D": "Roma konvensiyası",
+                "E": "Madrid sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 135,
+            "question": "Azərbaycan Respublikası Ədəbi və bədii əsərlərin qorunması haqqında Bern konvensiyasına nə vaxt qoşulub?",
+            "options": {
+                "A": "2003-cü ildə",
+                "B": "2001-ci ildə",
+                "C": "2005-ci ildə",
+                "D": "1999-cu ildə",
+                "E": "2007-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 136,
+            "question": "Azərbaycan Respublikası Sənaye mülkiyyətinin qorunması haqqında Paris konvensiyasına nə vaxt qoşulub?",
+            "options": {
+                "A": "2003-cü ildə",
+                "B": "2005-ci ildə",
+                "C": "1999-cu ildə",
+                "D": "1995-ci ildə",
+                "E": "2007-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 137,
+            "question": "Azərbaycan Respublikası İfaçıların, fonoqram istehsalçılarının və yayım təşkilatlarının hüquqlarının qorunması haqqında Roma konvensiyasına nə vaxt qoşulub?",
+            "options": {
+                "A": "2005-ci ildə",
+                "B": "2010-cu ildə",
+                "C": "2007-ci ildə",
+                "D": "2008-ci ildə",
+                "E": "2011-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 138,
+            "question": "Azərbaycan Respublikası Nişanların beynəlxalq qeydiyyatı haqqında Madrid sazişinə nə vaxt qoşulub?",
+            "options": {
+                "A": "1995-ci ildə",
+                "B": "2005-ci ildə",
+                "C": "2007-ci ildə",
+                "D": "1999-cu ildə",
+                "E": "2003-cü ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 139,
+            "question": "Azərbaycan Respublikası Nişanların qeydiyyatı üçün əmtəə və xidmətlərin beynəlxalq təsnifatı haqqında Nitsa sazişinə nə vaxt qoşulub?",
+            "options": {
+                "A": "2005-ci ildə",
+                "B": "2008-ci ildə",
+                "C": "2003-cü ildə",
+                "D": "2007-ci ildə",
+                "E": "2011-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 140,
+            "question": "Azərbaycan Respublikası Sənaye nümunələrinin beynəlxalq təsnifatının təsis edilməsi barədə Lokarno sazişinə nə vaxt qoşulub?",
+            "options": {
+                "A": "2003-cü ildə",
+                "B": "2007-ci ildə",
+                "C": "2011-ci ildə",
+                "D": "2008-ci ildə",
+                "E": "2005-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 141,
+            "question": "Azərbaycan Respublikası Sənaye nümunələrinin beynəlxalq qeydiyyatı haqqında Haaqa sazişinə nə vaxt qoşulub?",
+            "options": {
+                "A": "2015-ci ildə",
+                "B": "2017-ci ildə",
+                "C": "2020-ci ildə",
+                "D": "2018-ci ildə",
+                "E": "2010-cu ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 142,
+            "question": "Azərbaycan Respublikası Patent əməkdaşlığı (PCT) müqaviləsinə nə vaxt qoşulub?",
+            "options": {
+                "A": "2003-cü ildə",
+                "B": "1999-cu ildə",
+                "C": "1995-ci ildə",
+                "D": "2007-ci ildə",
+                "E": "2005-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 143,
+            "question": "Azərbaycan Respublikası Müəllif hüququ üzrə ÜƏMT müqaviləsinə nə vaxt qoşulub?",
+            "options": {
+                "A": "2008-ci ildə",
+                "B": "2010-cu ildə",
+                "C": "2006-cı ildə",
+                "D": "2011-ci ildə",
+                "E": "2007-ci ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 144,
+            "question": "Azərbaycan Respublikası ifalar və fonoqramlar üzrə ÜƏMT müqaviləsinə nə vaxt qoşulub?",
+            "options": {
+                "A": "2006-cı ildə",
+                "B": "2008-ci ildə",
+                "C": "2011-ci ildə",
+                "D": "2007-ci ildə",
+                "E": "2010-cu ildə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 145,
+            "question": "Müəlliflik hüququ ilə qorunmayan obyekti qeyd edin:",
+            "options": {
+                "A": "audiovizual əsərlər",
+                "B": "memarlıq, şəhərsalma sənəti əsərləri",
+                "C": "coğrafi göstəricilər",
+                "D": "xoreoqrafiya əsərləri və pantomimalar",
+                "E": "törəmə obyektlər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 146,
+            "question": "Əlaqəli hüquqla qorunmayan obyekti qeyd edin:",
+            "options": {
+                "A": "fonoqramlar",
+                "B": "televiziya verilişləri",
+                "C": "faydalı modellər",
+                "D": "radio verilişləri",
+                "E": "ifalar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 147,
+            "question": "“Surətçıxarma” nə deməkdir?",
+            "options": {
+                "A": "materialların seçilməsinə və düzülməsinə görə yaradıcılıq fəaliyyətinin nəticəsi kimi müstəqil əsərlərdən ibarət məcmuə",
+                "B": "əsərin və ya fonoqramın bir və ya daha çox nüsxəsinin hər hansı maddi formada, o cümlədən səs və videoyazı şəklində hazırlanması",
+                "C": "texniki vasitələrin köməyi ilə səslərin və (və ya) təsvirlərin dəfələrlə qavramağa, surətini çıxarmağa, yaxud bildirməyə imkan verən hər hansı maddi formada əks olunması",
+                "D": "hüquq sahibinin razılığı olmadan hazırlanan (istehsal edilən) və yayılan əsər və fonoqram nüsxələri",
+                "E": "müəllifin razılığı ilə əsərin ilk dəfə kütləyə çatdırılması məqsədi ilə dərc edilməsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 148,
+            "question": "“Dərc edilmə” (istifadəyə buraxılma) nə deməkdir?",
+            "options": {
+                "A": "texniki vasitələrin köməyi ilə səslərin və (və ya) təsvirlərin dəfələrlə qavramağa, surətini çıxarmağa, yaxud bildirməyə imkan verən hər hansı maddi formada əks olunması",
+                "B": "materialların seçilməsinə və düzülməsinə görə yaradıcılıq fəaliyyətinin nəticəsi kimi müstəqil əsərlərdən ibarət məcmuə",
+                "C": "əsərin müəllifinin və ya fonoqram istehsalçısının razılığı ilə əsərin, fonoqramın kütlənin tələbatını ödəmək üçün dövriyyəyə buraxılması, elektron-informasiya sistemləri vasitəsi ilə əsərdən və fonoqramdan istifadəyə imkan yaradılması",
+                "D": "müəllifin razılığı ilə əsərin ilk dəfə kütləyə çatdırılması məqsədi ilə dərc edilməsi",
+                "E": "hüquq sahibinin razılığı olmadan hazırlanan (istehsal edilən) və yayılan əsər və fonoqram nüsxələri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 149,
+            "question": "“Kütləvi bildiriş” nə deməkdir?",
+            "options": {
+                "A": "hüquq sahibinin razılığı olmadan hazırlanan (istehsal edilən) və yayılan əsər və fonoqram nüsxələri",
+                "B": "texniki vasitələrin köməyi ilə səslərin və (və ya) təsvirlərin dəfələrlə qavramağa, surətini çıxarmağa, yaxud bildirməyə imkan verən hər hansı maddi formada əks olunması",
+                "C": "əsərlərin və əlaqəli hüquqların obyektlərinin bildiriş kimi efirlə, kabellə ötürülməsi, həmçinin bildirişin qavranılmasından asılı olmayaraq, onun əldə edilməsini bu cür mümkün edən hər hansı, o cümlədən interaktiv üsulla kütləyə çatdırma",
+                "D": "materialların seçilməsinə və düzülməsinə görə yaradıcılıq fəaliyyətinin nəticəsi kimi müstəqil əsərlərdən ibarət məcmuə",
+                "E": "müəllifin razılığı ilə əsərin ilk dəfə kütləyə çatdırılması məqsədi ilə dərc edilməsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 150,
+            "question": "“Reproqrafik surətçıxarma” nə deməkdir?",
+            "options": {
+                "A": "materialların seçilməsinə və düzülməsinə görə yaradıcılıq fəaliyyətinin nəticəsi kimi müstəqil əsərlərdən ibarət məcmuə",
+                "B": "müəllifin razılığı ilə əsərin ilk dəfə kütləyə çatdırılması məqsədi ilə dərc edilməsi",
+                "C": "əsərin (yazılı və başqa qrafik əsərin) orijinalının və ya nüsxəsinin fotosurətçıxarma yolu ilə və ya nəşretmə istisna olmaqla, digər texniki vasitələrin köməyi ilə hər hansı ölçüdə (böyüdülmüş, yaxud",
+                "K": "çildilmiş) faksimilesinin çıxarılması",
+                "D": "texniki vasitələrin köməyi ilə səslərin və (və ya) təsvirlərin dəfələrlə qavramağa, surətini çıxarmağa, yaxud bildirməyə imkan verən hər hansı maddi formada əks olunması",
+                "E": "hüquq sahibinin razılığı olmadan hazırlanan (istehsal edilən) və yayılan əsər və fonoqram nüsxələri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 151,
+            "question": "Patentin dərc olunmasından hansı müddət ərzində patentin verilməsinə qarşı etirazla Azərbaycan Respublikası Əqli Mülkiyyət Agentliyinin sənaye mülkiyyətinin mühafizəsi sahəsində mübahisələrə baxan Apellyasiya şurasına müraciət etmək olar?",
+            "options": {
+                "A": "6 ay",
+                "B": "2 ay",
+                "C": "3 ay",
+                "D": "9 ay",
+                "E": "1 il"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 152,
+            "question": "Patentin verilməsinə qarşı etirazla Əqli Mülkiyyət Agentliyinin sənaye mülkiyyətinin mühafizəsi sahəsində mübahisələrə baxan Apellyasiya şurasına kimlər müraciət edə bilər?",
+            "options": {
+                "A": "Yalnız patent müvəkilləri",
+                "B": "İstənilən fiziki və hüquqi şəxslər",
+                "C": "Yalnız fiziki şəxslər",
+                "D": "Yalnız patent obyektinin müəllifləri",
+                "E": "Yalnız patent sahibləri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 153,
+            "question": "Müəlliflik hüquqları ilə əlaqədar səhv cavabı seçin:",
+            "options": {
+                "A": "Müəllifin və ya əsərə müəlliflik hüququnun digər sahibinin bu Qanunda nəzərdə tutulan hallar istisna olmaqla, əsərdən hər hansı formada və üsulla istifadə etməyə müstəsna hüququ vardır",
+                "B": "Şərikli əsərlərdən istifadə hüququ bütövlükdə onu birgə yaratmış müəlliflərə məxsusdur",
+                "C": "Müəlliflik hüququ müəllifin bütün həyatı boyu və onun ölümündən sonra 70 il müddətində qüvvədə qalır",
+                "D": "Müəlliflik hüququ obyektləri alq-satqı vasitəsi ola bilməz",
+                "E": "Hüquqi şəxslər müəlliflik hüququ sahibi ola bilməz"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 154,
+            "question": "Müəlliflərin əmlak hüquqlarının kütləvi qorunmasının ən effektiv vasitəsi hansıdır?",
+            "options": {
+                "A": "Pəşəkar hüquq şirkətlərinin fəaliyyətindən istifadə",
+                "B": "Hüquq mühafizə orqanlarının fəaliyyəti",
+                "C": "Müəllifin özü tərəfindən müdafiəsi barədə fəaliyyət",
+                "D": "Kollektiv idarəetmə təşkilatlarının fəaliyyəti",
+                "E": "İctimai qınaq"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 155,
+            "question": "Müəlliflik hüquqlarının verilməsi barədə müqaviləyə dair səhv cavabı seçin:",
+            "options": {
+                "A": "Müəllif müqaviləsində istifadənin müddəti haqqında şərt olmadıqda həmin müqavilə bağlandığı tarixdən 5 il keçəndən sonra müəllif tərəfindən pozula bilər",
+                "B": "Müəllif müqaviləsi üzrə müəllif haqqı əsərdən müvafiq üsulla istifadəyə görə alınan gəlirdən faizlə, əgər əsərin xarakteri və ya istifadə xüsusiyyətləri ilə bağlı gəliri müəyyən etmək mümkün deyilsə, onda müqavilədə konkret məbləğ göstərilməklə və ya başqa şəkildə müəyyən edilir",
+                "C": "Müəllif müqaviləsində ərazi haqqında şərt olmadıqda, müqavilə üzrə nəzərdə tutulan hərəkətlər Azərbaycan Respublikasının ərazisi ilə məhdudlaşdırılır",
+                "D": "Müəllif müqaviləsinin müəllifin gələcəkdə müəyyən mövzuda və ya müəyyən sahədə əsər yaratmaq imkanlarını məhdudlaşdıran və bu Qanunun müddəalarına zidd olan şərtləri etibarsızdır",
+                "E": "Şəxsi (qeyri əmlak) və əmlak hüquqları müəlliflər və müəlliflik hüquqlarının digər sahibləri tərəfindən müəllif müqaviləsi üzrə verilə bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 156,
+            "question": "Müəllifin əmlak (iqtisadfi) hüququnun qorunma müddəti müəllifin vəfatından sonra neçə il olaraq müəyyən edilib:",
+            "options": {
+                "A": "70",
+                "B": "10",
+                "C": "55",
+                "D": "50",
+                "E": "20"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 157,
+            "question": "Səhv fikri seçin:",
+            "options": {
+                "A": "Yalnız “Patent haqqında” Qanunun 12-ci maddəsinə uyğun patent onu almaq hüququna malik olmayan şəxsə verildikdə patent etibarsız hesab edilə bilər",
+                "B": "İddiaçı və ya etiraz edən şəxs ötürülmüş müddətin bərpası barədə vəsatəti ötürülmüş müddətin qurtardığı tarixdən etibarən 3 ay ərzində verə bilər",
+                "C": "Patentin etibarsız sayılmasına dair yaranan mübahisələrə Apellyasiya şurasında və ya məhkəmədə baxılır",
+                "D": "Bu Qanunun 29-cu maddəsinin 6-cı bəndində, 31-ci maddəsinin 3-cü bəndində və 34-cü maddənin 1-ci bəndində nəzərdə tutulan müddətlər üzürlü səbəbdən ötürüldükdə və müəyyənləşdirilmiş dövlət rüsumu ödənildikdə müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) ötürülmüş müddəti bərpa edir",
+                "E": "İxtira, faydalı model və sənaye nümunəsi patentinin qüvvədə saxlanılması üçün müəyyən edilmiş illik haqqı vaxtında ödəməyən patent sahibi tərəfindən ötürülmüş tarixdən 5 il müddətindən gec olmayaraq müvafiq haqq ödənildikdə, patentin qüvvəsi bərpa edilir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 158,
+            "question": "Patentlə bağlı verilən fikirlərdən hansı səhvdir:",
+            "options": {
+                "A": "Patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsinin tətbiqi ilə hazırlanan məhsulun təsərrüfat dövriyyəsinə daxil edilməsi, habelə patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsinin bütün mühüm əlamətlərini birləşdirən üsulun tətbiqi ixtira, faydalı model və sənaye nümunəsindən istifadə sayılır",
+                "B": "Patent apellyasiya şurası və ya məhkəmə tərəfindən etibarsız hesab edilə bilər",
+                "C": "İstənilən fiziki şəxs ixtira, faydalı model və sənaye nümunəsindən patent sahibinin şifahi razılığı əsasında istifadə edə bilər",
+                "D": "Patentlə mühafizə olunan ixtiaranın hüquqi mühafizə müddəti 20 il kimi müəyyən edilmişdir",
+                "E": "Patent obyektlərinə ixtira, faydalı model, sənaye nümunələri aid edilir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 159,
+            "question": "Dərc olunmuş əsərlərin kor, görmə qüsurlu və ya çap məhsullarını oxumaqla bağlı başqa əlilliyi olan şəxslər üçün əlçatanlığını asanlaşdırmağa istiqamətlənən beynəxalq müqavilə hansıdır?",
+            "options": {
+                "A": "Bern Konvensiyası",
+                "B": "Mərakeş müqaviləsi",
+                "C": "Strasburq sazişi",
+                "D": "Paris Konvensiyası",
+                "E": "Nitsa Sazişi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 160,
+            "question": "Bern Konvensiyasının müddəalarına uyğun olan düzgün variantı seçin:",
+            "options": {
+                "A": "Ədəbi və bədii əsərlər» termini yazılı formada ifadə olunan ədəbiyyat, elm və incəsənət sahəsində bütün əsərləri əhatə edir",
+                "B": "Bern Konvensiyası sənaye mülkiyyəti obyektlərinə dair münasibətləri tənzimləyən əsas beynəlxalq sənədlərdən biridir",
+                "C": "Müəllifin əmlak hüquqlarından asılı olmayaraq və hətta bu hüquqların verilməsindən sonra müəllifin öz əsərinə müəllifliyinin tanınmasını tələb etmək və bu əsərin təhrif edilməsinə, mənasının dəyişilməsinə və digər dəyişikliyə, həmçinin müəllifin şərəf və ləyaqətinə xələl gətirə biləcək başqa hərəkətlərə qarşı çıxmaq hüququ vardır",
+                "D": "Azərbaycan Respublikasının qanunvericiliyi Bern Konvensiyalarına uyğun olsa da, Azərbaycan Respublikası həmin müqaviləyə tərafdar çıxmamışdır",
+                "E": "ÜƏMT-nin Fonoqram istehsalçılarının mənafelərinin onların fonoqramlarının qanunsuz təkrar istehsalından qorunması haqqında müqaviləsi Bern Konvensiyasıdır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 161,
+            "question": "Agentlik hansı halda patent obyektini dövlət reyestrində qeydə alaraq iddiaçıya patent verir?",
+            "options": {
+                "A": "Yalnız dərc olunmuş iddia sənədinə etirazın verilməsi müddəti qurtardıqdan 3 ay ərzində",
+                "B": "Dərc olunmuş iddia sənədinə etirazın verilməsi müddəti qurtardıqdan və ya Apellyasiya şurasının patentin verilməsinə dair qərar qəbul etdiyi tarixdən etibarən 6 ay ərzində",
+                "C": "Dövlət rüsumu ödənilməsi şərti ilə dərc olunmuş iddia sənədinə etirazın verilməsi müddəti qurtardıqdan və ya Apellyasiya şurasının patentin verilməsinə dair qərar qəbul etdiyi tarixdən etibarən 2 ay ərzində",
+                "D": "Dövlət rüsumu ödənilməsi şərti ilə dərc olunmuş iddia sənədinə etirazın verilməsi müddəti qurtardıqdan və ya Apellyasiya şurasının patentin verilməsinə dair qərar qəbul etdiyi tarixdən etibarən 1 ay ərzində",
+                "E": "Dərc olunmuş iddia sənədinə etirazın verilməsi müddəti qurtardıqdan və ya Apellyasiya şurasının patentin verilməsinə dair qərar qəbul etdiyi tarixdən etibarən 2 ay ərzində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 162,
+            "question": "Patent sahibi patentin qüvvədə saxlanması üçün illik haqqı ixtira, faydalı model və sənaye nümunəsinə dair iddia sənədinin verildiyi tarixdən etibarən onun qüvvədə olmasının neçənci ilindən başlayaraq ödəyir?",
+            "options": {
+                "A": "2-ci",
+                "B": "5-ci",
+                "C": "3-cü",
+                "D": "10-cu",
+                "E": "1-ci"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 163,
+            "question": "Patent sahibi və müəllif ayrı-ayrı şəxslər olduqda müəllif ilə əlaqədar göstərilənlərdən hansı yanlışdır?",
+            "options": {
+                "A": "İddiaçı ilə müəllif müxtəlif şəxslər olduqda müəllif patentin surətini almaq hüququna malikdir",
+                "B": "Patent sahibi və müəlliflər ayrı-ayrı şəxslər ola bilər",
+                "C": "Müəllif patentdə öz adının göstərilməsindən imtina edə bilər",
+                "D": "Müəllif patentdə öz adının göstərilməsindən imtina etsə belə patent haqqında məlumatın rəsmi dərci zamanı müəllifin adı göstərilir",
+                "E": "Müəlliflik hüququ özgəninkiləşdirilməyən şəxsi hüquqdur və müddətsiz qorunur"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 164,
+            "question": "Agentlik ixtira, faydalı model və sənaye nümunəsini qeydə aldıqdan və patent verdikdən sonra hansı müddət ərzində patent barəsində məlumatı rəsmi bülletendə dərc edir?",
+            "options": {
+                "A": "1 ay",
+                "B": "3 ay",
+                "C": "10 ay",
+                "D": "6 ay",
+                "E": "2 ay"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 165,
+            "question": "Patentlə bağlı verilən fikirlərdən hansı səhvdir:",
+            "options": {
+                "A": "Patentlə mühafizə olunan ixtiaranın hüquqi mühafizə müddəti 20 il kimi müəyyən edilmişdir",
+                "B": "Patent obyektlərinə ixtira, faydalı model, sənaye nümunələri aid edilir",
+                "C": "Patent apellyasiya şurası və ya məhkəmə tərəfindən etibarsız hesab edilə bilər",
+                "D": "Patent sahibi olmayan istənilən yalnız fiziki şəxs ixtira, faydalı model və sənaye nümunəsindən yalnız patent sahibinin razılığı ilə, lisenziya müqaviləsi əsasında istifadə edə bilər",
+                "E": "Patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsinin tətbiqi ilə hazırlanan məhsulun təsərrüfat dövriyyəsinə daxil edilməsi, habelə patentləşdirilmiş ixtira, faydalı model və sənaye nümunəsinin bütün mühüm əlamətlərini birləşdirən üsulun tətbiqi ixtira, faydalı model və sənaye nümunəsindən istifadə sayılır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 166,
+            "question": "Patentlə bağlı göstərilənlərdən düzgün variant hansıdır?",
+            "options": {
+                "A": "Patent hüquqlqarını girovsaxlayan ona verilmiş girov predmetindən müqavilənin qüvvədə olduğu müddət ərzində bütün hallarda istifadə edə bilər",
+                "B": "Patentə dair girov müqavilələrinə dair məlumatların rəsmi bülletendə dərc olunması iddiaçının vəsatəti olduğu hallarda həyata keçirilir",
+                "C": "Azərbaycan Respublikasının qanunvericiliyində digər hallar nəzərdə tutulmayıbsa, istənilən patentlə bağlı hüquqlar özgəninkiləşdirilə bilər",
+                "D": "Patentə dair verilmiş məcburi lisenziya Əqli Mülkiyyət Agentliyi tərəfindən ləğv edilir",
+                "E": "Patentə dair girov müqaviləsinin başqa dildə tərtib olunmasına yol verilmir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 167,
+            "question": "Səhv cavabı seçin: ________ patent qeydiyyata alınarkən istənilən halda rəsmi bülletendə dərc edilməlidir",
+            "options": {
+                "A": "Müəllifin adı",
+                "B": "İddia sənədinin Agentliyə daxil olduğu tarix",
+                "C": "Patent obyektinin adı",
+                "D": "İlkinlik tarixi",
+                "E": "Patent sahibinin adı"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 168,
+            "question": "Fikri tamamlayın: Lisenziat _________ digər hüquqi və ya fiziki şəxslə sublisenziya müqaviləsi bağlaya bilər.",
+            "options": {
+                "A": "Yalnız lisenziya müqaviləsində göstərilən",
+                "B": "Müqavilədə nəzərdə tutulan hallarda",
+                "C": "Lisenziarın yazılı razılığı ilə",
+                "D": "Lisenziya müqaviləsi Əqli Mülkiyyət Agentliyində qeydiyyatdan keçirililənədək müddət ərzində",
+                "E": "Lisenziarın hər hansı formada ifadə etdiyi razılığın olduğu hallarda"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 169,
+            "question": "Səhv fikri seçin:",
+            "options": {
+                "A": "Əmtəə nişanının qeydiyyata alınması barədə iddia sənədinə dair qərardan Agentliyin sənaye mülkiyyəti sahəsində mübahisələrə baxan Apellyasiya şurasına etiraz verilə bilər",
+                "B": "Azərbaycan Respublikasında əmtəələrin və ya xidmətlərin növünü, keyfiyyətini, miqdarını, təyinatını, dəyərini, habelə onların istehsal olunduğu yeri və tarixi və digər xüsusiyyətlərini göstərən nişanlar əmtəə nişanı kimi qeydiyyata alına bilmir",
+                "C": "Azərbaycan Respublikasında səslər əmtəə nişanı kimi qeydiyyata alına bilər",
+                "D": "Əmtəə nişanının qeydiyyata alınması barədə iddia sənədi Əqli Mülkiyyət Agentliyinə verilir",
+                "E": "Sözlər, şəxsi adlar, hərflər, rəqəmlər, təsviri elementlər, əmtəələrin forması və ya onların qablaşdırılması, rənglərin və yuxarıda göstərilənlərin hər hansı uzlaşması əmtəə nişanı kimi qeydə alına bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 170,
+            "question": "Aşağıdakı hallardan hansında müəllifin razılığı olmadan və qonorar ödəmədən əsərdən istifadə etmək olar?",
+            "options": {
+                "A": "Memarlıq əsərinin bina və ona oxşar tikili formasında surətinin şəxsi məqsədlər üçün çıxarılması",
+                "B": "Məlumat bazalarının və ya onların əsas hissələrinin surətinin şəxsi məqsədlər üçün çıxarılması",
+                "C": "Kitabxanalar, arxivlər və təhsil müəssisələri tərəfindən əsərlərin reprosurətinin çıxarılması",
+                "D": "Toy mərasimlərində musiqili əsərlərdən istifadə",
+                "E": "Heç biri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 171,
+            "question": "Əmtəə nişanına dair səhv cavabı seçin:",
+            "options": {
+                "A": "Əmtəə nişanının qüvvədə olduğu müddətdə nişan sahibinin Azərbaycan Respublikasının ərazisində onun barəsində sərəncam verməyə və ondan istifadə etməyə müstəsna hüququ vardır",
+                "B": "Əmtəə nişanının və coğrafi göstəricinin qeydiyyatı iddia sənədinin müvafiq icra hakimiyyəti orqanının müəyyən etdiyi quruma verildiyi tarixdən 10 il müddətində qüvvədə olur. Bu müddət nişan sahibinin ərizəsinə əsasən haqq ödənilməklə məhdudiyyət qoyulmadan hər dəfə 10 il müddətinə uzadıla bilər",
+                "C": "Əmtəə nişanına dair iddia sənədinə Əqli Mülkiyyət Agentliyində aidiyyəti üzrə baxılır",
+                "D": "Qeydiyyata alınmamış əmtəə nişanının sahibi razılığı olmadan ona məxsus əmtəə nişanının əhatə etdiyi əmtəə və ya xidmətlərlə eyni, yaxud onlara oxşar əmtəə və ya xidmətlər üçün eyni və ya oxşar əmtəə",
+                "N": "şanından (işarədən) üçüncü şəxsin ticarətdə istifadə etməsinin qarşısını almaqda müstəsna hüquqa malikdir",
+                "E": "Əmtəə nişanının və coğrafi göstəricinin, bir qayda olaraq, onların aid edildiyi əmtəələrdə, əmtəə qablarında və göstərilən xidmətlərdə tətbiqi onlardan istifadə sayılır. Onların reklamlarda, mətbu nəşrlərdə, lövhələrdə, Azərbaycan Respublikasında keçirilən sərgilərin və yarmarkaların eksponatlarında və əmtəələrin bazara çıxarılması ilə bağlı digər sənədlərdə tətbiqi də istifadə sayılır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 172,
+            "question": "Xidməti əsərə dair müəlliflik hüququ hansı subyektə məxsusdur?",
+            "options": {
+                "A": "Xidməti əsərin yaradılmasında texniki işləri görmüş şəxslər də daxil olmaqla müəssisənin işçilərinə",
+                "B": "Xidməti əsərin müəllifinə",
+                "C": "İşəgötürənə",
+                "D": "Müqavilə ilə istifadə hüquqları ötürülən subyektə",
+                "E": "Xidməti əsərin yaradılmasında yardımçı işləri görmüş şəxslər də daxil olmaqla müəssisənin işçilərinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 173,
+            "question": "Xidməti əsərdən işəgötürən (xidməti əsərin sifarişçisi) tərəfindən heç bir əsas olmadan hansı müddət ərzində istifadə olunmazsa, əsərdən istifadəyə müstəsna hüquqlar müəllifə keçir?",
+            "options": {
+                "A": "6 ay",
+                "B": "1 il",
+                "C": "3 il",
+                "D": "5 il",
+                "E": "Hüquqlar müəllifə heç bir halda keçmir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 174,
+            "question": "Səhv fikri seçin:",
+            "options": {
+                "A": "Əsərə dair şəxsi hüquqlar müddətsiz olaraq qorunur",
+                "B": "Əmtəə nişanının qüvvədə olduğu müddətdə müstəsna hüquq nişan sahibinə məxsusdur",
+                "C": "Əmtəə nişanının qüvvədə olduğu müddətdə ona dair hüquqlar müqavilə əsasında ötürülməsi mümkündür",
+                "D": "Xidməti əsərə dair müəlliflik hüququ xidməti əsərin müəllifinə məxsusdur",
+                "E": "Faydalı modelə dair patentin qüvvədə olma müddəti 5 ildən artıq olmayan müddətə uzadıla bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 175,
+            "question": "Doğru fikri seçin:",
+            "options": {
+                "A": "Azərbaycan Respublikasında əqli mülkiyyət hüququ əsas konstitusion hüquqlardan biridir",
+                "B": "Əmtəə nişanının qüvvədə olma müddəti qeydiyyat anında başlayır",
+                "C": "Xidməti əsərdən istifadəyə dair müstəsna hüquq yaradıldığı an müəllifinə məxsus olur",
+                "D": "Səsli əmtəə nişanları Azərbaycan Respublikasında qeydiyyata alınır",
+                "E": "Müəlliflik hüququ əsər qeydiyyata alındığı an yaranır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 176,
+            "question": "Səhv fikri seçin:",
+            "options": {
+                "A": "Rənglərin uzlaşması Azərbaycan Respublikasında əmtəə nişanı kimi qeydiyyata alınır",
+                "B": "Xidməti əsərdən istifadəyə dair müstəsna hüquq niyyəti olduğu təqdirdə işəgötürənə məxsus olur",
+                "C": "Əqli fəaliyyət nəticəsində yaradılmış müəlliflik hüququ obyektinə dair əmlak hüquqları başqa şəxsə verilə bilməz",
+                "D": "Ad hüququ əsas şəxsi qeyri əmlak hüquqlarından biridir",
+                "E": "Əmtəə nişanının qeydiyyatı üçün Əqli Mülkiyyət Agentliyinə iddia sənədi verilməlidir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 177,
+            "question": "İxtiranın, faydalı modelin və sənaye nümunəsini yaradıcı əməyi ilə yaradan şəxs kimdir?",
+            "options": {
+                "A": "Lisenziat",
+                "B": "Lisenziar",
+                "C": "Patent sahibi",
+                "D": "Patetn müvəkkili",
+                "E": "Müəllif"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 178,
+            "question": "Səhv fikri seçin:",
+            "options": {
+                "A": "Yalnız fiziki şəxslər müəllif ola bilər",
+                "B": "Patent obyektinə dair müəlliflik hüququnun qüvvədə olma müddəti patentin qüvvədə olma müddəti ilə eynidir",
+                "C": "Əmtəə nişanının qüvvədə olma müddəti 10 ildir",
+                "D": "Kəşflər ixtira kimi qoruna bilməz",
+                "E": "Hüquqi şəxslər də müəlliflik hüququ sahibi ola bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 179,
+            "question": "Əmtəə nişanının qeydiyyatı barədə doğru olan cavabı seçin",
+            "options": {
+                "A": "10 il qüvvədə olur və uzadıla bilməz",
+                "B": "Qeydiyyat tələb olunmur",
+                "C": "10 il qüvvədə olur və hər dəfə 10 il uzadıla bilər",
+                "D": "20 il qüvvədə olur hər dəfə 20 il uzadıla bilər",
+                "E": "20 il qüvvədə olur və uzadıla bilməz"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 180,
+            "question": "Dizaynerlər tərəfindən yaradılmış əqli mülkiyyəti qorumaq üçün nədən istifadə olunur?",
+            "options": {
+                "A": "Əmtəə nişanı",
+                "B": "Coğrafi göstərici",
+                "C": "İxtira",
+                "D": "Faydalı model",
+                "E": "Sənaye nümunəsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 181,
+            "question": "Orijinal hekayə yazmısınızsa, hansı əqli mülkiyyət növü sizə əsərinizin nəşrinə və satışına icazə hüququnu verir?",
+            "options": {
+                "A": "Əlaqəli hüquq",
+                "B": "Müəlliflik hüququ",
+                "C": "Faydalı model",
+                "D": "İxtira",
+                "E": "Əmtəə nişanı"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 182,
+            "question": "Şirkət məhsulunu təkmilləşdirən yeni texnologiya hazırlayıbsa, digər şirkətlərin bu yeniliyi təkrarlamasının qarşısını almaq üçün hansı növ əqli mülkiyyətdən istifadə edə bilər?",
+            "options": {
+                "A": "Coğrafi göstərici",
+                "B": "Əmtəə nişanı",
+                "C": "Əlaqəli hüquq",
+                "D": "İxtira",
+                "E": "Faydalı model"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 183,
+            "question": "Sənaye mülkiyyəti hüquqlarının obyektlərinə aşağıdakılar daxildir:",
+            "options": {
+                "A": "Sənaye nümunələri",
+                "B": "Faydalı modellər",
+                "C": "İxtiralar",
+                "D": "Əmtəə nişanları",
+                "E": "Sadalananların hamısı"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 184,
+            "question": "Coğrafi göstəricilərin mühafizəsi biznes üçün hansı üstünlükləri verir?",
+            "options": {
+                "A": "sadalananların hamısı",
+                "B": "rəqabət üstünlükləri",
+                "C": "məhsulun daha yüksək əlavə dəyəri",
+                "D": "daha geniş ixrac imkanları",
+                "E": "brendin gücləndirilməsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 185,
+            "question": "İxtira obyektini seçin",
+            "options": {
+                "A": "elmi nəzəriyyələr",
+                "B": "istənilən sahədə məhsula aid olan texniki həllər",
+                "C": "təsərrüfatın və əqli fəaliyyətin təşkili, idarə edilməsi metodları",
+                "D": "kəşflər",
+                "E": "bədii konstruktorluq işinin nəticəsi (dizayn)"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 186,
+            "question": "Müəlliflik, ad və reputasiya hüquqlarının qorunma müddətini qeyd edin:",
+            "options": {
+                "A": "Müəllifin həyatı boyu və ölümündən sonra 30 il ərzində",
+                "B": "Müəllifin həyatı boyu və ölümündən sonra 70 il ərzində",
+                "C": "Müddətsiz qorunur",
+                "D": "Müəllifin həyatı boyu",
+                "E": "Müəllifin həyatı boyu və ölümündən sonra 50 il ərzində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 187,
+            "question": "Əmtəə nişanı üzrə hüquqlar kimə ötürülə bilər?",
+            "options": {
+                "A": "Ötürülə bilməz",
+                "B": "Hüquqi və ya fiziki şəxslərə yalnız müvəqqəti ötürülə bilər",
+                "C": "Yalnız fiziki şəxslərə",
+                "D": "Müqavilə üzrə hüquqi və ya fiziki şəxslərə",
+                "E": "Yalnız hüquqi şəxslərə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 188,
+            "question": "Patent təsbir edir:",
+            "options": {
+                "A": "Yalnız ilkinliyi və müəllifliyi",
+                "B": "İlkinliyi və müstəsna hüququnu",
+                "C": "Yalnız müəllifliyi",
+                "D": "İlkinliyi, müəllifliyi, müstəsna hüquqları",
+                "E": "Yalnız müəllifliyi və istifadə hüququnu"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 189,
+            "question": "Əlaqəli hüquqların (ad və ifanın qorunması hüququ istisna olmaqla) qüvvəsi davam edir:",
+            "options": {
+                "A": "İlk ifadan sonra 50 il ərzində",
+                "B": "Müddətsiz",
+                "C": "İfaçı və ya rejissorun həyatı boyu üstəgəl 70 il",
+                "D": "İfaçı və ya rejissorun həyatı boyu üstəgəl 50 il",
+                "E": "İfaçı və ya rejissorun həyatı boyu"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 190,
+            "question": "İxtira obyektini seçin:",
+            "options": {
+                "A": "riyazi metodlar",
+                "B": "kəşflər",
+                "C": "kompüter alqoritmləri və proqramları",
+                "D": "bədii konstruktorluq işinin nəticəsi (dizayn)",
+                "E": "istənilən sahədə üsula aid olan texniki həllər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 191,
+            "question": "İddiaçı ixtira üzrə iddia sənədini çevirə bilər:",
+            "options": {
+                "A": "Coğrafi göstəriciyə",
+                "B": "Əmtəə nişanına",
+                "C": "Sənaye nümunəsinə",
+                "D": "Faydalı modelə",
+                "E": "Firma adına"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 192,
+            "question": "İnteqral sxem topologiyalarına hüquqi qorunma nəyə şamil olunur?",
+            "options": {
+                "A": "Kodlaşdırılmış məlumatlara",
+                "B": "Texnologiya üsullarına",
+                "C": "Texnologiyanın hazırlanması metodlarına",
+                "D": "Texnologiya üsullarına və kodlaşdırılmış məlumatlara",
+                "E": "Topologiyanın özünə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 193,
+            "question": "İxtiraya müəlliflik hüququ digər şəxslərin bu ixtiranın müəllifi adlandırılmasının qadağan edilməsini nəzərdə tuturmu?",
+            "options": {
+                "A": "İxtira üçün patentdə bu barədə qeyd varsa, nəzərdə tutur",
+                "B": "Bəli",
+                "C": "Üçüncü şəxslərin maraqlarına zidd deyilsə nəzərdə tutur",
+                "D": "Xeyr",
+                "E": "İxtira sahibinin istəyinə görə müəyyən olunur"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 194,
+            "question": "Françayzinq müqaviləsi əsasında ticarət simvollarından və təyinatlarından istifadə etmək hüququnu verən təşkilata adlanır:",
+            "options": {
+                "A": "İcarədar",
+                "B": "Françayzi",
+                "C": "Françayzer",
+                "D": "Lizing verən",
+                "E": "Lisenziyar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 195,
+            "question": "Əmtəə nişanı kimi qeydiyyata alına bilər:",
+            "options": {
+                "A": "Yalnız sözlü nişanlar və onların birləşmələri",
+                "B": "Dövlət gerbləri",
+                "C": "Ümumi simvollar",
+                "D": "Beynəlxalq təşkilatların abreviaturaları",
+                "E": "Sözlü, şəkilli, həcmli və digər nişanlar və onların birləşmələri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 196,
+            "question": "Faydalı modellərin qorunma obyektləri hansılardır?",
+            "options": {
+                "A": "Mikroorqanizmlərin ştammları",
+                "B": "Verilənlər bazası proqramları",
+                "C": "Cihazlar, üsullar, maddələr",
+                "D": "Qurğular",
+                "E": "Üsullar, texniki məmulatlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 197,
+            "question": "Əsərdən istifadəyə müstəsna hüquqlar başqasına verildikdə müəllifin:",
+            "options": {
+                "A": "əmlak hüquqları tam saxlanılır",
+                "B": "heç bir hüququ qalmır",
+                "C": "şəxsi qeyri-əmlak hüquqları qorunur",
+                "D": "əmlak hüquqları məhdud dərəcədə saxlanılır",
+                "E": "şəxsi qeyri-əmlak hüquqları və əmlak hüquqları məhdud dərəcədə saxlanılır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 198,
+            "question": "Əmtəə nişanının qeydiyyatını kim həyata keçirə bilər?",
+            "options": {
+                "A": "Yuxarıda göstərilənlərin hamısı",
+                "B": "Sahibkarlıq fəaliyyətilə məşğul olmayan istənilən şəxs",
+                "C": "Sahibkarlıq fəaliyyətilə məşğul olan fiziki şəxslər",
+                "D": "Sahibkarlıq fəaliyyətilə məşğul olan hüquqi şəxslər",
+                "E": "Sahibkarlıq fəaliyyətilə məşğul olan fiziki və hüquqi şəxslər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 199,
+            "question": "Azərbaycan Respublikasında əmtəə nişanının qeydiyyatı üçün hansı orqana müraciət olunmalıdır?",
+            "options": {
+                "A": "İqtisadiyyat Nazirliyinə",
+                "B": "Təhsil Nazirliyinə",
+                "C": "Əqli Mülkiyyət Agentliyinə",
+                "D": "Dövlət Turizm Agentliyinə",
+                "E": "Mədəniyyət Nazirliyinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 200,
+            "question": "Bu tərif hansı anlayışa aiddir: “məhsulun zahiri görünüşünü müəyyən edən bədii və konstruktiv həll”:",
+            "options": {
+                "A": "Coğrafi göstərici",
+                "B": "Əmtəə nişanı",
+                "C": "İxtira",
+                "D": "Faydalı model",
+                "E": "Sənaye nümunəsi"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 201,
+            "question": "Xidməti tapşırığın yerinə yetirilməsi zamanı yaradılmış əsərlərə müəlliflik hüququ müqavilə olmadıqda aşağıdakılara aiddir:",
+            "options": {
+                "A": "Heç kimə",
+                "B": "İşəgötürənə",
+                "C": "İşəgötürənin müəyyən etdiyi şəxsə",
+                "D": "Əsərin müəllifinə",
+                "E": "Əsərin müəllifinə və işəgötürənə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 202,
+            "question": "Xidməti tapşırığın yerinə yetirilməsi zamanı yaradılmış əsərlərə müstəsna hüquq müqavilə olmadıqda aşağıdakılara aiddir:",
+            "options": {
+                "A": "Heç kimə",
+                "B": "Əsərin müəllifinə və işəgötürənə",
+                "C": "İşəgötürənin müəyyən etdiyi şəxsə",
+                "D": "Əsərin müəllifinə",
+                "E": "İşəgötürənə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 203,
+            "question": "Azərbaycan Respublikasında sənaye nümunəsinin qeydiyyatı üçün hansı orqana müraciət olunmalıdır?",
+            "options": {
+                "A": "İqtisadiyyat Nazirliyinə",
+                "B": "Əqli Mülkiyyət Agentliyinə",
+                "C": "Mədəniyyət Nazirliyinə",
+                "D": "Dövlət Turizm Agentliyinə",
+                "E": "Elm və təhsil üzrə Dövlət Agentliyinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 204,
+            "question": "Ədəbi əsərdə müəlliflik hüququnun yaranmasının əsası:",
+            "options": {
+                "A": "Əsərin yaradılması faktı",
+                "B": "Müəlliflik hüquqlarının və əsərin qeydiyyatı",
+                "C": "Müəlliflik hüquqlarının qeydiyyatı",
+                "D": "Onun nəşri",
+                "E": "Əsərin qeydiyyatı və nəşri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 205,
+            "question": "İctimai varidata keçmiş əsərlərdən kim istifadə edə bilər?",
+            "options": {
+                "A": "müstəsna qeyri-əmlak hüquqlarına malik olan qonorar ödəyən istənilən şəxs",
+                "B": "müəlliflik hüququ, ad hüququ və müəllifin nüfuzunu qorumaq şərti ilə qonorar ödəmədən istənilən şəxs",
+                "C": "qonorar ödəmədən yalnız dövlət təşkilatları",
+                "D": "qonorar ödəməklə yalnız dövlət təşkilatları",
+                "E": "xüsusi icazəyə malik olanlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 206,
+            "question": "Azərbaycan Respublikasında faydalı modelin qeydiyyatı üçün hansı orqana müraciət olunmalıdır?",
+            "options": {
+                "A": "Elm və təhsil üzrə Dövlət Agentliyinə",
+                "B": "Ədliyyə Nazirliyinə",
+                "C": "Əqli Mülkiyyət Agentliyinə",
+                "D": "Dövlət Turizm Agentliyinə",
+                "E": "Mədəniyyət Nazirliyinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 207,
+            "question": "İxtira üçün patent miras yolu ilə keçirmi?",
+            "options": {
+                "A": "Yalnız müstəsna hallarda keçir",
+                "B": "Keçmir",
+                "C": "Qeydiyyatı aparan dövlət orqanının icazəsi olarsa keçir",
+                "D": "Keçir",
+                "E": "Vəsiyyət olunarsa keçir"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 208,
+            "question": "“İstənilən sahədə məhsula və ya üsula aid olan texniki həllər” hansı anlayışa aiddir?",
+            "options": {
+                "A": "Faydalı model",
+                "B": "Nou-hau",
+                "C": "Əmtəə nişanı",
+                "D": "Sənaye nümunəsi",
+                "E": "İxtira"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 209,
+            "question": "Bu tərif hansı anlayışa aiddir: “qurğuya aid olan texniki həllər”:",
+            "options": {
+                "A": "Sənaye nümunəsi",
+                "B": "Əmtəə nişanı",
+                "C": "İxtira",
+                "D": "Faydalı model",
+                "E": "Coğrafi göstərici"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 210,
+            "question": "Bu tərif hansı anlayışa aiddir: “ittifaqın, assosiasiyanın, hər hansı birliyin adına qeydə alınan nişan və ya nişanların kombinasiyasıdır”:",
+            "options": {
+                "A": "Kollektiv nişan",
+                "B": "Coğrafi göstərici",
+                "C": "Sənaye nümunəsi",
+                "D": "Nou-hau",
+                "E": "Faydalı model"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 211,
+            "question": "Hansı nişanların qeydə alınmasına yol verilir:",
+            "options": {
+                "A": "əmtəənin mahiyyətini əks etdirən, ona mühüm dəyər verən və texniki nailiyyət üçün zəruri olan formalar",
+                "B": "sözlər, şəxsi adlar, hərflər, rəqəmlər, təsviri elementlər",
+                "C": "əmtəələrin və ya xidmətlərin təyinatını, dəyərini, habelə onların istehsal olunduğu yeri və tarixi göstərən nişanlar",
+                "D": "fərqlənmə qabiliyyətinə malik olmayan, yəni əsas amillərlə fərqlənməyən nişanlar",
+                "E": "əmtəələrin və ya xidmətlərin növünü, keyfiyyətini, miqdarını göstərən nişanlar"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 212,
+            "question": "Azərbaycan Respublikasında ixtiranın qeydiyyatı üçün hansı orqana müraciət olunmalıdır?",
+            "options": {
+                "A": "Mədəniyyət Nazirliyinə",
+                "B": "Əqli Mülkiyyət Agentliyinə",
+                "C": "Dövlət Turizm Agentliyinə",
+                "D": "Ədliyyə Nazirliyinə",
+                "E": "Elm və təhsil üzrə Dövlət Agentliyinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 213,
+            "question": "Coğrafi göstərici barədə səvh olanı qeyd edin:",
+            "options": {
+                "A": "Coğrafi obyektin adı olan və ya bu adı özündə əks etdirən, lakin coğrafi obyektə aid olmayan işarə coğrafi göstərici kimi qeydə alınmır",
+                "B": "Hamısı doğrudur",
+                "C": "Coğrafi göstəricidən istifadə həmin ərazidə xidmət göstərən sahibkarlar üçün nəzərdə tutulur",
+                "D": "Coğrafi göstərici, mənşə ölkəsində mühafizə olunan müddətdə növ əlaməti anlayışı kimi hesab edilə bilməz",
+                "E": "Coğrafi obyektin rəsmi adı, tarixi adı və ya onlardan törəmə adlar coğrafi göstərici kimi istifadə oluna bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 214,
+            "question": "Coğrafi göstərici nəyi təmin edə bilər?",
+            "options": {
+                "A": "Daha geniş ixrac imkanları",
+                "B": "Sadalananların hamısı",
+                "C": "Brendin gücləndirilməsi",
+                "D": "Rəqabət üstünlükləri",
+                "E": "Məhsulun daha yüksək əlavə dəyəri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 215,
+            "question": "Bu tərif hansı anlayışa aiddir: “əmtəənin mənşəyinin dövlət, bölgə, ərazi, yaxud müəyyən ərazidəki yer ilə bağlılığını müəyyənləşdirən işarədir”?",
+            "options": {
+                "A": "Coğrafi göstərici",
+                "B": "Faydalı model",
+                "C": "Kollektiv nişan",
+                "D": "Sənaye nümunəsi",
+                "E": "Əmtəə nişanı"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 216,
+            "question": "Əmtəə nişanı barəsində iddia sənədi nə zaman geri götürülə bilər?",
+            "options": {
+                "A": "İlkin ekspertiza mərhələsində",
+                "B": "Verilən tarixdən 30 gün ərzində",
+                "C": "İstənilən mərhələdə",
+                "D": "Geri götürülə bilməz",
+                "E": "Mahiyyət üzrə baxılma mərhələsində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 217,
+            "question": "Coğrafi göstərici barəsində iddia sənədi nə zaman geri götürülə bilər?",
+            "options": {
+                "A": "Mahiyyət üzrə baxılma mərhələsində",
+                "B": "İlkin ekspertiza mərhələsində",
+                "C": "İstənilən mərhələdə",
+                "D": "Geri götürülə bilməz",
+                "E": "Verilən tarixdən 30 gün ərzində"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 218,
+            "question": "Kollektiv nişan barəsində iddia sənədi hansı halda geri götürülə bilər?",
+            "options": {
+                "A": "Birliyin üzvlərinin yarıdan çoxunun razılığı ilə",
+                "B": "Birliyin hər hansı üzvünün razılığı ilə",
+                "C": "Birliyin üzvlərinin üçdə ikisinin razılığı ilə",
+                "D": "Geri götürülə bilməz",
+                "E": "Birliyin bütün üzvlərinin razılığı ilə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 219,
+            "question": "Azərbaycan Respublikasında coğrafi göstəricinin qeydiyyatı üçün hansı orqana müraciət olunmalıdır?",
+            "options": {
+                "A": "Elm və təhsil üzrə Dövlət Agentliyinə",
+                "B": "Ədliyyə Nazirliyinə",
+                "C": "Dövlət Turizm Agentliyinə",
+                "D": "Mədəniyyət Nazirliyinə",
+                "E": "Əqli Mülkiyyət Agentliyinə"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 220,
+            "question": "Müəlliflik hüququ və əlaqəli hüquqlar sahəsində Azərbaycan Respublikasının qanunvericiliyinə aid deyildir:",
+            "options": {
+                "A": "“Təhsil haqqında” Azərbaycan Respublikasının Qanunu",
+                "B": "“Məlumat toplularının hüquqi qorunması haqqında” Azərbaycan Respublikasının Qanunu",
+                "C": "“İnteqral sxem topologiyalarının hüquqi qorunması haqqında” Azərbaycan Respublikasının Qanunu",
+                "D": "“Əqli mülkiyyət hüquqlarının təminatı və piratçılığa qarşı mübarizə haqqında” Azərbaycan Respublikasının Qanunu",
+                "E": "“Müəlliflik hüququ və əlaqəli hüquqlar haqqında” Azərbaycan Respublikasının Qanunu"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 221,
+            "question": "Doğru olan variantı seçin:",
+            "options": {
+                "A": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 25 il müddətində qüvvədə qalır",
+                "B": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 70 il müddətində qüvvədə qalır",
+                "C": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ qorunmur",
+                "D": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 50 il müddətində qüvvədə qalır",
+                "E": "Anonim və ya təxəllüslə dərc edilmiş əsərə müəlliflik hüququ həmin əsərin qanuni dərc edildiyi tarixdən 30 il müddətində qüvvədə qalır"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 222,
+            "question": "Müəlliflik hüququ ilə qorunan obyektlər hansılardır?",
+            "options": {
+                "A": "Memarlıq, şəhərsalma və bağ-park sənəti əsərləri",
+                "B": "Dövlət rəmzləri və nişanları",
+                "C": "Rəsmi sənədlər, həmçinin onların rəsmi tərcümələri",
+                "D": "İnformasiya xarakterli məlumatlar",
+                "E": "Günün yenilikləri"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 223,
+            "question": "Müəlliflik hüququ ilə qorunmayan obyektlər hansılardır?",
+            "options": {
+                "A": "Xoreoqrafiya əsərləri və pantomimalar",
+                "B": "Dram, musiqili-dram və başqa səhnə əsərləri",
+                "C": "Dekorativ tətbiqi və səhnə tərtibatı sənəti əsərləri",
+                "D": "Rəsmi sənədlər",
+                "E": "Fotoqrafiya əsərləri və ona oxşar üsulla yaradılmış əsərlər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 224,
+            "question": "Müəlliflik hüququnun obyektiv formaları barədə yanlış olanı seçin:",
+            "options": {
+                "A": "Həcmli — fəzavi formada ola bilər",
+                "B": "İdeya formasında ola bilər",
+                "C": "Səs, yaxud videoyazılma formasında ola bilər",
+                "D": "Yazılı formada ola bilər",
+                "E": "Şifahi formada ola bilər"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 225,
+            "question": "Patent hüququ sahəsində əsas beynəlxalq konvensiya hansıdır?",
+            "options": {
+                "A": "Ümumdünya konvensiyası",
+                "B": "Roma Konvensiyası",
+                "C": "Brüssel konvensiyası",
+                "D": "Paris konvensiyası",
+                "E": "Bern Konvensiyası"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 226,
+            "question": "Əlaqəli hüquqlar sahəsində əsas beynəlxalq konvensiya hansıdır?",
+            "options": {
+                "A": "Ümumdünya konvensiyası",
+                "B": "Paris konvensiyası",
+                "C": "Brüssel konvensiyası",
+                "D": "Roma konvensiyası",
+                "E": "Bern Konvensiyası"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 227,
+            "question": "İxtiranın qeydiyyatı hansı qanunla tənzimlənir?",
+            "options": {
+                "A": "“Müəlliflik hüququ və əlaqəli hüquqlar haqqında” Azərbaycan Respublikasının Qanunu",
+                "B": "“Patent haqqında” Azərbaycan Respublikasının Qanunu",
+                "C": "“İnteqral sxem topologiyalarının hüquqi qorunması haqqında” Azərbaycan Respublikasının Qanunu",
+                "D": "“Əmtəə nişanları və coğrafi göstəricilər haqqında” Azərbaycan Respublikasının Qanunu",
+                "E": "“Məlumat toplularının hüquqi qorunması haqqında” Azərbaycan Respublikasının Qanunu"
+            },
+            "correct_answer": null
+        },
+        {
+            "id": 228,
+            "question": "Sənaye nümunəsinin qeydiyyatı hansı qanunla tənzimlənir?",
+            "options": {
+                "A": "“Məlumat toplularının hüquqi qorunması haqqında” Azərbaycan Respublikasının Qanunu",
+                "B": "“Əmtəə nişanları və coğrafi göstəricilər haqqında” Azərbaycan Respublikasının Qanunu",
+                "C": "“Patent haqqında” Azərbaycan Respublikasının Qanunu",
+                "D": "“İnteqral sxem topologiyalarının hüquqi qorunması haqqında” Azərbaycan Respublikasının Qanunu",
+                "E": "“Müəlliflik hüququ və əlaqəli hüquqlar haqqında” Azərbaycan Respublikasının Qanunu"
+            },
+            "correct_answer": null
+        }
+    ]
+}

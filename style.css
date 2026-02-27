@@ -1,9 +1,34 @@
+:root {
+  /* Default (Free) Theme */
+  --progress-color: #1e90ff;
+  --bg: var(--bg);
+  --border: #E5E9F2;
+  --top-bg: rgba(255, 255, 255, 0.575);
+  --text-color: #222;
+  --surface: #FFFFFF;
+  --surface2: #EFF2F8;
+  --correct: #e5f7ec;
+  --wrong: #fae9e7;
+}
+body.dark-theme {
+  --bg: #0F1117;
+  --border: #2A2F42;
+  --top-bg: #0F1117;
+  --text-color: #fff;
+  --surface: #1A1D27;
+  --surface2: #232736;
+  --correct: #1a2720;
+  --wrong: #271c1a;
+}
+body.premium {
+    --progress-color: linear-gradient(90deg, #1e90ff, #6B48FF);
+}
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f3f3f3;
-    color: #222;
+    background-color: var(--bg);
+    color: var(--text-color);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,7 +41,8 @@ input {
     transition: 0.3s ease;
     width: 100%;
     margin: 0;
-
+    background-color: var(--surface);
+    color: var(--text-color);
 }
 input:focus {
     border: none;
@@ -38,8 +64,9 @@ button {
 .top-bar {
     height: 60px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.575);
+    background: var(--top-bg);
     backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
     display: flex;
     position: fixed;
     margin: 0;
@@ -53,7 +80,7 @@ button {
     width: 200px;
 }
 #premium-href {
-    margin-top: -43px;
+    margin-top: -44px;
 }
 .premium {
     height: 40px;
@@ -68,6 +95,10 @@ button {
     padding-right: 20px;
     padding-left: 15px;
     gap: 3px;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+.premium:hover {
+    box-shadow: 0 3px 15px rgba(0, 123, 255, 0.5);
 }
 .premium img {
     width: 15px;
@@ -78,13 +109,27 @@ button {
     font-weight: bold;
     color: hsl(216, 100%, 94%);
 }
+.theme-mode {
+    display: flex;
+    position: fixed;
+    right: 130px;
+}
+.theme-mode button {
+    width: 48px;
+    background-color: transparent;
+}
+#theme-img {
+    width: 28px;
+    height: 28px;
+    margin-top: -4px;
+}
 .main-background {
     min-height: 100vh;
     width: 100%;
     padding-top: 60px;
     display: flex;
     justify-content: center;
-    background-color: #F4F6FB;
+    background-color: var(--bg);
 }
 
 .main-content {
@@ -99,7 +144,7 @@ button {
 }
 .header-bg, .infotext-bg {
     width: 70%;
-    background-color: #F4F6FB;
+    background-color: var(--bg);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -108,11 +153,11 @@ button {
 .search-bg {
     width: 70%;
     max-width: 700px;
-    background-color: #F4F6FB;
+    background-color: var(--bg);
     gap: 20px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+     justify-content: space-between;
     align-items: center;
 }
 .movcud-fenn-bg {
@@ -125,7 +170,7 @@ button {
 ============================== */
 #ahref {
     text-decoration: none;
-    color: #222 ;
+    color: var(--text-color); ;
 }
 .subjects-bg {
     width: 95%;
@@ -148,7 +193,7 @@ button {
 
 /* Subject Card */
 .subject-card {
-    background-color: white;
+    background-color: var(--surface);;
     border-radius: 15px;
     border: 1px solid #1e90ff;
     padding: 20px;
@@ -157,7 +202,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     min-height: 200px;
-    max-width: 400px;
+    max-width: 390px;
     box-sizing: border-box;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -213,7 +258,7 @@ button {
     width: 95%;
     min-width: 300px;
     max-width: 600px;
-    background-color: white;
+    background-color: var(--surface);;
 }
 .exit-bg {
     padding-top: 20px;
@@ -222,26 +267,25 @@ button {
 #left-arrow {
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: var(--text-color);
 }
 .top-part {
     width: 100%;
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--surface);
 }
 .fenn-id {
     width: 90%;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .progress-bar {
     width: 90%;
-    background: #ddd;
+    background: var(--surface2);
     border-radius: 5px;
     margin: 10px 0;
     height: 10px;
@@ -251,14 +295,33 @@ button {
 }
 #progress-fill {
     transition: width 0.4s cubic-bezier(.4,0,.2,1);
-    background: linear-gradient(90deg, #1D74F5, #6B48FF);
+    background: var(--progress-color);
 }
 .sual-sayi {
     height: auto;
     width: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+/* Timer Dizaynı */
+#timer-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--surface2);
+    color: #1e90ff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px; /* Sual sayı ilə ara məsafəsi */
+}
+
+#timer-icon {
+    font-size: 16px;
+}
+
 .fenn-id h1 {
     width: 80%;
 }
@@ -269,19 +332,19 @@ button {
     color: var(--text-muted);
     border-radius: 50px;
     box-sizing: border-box;
-    background-color: #ddd;
+    background-color: var(--surface2);
     width: max-content;
 }
 .bottom-part {
     height: 500px;
     width: 100%;
-    background-color: white;
+    background-color: var(--surface);
 }
 .sual-word, .sual-text-bg {
     width: 100%;
-    background-color: white;
     display: flex;
     justify-content: center;
+    background-color: var(--surface);
 }
 .sual-word p, #sual-text {
     width: 90%;
@@ -290,6 +353,7 @@ button {
     padding: 0;
     padding-bottom: 20px;
     padding-top: 20px;
+    background-color: var(--surface);
 }
 .sual-word p {
     padding-top: 0;
@@ -301,12 +365,13 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 7px;
+    background-color: var(--surface);
 }
 .option-btn {
     height: auto;
     width: 95%;
-    background-color: white;
-    color: #222;
+    background-color: var(--surface);;
+    color: var(--text-color);;
     border: 1px solid #1e90ff;
     display: flex;
     justify-content: left;
@@ -318,16 +383,15 @@ button {
     padding: 20px;
     gap: 10px;
     justify-content: right;
+    background-color: var(--surface);
 }
 .option-btn.correct {
-    background-color: #2ecc71; 
-    color: white;
+    background-color: var(--correct); 
     border-color: #2ecc71;
 }
 
 .option-btn.wrong {
-    background-color: #e74c3c; 
-    color: white;
+    background-color: var(--wrong);
     border-color: #e74c3c;
 }
 .options.disabled {
@@ -335,8 +399,8 @@ button {
 }
 
 button:disabled {
-    background-color: #ccc !important;
-    color: #666 !important;
+    background-color: var(--surface2) !important;
+    color: var(--text-color);
     cursor: not-allowed;
     transform: none !important;
     box-shadow: none !important;
@@ -355,8 +419,8 @@ button:disabled {
 .result-title {
     font-size: 24px;
     font-weight: 800;
-    margin: 15px 0 5px 0;
-    color: #222;
+    margin: 30px 0 5px 0;
+    color: var(--text-color);;
 }
 
 .result-subject {
@@ -370,7 +434,7 @@ button:disabled {
     flex-direction: column;
     border-radius: 20px;
     width: 100%;
-    background-color: white;
+    background-color: var(--surface);
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     overflow: hidden;
 }
@@ -380,11 +444,10 @@ button:disabled {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    border-bottom: 1px solid #f0f0f0;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
     font-size: 15px;
     font-weight: 500;
-    color: #444;
 }
 
 .stat-row:last-child {
@@ -393,7 +456,7 @@ button:disabled {
 
 .stat-count {
     font-weight: 700;
-    color: #222;
+    color: var(--text-color);;
 }
 
 .stat-count.green-text {
@@ -469,61 +532,48 @@ button:disabled {
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
     border: 5px solid #f3f3f3;
     position: relative;
-}/* Dairənin özü (arxa fon dinamik olaraq JS ilə dəyişəcək) */
-/* Dairənin Konteyneri (Boz halqa - arxa fon) */
+}
 .circle-progress {
-    width: 160px;  /* Bir az böyütdüm ki, rahat görünsün */
+    width: 160px;  
     height: 160px;
     border-radius: 50%;
-    background-color: #e6e6e6; /* Boş hissənin rəngi */
+    background-color: #e6e6e6;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    
-    /* Oval problemini həll edən kodlar: */
+    margin-top: 30px;
     min-width: 160px; 
     min-height: 160px;
     flex-shrink: 0; 
 }
 
-/* Dairənin Dolu Hissəsi (Gradient Rəng) */
 .circle-progress::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     border-radius: 50%;
-    
-    /* Sizin istədiyiniz Gradient rəng */
-    background: linear-gradient(90deg, #1D74F5, #6B48FF);
-    
-    /* Maska: Bu, JS-dən gələn dərəcəyə uyğun olaraq gradienti göstərir */
-    /* var(--degrees) dəyişəni script.js-dən gələcək */
+    background: var(--progress-color);
     mask: conic-gradient(#000 var(--degrees, 0deg), transparent 0deg);
     -webkit-mask: conic-gradient(#000 var(--degrees, 0deg), transparent 0deg);
-    
     z-index: 1;
 }
 
-/* Dairənin Ortasındakı Ağ Deşik (Donut effekti) */
 .circle-progress::after {
     content: "";
     position: absolute;
-    width: 130px; /* Qalınlığı buradan tənzimləyin (160-130=30px qalınlıq) */
+    width: 130px;
     height: 130px;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--surface);
     z-index: 2;
 }
-
-/* Faizin Yazısı */
 .progress-value {
     position: relative;
     font-size: 32px;
     font-weight: 800;
-    color: #222;
-    z-index: 3; /* Ən üstdə qalmalıdır */
+    color: var(--text-color);;
+    z-index: 3; 
 }
 @media (max-width: 480px) {
     .subjects-grid {

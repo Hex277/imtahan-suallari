@@ -1,4 +1,32 @@
-// ---------------------- FENNLER MENU ----------------------
+// ---------------------- GLOBAL SCRIPTS ----------------------
+const themeBtn = document.getElementById("theme-btn");
+const themeImg = document.getElementById("theme-img");
+
+// 1. Səhifə yüklənəndə yaddaşı yoxla
+const currentTheme = localStorage.getItem("theme");
+
+if (currentTheme === "dark") {
+    document.body.classList.add("dark-theme");
+    themeImg.src = "sun.webp"; // Əgər dark-dırsa günəş göstər
+}
+
+// 2. Düyməyə kliklədikdə dəyiş və yadda saxla
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-theme");
+    
+    let theme = "light";
+    
+    if (document.body.classList.contains("dark-theme")) {
+        theme = "dark";
+        themeImg.src = "sun.webp";
+    } else {
+        theme = "light";
+        themeImg.src = "moon.webp";
+    }
+    
+    // Seçimi yaddaşa yaz (Səhifə yenilənsə də itməyəcək)
+    localStorage.setItem("theme", theme);
+});
 // ---------------------- FENNLER MENU ----------------------
 if (window.location.pathname.endsWith("fennler-menu.html")) {
     const container = document.getElementById("subjects-bg");
@@ -85,12 +113,13 @@ if (window.location.pathname.endsWith("quiz.html")) {
             .then(res => res.json())
             .then(data => {
                 const allQuestions = data.questions;
-                // Test üçün sual sayı (istəsəniz limit qoya bilərsiniz, məsələn .slice(0, 5))
-                const questions = shuffleArray(allQuestions).slice(0,3); 
+                const questions = shuffleArray(allQuestions).slice(0, 2); 
                 
                 let currentIndex = 0;
                 let score = 0;
-                // İstifadəçinin verdiyi cavabları yadda saxlamaq üçün (index -> seçilən variant)
+                let timerInterval;
+                let secondsElapsed = 0;
+                // İstifadəçinin verdiyi cavabları yadda saxlamaq üçün
                 let userAnswers = {}; 
 
                 const questionEl = document.getElementById("question-text");
@@ -103,6 +132,24 @@ if (window.location.pathname.endsWith("quiz.html")) {
                 // Düymələrə event listener əlavə edirik
                 prevBtn.onclick = () => navigate(-1);
                 nextBtn.onclick = () => navigate(1);
+
+                function formatTime(seconds) {
+                    const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+                    const s = (seconds % 60).toString().padStart(2, '0');
+                    return `${m}:${s}`;
+                }
+
+                function startTimer() {
+                    if (timerInterval) clearInterval(timerInterval);
+                    secondsElapsed = 0;
+                    const timerEl = document.getElementById("quiz-timer");
+                    if(timerEl) timerEl.textContent = "00:00";
+
+                    timerInterval = setInterval(() => {
+                        secondsElapsed++;
+                        if(timerEl) timerEl.textContent = formatTime(secondsElapsed);
+                    }, 1000);
+                }
 
                 function renderQuestion(index) {
                     const q = questions[index];
@@ -120,14 +167,13 @@ if (window.location.pathname.endsWith("quiz.html")) {
                     
                     const optionBtns = document.querySelectorAll(".option-btn");
 
-                    // Əgər bu suala əvvəllər cavab verilibsə, vəziyyəti bərpa et
+                    // Əgər bu suala əvvəllər cavab verilibsə, bərpa et
                     if (userAnswers[index]) {
                         const savedAnswer = userAnswers[index];
-                        optionsContainer.classList.add("disabled"); // Seçimləri kilidlə
+                        optionsContainer.classList.add("disabled");
                         
                         optionBtns.forEach(btn => {
                             const key = btn.dataset.key;
-                            // Rəngləri bərpa et
                             if (key === savedAnswer) {
                                 if (key === q.correct_answer) {
                                     btn.classList.add("correct");
@@ -135,32 +181,21 @@ if (window.location.pathname.endsWith("quiz.html")) {
                                     btn.classList.add("wrong");
                                 }
                             }
-                            // İzahlı qeyd: Əgər səhv cavab verilibsə, düzgün cavabı da göstərmək istəsəniz 
-                            // bura əlavə kod yaza bilərsiniz. Hazırda sadəcə basılanı qızardır.
                         });
-                        
-                        // Növbəti düyməsini aktiv et
                         nextBtn.disabled = false;
                     } else {
-                        // Sual yeni sualdırsa
+                        // Yeni sual
                         optionsContainer.classList.remove("disabled");
-                        nextBtn.disabled = true; // Cavab verilməyibsə "Növbəti" deaktiv olsun
+                        nextBtn.disabled = true;
 
-                        // Klik hadisəsi
                         optionBtns.forEach(btn => {
                             btn.onclick = () => handleOptionClick(btn, q, index);
                         });
                     }
 
-                    // "Əvvəlki" düyməsinin vəziyyəti
-                    if (index === 0) {
-                        prevBtn.disabled = true;
-                    } else {
-                        prevBtn.disabled = false;
-                    }
+                    // Düymələrin vəziyyəti
+                    prevBtn.disabled = (index === 0);
                     
-                    // Sonuncu sualdırsa "Növbəti" yerinə "Bitir" yaza bilərsiniz, 
-                    // amma sizin istəyə uyğun olaraq "Növbəti" funksiyası showResult çağıracaq.
                     if (index === questions.length - 1) {
                         nextBtn.textContent = "Nəticə";
                     } else {
@@ -170,13 +205,8 @@ if (window.location.pathname.endsWith("quiz.html")) {
 
                 function handleOptionClick(btn, questionData, index) {
                     const selected = btn.dataset.key;
-                    
-                    // Cavabı yadda saxla
                     userAnswers[index] = selected;
 
-                    // Düzgünlüyü yoxla
-                    // QEYD: JSON faylında "correct_answer": "A" (və ya B, C) olmalıdır. 
-                    // Hazırda null olduğu üçün həmişə səhv çıxacaq. Test üçün JSON-u düzəltməlisiniz.
                     if (selected === questionData.correct_answer) {
                         btn.classList.add("correct");
                         score++;
@@ -184,47 +214,57 @@ if (window.location.pathname.endsWith("quiz.html")) {
                         btn.classList.add("wrong");
                     }
 
-                    // Bütün düymələri kilidlə
                     const container = document.getElementById("options-container");
                     container.classList.add("disabled");
-
-                    // "Növbəti" düyməsini aktiv et
                     nextBtn.disabled = false;
                 }
 
                 function navigate(direction) {
-                    // direction: -1 (əvvəlki) və ya 1 (növbəti)
                     const newIndex = currentIndex + direction;
-
+                        
                     if (newIndex >= 0 && newIndex < questions.length) {
                         currentIndex = newIndex;
                         renderQuestion(currentIndex);
                     } else if (newIndex >= questions.length) {
                         showResult();
                     }
-                }
+                }       
 
                 function showResult() {
-                    // 1. Sual panelini və köhnə elementləri gizlət
-                    document.querySelector(".top-part").style.display = "none";
-                    document.querySelector(".sual-word").style.display = "none";
-                    document.querySelector(".quiz-buttons-bg").style.display = "none";
-                    document.querySelector(".sual-text-bg").style.display = "none";
-                    
-                    // Başlığı təmizləyirik ki, səhifənin yuxarısında qalmasın (nəticənin içində göstərəcəyik)
-                    const headerTitle = document.querySelector(".fenn-id h1");
-                    const subjectTitle = headerTitle.textContent; 
-                    headerTitle.style.display = "none"; // Yuxarıdakı başlığı gizlət
+                    // 1. Vaxtı dayandır
+                    clearInterval(timerInterval);
+                    const finalTime = formatTime(secondsElapsed);
 
-                    // 2. Statistikaları hesabla
+                    // 2. Elementləri gizlət
+                    const topPart = document.querySelector(".top-part");
+                    const sualWord = document.querySelector(".sual-word");
+                    const quizButtons = document.querySelector(".quiz-buttons-bg");
+                    const sualTextBg = document.querySelector(".sual-text-bg");
+                    const exitBg = document.querySelector(".exit-bg a");
+
+                    if(topPart) topPart.style.display = "none";
+                    if(sualWord) sualWord.style.display = "none";
+                    if(quizButtons) quizButtons.style.display = "none";
+                    if(sualTextBg) sualTextBg.style.display = "none";
+                    if(exitBg) exitBg.style.display = "none";
+
+                    // 3. Fənn adını götür və başlığı gizlət
+                    const headerTitle = document.querySelector(".fenn-id h1");
+                    let subjectTitle = "";
+                    if (headerTitle) {
+                        subjectTitle = headerTitle.textContent;
+                        headerTitle.style.display = "none";
+                    }
+
+                    // 4. Statistikaları hesabla
                     const percentage = Math.round((score / questions.length) * 100);
                     const wrongAnswers = questions.length - score;
 
-                    // 3. Şəklə uyğun HTML strukturunu yarat
+                    // 5. HTML Strukturunu yarat
                     optionsContainer.innerHTML = `
                         <div class="result-container">
                             <div class="circle-progress-container">
-                                <div class="circle-progress" style="background: conic-gradient(#1e90ff ${percentage * 3.6}deg, #f3f3f3 0deg);">
+                                <div class="circle-progress" style="--degrees: ${percentage * 3.6}deg;">
                                     <span class="progress-value">${percentage}%</span>
                                 </div>
                             </div>
@@ -241,6 +281,12 @@ if (window.location.pathname.endsWith("quiz.html")) {
                                     <span class="stat-label"><span class="dot-red">●</span> Səhv cavablar</span>
                                     <span class="stat-count">${wrongAnswers}</span>
                                 </div>
+                                
+                                <div class="stat-row">
+                                    <span class="stat-label"><span class="dot-grey">●</span> Sərf olunan vaxt</span>
+                                    <span class="stat-count">${finalTime}</span>
+                                </div>
+
                                 <div class="stat-row last-row">
                                     <span class="stat-label"><span class="dot-green">●</span> Keçmə faizi</span>
                                     <span class="stat-count green-text">${percentage}%</span>
@@ -254,11 +300,12 @@ if (window.location.pathname.endsWith("quiz.html")) {
                         </div>
                     `;
 
-                    // Konteynerin kilidini aç (əgər varsa)
                     optionsContainer.classList.remove("disabled");
                 }
-                // İlk sualı başlat
+
+                // Quiz-i başlat
                 renderQuestion(currentIndex);
+                startTimer();
             })
             .catch(err => console.error("Fetch error:", err));
     });
@@ -268,5 +315,32 @@ if (window.location.pathname.endsWith("quiz.html")) {
             .map(a => [Math.random(), a])
             .sort((a, b) => a[0] - b[0])
             .map(a => a[1]);
+    }
+}
+// ---------------------- BUY PREMIUM PAGE ----------------------
+if (window.location.pathname.endsWith("premium.html")) {
+    const plansBg = document.getElementById("plans-bg");
+    let allPlans = [];
+    fetch("plans.json")
+        .then(response => response.json())
+        .then(plans => {
+            allPlans = plans;
+            renderPlans(allPlans);
+        })
+        .catch(error => console.log("JSON FAILED", error));
+    function renderPlans(data) {
+        if (data.length === 0) {
+            container.innerHTML = data.map(plan => `
+                <div class="plan-card"'${plan.header}'">
+                    <div class="card-price">${plan.price}</div>
+                    <div class="card-sinfo">${plan.short-info}</div>
+                    <div class="card-support">${plan.support1}</div>
+                    <div class="card-support">${plan.support2}</div>
+                    <div class="card-support">${plan.support3}</div>
+                    <div class="card-support">${plan.support4}</div>
+                    <div class="card-button"><button>Aktiv et</button></div>
+                </div>
+            `).join("");
+        }
     }
 }

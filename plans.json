@@ -1,0 +1,44 @@
+{
+    "plans": [
+        {
+            "id": 0,    
+            "header": "Pulsuz",
+            "price": "0 AZN",
+            "short-info": "Sistemlə tanış ol və gündəlik özünü test et.",
+            "support1": "Gündə 15 sual",
+            "support2": "Qısa izah",
+            "support3": "Günlük nəticə faizi",
+            "support4": ""
+        },
+        {
+            "id": 1,    
+            "header": "3 Günlük Premium",
+            "price": 1,
+            "short-info": "İmtahana yaxın sürətli təkrar üçün.",
+            "support1": "Limitsiz sual",
+            "support2": "Limitsiz AI izah",
+            "support3": "Mövzu üzrə nəticə analizi",
+            "support4": "Son 3 gün statistika"
+        },
+        {
+            "id": 2,    
+            "header": "7 Günlük Premium",
+            "price": 2,
+            "short-info": "Bir həftə fokuslan və zəif mövzunu bağla.",
+            "support1": "Limitsiz sual  ",
+            "support2": "Limitsiz AI izah",
+            "support3": "Mövzu üzrə nəticə analizi",
+            "support4": "Son 7 gün statistika"
+        },
+        {
+            "id": 3,    
+            "header": "30 Günlük Premium",
+            "price": 5,
+            "short-info": "Davamlı hazırlaşmaq istəyənlər üçün.",
+            "support1": "Limitsiz sual",
+            "support2": "Limitsiz AI izah",
+            "support3": "Mövzu üzrə nəticə analizi",
+            "support4": "Son 30 gün statistika"
+        }
+    ]
+}

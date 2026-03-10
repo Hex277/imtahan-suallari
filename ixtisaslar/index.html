@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang=az>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>IxtisasTap – Qrup Seç, İxtisasını Tap!</title>
+<meta http-equiv=Content-Security-Policy content="frame-ancestors 'none';">
+<meta http-equiv=X-Frame-Options content=DENY>
+<meta http-equiv=Cross-Origin-Opener-Policy content=same-origin>
+<link rel=stylesheet href=qruplar.css>
+<link rel=icon href="/images/logo.webp" type=image/webp>
+<meta name=description content="imtahan balınıza və qrupunuza əsasən ixtisasları və universitetləri asanlıqla tapın. Qrup seç, ixtisasını tap, gələcəyini qur!">
+<meta name=author content="IxtisasTap Komandası">
+<meta property=og:title content="IxtisasTap.com – Qrup Seç, İxtisasını Tap!">
+<meta property=og:description content="IxtisasTap.com saytında məlumatlarınızın necə qorunduğu və istifadə olunduğu barədə məlumat əldə edin.">
+<meta property="og:image" content="https://ixtisastap.com/ixtisastap.jpg">
+<meta property=og:type content=website>
+<meta name=robots content="index, follow">
+<link rel=canonical href=https://ixtisastap.com/privacy-policy.html>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-029N0KCH3P"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-029N0KCH3P")</script>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        overflow-y: auto;
+        overflow-x: none;
+        background-color: #f3f3f3;
+        color: #222;
+        font-family: Arial, sans-serif;
+        transition: background-color .3s, color .3s;
+        text-align: center;
+    }
+
+    body.dark-mode {
+        background-color: #121212;
+        color: #f0f0f0;
+    }
+
+    #language-selector {
+        color: #fff;
+    }
+
+    .site-footer {
+        margin: 20px 0 0 0;
+        position: relative;
+        color: inherit;
+    }
+    .header {
+        margin-left: 0px;
+    }
+
+    .main-content {
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+    }
+
+    h1, h2, p {
+        margin: 0 0 15px 0;
+    }
+
+    h1 {
+        margin-top: 70px;
+    }
+    h2 {
+        padding: 3px 10px;
+    }
+
+    p {
+        padding: 3px 20px;
+    }
+
+    body.dark-mode .menu,
+    body.dark-mode .white-icon {
+        filter: invert(1);
+    }
+
+    .menu,
+    .white-icon {
+        filter: invert(1);
+    }
+    #icon.white-icon {
+        height: 23px;
+        width: 23px;
+    }
+
+    @media (max-width: 768px) {
+        .main-content {
+            margin-left: 0;
+        }
+    }
+
+    @media (min-width: 769px) {
+        .site-footer {
+            left: 0px;
+        }
+    }
+</style>
+<body>
+<button id=menu-toggle style="display: none;">
+<img id=menu src=/images/menu-bar.webp alt=menu width=20 class=menu loading=lazy>
+</button>
+
+<button id=toggle-dark-mode>
+<img id=icon src=/images/sun.webp alt=rejim width=20 class=white-icon loading=lazy>
+</button>
+<select id=language-selector>
+<option value=az selected>AZ</option>
+<option value=en>EN</option>
+<option value=tr>TR</option>
+</select>
+<header class=header>
+    <h1 data-i18n=siteTitle>İxtisasTap.com</h1>
+    <p data-i18n=selectPrompt>Zəhmət olmasa qrup seçin:</p>
+</header>
+<div class=menu-container>
+    <a href=1ciqrup.html class=menu-button data-i18n=group1>1-ci Qrup</a>
+    <a href=2ciqrup.html class=menu-button data-i18n=group2>2-ci Qrup</a>
+    <a href=3ciqrup.html class=menu-button data-i18n=group3>3-cü Qrup</a>
+    <a href=4ciqrup.html class=menu-button data-i18n=group4>4-cü Qrup</a>
+    <a href=./specializations.html class=menu-button data-i18n=aboutspec>İxtisaslar Haqqında</a>
+    <a href=./balhesab.html class=menu-button data-i18n="scorecalc">Balların Hesablanması</a>
+</div>
+<footer class="site-footer">
+    <p>&copy; 2025 ixtisastap.com.</p>
+    <p>
+        <a href="privacy-policy.html">Privacy Policy</a> |
+        <a href="terms-conditions.html">Terms & Conditions</a>
+    </p>
+</footer>
+
+<script src=translations.js defer></script>
+<script src="..\theme.js"></script>
+<script src="..\menu.js"></script>
+<script src=script.js defer></script>
+<!--
+<script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+<script>
+    var sf = new Snowflakes({
+        color: "#c5eae7",
+        count: 30,
+        speed: 1.1,
+        minOpacity: 0.8,
+        minSize: 8,
+        maxSize: 18
+    });
+</script>
+-->
+</body>
+</html>

@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (toggleBtn && toggleIcon) {
         
         // Səhifə açılanda ikonu düzgün göstər (tələbənin issun.webp şəkli ilə)
-        toggleIcon.src = (currentTheme === "dark") ? "/images/issun.webp" : "/images/moon.webp";
+        toggleIcon.src = (currentTheme === "dark") ? "../images/issun.webp" : "../images/moon.webp";
 
         // Düyməyə kliklədikdə
         toggleBtn.addEventListener("click", () => {
@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
             // Əgər dark mode aktivdirsə
             if (document.body.classList.contains("dark-theme") || document.body.classList.contains("dark-mode")) {
                 theme = "dark";
-                toggleIcon.src = "/images/issun.webp";
+                toggleIcon.src = "../images/issun.webp";
             } else {
                 theme = "light";
-                toggleIcon.src = "/images/moon.webp";
+                toggleIcon.src = "../images/moon.webp";
             }
             
             // Yaddaşı hər iki layihə üçün eyni anda yeniləyirik ki, səhifələr arası keçiddə itməsin

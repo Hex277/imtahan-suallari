@@ -1,6 +1,12 @@
 const verificationInput = document.getElementById("verification");
 
-// Verification input logic
+const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
+const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
+
+const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+console.log("Supabase uğurla qoşuldu:", supabase);
+
   document.getElementById("code-boxes").addEventListener("click", () => {
     verificationInput.focus();
   });

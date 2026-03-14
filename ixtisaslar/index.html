@@ -75,14 +75,16 @@
         padding: 3px 20px;
     }
 
-    body.dark-mode .menu,
-    body.dark-mode .white-icon {
+    body.dark-mode .menu {
         filter: invert(1);
     }
 
     .menu,
     .white-icon {
         filter: invert(1);
+    }
+    body.dark-mode .white-icon {
+        filter: invert(0);
     }
     #icon.white-icon {
         height: 23px;

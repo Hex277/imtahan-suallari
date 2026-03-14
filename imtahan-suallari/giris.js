@@ -1,66 +1,90 @@
 // Supabase məlumatları
 const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
 const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
-
-// 1-Cİ DÜZƏLİŞ: Adı 'supabaseClient' etdik ki, xəta verməsin
 const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
 console.log("Supabase uğurla qoşuldu:", supabaseClient);
-// HTML-dən inputları və düyməni seçirik
-const nameInput = document.getElementById('name');
+
+// Bütün səhifələrdə ortaq olan elementlər
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
-const registerBtn = document.querySelector('.btn-login');
+const actionBtn = document.querySelector('.btn-login'); 
 
-// Qeydiyyat düyməsinə klikləyəndə işləyəcək funksiya
-if (registerBtn) {
-    registerBtn.addEventListener('click', async () => {
-        // Inputlardakı dəyərləri alırıq və kənardakı boşluqları silirik (trim)
-        const name = nameInput.value.trim();
-        const email = emailInput.value.trim();
-        const password = passwordInput.value;
+// Sizin təklif etdiyiniz üsul: Səhifəni URL-dən tapırıq
+const currentPath = window.location.pathname;
+const isRegisterPage = currentPath.includes("register.html");
 
-        // 1. Sadə yoxlanış: Bütün xanalar doldurulubmu?
-        if (!name || !email || !password) {
-            alert("Zəhmət olmasa, bütün xanaları doldurun!");
+// Düyməyə klikləyəndə işləyəcək əsas funksiya
+if (actionBtn) {
+    actionBtn.addEventListener('click', async () => {
+        const email = emailInput?.value.trim();
+        const password = passwordInput?.value;
+
+        if (!email || !password) {
+            showMessage("Zəhmət olmasa, e-poçt və şifrəni daxil edin!");
             return;
         }
 
-        // 2. Şifrə uzunluğu yoxlanışı
-        if (password.length < 6) {
-            alert("Şifrə ən azı 6 simvol olmalıdır!");
-            return;
-        }
+        const originalText = actionBtn.textContent;
+        actionBtn.disabled = true;
 
-        // Yüklənmə effekti üçün düymənin mətnini dəyişirik
-        const originalText = registerBtn.textContent;
-        registerBtn.textContent = "Yaradılır...";
-        registerBtn.disabled = true;
-
-        // 3-CÜ DÜZƏLİŞ: Supabase-ə qeydiyyat sorğusunu 'supabaseClient' ilə göndəririk
-        const { data, error } = await supabaseClient.auth.signUp({
-            email: email,
-            password: password,
-            options: {
-                data: {
-                    full_name: name // İstifadəçinin adını metadata kimi bağlayırıq
-                }
+        if (isRegisterPage) {
+            // ==========================================
+            // ------ QEYDİYYAT (REGISTER) MƏNTİQİ ------
+            // ==========================================
+            const nameInput = document.getElementById('name');
+            const name = nameInput ? nameInput.value.trim() : "";
+            
+            if (!name) {
+                showMessage("Zəhmət olmasa, adınızı daxil edin!");
+                actionBtn.disabled = false; return;
             }
-        });
+            if (password.length < 6) {
+                showMessage("Şifrə ən azı 6 simvol olmalıdır!");
+                actionBtn.disabled = false; return;
+            }
 
-        // Nəticəni yoxlayırıq
-        if (error) {
-            alert("Xəta baş verdi: " + error.message);
-            registerBtn.textContent = originalText;
-            registerBtn.disabled = false;
+            actionBtn.textContent = "Yaradılır...";
+
+            const { data, error } = await supabaseClient.auth.signUp({
+                email: email,
+                password: password,
+                options: { data: { full_name: name } }
+            });
+
+            if (error) {
+                showMessage("Xəta baş verdi: " + error.message);
+                actionBtn.textContent = originalText;
+                actionBtn.disabled = false;
+            } else {
+                showMessage("Hesabınız uğurla yaradıldı!");
+                window.location.href = "login.html"; 
+            }
+
         } else {
-            alert("Hesabınız uğurla yaradıldı!");
-            window.location.href = "login.html"; 
+            // ====================================
+            // ------ GİRİŞ (LOGIN) MƏNTİQİ ------
+            // ====================================
+            actionBtn.textContent = "Daxil olunur...";
+
+            const { data, error } = await supabaseClient.auth.signInWithPassword({
+                email: email,
+                password: password
+            });
+
+            if (error) {
+                showMessage("E-poçt və ya şifrə yanlışdır!");
+                actionBtn.textContent = originalText;
+                actionBtn.disabled = false;
+            } else {
+                showMessage("Uğurla daxil oldunuz!");
+                window.location.href = "profile.html"; 
+            }
         }
     });
 }
 // -----------------------------------------------------------------------------------------------------------
-function showMessage(message, type = "alert") {
+function showMessage(message, type = "showMessage") {
     return new Promise((resolve) => {
         const overlay = document.getElementById("messageOverlay");
         const messageText = document.getElementById("messageText");
@@ -92,7 +116,7 @@ function showMessage(message, type = "alert") {
                 resolve(false); // Sistemi false ilə dayandırır
             };
         } 
-        // Əgər növ "alert" (Sadəcə bildiriş) idisə:
+        // Əgər növ "showMessage" (Sadəcə bildiriş) idisə:
         else {
             okBtn.style.display = "inline-block";
             confirmBtn.style.display = "none";

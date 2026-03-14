@@ -57,10 +57,9 @@ if (actionBtn) {
                 actionBtn.textContent = originalText;
                 actionBtn.disabled = false;
             } else {
-                showMessage("Hesabınız uğurla yaradıldı!");
+                await showMessage(`Qeydiyyat uğurla tamamlandı! <b>${email}</b> ünvanına göndərilən təsdiq linkinə klikləyərək hesabınızı aktivləşdirin.`, "showMessage", "Daxil ol");
                 window.location.href = "login.html"; 
             }
-
         } else {
             // ====================================
             // ------ GİRİŞ (LOGIN) MƏNTİQİ ------
@@ -77,14 +76,15 @@ if (actionBtn) {
                 actionBtn.textContent = originalText;
                 actionBtn.disabled = false;
             } else {
-                showMessage("Uğurla daxil oldunuz!");
+                await showMessage("Uğurla daxil oldunuz!", "showMessage", "Profilə keç");
                 window.location.href = "profile.html"; 
             }
         }
     });
 }
 // -----------------------------------------------------------------------------------------------------------
-function showMessage(message, type = "showMessage") {
+// 3-cü parametr kimi customBtnText əlavə etdik
+function showMessage(message, type = "showMessage", customBtnText = "OK") {
     return new Promise((resolve) => {
         const overlay = document.getElementById("messageOverlay");
         const messageText = document.getElementById("messageText");
@@ -96,7 +96,7 @@ function showMessage(message, type = "showMessage") {
 
         // Mesajı qutuya yazırıq və ekranı açırıq
         messageText.innerHTML = message;
-        overlay.style.display = "flex"; // "block" yox "flex" edirik ki, mərkəzdə qalsın
+        overlay.style.display = "flex"; 
 
         // Əgər növ "confirm" (Sual) idisə:
         if (type === "confirm") {
@@ -104,25 +104,27 @@ function showMessage(message, type = "showMessage") {
             confirmBtn.style.display = "inline-block";
             cancelBtn.style.display = "inline-block";
 
-            // Təsdiqlə düyməsinə basıldıqda
             confirmBtn.onclick = () => {
                 overlay.style.display = "none";
-                resolve(true); // Sistemi true ilə davam etdirir
+                resolve(true); 
             };
 
-            // Ləğv et düyməsinə basıldıqda
             cancelBtn.onclick = () => {
                 overlay.style.display = "none";
-                resolve(false); // Sistemi false ilə dayandırır
+                resolve(false); 
             };
         } 
         // Əgər növ "showMessage" (Sadəcə bildiriş) idisə:
         else {
             okBtn.style.display = "inline-block";
+            
+            // YENİLİK: Düymənin yazısını burada dəyişirik
+            okBtn.textContent = customBtnText; 
+            
             confirmBtn.style.display = "none";
             cancelBtn.style.display = "none";
 
-            // OK düyməsinə basıldıqda sadəcə bağla
+            // Düyməyə basıldıqda bağla və növbəti koda keçməyə icazə ver (resolve)
             okBtn.onclick = () => {
                 overlay.style.display = "none";
                 resolve(true);

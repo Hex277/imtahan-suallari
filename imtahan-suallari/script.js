@@ -1,4 +1,9 @@
 // ---------------------- GLOBAL SCRIPTS ----------------------
+
+const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
+const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
+const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+
 document.addEventListener("DOMContentLoaded", function() {
     const telebeMenu = document.getElementById('telebe-menu');
     // Menyunu açırıq
@@ -418,106 +423,207 @@ if (window.location.pathname.endsWith("quiz.html")) {
     }
 }
 // ---------------------- PROFILE PAGE ----------------------
-if (window.location.pathname.endsWith("profile.html") || window.location.pathname === "/profile.html") {
+if (window.location.pathname.includes("profile.html")) {
 
-    // 1. Dəyişmə pəncərəsini başlatan funksiya
-    window.openChangeFrame = function(type) {
-        const title = type === 'email' ? 'E-poçtu yenilə' : 'Şifrəni yenilə';
-        const currentValLabel = type === 'email' ? 'Cari e-poçt' : 'Cari şifrə';
-        const newValLabel = type === 'email' ? 'Yeni e-poçt' : 'Yeni şifrə';
-        
-        const dbCurrentValue = type === 'email' ? 'istifadeci@gmail.com' : '********'; 
-        const inputType = type === 'password' ? 'password' : 'email';
+    document.addEventListener("DOMContentLoaded", async () => {
+        // 1. İstifadəçi məlumatlarını Supabase-dən çəkirik
+        const { data: { user }, error } = await supabaseClient.auth.getUser();
 
-        // Qlobal openActionModal funksiyasına göndəriləcək HTML
-        const step1HTML = `
-            <h2>${title}</h2>
-            <div class="input-group">
-                <label>${currentValLabel}</label>
-                <input type="text" value="${dbCurrentValue}" disabled>
-            </div>
-            <div class="input-group">
-                <label>${newValLabel}</label>
-                <input type="${inputType}" id="newActionValue" placeholder="Yenisini daxil edin">
-            </div>
-            <div class="action-buttons">
-                <button class="btn-cancel" onclick="closeActionModal()">Ləğv et</button>
-                <button class="btn-continue" onclick="goToStep2('${type}')">Davam et</button>
-            </div>
-        `;
-        
-        openActionModal(step1HTML); // Qlobal funksiyanı çağırdıq
-    };
-
-    // 2. Davam et basıldıqda 2-ci addıma (OTP) keçid
-    window.goToStep2 = function(type) {
-        const newValueInput = document.getElementById("newActionValue");
-        const newValue = newValueInput ? newValueInput.value.trim() : "";
-        
-        if (!newValue) {
-            showMessage("Zəhmət olmasa xananı doldurun!");
+        if (error || !user) {
+            // Əgər istifadəçi giriş etməyibsə, login səhifəsinə atırıq
+            window.location.href = "login.html";
             return;
         }
 
-        const step2HTML = `
-            <h2>Təsdiqləmə kodu</h2>
-            <p style="font-size: 14px; margin-bottom: 20px; opacity: 0.8;">Təhlükəsizlik üçün e-poçt addressinizə göndərilən 6 rəqəmli kodu daxil edin.</p>
+        // 2. HTML-dəki inputları tapırıq və dəyərləri içinə yazırıq
+        const usernameInput = document.getElementById('username');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+
+        if (usernameInput) usernameInput.value = user.user_metadata?.full_name || "";
+        if (emailInput) emailInput.value = user.email || "";
+        if (passwordInput) passwordInput.value = "********"; // Şifrə gizli qalmalıdır
+
+        // ==========================================
+        // DƏYİŞDİRMƏ MODALI (E-poçt və Şifrə üçün)
+        // ==========================================
+        window.openChangeFrame = function(type) {
+            const title = type === 'email' ? 'E-poçtu yenilə' : 'Şifrəni yenilə';
+            const newValLabel = type === 'email' ? 'Yeni e-poçt' : 'Yeni şifrə';
+            const inputType = type === 'password' ? 'password' : 'email';
+
+            // OTP yerinə sadəcə yeni dəyəri istədiyimiz modal açılır
+            const modalHTML = `
+                <h2>${title}</h2>
+                <p style="font-size: 14px; opacity: 0.8; margin-bottom: 15px;">
+                    ${type === 'email' 
+                        ? 'Yeni e-poçt ünvanınızı daxil edin. Təsdiq linki göndəriləcək.' 
+                        : 'Yeni şifrənizi daxil edin.'}
+                </p>
+                <div class="input-group">
+                    <label>${newValLabel}</label>
+                    <input type="${inputType}" id="newActionValue" placeholder="Yenisini daxil edin">
+                </div>
+                <div class="action-buttons">
+                    <button class="btn-cancel" onclick="closeActionModal()">Ləğv et</button>
+                    <button class="btn-continue" id="modalSubmitBtn" onclick="submitChange('${type}')">Təsdiqlə</button>
+                </div>
+            `;
             
-            <div class="verify-email-row">
-                <span>${newValue}</span>
-                <button onclick="openChangeFrame('${type}')">Dəyiş</button>
-            </div>
+            openActionModal(modalHTML); 
+        };
 
-            <div class="otp-container" id="otpInputs">
-                <input type="text" maxlength="1" class="otp-box" autofocus>
-                <input type="text" maxlength="1" class="otp-box">
-                <input type="text" maxlength="1" class="otp-box">
-                <input type="text" maxlength="1" class="otp-box">
-                <input type="text" maxlength="1" class="otp-box">
-                <input type="text" maxlength="1" class="otp-box">
-            </div>
+        // Modalın içindəki Təsdiqlə düyməsinə basıldıqda işləyir
+        window.submitChange = async function(type) {
+            const newValueInput = document.getElementById("newActionValue");
+            const newValue = newValueInput ? newValueInput.value.trim() : "";
+            const submitBtn = document.getElementById("modalSubmitBtn");
+            
+            if (!newValue) {
+                await showMessage("Zəhmət olmasa xananı doldurun!");
+                return;
+            }
 
-            <div class="action-buttons">
-                <button class="btn-cancel" onclick="openChangeFrame('${type}')">Geri</button>
-                <button class="btn-continue" onclick="submitChange('${type}')">Dəyiş</button>
-            </div>
-        `;
+            if (type === 'password' && newValue.length < 6) {
+                await showMessage("Şifrə ən azı 6 simvol olmalıdır!");
+                return;
+            }
 
-        openActionModal(step2HTML); // Qlobal modalın içini yeniləyirik
-        setupOTPLogic(); // Qutuların məntiqini işə salırıq
-    };
+            // Düyməni donuq vəziyyətə gətiririk ki, 2 dəfə basılmasın
+            if (submitBtn) {
+                submitBtn.textContent = "Gözləyin...";
+                submitBtn.disabled = true;
+            }
 
-    // 3. OTP Qutularının irəli-geri tullanma məntiqi
-    window.setupOTPLogic = function() {
-        const inputs = document.querySelectorAll(".otp-box");
-        
-        inputs.forEach((input, index) => {
-            input.addEventListener("input", (e) => {
-                e.target.value = e.target.value.replace(/[^0-9]/g, ""); 
-                if (e.target.value !== "" && index < inputs.length - 1) {
-                    inputs[index + 1].focus();
+            // Supabase-ə göndəriləcək məlumat
+            let updateParams = {};
+            if (type === 'email') updateParams = { email: newValue };
+            if (type === 'password') updateParams = { password: newValue };
+
+            const { data, error } = await supabaseClient.auth.updateUser(updateParams);
+
+            closeActionModal(); // Modalı bağlayırıq
+
+            if (error) {
+                await showMessage("Xəta baş verdi: " + error.message);
+            } else {
+                if (type === 'email') {
+                    await showMessage(`Təsdiq linki <b>${newValue}</b> ünvanına göndərildi. Zəhmət olmasa e-poçtunuzu yoxlayın.`, "showMessage", "Bağla");
+                } else {
+                    await showMessage("Şifrəniz uğurla yeniləndi!", "showMessage", "Tamam");
+                }
+            }
+        };
+
+        // ==========================================
+        // DƏYİŞİKLİKLƏRİ SAXLA (Yalnız Ad üçün)
+        // ==========================================
+        const saveBtn = document.querySelector('.btn-save');
+        if (saveBtn) {
+            saveBtn.addEventListener('click', async () => {
+                const newName = usernameInput.value.trim();
+                
+                if (!newName) {
+                    await showMessage("İstifadəçi adı boş ola bilməz!");
+                    return;
+                }
+
+                const originalText = saveBtn.textContent;
+                saveBtn.textContent = "Saxlanılır...";
+                saveBtn.disabled = true;
+
+                // Adı metadata kimi yeniləyirik
+                const { data, error } = await supabaseClient.auth.updateUser({
+                    data: { full_name: newName }
+                });
+
+                saveBtn.textContent = originalText;
+                saveBtn.disabled = false;
+
+                if (error) {
+                    await showMessage("Xəta: " + error.message);
+                } else {
+                    await showMessage("Profil məlumatlarınız uğurla yadda saxlanıldı!", "showMessage", "Tamam");
                 }
             });
-
-            input.addEventListener("keydown", (e) => {
-                if (e.key === "Backspace" && e.target.value === "" && index > 0) {
-                    inputs[index - 1].focus();
-                }
-            });
-        });
-    };
-
-    // 4. Son təsdiqləmə (Dəyiş) düyməsi
-    window.submitChange = function(type) {
-        let otpCode = "";
-        document.querySelectorAll(".otp-box").forEach(inp => otpCode += inp.value);
-        
-        if (otpCode.length < 6) {
-            showMessage("Kodu tam daxil edin!");
-            return;
         }
 
-        closeActionModal();
-        showMessage("Məlumatlarınız uğurla yeniləndi!");
-    };
+        // ==========================================
+        // HESABDAN ÇIX (Logout)
+        // ==========================================
+        const logoutBtn = document.querySelector('.btn-logout');
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', async () => {
+                // Sizin yaratdığınız "confirm" tipli showMessage ilə soruşuruq
+                const isConfirmed = await showMessage("Hesabdan çıxmaq istədiyinizə əminsiniz?", "confirm");
+                
+                if (isConfirmed) {
+                    await supabaseClient.auth.signOut();
+                    window.location.href = "login.html";
+                }
+            });
+        }
+
+        // ==========================================
+        // HESABI SİL (Supabase Cədvəlinə Yazmaq - Spam qorumalı)
+        // ==========================================
+        const deleteBtn = document.querySelector('.btn-delete');
+        if (deleteBtn) {
+            deleteBtn.addEventListener('click', async () => {
+                const isConfirmed = await showMessage("Hesabınızı silmək istədiyinizə əminsiniz? Bu əməliyyat geri qaytarıla bilməz!", "confirm");
+                
+                if (isConfirmed) {
+                    deleteBtn.textContent = "Yoxlanılır...";
+                    deleteBtn.disabled = true;
+
+                    const userEmail = user.email; 
+
+                    // 1. Əvvəlcə yoxlayırıq: Bu e-poçt artıq cədvəldə varmı?
+                    const { data: existingData, error: checkError } = await supabaseClient
+                        .from('hesab_silme_telebleri')
+                        .select('email')
+                        .eq('email', userEmail); // Cədvəldəki 'email' sütunu istifadəçinin e-poçtuna bərabər olanları tap
+
+                    if (checkError) {
+                        await showMessage("Sorğu yoxlanılarkən xəta baş verdi: " + checkError.message);
+                        deleteBtn.textContent = "Hesabı sil";
+                        deleteBtn.disabled = false;
+                        return;
+                    }
+
+                    // 2. Əgər data içində nəticə varsa, deməli artıq müraciət edib
+                    if (existingData && existingData.length > 0) {
+                        await showMessage("Sizin hesab silmə istəyiniz artıq qeydə alınıb və hazırda icra olunur.", "showMessage", "Tamam");
+                        deleteBtn.textContent = "Hesabı sil";
+                        deleteBtn.disabled = false;
+                        return; // funksiyanı buradaca dayandırırıq ki, yenidən bazaya yazmasın
+                    }
+
+                    // 3. Əgər əvvəllər müraciət etməyibsə, cədvələ yeni sorğu kimi əlavə edirik
+                    deleteBtn.textContent = "Göndərilir...";
+                    
+                    const { error: insertError } = await supabaseClient
+                        .from('hesab_silme_telebleri')
+                        .insert([
+                            { email: userEmail }
+                        ]);
+
+                    if (insertError) {
+                        await showMessage("Sorğu göndərilərkən xəta baş verdi: " + insertError.message);
+                        deleteBtn.textContent = "Hesabı sil";
+                        deleteBtn.disabled = false;
+                        return;
+                    }
+
+                    // Uğurla yazıldıqdan sonra istifadəçiyə yekun mesajı veririk
+                    await showMessage("Hesab silmə tələbiniz qeydə alındı. 1 həftə içərisində hesabınız tamamilə silinəcək.", "showMessage", "Tamam");
+                    
+                    // Sistemdən çıxış edib login-ə atırıq
+                    await supabaseClient.auth.signOut();
+                    window.location.href = "login.html";
+                }
+            });
+        }
+
+    });
 }

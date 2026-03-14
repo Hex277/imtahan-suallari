@@ -1,29 +1,16 @@
-
+// Supabase məlumatları
 const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
 const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
 
-const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+// 1-Cİ DÜZƏLİŞ: Adı 'supabaseClient' etdik ki, xəta verməsin
+const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
-console.log("Supabase uğurla qoşuldu:", supabase);
-
-  document.getElementById("code-boxes").addEventListener("click", () => {
-    verificationInput.focus();
-  });
-
-  verificationInput.addEventListener("input", () => {
-    const value = verificationInput.value.slice(0, 6);
-    verificationInput.value = value;
-    boxes.forEach((box, i) => {
-      box.textContent = value[i] || "";
-    });
-  });
-
-
+console.log("Supabase uğurla qoşuldu:", supabaseClient);
 // HTML-dən inputları və düyməni seçirik
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
-const registerBtn = document.querySelector('.btn-login'); // Düymənin id-si olmadığı üçün class ilə seçirik
+const registerBtn = document.querySelector('.btn-login');
 
 // Qeydiyyat düyməsinə klikləyəndə işləyəcək funksiya
 if (registerBtn) {
@@ -39,44 +26,39 @@ if (registerBtn) {
             return;
         }
 
-        // 2. Şifrə uzunluğu yoxlanışı (Supabase ən azı 6 simvol tələb edir)
+        // 2. Şifrə uzunluğu yoxlanışı
         if (password.length < 6) {
             alert("Şifrə ən azı 6 simvol olmalıdır!");
             return;
         }
 
-        // İstəyə bağlı: Yüklənmə effekti üçün düymənin mətnini dəyişirik
+        // Yüklənmə effekti üçün düymənin mətnini dəyişirik
         const originalText = registerBtn.textContent;
         registerBtn.textContent = "Yaradılır...";
         registerBtn.disabled = true;
 
-        // 3. Supabase-ə qeydiyyat (signUp) sorğusu göndəririk
-        const { data, error } = await supabase.auth.signUp({
+        // 3-CÜ DÜZƏLİŞ: Supabase-ə qeydiyyat sorğusunu 'supabaseClient' ilə göndəririk
+        const { data, error } = await supabaseClient.auth.signUp({
             email: email,
             password: password,
             options: {
                 data: {
-                    full_name: name // İstifadəçinin adını metadata kimi profilinə bağlayırıq
+                    full_name: name // İstifadəçinin adını metadata kimi bağlayırıq
                 }
             }
         });
 
-        // 4. Nəticəni yoxlayırıq
+        // Nəticəni yoxlayırıq
         if (error) {
-            // Əgər email artıq mövcuddursa və ya başqa xəta varsa
             alert("Xəta baş verdi: " + error.message);
             registerBtn.textContent = originalText;
             registerBtn.disabled = false;
         } else {
-            // Qeydiyyat uğurlu olduqda
             alert("Hesabınız uğurla yaradıldı!");
-            // İstifadəçini giriş səhifəsinə yönləndiririk
             window.location.href = "login.html"; 
         }
     });
 }
-
-
 // -----------------------------------------------------------------------------------------------------------
 function showMessage(message, type = "alert") {
     return new Promise((resolve) => {

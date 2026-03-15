@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesab Təsdiqləndi - IxtisasTap</title>
+    <style>
+        :root {
+            --progress-color: #1e90ff;
+            --bg: #f8f9fa; /* Əgər var(--bg) boş qalarsa, ehtiyat üçün */
+            --border: #E5E9F2;
+            --top-bg: rgba(255, 255, 255, 0.575);
+            --text-color: #222;
+            --surface: #FFFFFF;
+            --surface2: #EFF2F8;
+            --correct: #e5f7ec;
+            --wrong: #fae9e7;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--surface2);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .success-card {
+            background: var(--surface);
+            padding: 40px;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .icon {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            background-color: var(--correct);
+            color: #28a745; /* Açıq yaşıl fonun üzərində qəşəng görünən tünd yaşıl rəng */
+            font-size: 40px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 { 
+            font-size: 26px; 
+            margin-top: 0; 
+            margin-bottom: 10px;
+        }
+
+        p { 
+            font-size: 15px;
+            line-height: 1.6; 
+            margin-bottom: 30px; 
+            opacity: 0.85; 
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--progress-color);
+            color: white;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: opacity 0.3s ease, transform 0.1s;
+        }
+
+        .btn:hover { 
+            opacity: 0.85; 
+        }
+
+        .btn:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="success-card">
+        <div class="icon">✓</div>
+        <h1>Təbriklər!</h1>
+        <p>E-poçt ünvanınız uğurla təsdiqləndi. Artıq IxtisasTap platformasına daxil olub bütün imkanlardan istifadə edə bilərsiniz.</p>
+        <a href="./login.html" class="btn">Hesaba Daxil Ol</a>
+    </div>
+
+    <script>
+        window.onload = function() {
+            if(window.location.hash) {
+                // Səhifə yüklənən kimi URL-dəki #access_token=... hissəsini silib səliqəyə salır
+                history.replaceState(null, null, window.location.pathname);
+            }
+        };
+    </script>
+
+</body>
+</html>

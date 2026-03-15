@@ -3,7 +3,6 @@ const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
 const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
 const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
-console.log("Supabase uğurla qoşuldu:", supabaseClient);
 
 // Bütün səhifələrdə ortaq olan elementlər
 const emailInput = document.getElementById('email');
@@ -47,9 +46,11 @@ if (actionBtn) {
             actionBtn.textContent = "Yaradılır...";
 
             const { data, error } = await supabaseClient.auth.signUp({
-                email: email,
-                password: password,
-                options: { data: { full_name: name } }
+                email: emailValue,
+                password: passwordValue,
+                options: {
+                    emailRedirectTo: 'https://hex277.github.io/imtahan-suallari/imtahan-suallari/tesdiq.html'
+                }
             });
 
             if (error) {
@@ -72,7 +73,12 @@ if (actionBtn) {
             });
 
             if (error) {
-                showMessage("E-poçt və ya şifrə yanlışdır!");
+                if (error.message.includes('Email not confirmed')) {
+                    showMessage("Hesabınıza daxil olmaq üçün əvvəlcə e-poçtunuza göndərilən təsdiq linkinə klikləyin.");
+                } else {
+                    showMessage("E-poçt və ya şifrə yanlışdır!");
+                }
+                
                 actionBtn.textContent = originalText;
                 actionBtn.disabled = false;
             } else {

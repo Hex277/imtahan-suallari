@@ -1,9 +1,4 @@
 // ---------------------- GLOBAL SCRIPTS ----------------------
-
-const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
-const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
-const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
-
 document.addEventListener("DOMContentLoaded", function() {
     const telebeMenu = document.getElementById('telebe-menu');
     // Menyunu açırıq
@@ -395,16 +390,10 @@ if (window.location.pathname.endsWith("quiz.html")) {
                 window.submitReport = function() {
                     const reason = document.getElementById("reportReasonText").value.trim();
                     
-                    // Boş göndərilməsinin qarşısını alırıq
                     if (!reason) {
                         showMessage("Zəhmət olmasa problemin nə olduğunu qeyd edin!");
                         return;
                     }
-                    
-                    // Burada gələcəkdə Backend-ə (məsələn: fetch POST) göndərmə kodu yazılacaq
-                    console.log("Şikayət edilən sual: ", document.getElementById("question-text").innerText);
-                    console.log("Səbəb: ", reason);
-                    
                     closeActionModal(); // Action pəncərəsini bağla
                     showMessage("Şikayətiniz uğurla göndərildi. Təşəkkür edirik!"); // Təşəkkür mesajı göstər
                 };
@@ -424,7 +413,9 @@ if (window.location.pathname.endsWith("quiz.html")) {
 }
 // ---------------------- PROFILE PAGE ----------------------
 if (window.location.pathname.includes("profile.html")) {
-
+    const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
+    const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
+    const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
     document.addEventListener("DOMContentLoaded", async () => {
         // 1. İstifadəçi məlumatlarını Supabase-dən çəkirik
         const { data: { user }, error } = await supabaseClient.auth.getUser();
@@ -494,14 +485,21 @@ if (window.location.pathname.includes("profile.html")) {
                 submitBtn.textContent = "Gözləyin...";
                 submitBtn.disabled = true;
             }
-
             // Supabase-ə göndəriləcək məlumat
             let updateParams = {};
-            if (type === 'email') updateParams = { email: newValue };
-            if (type === 'password') updateParams = { password: newValue };
+            let options = {}; // Yönləndirmə kimi əlavə ayarlar üçün boş bir obyekt yaradırıq
 
-            const { data, error } = await supabaseClient.auth.updateUser(updateParams);
+            if (type === 'email') {
+                updateParams = { email: newValue };
+                options = { 
+                    emailRedirectTo: 'https://hex277.github.io/imtahan-suallari/imtahan-suallari/change_email.html' 
+                };
+            }
+            if (type === 'password') {
+                updateParams = { password: newValue };
+            }
 
+            const { data, error } = await supabaseClient.auth.updateUser(updateParams, options);
             closeActionModal(); // Modalı bağlayırıq
 
             if (error) {

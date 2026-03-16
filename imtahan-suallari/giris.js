@@ -46,8 +46,8 @@ if (actionBtn) {
             actionBtn.textContent = "Yaradılır...";
 
             const { data, error } = await supabaseClient.auth.signUp({
-                email: emailValue,
-                password: passwordValue,
+                email: email,
+                password: password,
                 options: {
                     emailRedirectTo: 'https://hex277.github.io/imtahan-suallari/imtahan-suallari/tesdiq.html'
                 }

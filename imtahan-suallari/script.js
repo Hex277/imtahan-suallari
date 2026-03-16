@@ -434,7 +434,38 @@ if (window.location.pathname.includes("profile.html")) {
         if (usernameInput) usernameInput.value = user.user_metadata?.full_name || "";
         if (emailInput) emailInput.value = user.email || "";
         if (passwordInput) passwordInput.value = "********"; // Şifrə gizli qalmalıdır
+        // ==========================================
+        // 3. ABUNƏLİK YOXLANIŞI VƏ EKRANA YAZDIRILMASI
+        // ==========================================
+        const abunelikBg = document.querySelector('.abunelik-bg');
+        const premiumBg = document.querySelector('.premium-abunelik-bg');
+        const premiumText = document.querySelector('#premium-text p');
+        const bitmeTarixi = document.getElementById('bitme-tarixi');
 
+        const { data: abuneData, error: abuneError } = await supabaseClient
+            .from('abunelikler')
+            .select('*')
+            .eq('user_id', user.id)
+            .single(); // Həmin istifadəçinin sətirini tapırıq
+
+        if (abuneData) {
+            const indi = new Date();
+            const bitis = new Date(abuneData.bitis_tarixi);
+            
+            // Əgər vaxtı hələ bitməyibsə
+            if (indi < bitis) {
+                // "Pulsuz" div-ini gizlət, "Premium" div-ini göstər
+                if(abunelikBg) abunelikBg.style.display = 'none';
+                if(premiumBg) premiumBg.style.display = 'flex'; // və ya sizin css necə tələb edirsə
+                
+                // Planın adını və bitiş tarixini yaz
+                if(premiumText) premiumText.textContent = abuneData.plan_adi;
+                
+                // Tarixi qəşəng və anlaşılan formata salırıq (məs: 20 Mart 2026)
+                const options = { day: 'numeric', month: 'long', year: 'numeric' };
+                if(bitmeTarixi) bitmeTarixi.textContent = bitis.toLocaleDateString('az-AZ', options);
+            } 
+        }
         // ==========================================
         // DƏYİŞDİRMƏ MODALI (E-poçt və Şifrə üçün)
         // ==========================================
@@ -628,48 +659,93 @@ if (window.location.pathname.includes("profile.html")) {
 // ---------------------- PREMIUM PAGE ----------------------
 if (window.location.pathname.includes("premium.html")) {
     const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
-    const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN'; // Sizin açar
+    const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN'; 
     const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+    // --- 1. SƏHİFƏ AÇILANDA ABUNƏLİYİ YOXLA VƏ DÜYMƏLƏRİ KİLİDLƏ ---
+    // DOMContentLoaded əvəzinə xüsusi asinxron funksiya yaradıb dərhal çağırırıq
+    async function checkActivePlan() {
+        const { data: { user } } = await supabaseClient.auth.getUser();
+        
+        if (user) {
+            const { data: abuneData } = await supabaseClient
+                .from('abunelikler')
+                .select('*')
+                .eq('user_id', user.id)
+                .single();
+
+            if (abuneData) {
+                const indi = new Date();
+                const bitis = new Date(abuneData.bitis_tarixi);
+                
+                if (indi < bitis) {
+                    // Bütün premium düymələrini tapırıq
+                    const btns = document.querySelectorAll('.btn-plan-active');
+                    
+                    btns.forEach(btn => {
+                        // Əgər bu düymə istifadəçinin aldığı plandırsa:
+                        if (btn.getAttribute('onclick').includes(abuneData.plan_adi)) {
+                            btn.textContent = "Aktivdir";
+                            btn.disabled = true;
+                            btn.style.backgroundColor = "#4CAF50"; // Yaşıl rəng
+                            btn.style.cursor = "default";
+                        } 
+                        // Digər planlardırsa:
+                        else {
+                            btn.textContent = "Mövcud planınız var";
+                            btn.disabled = true;
+                            btn.style.opacity = "0.5";
+                            btn.style.cursor = "not-allowed";
+                        }
+                    });
+                }
+            }
+        }
+    }
     
-    // 2. Funksiyanı tam sərbəst şəkildə qlobal edirik
+    // Funksiyanı dərhal işə salırıq
+    checkActivePlan();
+
+
+    // --- 2. YENİ PLAN ALMAQ (DÜYMƏYƏ BASANDA) ---
     window.activatePlan = async function(planAdi) {
         
-        // Düymənin işləyib-işləmədiyini yoxlamaq üçün konsola mesaj yazdırırıq
         console.log(planAdi + " düyməsinə basıldı!"); 
-    
+
         const { data: { user }, error: userError } = await supabaseClient.auth.getUser();
-    
+
         if (userError || !user) {
             alert("Premium almaq üçün əvvəlcə hesabınıza daxil olmalısınız!");
-            // QEYD: Əgər login səhifəsi başqa qovluqdadırsa, bura "../login.html" yazmalısınız
             window.location.href = "login.html"; 
             return;
         }
-    
+
         let gunSayi = 0;
         if (planAdi === '3 Günlük') gunSayi = 3;
         else if (planAdi === '7 Günlük') gunSayi = 7;
         else if (planAdi === '30 Günlük') gunSayi = 30;
-    
+
         const bitisTarixi = new Date();
         bitisTarixi.setDate(bitisTarixi.getDate() + gunSayi);
         const formatlanmisTarix = bitisTarixi.toISOString();
-    
+
         const { data, error } = await supabaseClient
             .from('abunelikler')
             .upsert({
                 user_id: user.id,
+                email: user.email, // <--- Baxın, e-poçtu buraya əlavə etdik!
                 plan_adi: planAdi,
                 bitis_tarixi: formatlanmisTarix
             }, { 
                 onConflict: 'user_id' 
             });
-    
+
         if (error) {
             alert("Xəta baş verdi: " + error.message);
             console.error("Supabase xətası:", error);
         } else {
             alert(`Təbriklər! ${planAdi} Premium abunəliyiniz uğurla aktivləşdirildi.`);
+            window.location.reload(); // Səhifəni avtomatik yeniləyirik ki, düymələr anında "Aktivdir" (yaşıl) olsun
         }
     };
 }

@@ -625,3 +625,58 @@ if (window.location.pathname.includes("profile.html")) {
 
     });
 }
+// ---------------------- PREMIUM PAGE ----------------------
+if (window.location.pathname.includes("premium.html")) {
+    document.addEventListener("DOMContentLoaded", async () => {
+        const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
+        const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
+        const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+        // HTML-dən çağırılan funksiyanı qlobal edirik
+        window.activatePlan = async function(planAdi) {
+            
+            // 1. İstifadəçinin sistemə daxil olub-olmadığını yoxlayırıq
+            const { data: { user }, error: userError } = await supabaseClient.auth.getUser();
+
+            if (userError || !user) {
+                showMessage("Premium almaq üçün əvvəlcə hesabınıza daxil olmalısınız!");
+                window.location.href = "login.html";
+                return;
+            }
+
+            // 2. Plana görə gün sayını təyin edirik
+            let gunSayi = 0;
+            if (planAdi === '3 Günlük') gunSayi = 3;
+            else if (planAdi === '7 Günlük') gunSayi = 7;
+            else if (planAdi === '30 Günlük') gunSayi = 30;
+
+            // 3. Bitiş tarixini hesablayırıq (İndiki vaxt + gün sayı)
+            const bitisTarixi = new Date();
+            bitisTarixi.setDate(bitisTarixi.getDate() + gunSayi);
+            
+            // Tarixi Supabase-in anladığı formata (ISO) salırıq
+            const formatlanmisTarix = bitisTarixi.toISOString();
+
+            // 4. (SİMULYASİYA) Ödəniş prosesi gedir...
+            // Gələcəkdə bura bankın / Stripe-ın yönləndirmə kodu gələcək.
+            
+            // 5. Məlumatı bazaya Upsert (yoxdursa yarat, varsa yenilə) edirik
+            const { data, error } = await supabaseClient
+                .from('abunelikler')
+                .upsert({
+                    user_id: user.id,
+                    plan_adi: planAdi,
+                    bitis_tarixi: formatlanmisTarix
+                }, { 
+                    onConflict: 'user_id'
+                });
+
+            if (error) {
+                console.error("Xəta:", error);
+                showMessage("Abunəlik aktivləşdirilərkən xəta baş verdi: " + error.message);
+            } else {
+                showMessage(`Təbriklər! ${planAdi} Premium abunəliyiniz uğurla aktivləşdirildi. Bitiş tarixi: ${bitisTarixi.toLocaleDateString('az-AZ')}`);
+            }
+        };
+    });
+}

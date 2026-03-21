@@ -169,11 +169,11 @@ button {
 
 /* Düymələrin ümumi dizaynı */
 .message-buttons button {
-    padding: 5px 24px;
+    padding: 10px 24px;
     border: none;
     border-radius: 15px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -439,11 +439,42 @@ button {
     align-items: center;
     padding-top: 10px;
 }
+.abunelik-bg, .premium-abunelik-bg {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid var(--progress-color);
+    border-radius: 15px;
+}
+.abunelik-top, .abunelik-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#premium-text {
+    background: linear-gradient(90deg, #1e90ff, #6B48FF);
+    display: flex;
+    align-items: center;
+    height: 36px;
+    transform: skew(-20deg);
+    margin-right: 5px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+#premium-text p {
+    padding-right: 20px;
+    padding-left: 20px;
+    transform: skew(20deg);
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
 .giris-buttons {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    align-items: center;
     box-sizing: border-box;
     padding-right: 10px;
     padding-left: 10px;
@@ -1346,7 +1377,7 @@ button:disabled {
     .header-bg, .infotext-bg, .search-bg{
         width: 90%;
     }
-    .logo, #premium-href {
+    .logo {
         display: none;
     }
     .main-content, .main-background {
@@ -1404,5 +1435,8 @@ button:disabled {
     }
     .message-bar {
         width: 65%;
+    }
+    .haveac p {
+        font-size: 14px;
     }
 }

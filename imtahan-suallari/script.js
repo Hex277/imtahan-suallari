@@ -518,21 +518,21 @@ if (window.location.pathname.includes("profile.html")) {
             }
             // Supabase-ə göndəriləcək məlumat
             let updateParams = {};
-            let options = {}; // Yönləndirmə kimi əlavə ayarlar üçün boş bir obyekt yaradırıq
+            let supabaseResponse; 
 
             if (type === 'email') {
                 updateParams = { email: newValue };
-                options = { 
+                const updateOptions = { 
                     emailRedirectTo: 'https://hex277.github.io/imtahan-suallari/imtahan-suallari/change_email.html' 
                 };
-            }
-            if (type === 'password') {
+                supabaseResponse = await supabaseClient.auth.updateUser(updateParams, updateOptions);
+            } else if (type === 'password') {
                 updateParams = { password: newValue };
+                supabaseResponse = await supabaseClient.auth.updateUser(updateParams);
             }
 
-            const { data, error } = await supabaseClient.auth.updateUser(updateParams, options);
+            const { data, error } = supabaseResponse;
             closeActionModal(); // Modalı bağlayırıq
-
             if (error) {
                 await showMessage("Xəta baş verdi: " + error.message);
             } else {

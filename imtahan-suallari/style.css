@@ -1,5 +1,5 @@
 :root {
-  --progress-color: #1e90ff;
+  --main-color: #1e90ff;
   --bg: var(--bg);
   --border: #E5E9F2;
   --top-bg: rgba(255, 255, 255, 0.575);
@@ -19,7 +19,7 @@ body.dark-theme {
   --correct: #1a2720;
   --wrong: #271c1a;
 }
-body.premium {
+body.premium-aktiv {
     --progress-color: linear-gradient(90deg, #1e90ff, #6B48FF);
 }
 body {
@@ -346,8 +346,8 @@ button {
     height: 100vh;
     max-width: 600px;
     background-color: var(--surface);
-    border-right: 1px solid var(--progress-color);
-    border-left: 1px solid var(--progress-color);
+    border-right: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
     padding: 35px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     box-sizing: border-box;
@@ -430,7 +430,7 @@ button {
 }
 
 .input-group input:focus {
-    border:2px solid var(--progress-color);
+    border:2px solid var(--main-color);
 }
 
 .profile-buttons {
@@ -443,8 +443,12 @@ button {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    border: 2px solid var(--progress-color);
+    border: 2px solid var(--main-color);
     border-radius: 15px;
+}
+.premium-abunelik-bg {
+    display: flex;
+    flex-direction: column;
 }
 .abunelik-top, .abunelik-bottom {
     display: flex;
@@ -468,6 +472,9 @@ button {
     font-size: 14px;
     font-weight: bold;
     font-style: italic;
+}
+#bitme-tarixi {
+    margin-right: 10px;
 }
 .giris-buttons {
     width: 100%;
@@ -500,7 +507,7 @@ button {
     padding: 12px 28px;
     background-color: var(--surface);
     color: var(--text-color);
-    border: 1px solid var(--progress-color);
+    border: 1px solid var(--main-color);
     border-radius: 15px;
     font-weight: 700;
     font-size: 14px;
@@ -509,7 +516,7 @@ button {
 }
 
 .btn-save:hover {
-    background-color: var(--progress-color);
+    background-color: var(--main-color);
     color: white;
 }
 
@@ -1387,7 +1394,9 @@ button:disabled {
     .profile-container, .giris-container {
         padding: 25px 20px;
     }
-
+    .profile-container {
+        height: auto;
+    }
     .profile-buttons {
         flex-direction: column;
         gap: 15px;

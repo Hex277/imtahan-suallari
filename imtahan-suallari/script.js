@@ -1,10 +1,62 @@
 // ---------------------- GLOBAL SCRIPTS ----------------------
 document.addEventListener("DOMContentLoaded", function() {
     const telebeMenu = document.getElementById('telebe-menu');
-    // Menyunu açırıq
-    telebeMenu.classList.add('open');
-    // Uyğun oxu tapıb 'v' edirik
-    telebeMenu.previousElementSibling.querySelector('.arrow').textContent = 'v';
+    if (telebeMenu && telebeMenu.previousElementSibling) {
+        telebeMenu.classList.add('open');
+        telebeMenu.previousElementSibling.querySelector('.arrow').textContent = 'v';
+    }
+
+    function tətbiqEtPremiumUI() {
+        document.body.classList.add('premium-aktiv');
+        
+        const premiumHref = document.getElementById('premium-href');
+        if (premiumHref) premiumHref.style.display = 'none';
+        
+        const profileImg = document.querySelector('.profile-bg img');
+        if (profileImg) profileImg.src = '../images/premium-profile.png';
+    }
+
+    // Əgər səhifədə Supabase linki varsa
+    if (window.supabase) {
+        const cachedBitis = localStorage.getItem('premiumBitisTarixi');
+        const indi = new Date().getTime();
+        if (cachedBitis && indi < parseInt(cachedBitis)) {
+            tətbiqEtPremiumUI();
+        } 
+        else {
+            const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
+            const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
+            if (!window.globalSupabaseClient) {
+                window.globalSupabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+            }
+            const supabaseGlobal = window.globalSupabaseClient;
+
+            supabaseGlobal.auth.getSession().then(async ({ data: { session } }) => {
+                if (session) {
+                    const { data: abuneData } = await supabaseGlobal
+                        .from('abunelikler')
+                        .select('bitis_tarixi')
+                        .eq('user_id', session.user.id)
+                        .single();
+
+                    if (abuneData) {
+                        const bitis = new Date(abuneData.bitis_tarixi).getTime();
+                        
+                        if (indi < bitis) {
+                            // Gələcək səhifələr üçün yaddaşa yaz
+                            localStorage.setItem('premiumBitisTarixi', bitis); 
+                            tətbiqEtPremiumUI();
+                        } else {
+                            // Vaxtı bitibsə yaddaşdan sil
+                            localStorage.removeItem('premiumBitisTarixi'); 
+                        }
+                    }
+                }
+            });
+        }
+    } else {
+        console.warn("Diqqət: Bu səhifədə Supabase yüklənməyib.");
+    }
 });
 function showMessage(message, type = "alert") {
     return new Promise((resolve) => {
@@ -744,8 +796,19 @@ if (window.location.pathname.includes("premium.html")) {
             alert("Xəta baş verdi: " + error.message);
             console.error("Supabase xətası:", error);
         } else {
-            alert(`Təbriklər! ${planAdi} Premium abunəliyiniz uğurla aktivləşdirildi.`);
-            window.location.reload(); // Səhifəni avtomatik yeniləyirik ki, düymələr anında "Aktivdir" (yaşıl) olsun
+            await supabaseClient.auth.updateUser({
+                data: { is_premium: true }
+            });
+            const successMessageHTML = `
+                <div style="text-align: center;">
+                    <img src="../images/premium-dicaprio.png" alt="Premium" style="width: 80px; margin-bottom: 15px;">
+                    <p style="margin: 0; font-size: 16px;">Təbriklər! <b>${planAdi}</b> Premium abunəliyiniz uğurla aktivləşdirildi.</p>
+                </div>
+            `;
+            
+            await showMessage(successMessageHTML, "alert"); 
+            
+            window.location.reload();
         }
     };
 }

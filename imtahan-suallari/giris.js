@@ -1,10 +1,12 @@
-// Supabase məlumatları
+// Supabase məlumatları (Tək İnstance)
 const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
 const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
-const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
+if (!window.globalSupabaseClient) {
+    window.globalSupabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+}
+const supabaseClient = window.globalSupabaseClient;
 
-// Bütün səhifələrdə ortaq olan elementlər
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
 const actionBtn = document.querySelector('.btn-login'); 
@@ -13,6 +15,12 @@ const actionBtn = document.querySelector('.btn-login');
 const currentPath = window.location.pathname;
 const isRegisterPage = currentPath.includes("register.html");
 
+supabaseClient.auth.getSession().then(({ data: { session } }) => {
+    // Əgər aktiv sessiya varsa, heç nə soruşmadan birbaşa profilə atırıq
+    if (session) {
+        window.location.href = "profile.html";
+    }
+});
 // Düyməyə klikləyəndə işləyəcək əsas funksiya
 if (actionBtn) {
     actionBtn.addEventListener('click', async () => {
@@ -49,10 +57,14 @@ if (actionBtn) {
                 email: email,
                 password: password,
                 options: {
+                    data: { 
+                        full_name: name,
+                        is_premium: false // YENİ: Başlanğıcda premium deyil (false)
+                    },
                     emailRedirectTo: 'https://hex277.github.io/imtahan-suallari/imtahan-suallari/tesdiq.html'
                 }
             });
-
+            
             if (error) {
                 showMessage("Xəta baş verdi: " + error.message);
                 actionBtn.textContent = originalText;

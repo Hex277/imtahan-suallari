@@ -1,59 +1,98 @@
 // ---------------------- GLOBAL SCRIPTS ----------------------
 document.addEventListener("DOMContentLoaded", function() {
+    
+    // 1. Mövcud Menyu Kodunuz
     const telebeMenu = document.getElementById('telebe-menu');
     if (telebeMenu && telebeMenu.previousElementSibling) {
         telebeMenu.classList.add('open');
         telebeMenu.previousElementSibling.querySelector('.arrow').textContent = 'v';
     }
 
-    function tətbiqEtPremiumUI() {
-        document.body.classList.add('premium-aktiv');
-        
+    // ==========================================
+    // 2. QLOBAL PREMİUM YOXLANIŞI (Gecikməsiz & Ağıllı Yenilənmə)
+    // ==========================================
+    
+    // UI-ı dəyişən və ya geri qaytaran (Sıfırlayan) funksiya
+    function setPremiumUI(isActive) {
         const premiumHref = document.getElementById('premium-href');
-        if (premiumHref) premiumHref.style.display = 'none';
-        
         const profileImg = document.querySelector('.profile-bg img');
-        if (profileImg) profileImg.src = '../images/premium-profile.png';
+
+        if (isActive) {
+            // Premium aktivdir
+            document.body.classList.add('premium-aktiv');
+            if (premiumHref) premiumHref.style.display = 'none';
+            if (profileImg) profileImg.src = '../images/premium-profile.png';
+        } else {
+            // Premium DEYİL (və ya vaxtı bitib) - Hər şeyi standart vəziyyətə qaytarırıq
+            document.body.classList.remove('premium-aktiv');
+            if (premiumHref) premiumHref.style.display = ''; // CSS-dəki original display dəyərinə qayıdır
+            if (profileImg) profileImg.src = '../images/profile.png';
+        }
     }
 
-    // Əgər səhifədə Supabase linki varsa
     if (window.supabase) {
-        const cachedBitis = localStorage.getItem('premiumBitisTarixi');
-        const indi = new Date().getTime();
-        if (cachedBitis && indi < parseInt(cachedBitis)) {
-            tətbiqEtPremiumUI();
-        } 
-        else {
-            const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
-            const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
-            if (!window.globalSupabaseClient) {
-                window.globalSupabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
-            }
-            const supabaseGlobal = window.globalSupabaseClient;
+        const supabaseUrl = 'https://xoebhhdirsvjorjlrfzi.supabase.co';
+        const supabaseKey = 'sb_publishable_FpT1VBCd5NKEnrYQbmx9Gw_MqWxVMvN';
 
-            supabaseGlobal.auth.getSession().then(async ({ data: { session } }) => {
-                if (session) {
-                    const { data: abuneData } = await supabaseGlobal
-                        .from('abunelikler')
-                        .select('bitis_tarixi')
-                        .eq('user_id', session.user.id)
-                        .single();
-
-                    if (abuneData) {
-                        const bitis = new Date(abuneData.bitis_tarixi).getTime();
-                        
-                        if (indi < bitis) {
-                            // Gələcək səhifələr üçün yaddaşa yaz
-                            localStorage.setItem('premiumBitisTarixi', bitis); 
-                            tətbiqEtPremiumUI();
-                        } else {
-                            // Vaxtı bitibsə yaddaşdan sil
-                            localStorage.removeItem('premiumBitisTarixi'); 
-                        }
-                    }
-                }
-            });
+        // Supabase Tək İnstance Yoxlanışı
+        if (!window.globalSupabaseClient) {
+            window.globalSupabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
         }
+        const supabaseGlobal = window.globalSupabaseClient;
+
+        // --- ADDIM 1: SIFIR GECİKMƏ İLƏ LOCALSTORAGE YOXLANIŞI ---
+        let userId = null;
+        try {
+            // Supabase-in öz qlobal tokenindən (gecikmə olmadan) User ID-ni çəkirik
+            const sbSession = localStorage.getItem('sb-xoebhhdirsvjorjlrfzi-auth-token');
+            if (sbSession) {
+                userId = JSON.parse(sbSession).user.id;
+            }
+        } catch (e) {}
+
+        const indi = new Date().getTime();
+
+        if (userId) {
+            // Hər istifadəçinin ÖZÜNƏ məxsus premium yaddaşını yoxlayırıq
+            const cachedBitis = localStorage.getItem('premiumBitis_' + userId);
+            
+            if (cachedBitis && indi < parseInt(cachedBitis)) {
+                setPremiumUI(true); // Gözləmədən anında Premium rəngləri ver
+            } else {
+                setPremiumUI(false); // Keş yoxdursa və ya bitibsə standart UI göstər
+            }
+        }
+
+        // --- ADDIM 2: ARXA FONDA DƏQİQ BAZA YOXLANIŞI ---
+        supabaseGlobal.auth.getSession().then(async ({ data: { session } }) => {
+            if (session) {
+                const currentUserId = session.user.id;
+                const { data: abuneData } = await supabaseGlobal
+                    .from('abunelikler')
+                    .select('bitis_tarixi')
+                    .eq('user_id', currentUserId)
+                    .single();
+
+                if (abuneData) {
+                    const bitis = new Date(abuneData.bitis_tarixi).getTime();
+                    const rightNow = new Date().getTime();
+
+                    if (rightNow < bitis) {
+                        // Baza təsdiqlədi: Hələ də premiumdur. Yaddaşı yeniləyirik.
+                        localStorage.setItem('premiumBitis_' + currentUserId, bitis);
+                        setPremiumUI(true);
+                    } else {
+                        // Baza dedi ki: Vaxtı BİTİB! Yaddaşı sil və UI-ı geri al.
+                        localStorage.removeItem('premiumBitis_' + currentUserId);
+                        setPremiumUI(false);
+                    }
+                } else {
+                    // Cədvəldə bu istifadəçiyə aid heç nə yoxdur (Pulsuzdur). Yaddaşı sil və UI-ı geri al.
+                    localStorage.removeItem('premiumBitis_' + currentUserId);
+                    setPremiumUI(false);
+                }
+            }
+        });
     } else {
         console.warn("Diqqət: Bu səhifədə Supabase yüklənməyib.");
     }

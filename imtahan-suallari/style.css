@@ -1,5 +1,6 @@
 :root {
   --main-color: #1e90ff;
+  --progress-color: #1e90ff;
   --bg: var(--bg);
   --border: #E5E9F2;
   --top-bg: rgba(255, 255, 255, 0.575);
@@ -10,6 +11,8 @@
   --wrong: #fae9e7;
 }
 body.dark-theme {
+  --main-color: #1e90ff;
+  --progress-color: #1e90ff;
   --bg: #0F1117;
   --border: #2A2F42;
   --top-bg: #0F1117;

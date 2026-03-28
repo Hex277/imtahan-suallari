@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.warn("Diqqət: Bu səhifədə Supabase yüklənməyib.");
     }
 });
-function showMessage(message, type = "alert") {
+function showMessage(message, type = "alert", customConfirm = "Təsdiqlə", customCancel = "Ləğv et") {
     return new Promise((resolve) => {
         const overlay = document.getElementById("messageOverlay");
         const messageText = document.getElementById("messageText");
@@ -109,7 +109,7 @@ function showMessage(message, type = "alert") {
 
         // Mesajı qutuya yazırıq və ekranı açırıq
         messageText.innerHTML = message;
-        overlay.style.display = "flex"; // "block" yox "flex" edirik ki, mərkəzdə qalsın
+        overlay.style.display = "flex"; 
 
         // Əgər növ "confirm" (Sual) idisə:
         if (type === "confirm") {
@@ -117,16 +117,20 @@ function showMessage(message, type = "alert") {
             confirmBtn.style.display = "inline-block";
             cancelBtn.style.display = "inline-block";
 
-            // Təsdiqlə düyməsinə basıldıqda
+            // YENİLİK: Düymə yazıları kənardan gələn adlarla dəyişdirilir
+            confirmBtn.textContent = customConfirm;
+            cancelBtn.textContent = customCancel;
+
+            // "İndi al" və ya əsas təsdiq düyməsinə basıldıqda
             confirmBtn.onclick = () => {
                 overlay.style.display = "none";
-                resolve(true); // Sistemi true ilə davam etdirir
+                resolve(true); 
             };
 
-            // Ləğv et düyməsinə basıldıqda
+            // "Sonra" və ya ləğv düyməsinə basıldıqda
             cancelBtn.onclick = () => {
                 overlay.style.display = "none";
-                resolve(false); // Sistemi false ilə dayandırır
+                resolve(false); 
             };
         } 
         // Əgər növ "alert" (Sadəcə bildiriş) idisə:
@@ -135,7 +139,9 @@ function showMessage(message, type = "alert") {
             confirmBtn.style.display = "none";
             cancelBtn.style.display = "none";
 
-            // OK düyməsinə basıldıqda sadəcə bağla
+            // Tək düyməli mesajlar üçün mətni dəyişə bilərik
+            okBtn.textContent = customConfirm !== "Təsdiqlə" ? customConfirm : "OK";
+
             okBtn.onclick = () => {
                 overlay.style.display = "none";
                 resolve(true);
@@ -231,7 +237,7 @@ if (window.location.pathname.endsWith("fennler-menu.html")) {
 
 // ---------------------- QUIZ PAGE ----------------------
 if (window.location.pathname.endsWith("quiz.html")) {
-    document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", async () => {
         const urlParams = new URLSearchParams(window.location.search);
         const subjectId = urlParams.get('subject');
 
@@ -240,6 +246,63 @@ if (window.location.pathname.endsWith("quiz.html")) {
             return;
         }
 
+        // ==========================================
+        // 1. AUTH VƏ GÜNDƏLİK LİMİT YOXLANIŞI
+        // ==========================================
+        
+        // Sürətli olması üçün istifadəçi ID-sini birbaşa token-dən çəkirik
+        const sbSessionStr = localStorage.getItem('sb-xoebhhdirsvjorjlrfzi-auth-token');
+        if (!sbSessionStr) {
+            window.location.href = "login.html"; 
+            return;
+        }
+        
+        const userId = JSON.parse(sbSessionStr).user.id;
+
+        // Bayaq yazdığımız sistemdən Premium olub-olmadığını yoxlayırıq
+        const cachedBitis = localStorage.getItem('premiumBitis_' + userId);
+        const isPremium = cachedBitis && new Date().getTime() < parseInt(cachedBitis);
+
+        // Əgər istifadəçi PULSUZ hesabdadırsa limitləri yoxla
+        if (!isPremium) {
+            const bugun = new Date().toDateString(); // Məsələn: "Tue Mar 24 2026" (Hər gün avtomatik dəyişəcək)
+            const limitKey = `quizLimit_${userId}_${bugun}`;
+            let islenenQuizSayi = parseInt(localStorage.getItem(limitKey) || "0");
+
+            // Əgər artıq 3 dəfə giribsə (3x10 = 30 sual)
+            if (islenenQuizSayi >= 3) {
+                const limitHTML = `
+                    <div style="text-align: center;">
+                        <img src="../images/freeplanremind.webp" alt="Limit" style="width: 200px; margin-bottom: 15px;">
+                        <h3 style="margin-bottom: 10px; color: #ff4757;">Gündəlik limit doldu!</h3>
+                        <p style="font-size: 15px; opacity: 0.9;">
+                            Pulsuz hesabla gündə yalnız <b>3 fənn</b> (30 sual) işləyə bilərsiniz. Limitsiz suallar üçün Premium əldə edin.
+                        </p>
+                    </div>
+                `;
+                
+                // YENİLİK: "alert" əvəzinə "confirm" istifadə edirik və düymə adlarını göndəririk ("İndi al" və "Sonra")
+                const userChoice = await showMessage(limitHTML, "confirm", "İndi al", "Sonra"); 
+                
+                if (userChoice) {
+                    // Əgər istifadəçi "İndi al" düyməsinə basdısa
+                    window.location.href = "premium.html"; 
+                } else {
+                    // Əgər istifadəçi "Sonra" düyməsinə basdısa (Geri qaytar)
+                    window.location.href = "fennler-menu.html"; 
+                }
+                
+                return; // Aşağıdakı fetch kodlarının (quiz-in) işləməsini dayandır!
+            }
+
+            // Əgər limiti keçməyibsə, sayğacı 1 vahid artır
+            localStorage.setItem(limitKey, islenenQuizSayi + 1);
+        }
+
+        // ==========================================
+        // 2. QUIZ MƏNTİQİ (Sizin köhnə kodunuz)
+        // ==========================================
+        
         // Başlıq üçün fetch
         fetch("subjects.json")
             .then(res => res.json())
@@ -256,13 +319,13 @@ if (window.location.pathname.endsWith("quiz.html")) {
             .then(res => res.json())
             .then(data => {
                 const allQuestions = data.questions;
-                const questions = shuffleArray(allQuestions).slice(0, 2); 
+                // BURADA SUAL SAYINI 10 EDİRİK!
+                const questions = shuffleArray(allQuestions).slice(0, 10); 
                 
                 let currentIndex = 0;
                 let score = 0;
                 let timerInterval;
                 let secondsElapsed = 0;
-                // İstifadəçinin verdiyi cavabları yadda saxlamaq üçün
                 let userAnswers = {}; 
 
                 const questionEl = document.getElementById("question-text");
@@ -272,9 +335,8 @@ if (window.location.pathname.endsWith("quiz.html")) {
                 const prevBtn = document.getElementById("evvelki-btn");
                 const nextBtn = document.getElementById("novbeti-btn");
 
-                // Düymələrə event listener əlavə edirik
-                prevBtn.onclick = () => navigate(-1);
-                nextBtn.onclick = () => navigate(1);
+                if (prevBtn) prevBtn.onclick = () => navigate(-1);
+                if (nextBtn) nextBtn.onclick = () => navigate(1);
 
                 function formatTime(seconds) {
                     const m = Math.floor(seconds / 60).toString().padStart(2, '0');
@@ -299,18 +361,15 @@ if (window.location.pathname.endsWith("quiz.html")) {
                     questionEl.textContent = q.question;
                     counterEl.textContent = `${index + 1} / ${questions.length}`;
 
-                    // Progress bar
                     const progressPercent = ((index) / questions.length) * 100;
                     progressEl.style.width = `${progressPercent}%`;
 
-                    // Variantları yarat
                     optionsContainer.innerHTML = Object.entries(q.options).map(([key, text]) =>
                         `<button class="option-btn" data-key="${key}">${key}) ${text}</button>`
                     ).join("");
                     
                     const optionBtns = document.querySelectorAll(".option-btn");
 
-                    // Əgər bu suala əvvəllər cavab verilibsə, bərpa et
                     if (userAnswers[index]) {
                         const savedAnswer = userAnswers[index];
                         optionsContainer.classList.add("disabled");
@@ -327,7 +386,6 @@ if (window.location.pathname.endsWith("quiz.html")) {
                         });
                         nextBtn.disabled = false;
                     } else {
-                        // Yeni sual
                         optionsContainer.classList.remove("disabled");
                         nextBtn.disabled = true;
 
@@ -336,13 +394,14 @@ if (window.location.pathname.endsWith("quiz.html")) {
                         });
                     }
 
-                    // Düymələrin vəziyyəti
-                    prevBtn.disabled = (index === 0);
+                    if (prevBtn) prevBtn.disabled = (index === 0);
                     
-                    if (index === questions.length - 1) {
-                        nextBtn.textContent = "Nəticə";
-                    } else {
-                        nextBtn.textContent = "Növbəti";
+                    if (nextBtn) {
+                        if (index === questions.length - 1) {
+                            nextBtn.textContent = "Nəticə";
+                        } else {
+                            nextBtn.textContent = "Növbəti";
+                        }
                     }
                 }
 
@@ -374,11 +433,9 @@ if (window.location.pathname.endsWith("quiz.html")) {
                 }       
 
                 function showResult() {
-                    // 1. Vaxtı dayandır
                     clearInterval(timerInterval);
                     const finalTime = formatTime(secondsElapsed);
 
-                    // 2. Elementləri gizlət
                     const topPart = document.querySelector(".top-part");
                     const sualWord = document.querySelector(".sual-word");
                     const quizButtons = document.querySelector(".quiz-buttons-bg");
@@ -391,7 +448,6 @@ if (window.location.pathname.endsWith("quiz.html")) {
                     if(sualTextBg) sualTextBg.style.display = "none";
                     if(exitBg) exitBg.style.display = "none";
 
-                    // 3. Fənn adını götür və başlığı gizlət
                     const headerTitle = document.querySelector(".fenn-id h1");
                     let subjectTitle = "";
                     if (headerTitle) {
@@ -399,11 +455,9 @@ if (window.location.pathname.endsWith("quiz.html")) {
                         headerTitle.style.display = "none";
                     }
 
-                    // 4. Statistikaları hesabla
                     const percentage = Math.round((score / questions.length) * 100);
                     const wrongAnswers = questions.length - score;
 
-                    // 5. HTML Strukturunu yarat
                     optionsContainer.innerHTML = `
                         <div class="result-container">
                             <div class="circle-progress-container">
@@ -438,56 +492,48 @@ if (window.location.pathname.endsWith("quiz.html")) {
 
                             <div class="result-actions">
                                 <a href="fennler-menu.html" class="link-blue">Əsas səhifə</a>
-                                <button class="btn-blue" onclick="window.location.reload()">Davam et</button>
+                                <button class="btn-blue" onclick="window.location.reload()">Yenidən sına</button>
                             </div>
                         </div>
                     `;
 
                     optionsContainer.classList.remove("disabled");
                 }
+
                 // ==========================================
                 // SUALI REPORT ETMƏK (ŞİKAYƏT) FUNKSİYASI
                 // ==========================================
-                
-                // Düyməyə və ya ikona kliklədikdə bu funksiya işə düşəcək
                 window.openReportFrame = function() {
-                    // Ekranda görünən cari sualı DOM-dan alırıq
                     const currentQuestionText = document.getElementById("question-text").innerText;
 
-                    // Qlobal Action Modala göndəriləcək HTML struktur
                     const reportHTML = `
                         <h2>Sualı Şikayət Et</h2>
-                        
                         <div>
                             <span class="report-label">Problemli sual:</span>
                             <div class="reported-question-box">${currentQuestionText}</div>
                         </div>
-                        
                         <div>
                             <span class="report-label">Problemin təsviri:</span>
                             <textarea id="reportReasonText" class="report-textarea" placeholder="Sualda hansı səhvi və ya problemi gördüyünüzü ətraflı yazın..."></textarea>
                         </div>
-                        
                         <div class="action-buttons">
                             <button class="btn-cancel" onclick="closeActionModal()">Ləğv et</button>
                             <button class="btn-continue" onclick="submitReport()">Göndər</button>
                         </div>
                     `;
-                    
-                    openActionModal(reportHTML); // Qlobal modalı çağırırıq
+                    openActionModal(reportHTML); 
                 };
 
-                // Göndər düyməsinə basıldıqda işləyəcək funksiya
                 window.submitReport = function() {
                     const reason = document.getElementById("reportReasonText").value.trim();
-                    
                     if (!reason) {
                         showMessage("Zəhmət olmasa problemin nə olduğunu qeyd edin!");
                         return;
                     }
-                    closeActionModal(); // Action pəncərəsini bağla
-                    showMessage("Şikayətiniz uğurla göndərildi. Təşəkkür edirik!"); // Təşəkkür mesajı göstər
+                    closeActionModal(); 
+                    showMessage("Şikayətiniz uğurla göndərildi. Təşəkkür edirik!"); 
                 };
+
                 // Quiz-i başlat
                 renderQuestion(currentIndex);
                 startTimer();
@@ -542,10 +588,9 @@ if (window.location.pathname.includes("profile.html")) {
         if (abuneData) {
             const indi = new Date();
             const bitis = new Date(abuneData.bitis_tarixi);
-            
             // Əgər vaxtı hələ bitməyibsə
             if (indi < bitis) {
-                // "Pulsuz" div-ini gizlət, "Premium" div-ini göstər
+                
                 if(abunelikBg) abunelikBg.style.display = 'none';
                 if(premiumBg) premiumBg.style.display = 'flex'; // və ya sizin css necə tələb edirsə
                 
@@ -555,7 +600,9 @@ if (window.location.pathname.includes("profile.html")) {
                 // Tarixi qəşəng və anlaşılan formata salırıq (məs: 20 Mart 2026)
                 const options = { day: 'numeric', month: 'long', year: 'numeric' };
                 if(bitmeTarixi) bitmeTarixi.textContent = bitis.toLocaleDateString('az-AZ', options);
-            } 
+            } else {
+                abunelikBg.style.display = "flex"
+            }
         }
         // ==========================================
         // DƏYİŞDİRMƏ MODALI (E-poçt və Şifrə üçün)
@@ -840,7 +887,7 @@ if (window.location.pathname.includes("premium.html")) {
             });
             const successMessageHTML = `
                 <div style="text-align: center;">
-                    <img src="../images/premium-dicaprio.png" alt="Premium" style="width: 80px; margin-bottom: 15px;">
+                    <img src="../images/premium-dicaprio.webp" alt="Premium" style="width: 200px;">
                     <p style="margin: 0; font-size: 16px;">Təbriklər! <b>${planAdi}</b> Premium abunəliyiniz uğurla aktivləşdirildi.</p>
                 </div>
             `;

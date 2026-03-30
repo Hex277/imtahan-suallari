@@ -446,6 +446,7 @@ button {
     padding: 10px;
     border: 2px solid var(--main-color);
     border-radius: 15px;
+    justify-content: space-between;
 }
 .premium-abunelik-bg {
     display: flex;

@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", function() {
             // Premium aktivdir
             document.body.classList.add('premium-aktiv');
             if (premiumHref) premiumHref.style.display = 'none';
-            if (profileImg) profileImg.src = '../images/premium-profile.png';
+            if (profileImg) profileImg.src = '../images/premium-profile.webp';
         } else {
             // Premium DEYİL (və ya vaxtı bitib) - Hər şeyi standart vəziyyətə qaytarırıq
             document.body.classList.remove('premium-aktiv');
             if (premiumHref) premiumHref.style.display = ''; // CSS-dəki original display dəyərinə qayıdır
-            if (profileImg) profileImg.src = '../images/profile.png';
+            if (profileImg) profileImg.src = '../images/profile.webp';
         }
     }
 
@@ -234,7 +234,6 @@ if (window.location.pathname.endsWith("fennler-menu.html")) {
         window.location.href = `quiz.html?subject=${subjectId}`;
     };
 }
-
 // ---------------------- QUIZ PAGE ----------------------
 if (window.location.pathname.endsWith("quiz.html")) {
     document.addEventListener("DOMContentLoaded", async () => {
@@ -274,7 +273,7 @@ if (window.location.pathname.endsWith("quiz.html")) {
                 const limitHTML = `
                     <div style="text-align: center;">
                         <img src="../images/freeplanremind.webp" alt="Limit" style="width: 200px; margin-bottom: 15px;">
-                        <h3 style="margin-bottom: 10px; color: #ff4757;">Gündəlik limit doldu!</h3>
+                        <h3 style="margin-bottom: 10px; color: #1e90ff;">Gündəlik limit doldu!</h3>
                         <p style="font-size: 15px; opacity: 0.9;">
                             Pulsuz hesabla gündə yalnız <b>3 fənn</b> (30 sual) işləyə bilərsiniz. Limitsiz suallar üçün Premium əldə edin.
                         </p>
@@ -315,7 +314,7 @@ if (window.location.pathname.endsWith("quiz.html")) {
             .catch(err => console.error("Subject fetch error:", err));
 
         // Suallar üçün fetch
-        fetch(`${subjectId}.json`)
+        fetch(`suallar/${subjectId}.json`)
             .then(res => res.json())
             .then(data => {
                 const allQuestions = data.questions;
@@ -846,8 +845,12 @@ if (window.location.pathname.includes("premium.html")) {
 
 
     // --- 2. YENİ PLAN ALMAQ (DÜYMƏYƏ BASANDA) ---
+    // --- 2. YENİ PLAN ALMAQ (DÜYMƏYƏ BASANDA) ---
+
+    /* =======================================================
+       KÖHNƏ KOD (Ödəniş sistemi tam hazır olanda şərhi siləcəyik)
+       =======================================================
     window.activatePlan = async function(planAdi) {
-        
         console.log(planAdi + " düyməsinə basıldı!"); 
 
         const { data: { user }, error: userError } = await supabaseClient.auth.getUser();
@@ -871,7 +874,7 @@ if (window.location.pathname.includes("premium.html")) {
             .from('abunelikler')
             .upsert({
                 user_id: user.id,
-                email: user.email, // <--- Baxın, e-poçtu buraya əlavə etdik!
+                email: user.email,
                 plan_adi: planAdi,
                 bitis_tarixi: formatlanmisTarix
             }, { 
@@ -887,14 +890,35 @@ if (window.location.pathname.includes("premium.html")) {
             });
             const successMessageHTML = `
                 <div style="text-align: center;">
-                    <img src="../images/premium-dicaprio.webp" alt="Premium" style="width: 200px;">
+                    <img src="../images/premium-dicaprio.png" alt="Premium" style="width: 80px; margin-bottom: 15px;">
                     <p style="margin: 0; font-size: 16px;">Təbriklər! <b>${planAdi}</b> Premium abunəliyiniz uğurla aktivləşdirildi.</p>
                 </div>
             `;
             
-            await showMessage(successMessageHTML, "alert"); 
-            
+            await showMessage(successMessageHTML, "alert", "Tamam"); 
             window.location.reload();
         }
+    };
+    ======================================================= */
+
+
+    // =======================================================
+    // YENİ MÜVƏQQƏTİ KOD (Tezliklə Mesajı)
+    // =======================================================
+    window.activatePlan = async function(planAdi) {
+        // İstifadəçiyə göstəriləcək şəkilli "Hazırlanır" mesajı
+        const tezlikleHTML = `
+            <div style="text-align: center;">
+                <img src="../images/cattyping.gif" alt="Hazırlanır" style="width: 200px; margin-bottom: 15px; opacity: 0.8;">
+                
+                <h3 style="margin-bottom: 10px; color: #1e90ff;">Tezliklə!</h3>
+                <p style="font-size: 15px; opacity: 0.9; line-height: 1.5;">
+                    <b>${planAdi}</b> paketini almaq funksiyası hazırda yenilənmə mərhələsindədir. <br><br> Çox yaxında real ödəniş sistemi ilə istifadənizə veriləcək. Bizi izləməyə davam edin!
+                </p>
+            </div>
+        `;
+        
+        // Yeni qurduğumuz showMessage funksiyası ilə ekrana çıxarırıq (tək "Bağla" düyməsi ilə)
+        await showMessage(tezlikleHTML, "alert", "Bağla"); 
     };
 }

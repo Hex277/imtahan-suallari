@@ -1,0 +1,3534 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Ünsiyyət nədir? Səhv cavabı göstərin:",
+            "options": {
+                "A": "Əsas göstəricisi və vasitəsi nitqdir",
+                "B": "Real fəaliyyətdir, insanla bağlıdır, əsas mənbəyi insan təfəkkürü, intellektidir",
+                "C": "Bütövlükdə cəmiyyətin həyat fəaliyyətini səciyyələndirir",
+                "D": "Zəruri davranışlar toplusudur, yalnız şifahi formada təzahür edir",
+                "E": "Qaydaya salınmış fikirlərin assosiasiyasıdır, cəmiyyətdə intuisiyaya əsaslanan təfəkkürə, düşüncəyə, mənəvi təkmilləşməyə tələbat yaradır"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 2,
+            "question": "Ünsiyyət daha çox bu üslubda aparılır:",
+            "options": {
+                "A": "Rəsmi üslub",
+                "B": "Məişət üslubu",
+                "C": "Bədii üslub",
+                "D": "publisistik üslub",
+                "E": "Kitab üslubu"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 3,
+            "question": "İşgüzar kommunikasiyaya aid deyil:",
+            "options": {
+                "A": "Terminlərdən çox istifadə olunur",
+                "B": "Yığcamdır",
+                "C": "Aydındır",
+                "D": "Dəqiqdir",
+                "E": "Rəsmidir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 4,
+            "question": "Jest və mimikanı kommunikasiyanın hansı növünə aid etmək olar?",
+            "options": {
+                "A": "açıq ünsiyyət",
+                "B": "distansiya",
+                "C": "qeyri-verbal",
+                "D": "informasiya mübadiləsi",
+                "E": "verbal"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 5,
+            "question": "“Jest” termininin izahı hansı cavabda daha dəqiq göstərilib?",
+            "options": {
+                "A": "Düzgün nitqə verilın şərtlərdən biridir",
+                "B": "Razılıq bildirən nitq etiketidir",
+                "C": "Əl-qol hərəkətlərindən mənalı istifadə etməkdir",
+                "D": "Üz əzələlərinin mənalı hərəkətidir",
+                "E": "Nitqin keyfiyyətinə təsir göstərən amildir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 6,
+            "question": "Şifahi kommunikasiyaya aid deyil:",
+            "options": {
+                "A": "Eşidilərək qavranılan, daha geniş mənada səsli nitqdir",
+                "B": "Əsas xüsusiyyəti onun söylənməsi və eşidilməsidir",
+                "C": "İlkindir, yazıdan xeyli əvvəl yaranıb",
+                "D": "Dilimizin bütün funksional üslubları şamil olunmur",
+                "E": "Zəngin intonasiya imkanlarına malikdir"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 7,
+            "question": "Biri verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Təbəssüm",
+                "B": "Hərəkət",
+                "C": "Mimika",
+                "D": "Pauza",
+                "E": "Dialoq"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 8,
+            "question": "Biri verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Əl verib salamlaşma",
+                "B": "Zəng səsi",
+                "C": "Jest",
+                "D": "Seminar",
+                "E": "Qucaqlaşma"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 9,
+            "question": "Biri verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Məruzə",
+                "B": "Jest",
+                "C": "Siqnal səsi",
+                "D": "Hərbçilərin salamlaşması",
+                "E": "Yol hərəkəti nişanları"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 10,
+            "question": "Biri verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Radio",
+                "B": "İstiqamət göstərən nişanlar",
+                "C": "Təbəssüm",
+                "D": "Sığallama",
+                "E": "Öskürək"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 11,
+            "question": "Biri dialoqla bağlı deyil:",
+            "options": {
+                "A": "İki və daha artıq şəxsin ünsiyyəti, replikalarının əvəzlənməsidir",
+                "B": "Birinin söylədikləri o birisi üçün fikir mənbəyidir",
+                "C": "Bir nəfərin məruzəsidir",
+                "D": "Dialoq iştirakçıları arasında ümumi bir fikir və ya fikir ayrılıqları ola bilər",
+                "E": "Rəy bildirilir, cavab reaksiyası tələb edilir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 12,
+            "question": "Yazılı kommunikasiyaya uyğun olmayan bəndi göstərin:",
+            "options": {
+                "A": "İnformasiyanın ötürülməsi vasitələrindən biridir",
+                "B": "Xarakterinə görə monolojidir",
+                "C": "Zəngin intonasiya imkanlarına - melodiya, temp, vurğu və s. malikdir",
+                "D": "Xüsusi qrafik işarələrin köməyi ilə şifahi nitqin məzmununu əks etdirir",
+                "E": "İnformasiyanı uzun müddət qoruyur və saxlayır"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 13,
+            "question": "Biri qeyri-verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Müzakirə",
+                "B": "Radio",
+                "C": "Ərizə",
+                "D": "Jest",
+                "E": "Hesabat"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 14,
+            "question": "Mimika nədir?",
+            "options": {
+                "A": "Əl-qol hərəkətləri",
+                "B": "Üz əzələlərinin mənalı hərəkəti",
+                "C": "Nitq etiketləri",
+                "D": "Natiqlik sənəti",
+                "E": "Bədii natiqlik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 15,
+            "question": "Biri qeyri-verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Ərizə",
+                "B": "KİV-in dili",
+                "C": "Məruzə",
+                "D": "Mimika",
+                "E": "Müzakirə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 16,
+            "question": "Biri qeyri-verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Məktub",
+                "B": "Mühazirə",
+                "C": "Protokol",
+                "D": "Hərəkət",
+                "E": "Çixarış"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 17,
+            "question": "Biri qeyri-verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Akt",
+                "B": "İzahat",
+                "C": "Tərcümeyi-hal",
+                "D": "Mühazirə",
+                "E": "Simvol"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 18,
+            "question": "Biri qeyri-verbal ünsiyyətə aiddir:",
+            "options": {
+                "A": "Çıxış",
+                "B": "Esse",
+                "C": "Elan",
+                "D": "Hesabat",
+                "E": "Baxış"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 19,
+            "question": "Dialoji nitqdə əsas nəyə əməl olunmalıdır?",
+            "options": {
+                "A": "Hazırcavablığa",
+                "B": "Dediyini sübut etməyə",
+                "C": "Eşitmə qabiliyyətinə",
+                "D": "Aktiv dinləməyə",
+                "E": "Astadan danışmağa"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 20,
+            "question": "İşgüzar kommunikasiya: biri səhvdir.",
+            "options": {
+                "A": "Qarşılıqlı kommunikativ əlaqə tələb etmir",
+                "B": "Peşəkar fəaliyyətdə birgə həyata keçirilən xüsusi bir ünsiyyət növüdür",
+                "C": "İşgüzar kommunikasiyanın mövzusu konkret bir sahə ilə məhdudlaşmır",
+                "D": "Əsasən rasional əsaslarla qurulur, məlumatın məqsədəuyğun təşkilidir",
+                "E": "Yalnız şəxslər deyil, qrup səviyyəsində də reallaşır"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 21,
+            "question": "Bunlardan biri ünsiyyətin keyfiyyətinə mənfi təsir edir:",
+            "options": {
+                "A": "çox danışqanlıq",
+                "B": "diskussiyanın təşkili",
+                "C": "aqressivlik",
+                "D": "ciddiyyət, tələbkarlıq",
+                "E": "auditoriyanın tərkibi və psixoloji peşəkarlıq"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 22,
+            "question": "Uğurlu işgüzar ünsiyyət qurmağın əlamətləri. Səhv bəndi göstərin.",
+            "options": {
+                "A": "İşgüzar ünsiyyətdən məmnunluq duymaq, təşəbbüskar olmaq",
+                "B": "Ünsiyyətdə çevik davranmaq, məsələlərə vaxtında reaksiya vermək",
+                "C": "Qarşı tərəfə ziddiyyətli mesajlar ötürmək",
+                "D": "Kollektivdə əlverişli ab-hava yaratmaq",
+                "E": "Ünsiyyət mövzusunu dərindən anlamaq, neqativ effektləri yox etmək"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 23,
+            "question": "İşgüzar kommunikasiyada danışıqlar. Uyğun olmayanı göstərin.",
+            "options": {
+                "A": "Sonda razılaşmanın əldə olunması danışıqların aparılma texnikasından asılıdır",
+                "B": "Tərəflərin maraqları və mövqeləri dəqiqləşməlidir",
+                "C": "Danışıqlarda tərəfdaş deyil, rəqib kimi davranmaq vacib şərtdir",
+                "D": "Danışıqlar mövqeli və qarşılıqlı mənafe uyğunluğu əsasında aparılır",
+                "E": "Danışıqlar savadlı və inamla aparılmalıdır"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 24,
+            "question": "Çıxışda effektivliyi pozan amil hansıdır?",
+            "options": {
+                "A": "Müzakirə olunan mövzudan kənara çıxmasın",
+                "B": "Deyilənlər ardıcıl və rabitəli olsun",
+                "C": "Sözlər, cümlələr adın tələffüz olunsun",
+                "D": "Çıxış geniş olsun, çox vaxt aparsın",
+                "E": "Təkrara yol verilməsin"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 25,
+            "question": "Danışıqların mərhələləri. Səhv bəndi göstərin:",
+            "options": {
+                "A": "Şam yeməyi təşkil etmək",
+                "B": "Danışıqlara hazırlıq",
+                "C": "Danışıqların aparılma prosesi",
+                "D": "Danışıqların nəticələrinin təhlili",
+                "E": "Əldə edilmiş razılaşmaların yerinə yetirilməsi"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 26,
+            "question": "Monoloji nitq nədir?",
+            "options": {
+                "A": "iki nəfər arasında söhbət",
+                "B": "mühazirə",
+                "C": "xronikal məlumatvermə",
+                "D": "canlı nümunə",
+                "E": "bir nəfərin təkbaşına çıxışı"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 27,
+            "question": "Monoloji nitq hansı variantda verilib?",
+            "options": {
+                "A": "çıxış",
+                "B": "iki şəxs arasında söhbət",
+                "C": "sual-cavab",
+                "D": "debat",
+                "E": "dəyirmi masa"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 28,
+            "question": "Biri dialoji nitqin növü deyil:",
+            "options": {
+                "A": "sual-cavab",
+                "B": "müzakirə",
+                "C": "mətbuat konfransı",
+                "D": "mühazirə",
+                "E": "müsahibə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 29,
+            "question": "İşgüzar kommunikasiyanın proses və nəticələri sənədləşdirilir. Biri düzdür:",
+            "options": {
+                "A": "Əmr, sərəncam",
+                "B": "Elan, izahat",
+                "C": "Qanun, təlimat",
+                "D": "Rəsmi məktub, protokol, müqavilə",
+                "E": "Minnətdarlıq məktubu, ərizə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 30,
+            "question": "İşgüzar kommunikasiyada əlaqələrin formaları: 1. İşgüzar söhbətlər və danışıqlar 2. Dəyirmi masa və disputlar 3. İnformasiyanın təhrif edilməsi 4. Bilə-bilə yalan məlumatlar verilməsi 5. Təqdimatlar, mətbuat konfransları",
+            "options": {
+                "A": "1,2,5",
+                "B": "1,3,5",
+                "C": "1,5",
+                "D": "3,5",
+                "E": "1,4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 31,
+            "question": "İşgüzar kommunikasiyada əlaqələrin mərhələləri. Müzakirə və qərar qəbuletmə: 1. Tərəfdaşa istiqamət vermək, onu müzakirəyə cəlb etmək 2. Dinləmə və inandırma 3. Bilə-bilə yalan məlumatlar verilməsi 4. Tələblərin artırılması 5. Sualların düzgün qoyulması",
+            "options": {
+                "A": "1,4",
+                "B": "1,5",
+                "C": "3,4",
+                "D": "2,4",
+                "E": "1,2"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 32,
+            "question": "İşgüzar kommunikasiyada ünsiyyətin mərhələləri. Səhv bəndi göstərin:",
+            "options": {
+                "A": "Məsələnin müzakirəsi, problemlər",
+                "B": "Əlaqə yaratmaq",
+                "C": "Şəxsi mənafe güdərək qarşı tərəfə təzyiq göstərmək",
+                "D": "Şəraitə uyğun istiqamətlənmək (insanlar, ab-hava və s.)",
+                "E": "Qərar qəbul etmək"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 33,
+            "question": "İşgüzar kommunikasiyada maneə: biri səhvdir.",
+            "options": {
+                "A": "Emosional",
+                "B": "Fonetik",
+                "C": "Sosial",
+                "D": "Üslubi, semantik",
+                "E": "Məntiqi"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 35,
+            "question": "Semantik maneə yaranır: 1. Çoxmənalı sözlərdən düzgün istifadə etmədikdə 2. Tərcümə zamanı fikir ayrılıqlarında 3. Nitqi jarqonlar, vulqar sözlər, neologizmlər, terminlər və s. ilə yükləyəndə 4. Danışıqlar hamı üçün anlaşılan səviyyədə aparılır 5. Danışıqlarda iştirakçıların şəxsi keyfiyyətləri nəzərə alınır",
+            "options": {
+                "A": "4,5",
+                "B": "3,4",
+                "C": "3,5",
+                "D": "1,2,3",
+                "E": "1,5"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 36,
+            "question": "Üslubi maneə yaranır: 1. Ünsiyyət tərəfdaşlarının psixoloji vəziyyətləri uyğun gəlmədikdə 2. Nitqin üslub tərzi düzgün seçilməyəndə 3. Kommunikasiya forması ilə onun məzmunu uyğun gəlməyəndə 4. Tərəflər bir-birinin ziddinə getməyəndə 5. İnformasiya zənciri düzgün qurulanda",
+            "options": {
+                "A": "1,2,3",
+                "B": "1,5",
+                "C": "4,5",
+                "D": "3,4",
+                "E": "2,4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 37,
+            "question": "Emosional maneələr nə zaman yaranır? Biri düzdür.",
+            "options": {
+                "A": "Əcnəbi sözlərdən çox istifadə etdikdə",
+                "B": "Kommunikasiya forması ilə onun məzmunu bir-birinə uyğun gəlmədikdə",
+                "C": "Çoxmənalı sözlərdən istifadə etdikdə",
+                "D": "Ünsiyyətdə fakt və fərziyələrdən daha çox öz hisslərinə inanaraq danışanda",
+                "E": "Kommunikator informasiyanı hündürdən oxuduqda"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 38,
+            "question": "Məntiqi maneələr nə zaman yaranır? Biri düzdür.",
+            "options": {
+                "A": "Danışıqlarda jarqon və qeyri-etik ifadələr çox işlənir",
+                "B": "Müzakirələr dialoq şəklində qurulub",
+                "C": "Əsaslandırmada sübutlar ziddiyyətli və çox mürəkkəbdir",
+                "D": "Qarşı tərəfin nümayəndəsi çox monoton danışır",
+                "E": "İşgüzar ünsiyyətdə əsas müddəalara diiqət edilir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 39,
+            "question": "Ünsiyyət mədəniyyətinin əsas funksiyasına və ya funksiyalarına aiddir:",
+            "options": {
+                "A": "İnformativlik, kommunikativlik",
+                "B": "Sosiallaşma",
+                "C": "Ətraf aləmə uyğunlaşma, dərketmə",
+                "D": "İnsanların birgə fəaliyyətinin təşkili, şəxsiyyətlərarası münasibətlərin formalaşması və inkişafı",
+                "E": "İnsan qruplarının inteqrasiyası"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 40,
+            "question": "“Ona müvəffəqiyyət uğuru arzu edirəm” cümləsində hansı norma pozulub?",
+            "options": {
+                "A": "orfoqrafik",
+                "B": "orfoepik",
+                "C": "qrammatik",
+                "D": "fonetik",
+                "E": "leksik"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 41,
+            "question": "İntonasiya nədir?",
+            "options": {
+                "A": "cəldlik",
+                "B": "ləng hərəkət",
+                "C": "kobudluq",
+                "D": "akustik vasitə",
+                "E": "cəsurluq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 42,
+            "question": "Hansı variant ünsiyyətin vasitələrinə aid deyil?",
+            "options": {
+                "A": "nitq",
+                "B": "replika",
+                "C": "mülahizə",
+                "D": "susmaq",
+                "E": "sual"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 43,
+            "question": "İşgüzar ünsiyyətin başlıca vəzifələri hansı variantda düzgün verilmişdir? 1. qarşılıqlı fəaliyyətin təşkili 2. şikayət və ərizələri araşdırmaq 3. münaqişələrin qarşısını almaq və onları həll etmək 4. insanların bir-birini dərk etməsi",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "2, 4",
+                "D": "1, 2",
+                "E": "1, 3, 4"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 44,
+            "question": "Kommunikasiyanın düşüncə tərzləri: biri səhvdir:",
+            "options": {
+                "A": "Anlayış",
+                "B": "Qavrayış",
+                "C": "Adaptasiya",
+                "D": "Münasibətlər",
+                "E": "Gözləntilər və reaksiya"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 45,
+            "question": "İşgüzar ünsiyyətin əsas formalarına aid deyil:",
+            "options": {
+                "A": "İşgüzar söhbət",
+                "B": "Polemika, müşavirə",
+                "C": "Məktublaşma, diskussiya",
+                "D": "Kütlə qarşısında çıxış, telefon danışıqları",
+                "E": "Akademik söhbət"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 46,
+            "question": "Ünsiyyət anlayışına münasibət hansı halda düzgün deyil?",
+            "options": {
+                "A": "Ünsiyyət özünümüdafiə forması kimi",
+                "B": "Ünsiyyət insanların bir-birini qavraması kimi",
+                "C": "Ünsiyyət insanların bir-birini anlaması kimi",
+                "D": "Ünsiyyət qarşılıqlı təsir prosesi kimi",
+                "E": "Ünsiyyət informasiya mübadiləsi kimi"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 47,
+            "question": "“Bizimlə əməkdaşlığa razısınızmı? Şərtlərimiz sizi qane edirmi? Bu layihəyə qoşulmaq istərdinizmi?” Bunlar işgüzar kommunikasiyada sualın hansı növünə aiddir?",
+            "options": {
+                "A": "Qapalı suallara",
+                "B": "Ritorik və istiqamətverici suallara",
+                "C": "Açıq suallara",
+                "D": "Alternativ suallara",
+                "E": "Yoxlama suallara"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 48,
+            "question": "“Bizim şirkətlə əməkdaşlıqda məqsədiniz nədər? Nə zaman fikrinizi deyəcəksiniz? Daha hansı əməkdaşlıq təklifləriniz var? Nə üçün məhz bizi seçdiniz?” Bunlar işgüzar kommunikasiyada sualın hansı növünə aiddir?",
+            "options": {
+                "A": "Açıq suallara",
+                "B": "Ritorik və istiqamətverici suallara",
+                "C": "Yoxlama suallara",
+                "D": "Qapalı suallara",
+                "E": "Alternativ suallara"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 49,
+            "question": "“Deyilənlərə aid sualınız varmı? Sizi nə qane etmədi? Fikrinizdə qalırsınızmı? Təkliflərimizin nəticəsi sizə aydındırmı?” Bunlar işgüzar kommunikasiyada sualın hansı növünə aiddir?",
+            "options": {
+                "A": "Yoxlama suallara",
+                "B": "Açıq suallara",
+                "C": "Qapalı suallara",
+                "D": "Ritorik və istiqamətverici suallara",
+                "E": "Alternativ suallara"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 50,
+            "question": "“Qərarınızda bir dəyişiklik yoxdur? Ola bilər ki, doğru izah vermədim? Yormadım ki, sizi?” Bunlar işgüzar kommunikasiyada sualın hansı növünə aiddir?",
+            "options": {
+                "A": "Qapalı suallara",
+                "B": "Alternativ suallara",
+                "C": "Yoxlama suallara",
+                "D": "Ritorik və istiqamətverici suallara",
+                "E": "Açıq suallara"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 51,
+            "question": "“Səadət nə demək?... Bu sualla mən; Özümü çox yordum, tapa bilmədim... İndi də qayğılar artdı günbəgün; Dedim: -Ay səadət, hardasan, harda?” (B.Vahabzadə). Bunlar işgüzar kommunikasiyada sualın hansı növünə aiddir?",
+            "options": {
+                "A": "Alternativ suallara",
+                "B": "Yoxlama və istiqamətverici suallara",
+                "C": "Qapalı suallara",
+                "D": "Ritorik suallara",
+                "E": "Açıq suallara"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 52,
+            "question": "“Nə güzəşt? Torpaqlarımızın 10 faizini güzəştə gedək ki, o biri on faizini dava-şavasız qaytarsınlar? Amma kimdi səsimizi eşidən, haqqımızı tanıyan?” (Anar). Bunlar işgüzar kommunikasiyada sualın hansı növünə aiddir?",
+            "options": {
+                "A": "Açıq suallara",
+                "B": "İstiqamətverici suallara",
+                "C": "Alternativ suallara",
+                "D": "Ritorik suallara",
+                "E": "Qapalı və yoxlama suallara"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 53,
+            "question": "“Niyə belə qərara gəldiniz?” əvəzinə, “Qərarınız mənim üçün qaranlıq qaldı, bir qədər aydınlıq gətirə bilərsinizmi?”sualı hansı halda işlədilir?",
+            "options": {
+                "A": "Açıq suallardan yayınmaq məqsədilə",
+                "B": "Alternativ suallardan yayınmaq məqsədilə",
+                "C": "Ritorik suallardan yayınmaq məqsədilə",
+                "D": "Səhvə yol verməmək, qınaq, ittihamvari suallardan yayınmaq məqsədilə",
+                "E": "İstiqamətverici suallardan yayınmaq məqsədilə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 54,
+            "question": "Qeyri-refleksiv dinləmələrdə cavablar. Biri düzdür.",
+            "options": {
+                "A": "Başa düşmədim. Nə demək istəyirsiniz?",
+                "B": "Belə başa düşdüm ki,.. Siz demək istəyirsiniz ki,..",
+                "C": "Anladığım kimi; Belə düşünürsünüz ki,..;",
+                "D": "Mən sizi düzmü başa düşdüm? Başqa sözlə, siz nəyi nəzərdə tutursunuz?",
+                "E": "Aha! Bəli! Yaxşı!"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 55,
+            "question": "Aktiv dinləmələrdə cavablar. Biri düzdür.",
+            "options": {
+                "A": "Anladığım kimi belə düşünürsünüz ki... Dediklərinizi ümumiləşdirsək, deməli...",
+                "B": "Aha! Bəli! Yaxşıı!",
+                "C": "Mən sizi düzmü başa düşdüm? Başqa sözlə, siz nəyi nəzərdə tutursunuz?",
+                "D": "Başa düşmədim. Nə demək istəyirsiniz?",
+                "E": "Bu işdə mənə kömək edə bilməzsiniz? Yəqin ki, bizə kömək edərsiniz?"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 56,
+            "question": "Diksiya nədir?",
+            "options": {
+                "A": "Pafoslu nitq",
+                "B": "Əl-qol hərəkəti",
+                "C": "Astadan danışmaq",
+                "D": "Düzgün tələffüz",
+                "E": "Sərt reaksiya"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 57,
+            "question": "İşgüzar kommunikasiyada çox adamın söhbətə qoşulması törədə bilər: 1. Anlaşılmazlıq 2. İdarəolunmazlıq 3. Münaqişə 4. Qavrayış 5. İnformasiya mübadiləsi",
+            "options": {
+                "A": "1,4",
+                "B": "1,5",
+                "C": "3,5",
+                "D": "1,2,3",
+                "E": "3,4"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 58,
+            "question": "Onlayn işgüzar kommunikasiyanın üstünlükləri. Biri səhvdir.",
+            "options": {
+                "A": "Onlayn kommunikasiya təhlükəlidir",
+                "B": "Hətta pandemiya şəraitində, insanların təhlükəsizlik məqsədləri üçün karantinə riayət etməsi zamanında lazım olan vəziyyətdən çıxmağı asanlaşdırdı",
+                "C": "İşgüzar ünsiyyətdə operativliyi təmin edir",
+                "D": "Səmərəli qarşılıqlı əlaqə yaratmağa imkan verir",
+                "E": "Daha qənaətlidir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 59,
+            "question": "İşgüzar ünsiyyətdə elektron poçt: 1. İnternetin ən populyar tətbiqlərindən biridir, həm daxili, həm də xarici kommunikasiyada geniş istifadə olunur 2. E-poçt istifadəçilərə hər zaman və müxtəlif şəraitlərdə ünsiyyətə imkan verir 3. Sorğu, söhbət və digər mühüm məlumatların izlənilməsində effektiv bir yoldur 4. E-poçtda spam problemləri ilə bağlı anlaşılmazlıq, vaxt, pul və resursların itkisinə səbəb kiçik və böyük münaqişələr yarana biləcəyi üçün sərfəli deyil 5. Onlayn kommunikasiya biznesin uğur qazanmasında və artmasında həlledici rol oynamır",
+            "options": {
+                "A": "2,5",
+                "B": "1,5",
+                "C": "3,5",
+                "D": "1,2,3",
+                "E": "2,4"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 60,
+            "question": "Kompüter jarqonu: hansı sıralar yalnız jarqonlardan ibarətdir? 1. Vint, qama, yuzat, haker, pros, kuler 2. Materinka, flop, ram, mış, vinçester 3. Virus, antivirus, çat, spam, kilo, mega 4. Vinçester, prosessor, ventilyator, ana plata, disk yeri 5. İpoteka, əl manipulyatoru, sabit disk, kilobayt, meqabayt",
+            "options": {
+                "A": "3, 4, 5",
+                "B": "2, 3, 4",
+                "C": "1,2, 3",
+                "D": "3, 5, 1",
+                "E": "1, 4, 5"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 61,
+            "question": "İşgüzar ünsiyyətin əsas mexanizminə daxildir: 1. Ritual 2. Ənənə 3. Adət 4. Rəqabət 5.Təhsl",
+            "options": {
+                "A": "1,4,5",
+                "B": "1,2,3",
+                "C": "3,4,5",
+                "D": "2,3,4",
+                "E": "1,3,5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 62,
+            "question": "İşgüzar ünsiyyətin aşağıdan-yuxarı etikası. Rəhbərlə işgüzar ünsiyyətdə istifadə olunası bir neçə zəruri etik norma və prinsiplərdən biri yanlışdır.",
+            "options": {
+                "A": "Rəhbərə kollektivdə xeyirxah mənəvi mühit yaratmaqda, ədalətli münasibətləri möhkəmləndirməkdə kömək etməyə çalışın",
+                "B": "Rəhbərlə qətiyyən yüksək tonda danışmayın",
+                "C": "Əgər kollektivdə hər hansı bir sevincli və ya əksinə, xoşagəlməz hadisə baş veribsə, bu barədə rəhbərə məlumat verin",
+                "D": "Rəhbərə öz nöqteyi-nəzərinizi təlqin etməyə, yaxud göstəriş verməyə çalışmayın. Təkliflərinizi və ya şərhlərinizi ədəblə və nəzakətli şəkildə ifadə edin",
+                "E": "Fövqəladə halları gözləmədən uyğun bildiyiniz vaxt rəhbərə yardım üçün müraciət edin"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 63,
+            "question": "İnternet etikasının prinsipləri: 1. Şəxsi həyat sirlərinin qorunması 2. Xüsusi mülkiyyətin toxunulmazlığı 3. Elektron poçt vasitəsilə ünsiyyət 114. Çatda ünsiyyət 5.Telekonfranslarda ünsiyyət",
+            "options": {
+                "A": "2,4,5",
+                "B": "1,3",
+                "C": "1,2",
+                "D": "2,3,4",
+                "E": "3,4,5"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 64,
+            "question": "Elektron poçt vasitəsilə yazışmalar həyata keçirən zaman qaydaların gözlənilməsi. Biri səhvdir.",
+            "options": {
+                "A": "Nəzakətli olmaq",
+                "B": "Qısa izah vermək",
+                "C": "Geniş izah vermək",
+                "D": "Savadlı yazmaq",
+                "E": "Cavabı ləngitməmək"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 65,
+            "question": "Şad xəbərin çatdırılması hansı halda düzgündür?",
+            "options": {
+                "A": "Bəzi məqamları deməmək",
+                "B": "Hər şeyi olduğu kimi çatdırmaq, məqam gözləməmək",
+                "C": "“Muştuluğumu ver”, “Gözün aydın olsun”, “Sənə bir şad xəbər gətirmişəm” və s. ifadələrlə birdən-birə deyil, tədricən sahibinə çatdırmaq",
+                "D": "Situasiyaya görə davranmaq",
+                "E": "Başqası vasitəsilə çatdırmaq"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 66,
+            "question": "Aşağıdakı ifadələr işgüzar ünsiyyətdə etik qaydaların hansına aiddir? “Muştuluğumu ver”, “Gözün aydın olsun”, “Sənə bir şad xəbər gətirmişəm” və s.",
+            "options": {
+                "A": "Danışmağa başlamaq məqamında",
+                "B": "Bəd xəbərin çatdırılması",
+                "C": "Şad xəbərin çatdırılması",
+                "D": "Qarşılama məqamında",
+                "E": "Təskinlik vermək, razı salmaq məqamında"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 68,
+            "question": "Mədəni nitq etiketləri hansı sırada tam və dəqiq göstərilib?",
+            "options": {
+                "A": "Təşəkkür etmə, hal-əhval tutma, salamlaşma, sağollaşma, mülayimlik",
+                "B": "Qarşılama, intizama dəvət etmə, müraciət",
+                "C": "Təşəkkür etmə, hal-əhval tutma, qarşılama, intizama dəvət etmə",
+                "D": "Salamlaşma, sağollaşma, üzrxahlıq söz və ifadələri, təşəkkür etmə, hal-əhval tutma, qarşılama, intizama dəvət etmə",
+                "E": "Salamlaşma, sağollaşma, intizama dəvət etmə, tələbkarlıq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 69,
+            "question": "Aşağıdakı söz və ifadələr mədəni nitq etiketlərindən hansına, ya hansılara aiddir? Bağışlayın. Üzr istəyirəm. Narahat etdiyimə görə üzr istəyirəm. Əvvəlcədən minnətdarlığımı bildirirəm və s.",
+            "options": {
+                "A": "İntizama dəvət etmə",
+                "B": "Hal-əhval tutma, qarşılama",
+                "C": "Salamlaşma, sağollaşma",
+                "D": "Üzrxahlıq",
+                "E": "Təşəkkür etmə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 70,
+            "question": "Aşağıdakı söz və ifadələr mədəni nitq etiketlərindən hansına, ya da hansılara aiddir? \"Allaha şükür, yaxşısınız\", \"Xəstəliyiniz yüngüldür\", \"Siz tezliklə sağalacaqsınız\".",
+            "options": {
+                "A": "Salamlaşma, sağollaşma, üzrxahlıq.",
+                "B": "Təşəkkür etmə",
+                "C": "Hal-əhval tutma",
+                "D": "Hal-əhval tutma, qarşılama",
+                "E": "Kömək göstərmə"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 71,
+            "question": "Aşağıdakı söz və ifadələr mədəni nitq etiketlərindən hansına, ya da hansılara aiddir?",
+            "options": {
+                "S": "zdən bu hərəkəti gözləməzdim; Belə hərəkət (etmək) sizə yaraşmaz; Danışığınıza fikir verin; Bir az nəzakətli olun və s.",
+                "A": "Vidalaşma, sağollaşma",
+                "B": "Təşəkkür etmə, üzrxahlıq",
+                "C": "İntizama dəvət etmə",
+                "D": "Hal-əhval tutma, salamlaşma, sağollaşma",
+                "E": "Hal-əhval tutma, qarşılama"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 72,
+            "question": "Siz müraciət etiketindən istifadə olunur: 1. Yaşda böyük və ilk dəfə gördüyün insanla ünsiyyətdə 2. Rəsmi və qeyri-rəsmi şəraitdə 3. Həmsöhbətə nəzakətli münasibət vurğulandıqda 4. Bərabər səviyyəli və ya yaşıdın, özündən kiçiklərə 5. İşgüzar ünsiyyətdə isti münasibət yarandıqda",
+            "options": {
+                "A": "2,4,5",
+                "B": "2,3,4",
+                "C": "1,2",
+                "D": "1,2,3",
+                "E": "3,4,5"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 73,
+            "question": "Sən müraciət etiketindən istifadə olunur: 1. Yaxşı tanıdığın insanla ünsiyyətdə 2. Qeyri-rəsmi şəraitdə 133. Həmsöhbətlə dost münasibətdə 4. Yaxşı tanış və tanımadığı bir insana 5. Həmsöhbətə nəzakətli münasibət vurğulandıqda",
+            "options": {
+                "A": "2,3",
+                "B": "4,5",
+                "C": "1,2,3",
+                "D": "3,5",
+                "E": "3,4,5"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 74,
+            "question": "İşgüzar ünsiyyət şəraitində salamların növbəliliyi: 1. İk olaraq, xidməti vəzifəsi yüksək olan salam verməlidir 2. Qonaq binaya daxil olarkən şirkətin gözətçisi ona salam verir 3. Vəzifəsindən asılı olmayaraq, ilk növbədə, oradakıları salamlayır 4. Ötüb-keçən əməkdaşlar ilk olaraq salam verməlidirlər 5. Görüşdə kişi ilk olaraq qadını salamlayır. Yaşca gənc ilk növbədə yaşlı adam və qadınla salamlaşır. Bərabər statusda tərbiyəyə görə birinsi salam verir",
+            "options": {
+                "A": "1,5",
+                "B": "4,5",
+                "C": "3,4,5",
+                "D": "2,5",
+                "E": "1,3,5"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 75,
+            "question": "İşgüazar kommunikasiyada telefon etikası: 1. Telefonda ünsiyyət zamanı səs çox xoş və məlahətli gəlməlidir 2. Səhər erkən və gecə heç kimə zəng vurmayın 3. Düyməni basmazdan öncə yığdığınız nömrəyə diqqətlə baxın, ünvana düz zəng etdiyinizi öyrənin, əlaqə qurmaq istədiyiniz şəxs olub-olmadığını müəyyənləşdirin 4. Söhbətə zəng vuran yox, zəng etdiyiniz şəxs başlayır 5. Əgər səhvən siz nömrəni düz yığmamışsınızsa, üzr istəməyinizə ehtiyac yoxdur",
+            "options": {
+                "A": "2,4,5",
+                "B": "2,3,5",
+                "C": "1,2",
+                "D": "3,4,5",
+                "E": "1,2,3"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 76,
+            "question": "İş adamları telefonla ünsiyyət qurarkən: 1. Qısa danışmağa və mövzudan kənara çıxmamağa çalışmalıdırlar 2. İşgüzar telefon danışığında mənasız suallara vaxt sərf etmək uyğun sayılmır 3. Qarşı tərəfin dediklərini eşitmək və şərhlərinə cavabları əsaslandırmaq üçün onları fəal və ciddi dinləməyiniz, qeydlər götürməyiniz vacibdir 4. Zəngin məqsədi barədə məlumat verib, dərhal işgüzar söhbətə başlamamaq. Əsas söhbətə zəmin hazırlamaq 145. Adi və işgüzar şəxsi telefon zəngləri arasında ciddi fərqlər yoxdur",
+            "options": {
+                "A": "2,3",
+                "B": "1,4,5",
+                "C": "1,2,3",
+                "D": "2,3,4",
+                "E": "3,4,5"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 77,
+            "question": "Hansı variant akademik mənbə sayılır? 1) kitablar, elmi jurnal məqalələri 2) şəxsi fikirlər, rəylər 3) məşhur bir insanın düşüncələri 4) dost və yoldaşlarla aparılan müzakirələrin nəticələri 5) nəşr edilmiş hesabatlar",
+            "options": {
+                "A": "2, 4",
+                "B": "1, 3",
+                "C": "3, 5",
+                "D": "2, 5",
+                "E": "1, 5"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 78,
+            "question": "Akademik yazının xüsusiyyətlərindən biri yanlışdır:",
+            "options": {
+                "A": "Düzgün sitatgətirmə olmalıdır",
+                "B": "İstənilən üslubda yazıla bilər",
+                "C": "Elmi üslubda yazılır",
+                "D": "Standart quruluşa malikdir",
+                "E": "Elmi əsaslanma olmalıdır"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 79,
+            "question": "Elmi üsluba aid olmayan cəhət hansıdır?",
+            "options": {
+                "A": "ardıcıllıq",
+                "B": "konkretlik",
+                "C": "obrazlılıq",
+                "D": "termin sıxlığı",
+                "E": "məntiqilik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 80,
+            "question": "Akademik yazıda etibarlı mənbə hansı variantda verilib?",
+            "options": {
+                "A": "köşə yazarlarının rəyləri",
+                "B": "aparılan müzakirənin nəticəsi",
+                "C": "şəxsi fikirlər",
+                "D": "bir insanın düşüncəsi",
+                "E": "kitablar, jurnal, məqalə və nəşr edilmiş hesabatlar"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 81,
+            "question": "Elmi iş: 1. Məzmunu ilə oxucunu inandırmalıdır 2. Düzgün proporsiya ilə strukturlaşdırılmış işdə məqsədə çatmaq daha uğurludur 3. Fəsillər arasında səlis keçidlər yaratmaqla işin məntiqi ardıcıllığı aydın görünür 4. Problemin qoyuluşu barədə əvvəlcədən məlumat verilir 155. Bir fəsildən digərinə keçdikdə düşüncə ardıcıllığı sistemli olaraq işin strukturunda öz əksini tapmalıdır",
+            "options": {
+                "A": "1,2,3",
+                "B": "3,4",
+                "C": "4,5",
+                "D": "1,3",
+                "E": "3,4,5"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 82,
+            "question": "Elmi işin araşdırma üsulları: biri səhvdir.",
+            "options": {
+                "A": "Müsahibə üsulu",
+                "B": "Ölçmə üsulu",
+                "C": "Analiz və sintez məntiqi idrak üsulu",
+                "D": "Modelləşdirmə üsulu",
+                "E": "Təcrübə üsulu"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 83,
+            "question": "Məruzəyə verilən tələblər: biri səhvdir.",
+            "options": {
+                "A": "“Mən” əvəzliyi və “mənim fikrimcə” kimi sözlərdən az istifadə etməlidir",
+                "B": "Terminlərə geniş yer verməməlidir",
+                "C": "Cümlələr uzun, mürəkkəb olmalıdır",
+                "D": "Giriş konstruksiyalar (göründüyü kimi, bizim fikrimizcə və s.) az işlədilməlidir",
+                "E": "Mətnlərdə basmaqəlib, ştamp ifadələrdən qaçılmalıdır"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 84,
+            "question": "Elmi məruzələrin strukturu: biri səhvdir.",
+            "options": {
+                "A": "Eksperimental xarakter daşıyırsa, hipotezi",
+                "B": "Tədqiqat metodu, tədqiqatın nəticələri (faktlarla sübutu)",
+                "C": "Mövzunun məqsəd və vəzifələri",
+                "D": "Başda mövzunun ədəbiyyatı və nəticə olmalıdır",
+                "E": "Mövzunun və tədqiqatın aktuallığı"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 85,
+            "question": "Mühazirə nədir?",
+            "options": {
+                "A": "Ali məktəblərdə müvafiq fənn mövzusunun şifahi şəkildə izah olunmasıdır",
+                "B": "Orta məktəblərdə dərslərdə söylənilən monoloji nitqdir",
+                "C": "Dialoji nitqin geniş yayılmış formasıdır",
+                "D": "Emosional, bədii üslubda qurulan nitqdir",
+                "E": "Yazılı formada dinləyicilərə təqdim olunur"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 86,
+            "question": "Konspekt tiplərinin növləri: biri səhvdir.",
+            "options": {
+                "A": "Tematik",
+                "B": "Tekstual",
+                "C": "Toplu",
+                "D": "Plansız",
+                "E": "Planlı"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 87,
+            "question": "Konspektləşdirmədə daha çox istifadə olunan üsullar: 1. Tezislər, sual-cavablar 2. Xətti-tədqiqat yazılış forması 3. Fraqmentlərlə bağlı sadə sxem 164. Kombinə edilməmiş üsullar 5. Sadəcə suallar",
+            "options": {
+                "A": "1,2,3",
+                "B": "3,5",
+                "C": "3,4",
+                "D": "1,3,5",
+                "E": "2,3"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 88,
+            "question": "Mühazirənin məruzədən fərqi: 1. Mühazirə müzakirə olunmur – oxunur və ya dinlənilir 2. Mühazirənin istənilən məqamında mövzunun aydın olmayan məsələsi ilə bağlı suallar verilə bilir 3. Mühazirə mətni elmi əhəmiyyət daşıyır 4. Mühazirəçi auditoriya ilə qarşılıqlı söhbət aparır, suallarına ya özü cavab verir, ya da auditoriyadan cavab gözləyir, sonda cavablara şərh verir 5. Məruzəçi kimi mühazirəçi də auditoriya ilə dialoqa, dinləyicilərin dərs prosesində aktivliyinə xüsusi diqqət etməlidir",
+            "options": {
+                "A": "3,5",
+                "B": "2,5",
+                "C": "1,5",
+                "D": "1,3,5",
+                "E": "1,2"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 89,
+            "question": "Elmi məqalənin formaları: 1. Elmi-nəzəri 2. Elmi-praktik 3. Bədii-publisistik 4. İctimai, epizodik və silsilə 5. Epizodik və silsilə",
+            "options": {
+                "A": "1,2,3",
+                "B": "3,4,5",
+                "C": "4,5",
+                "D": "1,2",
+                "E": "1,5"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 90,
+            "question": "Məqalənin qiymətləndirmə faktorları: 1. H-index 2. Eigen-factor 3. İmpakt faktor 4. İctimai 5. Silsilə",
+            "options": {
+                "A": "1,2,3,4",
+                "B": "3,4",
+                "C": "1,2,3",
+                "D": "4,5",
+                "E": "2,3"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 91,
+            "question": "Kurs işi:",
+            "options": {
+                "A": "İnformasiyanın əqli emalı və yazılı təsbiti prosesi olmaqla, onun əsas məzmununun mətndə qısa ifadə edilmə formasıdır",
+                "B": "Dərslikdəki materialı mənimsəməkdə yardımçı rol oynayır, mövzu ilə bağlı əlavə ədəbiyyata da müraciət olunmalıdır",
+                "C": "Materialın məntiqi və aydın təqdimatında sübut və faktların etibarlılığı tələblərinə cavab verir",
+                "D": "Tələbədə məlumat toplamaq və sistemləşdirmək üçün rasional metodlardan istifadə etmək, müstəqil yaradıcı xarakterə sahib olmaq bacarığını formalaşdırır",
+                "E": "Aktual mövzuda praktik tədqiqatı təmsil edir"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 92,
+            "question": "Kurs işinin məzmununa verilən ümumi tələblər: biri səhvdir.",
+            "options": {
+                "A": "Materialları toplayarkən və ümumiləşdirərkən yalnız müsbət deyil, mənfi faktları da seçməli, tənqid əsassız yox, obyektiv və konstruktiv olmalıdır",
+                "B": "İstinad səliqəli və dəqiq göstərilməlidir",
+                "C": "Kurs işinin mövzusu mütləq kafedra tərəfindən seçilməlidir",
+                "D": "Tələbənin praktik bacarığı və lazımi nəzəri, praktik biliyi olmalıdır",
+                "E": "Girişdə tədqiqat mövzusunun aktuallığı, tədqiqatın obyekti, mövzusu, məqsəd və vəzifələri, metodoloji əsasları, tənzimləyici, nəzəri və empirik əsasları, quruluşu haqqında məlumat verilməlidir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 93,
+            "question": "Elmi üslubda olan bir mətnin hansı elm sahəsinə aid olduğunu nədən bilmək olar?",
+            "options": {
+                "A": "terminlərdən",
+                "B": "tərtibatından",
+                "C": "söz sırasından",
+                "D": "həcmindən",
+                "E": "cümlə quruluşundan"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 94,
+            "question": "Referat işinin yerinə yetirilməsinin mərhələləri: ardıcıllığı müəyyənləşdirin. 1. Materialların təhlilinin sistemləşdirilməsi və komplektləşdirilməsi 2. Referatın işlənməsi, hazırlanması və təqdimatı 3. Referat işinin mövzusunun fənn müəllimi ilə razılaşdırılması 4. Mövzu üzrə referat planının işlənməsi 5. Ədəbiyyat və digər biblioqrafik mənbələr üzrə materialların toplanması",
+            "options": {
+                "A": "1,2,4,5,3",
+                "B": "5,4,3,2,1",
+                "C": "1,2,4,3,5",
+                "D": "3,4,5,1,2",
+                "E": "3,2,5,1,2"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 95,
+            "question": "Magistrlik dissеrtasiyası: 181. Magistratura tələbəsinin və ya magistrin müstəqil еlmi-tədqiqat işinin məhsuludur 2. İşinin icrası və müdafiəsi magistrə təhsil illəri ərzində qazandığı bilikləri sistеmləşdirməyə, möhkəmləndirməyə, iхtisas üzrə nəzəri biliyini və praktik bacarığını daha da gеnişləndirməyə, kоnkrеt еlmi-pedaqoji, tехniki, iqtisadi, istеhsal və digər məsələləri həll еtməyə imkan vеrir 3. Magistrlərdə müstəqilliyi, yaradıcılığı inkişaf еtdirir, еlmi tədqiqat mеtоdlarından istifadə еtmək və еkspеrimеnt qоymaq qabiliyyətini aşılayır 4. Fikrin ifadəsində şablon ifadələrdən istifadə olunmur 5. Elmi səciyyə daşıdımağından akademik üslubda yazılmır",
+            "options": {
+                "A": "1,3,5",
+                "B": "1,2,4",
+                "C": "2,4,5",
+                "D": "1,2,3",
+                "E": "3,4,5"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 96,
+            "question": "Diplom (buraxılış) işi: biri səhvdir:",
+            "options": {
+                "A": "Hər bir universitetin elmi işlərin yazılması haqqında müəyyən qaydalar toplusu",
+                "O": "ur ki, burada istinad formaları (APA, MLA, Chicago və s.), yazının fontu, marginləri, həcmi və s. məlumatları əldə etmək mümkündür",
+                "B": "Diplom işi bakalavr və magistratura dərəcəsinin qazanmaq üçün yazılan elmi- tədqiqat işidir, elmi yazı kateqoriyasına aiddir və digərləri kimi fərqli qaydalara, hədəflərə malikdir",
+                "C": "Diplom işinin yazılma qaydaları akademik yazı standartları ilə tənzimlənir",
+                "D": "Tələbə-magistrə istiqamət verəcək elmi rəhbər həmin mövzu üzrə ixtisaslaşmış olmaya da bilər",
+                "E": "Bakalavr dərəcəsi üçün 35-40, magistratura üçün 70-80 səhifəlik elmi iş tələb olunur. Lakin bu tələblər müəyyən ixtisaslar üçün keçərli olmaya da bilər"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 97,
+            "question": "Aşağıdakılardan hansı akademik yazıya aid deyil?",
+            "options": {
+                "A": "referat",
+                "B": "diplom işi",
+                "C": "oçerk",
+                "D": "məqalə",
+                "E": "dissertasiya"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 98,
+            "question": "Aşağıdakılardan hansı akademik yazıya aiddir?",
+            "options": {
+                "A": "ərizə",
+                "B": "tərcümeyi-hal",
+                "C": "dissertasiya",
+                "D": "izahat",
+                "E": "xasiyyətnamə"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 99,
+            "question": "Akademik yazı nümunələri hansı sırada düzgün göstərilib?",
+            "options": {
+                "A": "məqalə, sorğu, referat, diplom işi",
+                "B": "məqalə, tezis, referat, ərizə, çıxış",
+                "C": "dissertasiya, məqalə, diplom işi, referat, tezis",
+                "D": "referat, məruzə, iltizam vərəqi, dissertasiya",
+                "E": "referat, məruzə, diplom işi, izahat"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 100,
+            "question": "Akademik yazı üçün hansı üslub uyğundur?",
+            "options": {
+                "A": "publisistik üslub",
+                "B": "epistolyar üslub",
+                "C": "danışıq üslubu",
+                "D": "elmi üslub",
+                "E": "rəsmi üslub"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 101,
+            "question": "Akademik yazıda sitatla bağlı təqdim olunan bəndlərin hansı doğrudur?",
+            "options": {
+                "A": "Ancaq akademik yazıda sitatdan istifadə etmək olar",
+                "B": "Akademik yazıda sitat gətirməyə ehtiyac yoxdur",
+                "C": "Bir başqasının yazdığı sözlərin dəqiq köçürülməsidir, adətən dırnaq işarələri (“ ”) içərisində yazılır",
+                "D": "Sitatı dəqiq köçürməmək də olar",
+                "E": "Sitatın yerləşdiyi səhifəni qeyd etməyə ehtiyac yoxdur"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 102,
+            "question": "Elmi işin mərhələləri:",
+            "options": {
+                "A": "Mövzuların seçilməsi, ilkin iş planının tərtibi, materialın toplanması, iş planının dəqiqləşdirilməsi, toplanmış materialın qiymətləndirilməsi, mövzunun işlənməsi, işin təhvili",
+                "B": "Mövzunun araşdırılması, işlənməsi",
+                "C": "Mövzuların seçilməsi, işlənməsi",
+                "D": "İş planının dəqiqləşdirilməsi, toplanmış materialın qiymətləndirilməsi, mövzunun işlənməsi",
+                "E": "Toplanmış materialın qiymətləndirilməsi, mövzunun işlənməsi"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 103,
+            "question": "Akademik yazıda ədəbiyyatların axtarılması",
+            "options": {
+                "A": "Toplanmış materialın qiymətləndirilməsi, mövzunun işlənməsi",
+                "B": "Axtarış yerləri, informasiya axtarış strategiyası, ədəbiyyat mənbələri",
+                "C": "Ədəbiyyatın növləri, ədəbiyyatın seçilməsi, ədəbiyyatla işləmə",
+                "D": "Ədəbiyyatın seçilməsi, ədəbiyyatla işləmə",
+                "E": "Axtarış yerləri, informasiya axtarış strategiyası, ədəbiyyat mənbələri, kitabxana kataloqları, ədəbiyyatın növləri, ədəbiyyatın seçilməsi, ədəbiyyatla işləmə"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 104,
+            "question": "Elmi məqalənin strukturu ilə bağlı hansı doğrudur?",
+            "options": {
+                "A": "Başlıq, müəlliflər, iş yerləri, koordinatları, giriş, material və metod, təcrübə və nəticələr, ədəbiyyat",
+                "B": "Başlıq, müəlliflər, giriş, material, nəticələr",
+                "C": "Başlıq, müəlliflər, material, ədəbiyyat",
+                "D": "Başlıq, müəlliflər, material",
+                "E": "Müəlliflər, giriş, material"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 105,
+            "question": "Akademik yazıda internet materiallarından sitat göstərilməsinin ümumi sxemi",
+            "options": {
+                "A": "İnternet resursunun çap analoqu varsa, çap versiyasına üstünlük verilir",
+                "B": "Nəşr verilənləri, texniki xarakteristikası, nəşrin mənbəyi",
+                "C": "İnternet mənbələrinin sitat kimi göstərilməsində adi üsuldan istifadə edilir, xüsusi məlumatlarla genişləndirilir",
+                "D": "Müəllifin adı, inisialı nəşrin sərlövhəsi",
+                "E": "Müəllifin adı, inisialı nəşrin sərlövhəsi, yanında elektron resurs göstərilir, nəşr verilənləri, texniki xarakteristikası, nəşrin mənbəyi, internet resursunun çap analoqu varsa, çap versiyasına üstünlük verilir"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 106,
+            "question": "Fikir parafrazı – plagiatlıq: 1. Plagiat başqasının fikir və ya işlərindən istifadə edərək özünə aid olduğunu iddia etmək, bir sözlə, fikir oğurluğudur 2. Elmi işin məqsədi tədqiqat aparılması, mövzunun dərindən öyrənilməsi və elmə yeni bir tövfə verilməsidir. Plagiat isə bunların qarşısını alır və nəticədə tələbə heç nə öyrənə bilmir, özünü aldadır 3. Müstəqil еlmi-tədqiqat işinin məhsuludur 4. Qazanılan bilikləri sistеmləşdirməyə, möhkəmləndirməyə, iхtisas üzrə nəzəri biliyini və praktik bacarığını daha da gеnişləndirməyə imkan vеrir 5. Müstəqilliyi, yaradıcılığı inkişaf еtdirir, еlmi tədqiqat mеtоdlarından istifadə еtmək və еkspеrimеnt qоymaq qabiliyyətini aşılayır",
+            "options": {
+                "A": "3,4",
+                "B": "1,2",
+                "C": "1,2,3",
+                "D": "1,3,5",
+                "E": "2,3,4,5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 107,
+            "question": "Dissertasiya: 1. Müvafiq elmi dərəcə almaq üçün təqdim edilən elmi - tədqiqat işidir 2. Elmi-tədqiqat institutları və ali məktəblərin elmi şuralarında müdafiə olunur, magistr, fəlsəfə doktoru və elmlər doktoru elmi dərəcəsi almaq üçün yazılır 3. Müstəqil tədqiqat aparmaq bacarığının bir testidir, müstəqil işləməkdir 4. “Başqasının fikir və ya işlərindən istifadə edərək özünə aid olduğunu iddia etmək”dir: başqalarına aid fikirləri özəlləşdirməkdir 5. Məlumat toplamaq və sistemləşdirmək üçün rasional metodlardan istifadə etmək, müstəqil yaradıcı xarakterə sahib olmaq bacarığını formalaşdırır",
+            "options": {
+                "A": "3,4,5",
+                "B": "1,2",
+                "C": "1,3,5",
+                "D": "2,3,5",
+                "E": "1,2,3"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 108,
+            "question": "Tərcümeyi-hal bunlardan hansına aiddir?",
+            "options": {
+                "A": "şifahi, monoloji",
+                "B": "dialoji, yazılı",
+                "C": "monoloji, yazılı",
+                "D": "yazılı, şifahi",
+                "E": "dialoji, şifahi"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 109,
+            "question": "Sözsüz ünsiyyətə hansı aid deyil?",
+            "options": {
+                "A": "Vizual rabitə – göz təması",
+                "B": "Ekspressiv – mənalı hərəkətlər (duruş, mimika, əl-qol hərəkətləri, baxış, yeriş)",
+                "C": "Pozalar, jestlər, üz ifadələri",
+                "D": "Səsin ucalığı, tembr, nəfəsalma, gülüş və s.",
+                "E": "Natiqlik"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 110,
+            "question": "Biri çıxış üçün əsas meyar deyil:",
+            "options": {
+                "A": "Loru və tüfeyli sözlərə, ifadələrə, şivə tələffüzünə və s. yol verilsin",
+                "B": "Sözlər, cümlələr aydın, hamının eşidə biləcəyi bir səs tonu ilə tələffüz edilsin",
+                "C": "Danışan müzakirə olunan mövzudan kənara çıxmasın",
+                "D": "Yığcam olsun, çox vaxt aparmasın",
+                "E": "Deyilənlərdə ardıcıllıq və rabitəlilik gözlənilsin"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 111,
+            "question": "Biri nitqin növlərinə aid deyil:",
+            "options": {
+                "A": "Məhkəmədə söylənilən nitq",
+                "B": "Məişət nitqi",
+                "C": "Akademik nitq",
+                "D": "Mədəni nitq",
+                "E": "İctimai-siyasi nitq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 112,
+            "question": "Dərin təhlilə, sübutlara, faktlara, obyektivliyə, ədalətə, qanunun aliliyinə əsaslanan nitq necə adlanır?",
+            "options": {
+                "A": "Ekran nitqi",
+                "B": "Məhkəmə nitqi",
+                "C": "Məişət nitqi",
+                "D": "Akademik nitq",
+                "E": "İctimai-siyasi nitq"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 113,
+            "question": "Elm adamlarının, alimlərin müdafiə şuralarındakı nitqi necə adlanır?",
+            "options": {
+                "A": "İctimai-siyasi nitq",
+                "B": "Ekran nitqi",
+                "C": "Akademik nitq",
+                "D": "Məhkəmə nitqi",
+                "E": "Məişət nitqi"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 114,
+            "question": "Toylarda, bayramlarda, dəfn mərasimlərində söylənilən nitq necə adlanır?",
+            "options": {
+                "A": "Akademik nitq",
+                "B": "Məhkəmə nitqi",
+                "C": "İctimai-siyasi nitq",
+                "D": "Ekran nitqi",
+                "E": "Məişət nitqi"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 115,
+            "question": "Biri ekran nitqinə aid deyil:",
+            "options": {
+                "A": "Ekran nitqinə telenitq də deyilir",
+                "B": "Ancaq monoloji forması olur",
+                "C": "Məzmun hərəki təsviri və səs ifadəsi ilə dinləyiciyə çatdırılır",
+                "D": "Televiziya verilişləri zamanı bəzən təsvir, bəzən də sözün rolu ön plana çəkilir",
+                "E": "Bu nitq həm yazılı, həm də şifahi nitqin xüsusiyyətlərini özündə birləşdirir"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 116,
+            "question": "Nitq mədəniyyəti konsepsiyasının komponentləri: biri səhvdir:",
+            "options": {
+                "A": "Əlaqə komponenti",
+                "B": "Etik komponent",
+                "C": "Estetik komponent",
+                "D": "İdeoloji komponent",
+                "E": "Dil komponenti"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 117,
+            "question": "Natiqliyin sahələri hansı cavabda düzgün göstərilib?",
+            "options": {
+                "A": "Bədii, texniki, siyasi, iqtisadi, akademik",
+                "B": "Elmi, siyasi, iqtisadi, bədii, işgüzar",
+                "C": "Fonetik, leksik, qrammatik, siyasi",
+                "D": "Akademik, siyasi, məhkəmə natiqliyi",
+                "E": "Mədəni, iqtisadi, mənəvi, siyasi"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 118,
+            "question": "Müəssisə rəhbəri idarənin illik fəaliyyətinə dair hesabat verir: Onun çıxışı natiqliyin hansı sahəsinə aiddir?",
+            "options": {
+                "A": "İşgüzar",
+                "B": "Akademik",
+                "C": "Elmi",
+                "D": "Bədii",
+                "E": "Siyasi"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 119,
+            "question": "Ünsiyyət vasitəsi:",
+            "options": {
+                "A": "Dil",
+                "B": "Nitq",
+                "C": "Nitq norması",
+                "D": "Səs sistemi",
+                "E": "Dilin qrammatik quruluşu"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 120,
+            "question": "Vətəndaş, cənab, xanım sözləri nitq etiketlərinin hansı növünə daxildir?",
+            "options": {
+                "A": "Görüşmə",
+                "B": "Alqış",
+                "C": "Ayrılma",
+                "D": "Təbrik",
+                "E": "Müraciət"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 122,
+            "question": "Dialoji nitq daha çox hansı üslubda özünü göstərir?",
+            "options": {
+                "A": "Bədii",
+                "B": "Fərdi",
+                "C": "Məişət",
+                "D": "Rəsmi-işgüzar",
+                "E": "Publisistik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 123,
+            "question": "Nitqin düzgünlüyü haqqında əsas fikir hansıdır?",
+            "options": {
+                "A": "Nitqin düzgünlüyü real hadisələrin olduğu kimi əks olunmasıdır",
+                "B": "Nitqin düzgünlüyü politoloji əlamətdir",
+                "C": "Nitqin düzgünlüyü terminoloji əlamətdir",
+                "D": "Nitqin düzgünlüyü yalnız fonetik normalarla tənzimlənir",
+                "E": "Nitqin düzgünlüyü leksik əlamətdir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 124,
+            "question": "Hansı nitqin ifadəliliyində heç bir rol oynamır?",
+            "options": {
+                "A": "Obrazlılıq",
+                "B": "Orfoqrafik normalar",
+                "C": "Sözün məcazi mənaları",
+                "D": "Bədii sual",
+                "E": "Sabit söz birləşmələri"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 125,
+            "question": "Ərizə bunlardan hansına aiddir?",
+            "options": {
+                "A": "Dialoji, yazılı",
+                "B": "Yazılı, şifahi",
+                "C": "Şifahi, monoloji",
+                "D": "Yazılı, dialoji",
+                "E": "Monoloji, yazılı"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 126,
+            "question": "Natiqliyin sahələri hansı cavabda düzgün göstərilib?",
+            "options": {
+                "A": "Bədii, texniki, siyasi",
+                "B": "Fonetik, qrammatik, siyasi",
+                "C": "Mədəni, iqtisadi, mənəvi",
+                "D": "Akademik, siyasi, məhkəmə natiqliyi",
+                "E": "Elmi, siyasi, iqtisadi"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 127,
+            "question": "Bunlardan biri natiqliyin sahələri siyahısında yoxdur:",
+            "options": {
+                "A": "Siyasi natiqlik",
+                "B": "Məhkəmə natiqliyi",
+                "C": "Akademik natiqlik",
+                "D": "İşgüzar natiqlik",
+                "E": "Publisistik natiqlik"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 128,
+            "question": "Şifahi nitqin xüsusiyyətlərindən hansı səhvdir:",
+            "options": {
+                "A": "İntonasiya, fasilə, vurğudan istifadə olunması",
+                "B": "Cümlələrin qısa və aydın olması",
+                "C": "Daha çox mürəkkəb cümlələrdən istifadə olunması",
+                "D": "Hamıya aydın olan ümumişlək sözlərə çox yer verilməsi",
+                "E": "Nitq zamanı jestlərdən istifadə olunması"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 129,
+            "question": "Yazılı nitqin xüsusiyyətlərindən hansı səhvdir?",
+            "options": {
+                "A": "Yazılı nitqin hər hansı məlumatın nəsldən-nəslə keçməsində mühüm rol oynaması",
+                "B": "Elmi, texniki, siyasi və başqa terminlərin işlədilməsi",
+                "C": "Yazılı nitqin ədəbi dilin əsasında formalaşıb inkişaf etməsi",
+                "D": "Daha çox sadə cümlələrdən istifadə edilməsi",
+                "E": "Yazılı nitqdə mimika və jestlərin əsas rol oynamaması"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 130,
+            "question": "Yazılı nitqin xüsusiyyətlərinə hansı aid deyil:",
+            "options": {
+                "A": "Yazılır və oxunur",
+                "B": "İnformasiyanın nəsildən-nəslə keçməsində mühüm rol oynayır",
+                "C": "Cümlələr qısa və aydın olur",
+                "D": "Elmi, texniki, siyasi və başqa terminlər işlədilir",
+                "E": "Ədəbi dilin normaları əsasında formalaşıb inkişaf edir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 131,
+            "question": "Sözün ədəbi dildəki tələffüzü necə adlanır?",
+            "options": {
+                "A": "Qrammatika",
+                "B": "Fonetika",
+                "C": "Leksika",
+                "D": "Orfoepiya",
+                "E": "Orfoqrafiya"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 132,
+            "question": "İş adamlarının, sahibkarların çıxışları natiqliyin hansı sahəsinə aiddir?",
+            "options": {
+                "A": "İşgüzar natiqlik",
+                "B": "Siyasi natiqlik",
+                "C": "Akademik natiqlik",
+                "D": "Elmi natiqlik",
+                "E": "Bədii natiqlik"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 133,
+            "question": "Mədəni nitq üçün birinci növbədə tələb olunur: 1) Dilin səlisliyi, ifadə imkanlarının genişliyi 2) İnsanı əhatə edən əşya və ya hadisələri əks etdirmək 3) Həmin dildən istifadə edənlərin ifadə imkanlarının genişliyindən, səlisliyindən düzgün faydalanmaq vərdişləri 4) Məişət üslubunda danışmaq",
+            "options": {
+                "A": "1, 4",
+                "B": "2, 4",
+                "C": "1, 2",
+                "D": "1, 3",
+                "E": "3, 4"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 134,
+            "question": "Natiqlik sənətinin ikinci adı:",
+            "options": {
+                "A": "Etiket",
+                "B": "Jest",
+                "C": "Mimika",
+                "D": "Etika",
+                "E": "Ritorika"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 135,
+            "question": "Jest və mimika haqqında doğru fikri göstərin:",
+            "options": {
+                "A": "Bütün natiqlərin eyni jest sistemindən faydalanması mümkündür",
+                "B": "Jestlə mimika nitqdə eyni psixofizioloji aktlardır",
+                "C": "Yazılı dil jest və mimikasızdır",
+                "D": "Təəccüb, narazılıq, ehtiram, sevinc və s. müxtəlif emosiyaları ifadə edən üz hərəkətləri jest adlanır",
+                "E": "Nitqdə mənalı əl-qol hərəkətləri mimika adlanır"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 136,
+            "question": "“Mimika” nədir?",
+            "options": {
+                "A": "Dialekt sözü",
+                "B": "Razılıq bildirən nitq etiketi",
+                "C": "Əl-qol hərəkətlərindən məqsədəuyğun istifadə etmək",
+                "D": "Üz əzələlərinin mənalı hərəkəti",
+                "E": "Düzgün nitqə verilən şərtlərdən biri"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 137,
+            "question": "Məsləhət verərkən bu ifadəni işlətmək olmaz:",
+            "options": {
+                "A": "Səbirli olun, bu mərhələni də uğurla keçəcəksiniz",
+                "B": "Yaxşı-yaxşı fikirləşin, sonra qərar verin",
+                "C": "Məncə, bir qədər gözləsən, yaxşı olar",
+                "D": "Sən başqa işlə məşğul ol, bu, sən girən kol deyil",
+                "E": "Hava dəyişib, özünüzü soyuqdan qoruyun"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 138,
+            "question": "Akademik nitq nümunələrinə ən çox harada rast gəlinir?",
+            "options": {
+                "A": "Konfransda, mühazirədə, elmi şurada",
+                "B": "Yas mərasimində, TV verilişlərində, toyda",
+                "C": "Treninqdə, yarışlarda, yaslarda",
+                "D": "Məhkəmədə, simpoziumda, konsertlərdə",
+                "E": "Seminarda, mitinqdə, yubileylrdə"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 139,
+            "question": "Akademik nitq hansı üslubda qurulur?",
+            "options": {
+                "A": "Elmi üslubda",
+                "B": "Danışıq üslubunda",
+                "C": "Epistolyar üslubda",
+                "D": "Publisistik üslubda",
+                "E": "Rəsmi üslubda"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 140,
+            "question": "Terminlərdən ibarət cərgəni göstərin:",
+            "options": {
+                "A": "Neftçi, inteqral",
+                "B": "Divan, müğənni",
+                "C": "Tənlik, mübtəda",
+                "D": "Burun, çimərlik",
+                "E": "Gəzmək, görmək"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 141,
+            "question": "Fikrin çatdırılması üçün hamının əməl etməsi vacib olan şərt:",
+            "options": {
+                "A": "Ədəbi dil normaları",
+                "B": "Dilin fonetik, leksik normaları",
+                "C": "Xalq danışıq dili",
+                "D": "Dilin lüğət tərkibi",
+                "E": "Lüğət tərkibi"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 142,
+            "question": "Müəllimin auditoriyada oxuduğu mühazirə natiqliyin hansı növünə aiddir?",
+            "options": {
+                "A": "Siyasi",
+                "B": "İşgüzar",
+                "C": "İnzibati-idarə",
+                "D": "Bədii",
+                "E": "Akademik"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 143,
+            "question": "Nitq hansı proseslər əsasında fəaliyyət göstərir?",
+            "options": {
+                "A": "Dil və nitq",
+                "B": "Şifahi və yazılı",
+                "C": "İctimai, fizioloji və psixoloji",
+                "D": "Anlama, danışma",
+                "E": "Ünsiyyət"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 144,
+            "question": "Elmi üsluba xas olan hansı vasitələr mütəxəssislər üçün daha anlaşıqlı olur?",
+            "options": {
+                "A": "İşarələr",
+                "B": "Alınma terminlər",
+                "C": "Şərti işarələr, formullar",
+                "D": "Terminlər və izahlar",
+                "E": "Sadə və mürəkkəb cümlələr"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 145,
+            "question": "Biri nitq mədəniyyəti ilə əlaqədar elm sahəsi deyil:",
+            "options": {
+                "A": "Etnoqrafiya",
+                "B": "Ədəbiyyat",
+                "C": "Məntiq",
+                "D": "Psixologiya",
+                "E": "Qrammatika"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 146,
+            "question": "Nitq fasiləsi psixoloji funksiya daşıyarkən hansı durğu işarəsindən istifadə olunur?",
+            "options": {
+                "A": "Sual işarəsi",
+                "B": "Nida işarəsi",
+                "C": "Üç nöqtə",
+                "D": "Nöqtəli vergül",
+                "E": "Nöqtə"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 147,
+            "question": "Nitq fasiləsi məntiqi funksiya daşıyarkən hansı cəhət əsas götürülür?",
+            "options": {
+                "A": "Nitqin dəqiqliyi",
+                "B": "Nəfəsalma",
+                "C": "Nitqi məna daşıyan hissələrə bölmək",
+                "D": "Nəfəsvermə",
+                "E": "Nitqin düzgünlüyü"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 148,
+            "question": "Dilin öz daxili vəsaiti hesabını yaranan terminlər hansı sıradadır?",
+            "options": {
+                "A": "Affiks, suffiks, perefiks, saitlər, samitlər, dissimilyasiya, metateza",
+                "B": "Qoşma, gözəlləmə, dilönü, dilarxası, adlıq, yönlük, çıxışlıq, sözdüzəldici, sözdəyişdirici, kök, şəkilçi, yanaşma, uzlaşma, uyuşma",
+                "C": "Assimilyasiya, proteza, eliziya, rektor, dekan, kafedra, futbol, tennis",
+                "D": "Laboratoriya, qrammatika, leksika, sintaksis, samitlər, elektrik, radio",
+                "E": "Telefon, fleksiya, fonetika, morfologiya, etimologiya, semasiologiya"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 149,
+            "question": "Terminin əsas xüsusiyyəti nədir?",
+            "options": {
+                "A": "Terminlər çoxmənalılıq xüsusiyyətinə malik olur",
+                "B": "Terminlər dildən- dilə keçmir",
+                "C": "Dildə konkret mənası olur",
+                "D": "Terminlər məcazilik xüsusiyyətinə malik olur",
+                "E": "Terminlər yalnız doğma dildə yaranır"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 150,
+            "question": "Ədəbi dilin normaları: biri səhvdir.",
+            "options": {
+                "A": "Dəyişkənlik dilin orfoqrafik və leksik normalarında daha çox özünü göstərir",
+                "B": "Dəyişkəndir, müəyyən tarixi şəraitdən asılı olaraq bu və ya digər dərəcədə dəyişikliyə uğrayır",
+                "C": "Kütləvi xarakter daşımır, yəni hamı tərəfindən anlaşılan, hamının dil ünsiyyəti üçün yararlı deyil",
+                "D": "Kütləvi xarakter daşıyır, yəni hamı tərəfindən anlaşılan, hamının dil ünsiyyəti üçün yararlıdır",
+                "E": "Dilin bütün səviyyəsini əhatə edir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 151,
+            "question": "Fonetik normanın pozulduğu cümləni göstərin:",
+            "options": {
+                "A": "Onlar bu gün kənddən gəldilər",
+                "B": "Eşitdiyi xəbərdən donub qaldı, bilmədi neyləsin",
+                "C": "Mən bu gün instuta getməyəcəm",
+                "D": "Baş verənlərdən çox narazıyam, təəssüf edirəm",
+                "E": "Universitetimiz öz ənənələri ilə digər ali məktəblərdən fərqlənir"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 152,
+            "question": "Sözlərdən birinin yazılışı səhvdir:",
+            "options": {
+                "A": "Labratoriya",
+                "B": "Aşpaz",
+                "C": "Müəssisə",
+                "D": "Macəra",
+                "E": "Ünsiyyət"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 153,
+            "question": "Səhv yazılmış sözü göstərin:",
+            "options": {
+                "A": "Gürcüstan",
+                "B": "Tatarstan",
+                "C": "Qırğızıstan",
+                "D": "Əfqanıstan",
+                "E": "Türkmənistan"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 154,
+            "question": "Yazlılışı ilə tələffüzü fərqlənməyən sözü göstərin:",
+            "options": {
+                "A": "Başmaq",
+                "B": "Doqqaz",
+                "C": "Asan",
+                "D": "Tənəffüs",
+                "E": "Pələng"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 155,
+            "question": "Birinin yazılışı səhvdir:",
+            "options": {
+                "A": "Krasnodar",
+                "B": "İştirak",
+                "C": "Həyəcan",
+                "D": "Kampromis",
+                "E": "Rəsmxət"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 156,
+            "question": "Birinin yazılışı düzdür:",
+            "options": {
+                "A": "Mavzaley",
+                "B": "Şakalat",
+                "C": "Kəpənəy",
+                "D": "İşdirak",
+                "E": "Müəssisə"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 157,
+            "question": "Fonetik hadisələr. Biri assimilyasiyadır:",
+            "options": {
+                "A": "Oynuyullar, qızdar, dannadı;",
+                "B": "Küflət, İrbahım, məhşur, yalnış,",
+                "C": "Oğlu, əslinə, ömrüm, şəklin,",
+                "D": "Nayilə, doğa, tokqa, haçar",
+                "E": "İrəsul, İrza, istəkan, istansiya, ustul"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 158,
+            "question": "Biri dissimilyasiyadır:",
+            "options": {
+                "A": "Hətda, küfdə, dokquz, səkgiz",
+                "B": "Radiyo, ləmbəki, yalnış, məllim",
+                "C": "İrayon, qurup, qıram, kulub, ustol, İreyhan",
+                "D": "Çevriliş, yanlış, ayrılıq, prablem",
+                "E": "Kiprik, lahiyə, görsətmək, istəkan"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 159,
+            "question": "Biri protezadır:",
+            "options": {
+                "A": "Gözəllər, məşhur, müəssə, qanat",
+                "B": "Mənnən, asant, qıram, ayrılık",
+                "C": "Radiyo, İrza, istəkan, Uruset",
+                "D": "İşkaf, dayirə, könbə, sərfiyat",
+                "E": "Yanımnan , onnar, qanımnan, hokqa"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 160,
+            "question": "Biri metatezadır:",
+            "options": {
+                "A": "İrəsul, istəkan, istansiya, işkaf",
+                "B": "Küflət, yalnış, məhşur, lahiyə",
+                "C": "Oğlu, əslinə, ömrüm, şəklin",
+                "D": "İssi, hətda, küfdə, qaralmaq",
+                "E": "Oynuyullar, öyrəmmək, dannadı, onnar"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 161,
+            "question": "“Qızım, bir ətirli çay süz gətir!” əvəzinə “Qızım, ətirli çay tök gətir” deyilərsə, ədəbi dilin hansı norması pozulmuş hesab olunar?",
+            "options": {
+                "A": "Qrammatik",
+                "B": "Fonetik",
+                "C": "Leksik",
+                "D": "Qrammatik və fonetik",
+                "E": "Leksik və fonetik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 162,
+            "question": "“Sən kitapdakıların hamısını əzbərləmisən?” cümləsində ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "Qrammatik",
+                "B": "Leksik",
+                "C": "Orfoqrafik",
+                "D": "Həm leksik, həm qrammatik",
+                "E": "Orfoepik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 163,
+            "question": "Hansı cərgədə bütün nümunələr orfoepiyası (tələffüzü) orfoqrafiyasından",
+            "options": {
+                "A": "Lələk, yorğan, sual",
+                "B": "Karvan, pəhləvan, dastan",
+                "C": "Dilək, konsert, hətta",
+                "D": "İbtidai, orta, institut",
+                "E": "Portağal, limon, heyva"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 164,
+            "question": "Hansı normanın tələbinə görə mübtəda ilə xəbər şəxsə və kəmiyyətə görə uyğun olmalıdır?",
+            "options": {
+                "A": "Leksik",
+                "B": "Fonetik və leksik",
+                "C": "Orfoepik",
+                "D": "Qrammatik",
+                "E": "Orfoqrafik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 165,
+            "question": "Qrammatik normanın gözlənilməsi ilk növbədə təmin edir:",
+            "options": {
+                "A": "Ədəbi tələffüzü",
+                "B": "Nitqin düzgünlüyünü",
+                "C": "Nitqin konkretliyini, yığcamlığını",
+                "D": "Nitqin dəqiqliyini",
+                "E": "Nitqin ifadəli və cəlbedici olmasını"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 166,
+            "question": "Miqdar saylarından sonra gələn isimlər cəmdə işlənərsə, ədəbi dilin hansı norması pozulur?",
+            "options": {
+                "A": "leksik",
+                "B": "orfoqrafik",
+                "C": "leksik və qrammatik",
+                "D": "qrammatik",
+                "E": "orfoepik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 167,
+            "question": "Ədəbi dilin leksik normasının əsas şərti:",
+            "options": {
+                "A": "Sözü düzgün tələffüz etmək",
+                "B": "Söz və cümlələr arasındakı əlaqələri nitqdə düzgün qurmaq",
+                "C": "Sözün mənasına bələd olmaq, onu yerində və düzgün işlətmək",
+                "D": "Sözü düzgün yazmaq",
+                "E": "Poetik funksiyaya malik sözlərdən istifadə etmək"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 168,
+            "question": "Ədəbi dilin qrammatik normasının əsas tələbi:",
+            "options": {
+                "A": "Söz və cümlələr arasındakı əlaqələri nitqdə düzgün qurmaq",
+                "B": "Məhəlli sözləri nitqdə işlətmək",
+                "C": "Sözləri düzgün tələffüz etmək və düzgün yazmaq",
+                "D": "Sözün mənasına bələd olmaq və onu düzgün işlətmək",
+                "E": "Milli sözləri alınma sözlərdən daha çox işlətmək"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 169,
+            "question": "Hansı cümlədə həm leksik, həm də qrammatik norma pozulub?",
+            "options": {
+                "A": "Mən nənəmin özünnən soruşmuşam",
+                "B": "Anası ona dünən layla oxuyurdu",
+                "C": "Sonra düşdük yuxarı otağa",
+                "D": "Doğrusu, belə cavab gözləmirdim",
+                "E": "Kənddəki evlərində qalmışdı kitabları"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 170,
+            "question": "Hansı normanın tələbinə görə mübtəda ilə xəbər şəxsə və kəmiyyətə görə uyğun olmalıdır?",
+            "options": {
+                "A": "orfoqrafik",
+                "B": "orfoepik",
+                "C": "qrammatik",
+                "D": "fonetik və leksik",
+                "E": "leksik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 171,
+            "question": "Hansı cümlədə qrammatik norma pozulub?",
+            "options": {
+                "A": "O, doğmalarını heç cür unuda bimirdi",
+                "B": "Vətən yolunda qurban gedənləri unutmayacağıq",
+                "C": "Heç biri bu məsələ barədə düşünmək istəmirdilər",
+                "D": "Bu igidlərin həyatı, keçdiyi ömür yolu hər bir gənc üçün örnəkdir, məktəbdir",
+                "E": "Şəhərli ovçu səhər tezdən çıxıb getmişdi"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 172,
+            "question": "Hansı söz orfoqrafik normaya uyğun deyil?",
+            "options": {
+                "A": "avtobus",
+                "B": "avtomat",
+                "C": "avtovağzal",
+                "D": "aftamabil",
+                "E": "avtoyol"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 173,
+            "question": "“Auditoriyaya daxil olan 5 tələbələr arxa sırada əyləşdilər” cümləsində ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "Leksik",
+                "B": "Qrammatik",
+                "C": "Fonetik",
+                "D": "Orfoqrafik",
+                "E": "Həm fonetik, həm də leksik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 174,
+            "question": "Qrammatik norma hansı sırada pozulub:",
+            "options": {
+                "A": "Xalqımızın gücü, qüdrəti - onun ordusudur",
+                "B": "Gələcəyin qurucuları bizim universitetdə hazırlanır",
+                "C": "Hər bir millət müdafiə etməlidir öz azadlığını, müstəqilliyini",
+                "D": "Xəzər dənizinin sahilində yerləşən Bakı şəhəri öz füsunkar gözəlliyi ilə ölkəmizə gələn turistləri heyran edir",
+                "E": "Müsəlləh əsgərəm, mən də bu gündən! (Səməd Vurğun)"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 175,
+            "question": "Hansı cümlədə söz sırası pozulub?",
+            "options": {
+                "A": "Onların kəndi Kür çayının qırağında idi",
+                "B": "Nərgiz səyahətə getmək üçün bütün turları araşdırdı",
+                "C": "İmtahan sualları asan olsa da, hamısını yaza bilmədi",
+                "D": "Təzə idman meydançası yaratdıq ki, binanın uşaqları orda oynasın",
+                "E": "Arif durmuşdu səhər tezdən ki, işlərini sahmanlasın"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 176,
+            "question": "“Xanım şəkərburaların üstünə naxış çəkirdi” cümləsində ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "leksik",
+                "B": "fonetik",
+                "C": "qrammatik",
+                "D": "fonetik və leksik",
+                "E": "leksik və qrammatik"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 177,
+            "question": "Söz sırası daha çox nə vaxt pozulur?",
+            "options": {
+                "A": "Elmi əsərlərin dilində",
+                "B": "Rəsmi sənədlərin dilində",
+                "C": "Şifahi danışıqda",
+                "D": "İşgüzar sənədlərin dilində",
+                "E": "Remarkada"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 178,
+            "question": "Hansı cərgədə bütün sözlər orfoqrafik normaya uyğundur?",
+            "options": {
+                "A": "Qırqavul, kəsgin, səyahət",
+                "B": "Konkret, şakalad, şirniyyat",
+                "C": "Təbaşir, əski, əlbətdə",
+                "D": "Heyif, gicitkən, lahiyə",
+                "E": "Qadın, komandir, qulluqçu"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 179,
+            "question": "Orfoepik və orfoqrafik normalar hansı normanı formalaşdırır?",
+            "options": {
+                "A": "nitq",
+                "B": "fonetik",
+                "C": "fonetik-leksik",
+                "D": "qrammatik",
+                "E": "leksik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 180,
+            "question": "Hansı nümunə orfoepik normaya uyğun deyil?",
+            "options": {
+                "A": "mə:lumat",
+                "B": "armudu",
+                "C": "qol-qanad",
+                "D": "tədris",
+                "E": "mat"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 181,
+            "question": "Sözlərin aşağıdakı tələffüz formalarından hansının orfoepik normalara uyğun olduğunu müəyyənləşdirin",
+            "options": {
+                "A": "Qarandıx, kombayn, qardaş, murtda",
+                "B": "Səfih, gələjək, baca, serçə",
+                "C": "Gecə, qəşənk, daşlı, panbıq",
+                "D": "Torpax, qaşıq, yumurtda, qızdar",
+                "E": "Məllim, Maskva, eskalatır, labratorya"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 182,
+            "question": "Dialekt sözlər hansı sıradadır:",
+            "options": {
+                "A": "küyləmək, bölən, koxa, mışqı",
+                "B": "ciji, tana, hünü, boba",
+                "C": "çivin, bejərmək, dəryaz, abbası",
+                "D": "vijdan, arşın, teyləmək, anarı",
+                "E": "hancarı, otaq, qəlbi, əv"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 183,
+            "question": "Hansı sırada ixtisarların yazılışı doğrudur?",
+            "options": {
+                "A": "AzəristilikTəhcizat, ASC-nın, XİN-da, BSU-nin",
+                "B": "BDU-nin, ADU-da, NATO-yə, AŞ PA-dən",
+                "C": "İSESKO-nun, tele-tamaşa, MM-də, BƏƏ-nin, AzTU-də",
+                "D": "AŞ PA, AzMİU-nun, teletamaşa, BMT-yə",
+                "E": "AzərKitab, MDB-nın, ADMİU-nin, Azərtac"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 184,
+            "question": "Ədəbi dil normalarına hansı şəraitdə əməl edirsiniz?",
+            "options": {
+                "A": "Dərs prosesində",
+                "B": "Bazarda",
+                "C": "Küçədə",
+                "D": "Evdə",
+                "E": "Universitetdə, məktəbdə"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 185,
+            "question": "Verilmiş frazeoloji birləşmələrə uyğun olan sözlər hansı sıradadır?",
+            "options": {
+                "A": "baş sındırmaq – fikirləşmək, bel bağlamaq – etibar etmək",
+                "B": "dişə vurmaq – dişini qurtdalamaq, qəlbə dəymək – küsdürmək",
+                "C": "dincini almaq – istirahət etmək, burnunu sallamaq- burnunu eşmək",
+                "D": "ailə qurmaq – evlənmək, göz qoymaq – gözünə baxmaq",
+                "E": "yada salmaq – xatırlatmaq, ağzına dil atmaq – dilini çıxartmaq"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 186,
+            "question": "Hansı sırada loru sözlər işlənib?",
+            "options": {
+                "A": "qıfılla, qırıldatmaq, heyvərə, çərənləmək, hırıldamaq",
+                "B": "Tıxmaq, manıs, mırtdaşmaq, eşdirmək, xod getmək",
+                "C": "şikil, qatıqlamaq, prestij, açıqca, fisqırıq",
+                "D": "monitorinq aparmaq, pioner, qədeş, çağdaş, hərifləmək",
+                "E": "şestyorka, burcutmaq, işini bitirmək, qəmərti, tanıtım"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 187,
+            "question": "Leksik mənası olmayan sözlərin variantını göstərin:",
+            "options": {
+                "A": "Gözəl, alma",
+                "B": "İmtahan, cəsur",
+                "C": "Ancaq, amma",
+                "D": "Bölgə, sarı",
+                "E": "Otaq, ortaq"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 188,
+            "question": "Morfoloji norma hansı cərgədə pozulub?",
+            "options": {
+                "A": "Dilə düşmək",
+                "B": "Qapının cəftəsi",
+                "C": "Çayın suyu",
+                "D": "Çatışmamazlıqlar var",
+                "E": "Sözün qüdrəti"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 189,
+            "question": "“Hər dəfə onun bu halını görəndə könlüm ağrıyırdı” cümləsində ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "Sintaktik",
+                "B": "Orfoepik",
+                "C": "Morfoloji",
+                "D": "Leksik",
+                "E": "Orfoqrafik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 190,
+            "question": "Hansı bənddə leksik norma pozulub?",
+            "options": {
+                "A": "Hər bir gənc Vətənə xidmət etməyə məhkumdur",
+                "B": "Zəhmət olmasa, mənə bir stəkan çay süz",
+                "C": "Yalvarma, yalvarma o cəllada sən! (S.Vurğun)",
+                "D": "Tarlada suvarma işləri başa çatdı",
+                "E": "Gəzintidən yorğun qayıdan Ceyhun tez yatdı"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 191,
+            "question": "“44 günlük vətən müharibəsində yüzlərlə qəhrəman oğullarımız vəfat etdi” cümləsində ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "Yalnız leksik",
+                "B": "Qrammatik, leksik",
+                "C": "Orfoepik, qrammatik",
+                "D": "Yalnız orfoqrafik",
+                "E": "Leksik, fonetik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 192,
+            "question": "Leksik normanın pozulduğu nümunə hansıdır?",
+            "options": {
+                "A": "deyilmiş söz",
+                "B": "kəşfiyyat planı",
+                "C": "düşüncəli insan",
+                "D": "yüksək xasiyyət",
+                "E": "müdrik rəhbər"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 193,
+            "question": "“Axşam gəlir” birləşməsində nitqin hansı tələbi pozulmuşdur?",
+            "options": {
+                "A": "aydınlıq",
+                "B": "təmizlik",
+                "C": "sadəlik",
+                "D": "münasiblik",
+                "E": "dəqiqlik"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 194,
+            "question": "Söylənilən fikrin mümkün qədər az sözlə ifadə olunması mədəni nitqə verilən hansı tələbdir?",
+            "options": {
+                "A": "ifadəlilik",
+                "B": "yığcamlıq",
+                "C": "aydınlıq",
+                "D": "təmizlik",
+                "E": "zənginlik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 195,
+            "question": "Danışan nitq obyekti haqqında mükəmməl məlumata malik olmalıdır. Bu nitqin hansı tələbidir?",
+            "options": {
+                "A": "təmizlik",
+                "B": "düzgünlük",
+                "C": "aydınlıq",
+                "D": "dəqiqlik",
+                "E": "yığcamlıq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 196,
+            "question": "“... nitqə yiyələnmək üçün qrammatikanın qaydalarını bilməkdən əlavə, ədəbi dilin normalarına da riayət etmək lazımdır”. Nöqtələrin yerinə hansı söz qoyulmalıdır?",
+            "options": {
+                "A": "təmiz",
+                "B": "dəqiq",
+                "C": "aydın",
+                "D": "ifadəli",
+                "E": "düzgün"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 197,
+            "question": "Ətraflı düşünmək, fikri dəqiq, aydın, qısa və konkret ifadə etmək nitqin hansı tələbinə aiddir?",
+            "options": {
+                "A": "təmizlik",
+                "B": "zənginlik",
+                "C": "aydınlıq",
+                "D": "yığcamlıq",
+                "E": "sadəlik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 198,
+            "question": "Əgər nitqdə tez-tez “zaddı, şeydi, adını sən de, canım sənə desin” kimi ifadələr işlədilərsə, mədəni nitqin hansı tələbi pozulur?",
+            "options": {
+                "A": "nitqin münasibliyi",
+                "B": "nitqin zənginliyi",
+                "C": "nitqin təmizliyi",
+                "D": "nitqin aydınlığı",
+                "E": "nitqin dəqiqliyi"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 199,
+            "question": "“Təmiz danış, az danış” atalar sözündə mədəni nitqin hansı tələbi əks olunub?",
+            "options": {
+                "A": "ifadəlilik",
+                "B": "münasiblik",
+                "C": "orijinallıq",
+                "D": "sadəlik",
+                "E": "yığcamlıq"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 200,
+            "question": "“Lap qədimdən bəri öz dövrünün qabaqcıl insanları məzmunlu, obrazlı, aydın və təsirli nitqə malik olan şəxslərə böyük hörmət bəsləyiblər”. Cümlədə mədəni nitqə verilən tələblərdən hansı pozulub?",
+            "options": {
+                "A": "təmizlik",
+                "B": "münasiblik",
+                "C": "yığcamlıq",
+                "D": "aydınlıq",
+                "E": "obrazlılıq"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 201,
+            "question": "Nitqdə məhəlli dialekt, şivə, jarqon və əcnəbi sözlərdən çox istifadə olunarsa, nitqin hansı tələbi pozulur?",
+            "options": {
+                "A": "nitqin aydınlığı",
+                "B": "nitqin münasibliyi",
+                "C": "nitqin sadəliyi",
+                "D": "nitqin dəqiqliyi",
+                "E": "nitqin təmizliyi"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 202,
+            "question": "Bəzi natiqlər nitqinə şeirlə, atalar sözü, dahilərdən sitatar və ibrətamiz bir əhvalatla başlayır. Bu mədəni nitqin hansı tələbidir?",
+            "options": {
+                "A": "münasiblik",
+                "B": "sadəlik",
+                "C": "yığcamlıq",
+                "D": "orijinallıq",
+                "E": "aydınlıq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 203,
+            "question": "Nitqin düzgünlüyü tələbində yalnız qrammatik qaydalara əməl etmək kifayət deyil. Daha hansı şərt əsas götürülür?",
+            "options": {
+                "A": "əcnəbi sözlərdən istifadə etməmək",
+                "B": "orijinal danışmaq",
+                "C": "uzun-uzadı danışmaq",
+                "D": "jarqonlar işlətməmək",
+                "E": "nitqin reallığı əks etdirməsi"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 204,
+            "question": "Dəqiqlik hansı üslubun səciyyəvi xüsusiyyətidir?",
+            "options": {
+                "A": "Ailə-məişət",
+                "B": "Elmi",
+                "C": "İşgüzar",
+                "D": "Publisistik",
+                "E": "Bədii"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 205,
+            "question": "Hansı monoloji nitq formasıdır?",
+            "options": {
+                "A": "Çıxış, məruzə, mühazirə",
+                "B": "Çıxış, sual-cavab, nitq",
+                "C": "Mühazirə, məlumat, debat",
+                "D": "Müsahibə, sual-cavab, debat",
+                "E": "Replika, diskussiya, məruzə"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 206,
+            "question": "Natiq nitqində dinləyənin kimliyini, yaşını, ixtisasını, təhsilini nəzərə almırsa, mədəni nitqin hansı tələbi pozulmuş olur?",
+            "options": {
+                "A": "Nitqin aydınlığı",
+                "B": "Münasibliyi",
+                "C": "Orijinallığı",
+                "D": "Zənginliyi",
+                "E": "Rabitəliliyi"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 207,
+            "question": "Hansı variantda nitqin düzgünlüyü pozulub?",
+            "options": {
+                "A": "Həsənağanın yoğun səsi onu yuxudan oyatdı",
+                "B": "Universitetimizdə bütün ixtisalarımız çox aktual və tələbatlıdır",
+                "C": "Qonşunun iti bütün günü qışqırır deyə, hamı şikayətlənir",
+                "D": "Ülkərin qızı çox ərköyündür, əl vuran kimi ağlayır",
+                "E": "Məktəbimiz bayramsayağı bəzədilib, hər tərəfdən bayraqlar asılıb"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 208,
+            "question": "Ünsiyyətin formaları hansılardır?",
+            "options": {
+                "A": "Psixoloji",
+                "B": "İctimai",
+                "C": "İdeoloji",
+                "D": "Formal və qeyri-formal",
+                "E": "Sosial"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 209,
+            "question": "Azərbaycan dilində durğu işarələrinin sayı. Biri düzdür.",
+            "options": {
+                "A": "4",
+                "B": "8",
+                "C": "7",
+                "D": "3",
+                "E": "10"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 210,
+            "question": "Azərbaycan dilində durğu işarələri. Biri düzdür.",
+            "options": {
+                "A": "Nöqtə, nida işarəsi, , nöqtəli vergül, üş nöqtə, tire, mötərizə, dırnaq",
+                "B": "Nöqtə, vergül, sual işarəsi, nida işarəsi, qoşa nöqtə, nöqtəli vergül",
+                "C": "Nöqtə, vergül, sual işarəsi, nida işarəsi, nöqtəli vergül, çox nöqtə, tire, mötərizə.",
+                "D": "Nöqtə, iki nöqtə, üç nöqtə, vergül, nöqtəli vergül, sual işarəsi, nida işarəsi, tire, mötərizə, dırnaq",
+                "E": "Sual işarəsi, nida işarəsi, əmr işarəsi, nöqtəli vergül, çox nöqtə, tire, mötərizə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 211,
+            "question": "Nöqtə: 1. Adi intonasiya ilə deyilir 2. Hər hansı bir fikrin və ya məlumatın bitdiyini göstərir 3. Məlumat bildirir 4. Ayırıcı funksiya daşımır 5. Ondan sonra fasilə edilmir",
+            "options": {
+                "A": "1,2,3",
+                "B": "1,3,5",
+                "C": "2,3",
+                "D": "3,4,5",
+                "E": "2,3,4"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 212,
+            "question": "Vergül: Biri səhvdir.",
+            "options": {
+                "A": "Bəli, yox, xeyr sözləri, vokativlərdən sonra və s. məqamlarda işlənir",
+                "B": "Vergül cümlə daxilində geniş fasiləli ayırmadır",
+                "C": "O, bu əvəzlikləri, qrammatik cəhətdən cümlə üzvləri ilə bağlı olmayan xitab, ara söz və birləşmələrdə işlənir",
+                "D": "Həmcins, xüsusiləşmiş üzvlü cümlələr, əlavəli konstruksiyalarla genişlənmiş, məntiqi-sintaktik əlaqəli cümlələr arasında işlənir",
+                "E": "Tabeli və tabesiz mürəkkəb cümlələr arasında işlənir"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 213,
+            "question": "Nöqtəli vergül: 1. Fasiləyə görə nöqtə ilə vergül arasında mövqe tutur 2. Mürəkkəb və ya geniş sadə cümlələrin nisbətən müstəqil hissələrini bir- birindən ayırmaq üçün işlənir 3. Tabeli və tabesiz mürəkkəb cümlələr arasında işlənir 4. O, bu əvəzlikləri, qrammatik cəhətdən cümlə üzvləri ilə bağlı olmayan xitab, ara söz və birləşmələrdə işlənir 5. Bəli, yox, xeyr sözləri, vokativlərdən sonra və s. məqamlarda işlənir",
+            "options": {
+                "A": "3,5",
+                "B": "1,2",
+                "C": "1,2,3",
+                "D": "2,3,4,5",
+                "E": "1,3,5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 214,
+            "question": "İki nöqtə: 1. Cümlədə fikri aydınlaşdırmaq, ümumi fikirdən sonra onun izahını vermək məqsədi daşıyır 2. Əsasən həmcins üzvlərdə ümumiləşdirici sözdən, “məsələn” sözündən, vasitəsiz nitqdə müəllif nitqindən sonra, dialoqda, aydınlaşdırma əlaqəli tabeli mürəkkəb cümlələrdə ümumilik bildirən tərkibdə işlənir 3. Tabeli və tabesiz mürəkkəb cümlələr arasında işlənir 4. O, bu əvəzlikləri, qrammatik cəhətdən cümlə üzvləri ilə bağlı olmayan xitab, ara söz və birləşmələrdə işlənir 5. Bəli, yox, xeyr sözləri, vokativlərdən sonra və s. məqamlarda işlənir",
+            "options": {
+                "A": "2,3,4,5",
+                "B": "1,2",
+                "C": "1,2,3",
+                "D": "3,5",
+                "E": "1,3,5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 215,
+            "question": "Üç nöqtə: Biri düzdür.",
+            "options": {
+                "A": "Mürəkkəb və ya geniş sadə cümlələrin nisbətən müstəqil hissələrini bir-birindən ayırmaq üçün işlədilir – cümlədə ayırıcı funksiya daşıyır",
+                "B": "Adətən, fikrin bitmədiyini, emosional gərginliyi bildirir",
+                "C": "Tabeli və tabesiz mürəkkəb cümlələr arasında işlənir",
+                "D": "Cümlədə fikri aydınlaşdırmaq, ümumi fikirdən sonra onun izahını vermək məqsədi daşıyır",
+                "E": "Əsasən həmcins üzvlərdə ümumiləşdirici sözdən, “məsələn” sözündən vasitəsiz nitqdə müəllif nitqindən sonra, dialoqda, aydınlaşdırma əlaqəli tabeli mürəkkəb cümlələrdə ümumilik bildirən tərkibdə qoyulur"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 216,
+            "question": "Biri rəsmi müraciət etiketi deyil:",
+            "options": {
+                "A": "Əzizim!",
+                "B": "Müəllim!",
+                "C": "Möhtərəm hakim!",
+                "D": "Xanım!",
+                "E": "Cənab!"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 217,
+            "question": "Üslub dedikdə nə nəzərdə tutulur?",
+            "options": {
+                "A": "Məcazi ifadələr yaratmaq üsulu",
+                "B": "Bədii ədəbiyyatın yaradılması formaları",
+                "C": "Dil vasitələrindən məqsədyönlü istifadə",
+                "D": "Xüsusi səciyyəli danışıq forması",
+                "E": "Dilin xüsusi bölməsi"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 218,
+            "question": "Hansı sıradakı çıxış ictimai-siyasi natiqliyə uyğun gəlir?",
+            "options": {
+                "A": "Parlament mübahisələri",
+                "B": "Xalq yazıçısı Anarın yubiley mərasimində çıxış",
+                "C": "Prezidentin bayram təbriki",
+                "D": "Müttəhimin çıxışı",
+                "E": "Universitetin Müdafiə Şurasında çıxış"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 219,
+            "question": "Bunlardan biri rəsmi sənədlər cərgəsində verilə bilməz:",
+            "options": {
+                "A": "Əmr",
+                "B": "Sərəncam",
+                "C": "Qanun",
+                "D": "Fərman",
+                "E": "Dəvətnamə"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 220,
+            "question": "Məhkəmə natiqliyinə uyğun gələn fikirlər hansı sıradadır?",
+            "options": {
+                "A": "Əziz tamaşaçılar, konsertimiz davam edir.",
+                "B": "Hörmətli professorumuz Qasımbəylinin dedikləri ilə mən də razıyam.",
+                "C": "Dəyərli siyasi həmfikirlərim, qarşıdakı seçkilərdə öz namizədliyimi verməyi düşünürəm.",
+                "D": "Bu badələri də qaldıraq gələcəyimiz olan gənclərin sağlığına!",
+                "E": "Möhtərəm hakim, cinayət törətdiyimi boynuma alıram, Akif Həsənovu mən öldürmüşəm."
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 221,
+            "question": "Hansı sırada işlənən ifadələrdən məhkəmə nitqində istifadə etmək olar?",
+            "options": {
+                "A": "Azadlığa buraxılsın, günahını etdiraf etdi, səhhətimi nəzərə alın və s.",
+                "B": "Cinayət məsuliyyətinə cəlb olunur, yarışlara qatılıb",
+                "C": "Çapa verilə bilər, son söz istəyirəm, dostumuzu itirdik",
+                "D": "Xatirəsini yad edək, möhtərəm hakimlər, gözləriniz aydın",
+                "E": "Namizədliyimi dəstəkləyin, xoşbəxt olsunlar, azadlıqdan məhrum edilsin"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 222,
+            "question": "İntonasiyanı yazıda nə əvəz edir?",
+            "options": {
+                "A": "söz",
+                "B": "durğu işarələri",
+                "C": "cümlə",
+                "D": "söz birləşmələri",
+                "E": "tələffüz"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 223,
+            "question": "Məhəlli elementlərə, loru sözlərə, jarqonizmlərə, əcnəbi sözlərə hansı nitqdə rast gəlmək olur?",
+            "options": {
+                "A": "Məişət nitqində",
+                "B": "İctimai-siyasi nitqdə",
+                "C": "Bədii-publisistik nitqdə",
+                "D": "Elmi nitqdə",
+                "E": "Məhkəmə nitqində"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 224,
+            "question": "Ekran nitqində hansı ifadləri işlətmək olmaz?",
+            "options": {
+                "A": "Epitetlər, terminlər, mücərrəd sözlər",
+                "B": "Əcnəbi sözlər, söyüş, ümumişlək sözlər",
+                "C": "Qarğışlar, qeyri-etik sözlər, terminlər",
+                "D": "Küçə sözləri, jarqonlar, loru sözlər",
+                "E": "Arxaizmlər, vulqar sözlər, jarqonlar"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 225,
+            "question": "Bəlağətli sözlərə, pafoslu ifadələrə hansı nitqdə rast gəlmək olur?",
+            "options": {
+                "A": "Akademik nitqdə",
+                "B": "Bədii-publisistik nitqdə",
+                "C": "Məişət nitqində",
+                "D": "Məhkəmə nitqində",
+                "E": "İctimai - siyasi nitqdə"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 226,
+            "question": "Münasibət bildirərkən hansı cümləni işlətmək düzgündür?",
+            "options": {
+                "A": "“Sizin nitqiniz boş və mənasız fikirlər yığınıdir”",
+                "B": "“Sizin tarixdən xəbəriniz yoxdur”",
+                "C": "“Hətta gətirdiyiniz sitatlar da dəqiq deyil”",
+                "D": "“Baş vermiş hadisə onu göstərir ki, gənclərimizin tərbiyəsində ciddi qüsurlar var”",
+                "E": "“Bu kitab çapa verilə bilməz, ağzınıza gələni yazmısınız”"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 227,
+            "question": "Rəy söyləyərkən nələrə diqqət yetirilməlidir?",
+            "options": {
+                "A": "Obyektiv deyil, subyektiv fikirlərə istinad etmək",
+                "B": "Hazırlıqsız, əmin olmadan danışmaq",
+                "C": "Qarşı tərəfi məqsədli şəkildə susdurmaq",
+                "D": "Etik normalara əməl etmək",
+                "E": "Qarşı tərəfi dinləmədən kobud ifadələr işlətmək"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 228,
+            "question": "Hansı cümlədə mühakimə yürüdən şəxs etik normaları pozub?",
+            "options": {
+                "A": "İnanıram ki, birgə düşünüb hər kəs kəs üçün münasib çıxış yolu tapa bilərik",
+                "B": "Bu məsələyə görə siz günahkarsınız, sizə nifrət edirəm",
+                "C": "Mənim fikrim belədir ki, onu bu yola biz təhrik etmişik, biz də səhvimizi düzəltməliyik",
+                "D": "Gözlərimizin önündə baş verənlərə göz yummaq, olanlara susmaq ən böyük ədalətsizlikdir",
+                "E": "Sizə ən ağır cəzanın verilməsini tələb edəcəm"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 229,
+            "question": "İctimai-siyasi nitq nümunələrinə ən çox harda rast gəlinir?",
+            "options": {
+                "A": "Diplomatik korpuslarda, ali məktəblərdə",
+                "B": "Toylarda, alış-veriş mərkəzində",
+                "C": "Dövlət tədbirlərində, mitinqlərdə",
+                "D": "Bəzi radio-televiziya verilişlərində, banketlərdə",
+                "E": "Auditoriyalarda, doğum günü məclislərində"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 230,
+            "question": "Akademik nitq söyləyən şəxs hansı ifadələri işlətməməlidir?",
+            "options": {
+                "A": "Terminlər, tabular, ümumişlək sözlər",
+                "B": "Jarqonlar, vulqar sözlər, dialektlər",
+                "C": "Beynəlxalq sözlər, dialektlər, yarqonlar",
+                "D": "Küçə sözləri, arxaizmlər, rəqəmlər",
+                "E": "Əcnəbi sözlər, terminlər, dialektlər"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 231,
+            "question": "Ekran nitqini zənginləşdirən elementlər:",
+            "options": {
+                "A": "Ritm, alınma sözlərdən çox istifadə, arxaizmlər və s.",
+                "B": "Vurğu, qramatik normaların pozulması, loru sözlər və s.",
+                "C": "Orfoepik normaların gözlənilməsi, vurğu, tembr, pauza və s.",
+                "D": "Yerli şivələr, vurğu, ümumişlək sözlər",
+                "E": "Tabular, orfoqrafik normaların gözlənilməsi, vulqar ifadələr"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 232,
+            "question": "Bu ifadələrdən hansı məhkəmə natiqliyinin formatına uyğun gəlir?",
+            "options": {
+                "A": "Allah bütün subaylara qismət eləsin, xoşbəxt olsunlar!",
+                "B": "Kanalı çevirməyin, reklam dəqiqələrindən sonra maraqlı qonaqlarımız olacaq.",
+                "C": "Baş vermiş hadisədə müvəkkilimin günahının olmadığı sübut edildiyi üçün onun azadlığa buraxılmasını tələb edirəm.",
+                "D": "Dünya ədəbiyyatı kafedrasının qərarı belədir ki, Nərgiz Əliyeva müdafiəyə buraxılsın.",
+                "E": "Hörmətli qonaqlar, ölkəmizdə neft sektorunun inkişafıyla yanaşı, digər sahələrin də inkişafı istiqamətində görülən işlər qənaətbəxşdir."
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 233,
+            "question": "Məhkəmə natiqliyində vəkilin çıxışı necə olmalıdır?",
+            "options": {
+                "A": "Səmimi, tutarlı, ittihamedici",
+                "B": "İttihamedici, dəqiq, səmimi",
+                "C": "Dəlilli, ifadəli, subyektiv",
+                "D": "Sübutlu, təsirli, müdafiə xarakterli",
+                "E": "Ədalətli, obyektiv, sübutlu"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 234,
+            "question": "Hansı sıradakı fikirlər akademik natiqliyə uyğun gəlir?",
+            "options": {
+                "A": "Təqsirləndirilən şəxsin günahı sübut olunduğu üçün onun elə məhkəmə zalındaca həbs olunmasını tələb edirəm.",
+                "B": "Gənclərimizin milli-mənəvi dəyərlərə laqeyd münasibəti, adət-ənənələrimizə bir qədər barmaqarası yanaşması bu gün bu auditoriyada əyləşən yaşlı nəslin də günahı deyilmi?",
+                "C": "80 yaş müdriklik yaşıdır, bu yaşınızda sizin hər sözünüz, hər cümləniz bir hikmət xəzinəsidir.",
+                "D": "Bu gün bəşəriyyəti narahat edən qlobal istiləşmə problemi təəssüf ki, ölkəmiz üçün də təhlükə mənbəyi olaraq qalır.",
+                "E": "Parlament seçkilərində qələbəmdən sonra rəqiblərimin mənə qarşı apardığı piar kampaniyası uğursuzluqla nəticələnsə də, onlar yenə də öz çirkin əməllərindən əl çəkmirlər."
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 235,
+            "question": "Terminlərə daha çox hansı natiqlik formasında rast gəlmək olar?",
+            "options": {
+                "A": "Məhkəmə natiqliyində",
+                "B": "Akademik natiqlikdə",
+                "C": "Məişət natiqliyində",
+                "D": "ictimai-siyasi natiqlikdə",
+                "E": "Ekran natiqliyində"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 236,
+            "question": "Korporativ sözü aşağıdakı sözlərdən biri ilə işlədilmir:",
+            "options": {
+                "A": "korporativ rabitə",
+                "B": "korporativ mədəniyyət",
+                "C": "korporativ idarəetmə",
+                "D": "korporativ monoloq",
+                "E": "korporativ ünsiyyət"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 237,
+            "question": "Hansı sənədlər hüquqi məzmuna malikdir?",
+            "options": {
+                "A": "Yazılı sənədlər",
+                "B": "Rəsmi sənədlər",
+                "C": "Bütün sənədlər",
+                "D": "İşgüzar sənədlər",
+                "E": "İmzalanmayan sənədlər"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 239,
+            "question": "Azərbaycan Respublikası Prezidentinin sərəncamı hansı nitq formasına aiddir?",
+            "options": {
+                "A": "Elmi-kütləvi",
+                "B": "Elmi-publisistik",
+                "C": "Elmi-bədii",
+                "D": "İctimai-siyasi",
+                "E": "Bədii-publisistik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 240,
+            "question": "Prezidentin BMT kürsüsündəki çıxışı natiqliyin hansı sahəsinə aiddir?",
+            "options": {
+                "A": "Məhkəmə natiqliyi",
+                "B": "Akademik natiqlik",
+                "C": "İctimai-məişət natiqliyi",
+                "D": "İctimai-siyasi natiqlik",
+                "E": "Bədii natiqlik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 241,
+            "question": "İşgüzar kommunikasiyada maraqlar ust-ustə düşdükdə və ya zidd olduqda tərəflər razılığa gəlmək üçün hansı fəaliyyət formasından istifadə edir?",
+            "options": {
+                "A": "Mübahisədən",
+                "B": "Danışıqlardan",
+                "C": "İctimai çıxışdan",
+                "D": "Telefon görüşmələrindən",
+                "E": "Yazışmalardan"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 242,
+            "question": "Rəsmi sənədlərlə bağlı bilgilərə aid deyil:",
+            "options": {
+                "A": "Rəsmi sənədlərlə yalnız dövlətlərarası (dövlətlərdaxili yox) münasibətlər tənzimlənir",
+                "B": "Dövlət, yaxud hökumət təşkilatlarının tərtib etdiyi və xüsusi qaydada, yəni rəsmi şəxsin imzası, möhürü və s. ilə təsdiq olunan sənədlərdir",
+                "C": "Rəsmi sənədlərdə maksimum mükəmməllik gözlənilir, fikrin birmənalılığına, aydınlığına, hüquqi əsaslığına diqqət yetirilir",
+                "D": "Rəsmi sənədlər mühüm hüquqi məzmuna malik olur, tarixi əhəmiyyət daşıyır",
+                "E": "Rəsmi sənədləri xüsusi mütəxəssislər hazırlayır, müxtəlif səviyyələrdə müzakirə olunur və qəbul edilir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 243,
+            "question": "Nitq mədəniyyətinin ən mühüm şərti hansıdır?",
+            "options": {
+                "A": "nitqin ifadəliliyi üçün söz sırasını pozmaq",
+                "B": "alınma sözlərdən istifadə etmək",
+                "C": "ədəbi dilin normalarına riayət etmək",
+                "D": "nitq evfemizmlərdən istifadə etmək",
+                "E": "nitqdə jarqonlardan istifadə etmək"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 244,
+            "question": "Leksik normanın pozulduğu nümunə hansıdır?",
+            "options": {
+                "A": "müdrik rəhbər",
+                "B": "yüngül söz",
+                "C": "ciddi xarakter",
+                "D": "kəşfiyyat planı",
+                "E": "düşüncəli insan"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 245,
+            "question": "Nitqin ifadəliliyi dedikdə nə nəzərdə tutulur?",
+            "options": {
+                "A": "İntonasiyaya əməl etmək",
+                "B": "obrazlı danışmaq",
+                "C": "nida cümlələrindən daha çox istifadə etmək",
+                "D": "yüksəkdən danışmaq",
+                "E": "sadə danışmaq"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 246,
+            "question": "İntonasiyanın 4 elementini özündə birləşdirən cərgəni göstərin:",
+            "options": {
+                "A": "temp, fasilə, vurğu, melodiklik",
+                "B": "temp, fasilə, zənginlik, vurğu",
+                "C": "melodiya,vurğu, aydınlıq, ifadəlilik",
+                "D": "zənginlik, düzgünlük, fasilə, vurğu",
+                "E": "fasilə,vurğu, melodiya, zənginlik"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 247,
+            "question": "Neologizmlər hansı sıradadır?",
+            "options": {
+                "A": "ipoteka, yetərsay, instaqram, ağıllı ev",
+                "B": "ayıtmaq, inqilab, tana, ipoteka",
+                "C": "torşer, monumental, bayraq, alternativ",
+                "D": "pərvanə, cəfa, şəb, nagah",
+                "E": "bəy, feodal, pristav, qubernator"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 248,
+            "question": "Yazılı nitqin ifadə vasitələri hansılardır?",
+            "options": {
+                "A": "səs",
+                "B": "mimika",
+                "C": "jest",
+                "D": "hərf",
+                "E": "tembr"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 249,
+            "question": "İntonasiyanın yazıda ifadəsi nədir?",
+            "options": {
+                "A": "durğu işarəsi",
+                "B": "cümlə",
+                "C": "tələffüz",
+                "D": "söz",
+                "E": "söz birləşməsi"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 250,
+            "question": "Vurğunun növünü göstərin: “Yaşasın qələbə sevincini bizə yaşadan qəhrəman əsgərlərimiz!”",
+            "options": {
+                "A": "samit səslərin vurğusu",
+                "B": "heca vurğusu",
+                "C": "sait səslərin vurğusu",
+                "D": "məntiqi vurğu",
+                "E": "həyəcanlı vurğu"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 251,
+            "question": "Hansı sözün yazılışında səhvə yol verilib?",
+            "options": {
+                "A": "faliyyət",
+                "B": "Sankt-Peterburq",
+                "C": "kümbəz",
+                "D": "institut",
+                "E": "yetkin"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 252,
+            "question": "Bu sözlərdən hansı termin kimi işlənə bilər?",
+            "options": {
+                "A": "xəbər",
+                "B": "çanta",
+                "C": "ağac",
+                "D": "bağça",
+                "E": "stəkan"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 253,
+            "question": "Sözlərdən birində vurğunun yerini dəyişməklə məna dəyişir:",
+            "options": {
+                "A": "gündəlik",
+                "B": "yazı",
+                "C": "bilik",
+                "D": "akademik",
+                "E": "qarpız"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 254,
+            "question": "Azərbaycan dilinin lüğət tərkibi ibarətdir:",
+            "options": {
+                "A": "əsl türk sözləri və alınma sözlərdən",
+                "B": "terminlər, peşə və ixtisas sözlərindən",
+                "C": "ümumişlək sözlərdən",
+                "D": "yalnız milli sözlərdən",
+                "E": "alınma sözlərdən"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 255,
+            "question": "Neçə sözün yazılışı tələffüzündən fərqlidir? Şikayət, portret, kosmodrom, zərif, zəif, qırmızı, aqronom, vətən, sevimli",
+            "options": {
+                "A": "3",
+                "B": "4",
+                "C": "2",
+                "D": "1",
+                "E": "5"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 256,
+            "question": "Söz sırasına əməl olunmamışdırsa, ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "qrammatik",
+                "B": "orfoqrafik",
+                "C": "orfoepik",
+                "D": "leksik",
+                "E": "həm leksik, həm fonetik"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 257,
+            "question": "Orfoqrafik norma adlanır:",
+            "options": {
+                "A": "sözün ədəbi dildəki tələffüz qaydası",
+                "B": "sözlərin düzgün yazılış qaydaları",
+                "C": "sözün vurğusuna əməl olunması",
+                "D": "sözün dialektdəki tələffüz qaydası",
+                "E": "sözün sətirdən- sətirə keçirilmə qaydası"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 258,
+            "question": "Azərbaycan dilinin fonetik normasına uyğunlaşmış alınma söz hansıdır?",
+            "options": {
+                "A": "ədəbiyyat",
+                "B": "təəssüf",
+                "C": "sintaksis",
+                "D": "saat",
+                "E": "attestat"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 259,
+            "question": "Hansı cümlədə qrammatik norma pozulub?",
+            "options": {
+                "A": "Memarlıq fakültəsində yüksək səviyyədə mütəxəssis hazırlığı aparılır",
+                "B": "Yoxlama tələbələrin dərsə hazırlıq səviyyəsindən razı qalmadı",
+                "C": "Vətən yolunda qurban gedən qəhrəmanlarımızı heç vaxt unutmayacağıq",
+                "D": "Nigar şəhərə yeni gəlsə də, özünə yeni dostlar tapmışdı",
+                "E": "Həmin günlərdə biz həyəcanla cəbhədən gələn xəbərləri gözləyirdik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 260,
+            "question": "Aşağıdakılardan biri orfoqrafik norma ilə tənzimlənir:",
+            "options": {
+                "A": "nitqin ifadəliliyi",
+                "B": "nitqin dəqiqliyi",
+                "C": "sözün düzgün tələffüzü",
+                "D": "sözlərin böyük və kiçik hərflərlə yazılması",
+                "E": "sözün vurğusu"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 261,
+            "question": "Terminlərdən ibarət cərgəni göstərin:",
+            "options": {
+                "A": "gəzmək, görmək",
+                "B": "tənlik, mübtəda",
+                "C": "burun, çimərlik",
+                "D": "neftçi, inteqral",
+                "E": "divan, müğənni"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 262,
+            "question": "Məsləhət verərkən bu ifadəni işlətmək olmaz:",
+            "options": {
+                "A": "Yaxşı-yaxşı fikirləşin, sonra qərar verin",
+                "B": "Məncə, bir qədər gözləsən, yaxşı olar",
+                "C": "Sən başqa işlə məşğul ol, bu, sən girən kol deyil",
+                "D": "Hava dəyişib, gözləyin",
+                "E": "Səbrli olun, bu mərhələni də uğurla keçəcəksiniz"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 263,
+            "question": "Hansı rəydə etik normalar pozulub?",
+            "options": {
+                "A": "Bəzi yerlərin yenidən işlənməsinə ehtiyac var",
+                "B": "Bəzi fikirlər aydın deyildir",
+                "C": "Boş və mənasız söz yığınıdır",
+                "D": "Təkrarçılığa yol verilib",
+                "E": "Bir qədər səthi yanaşma var"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 264,
+            "question": "Hansı sırada işlənən ifadələrdən məhkəmə nitqində istifadə etmək olar?",
+            "options": {
+                "A": "Çapa verilə bilər, təbrik edirəm, dostumuzu itirdik",
+                "B": "Xatirəsini yad edək, möhtərəm hakimlər, gözləriniz aydın",
+                "C": "Xoşbəxt olun, yarışlara qatılın, eviniz düşərli olsun!",
+                "D": "Azadlığa buraxılsın, günahını etdiraf etdi, səhhətimi nəzərə alın və s.",
+                "E": "Namizədliyimi dəstəkləyin, doğum günün mübarək, azadlıqdan məhrum edilsin"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 265,
+            "question": "Hansı cümlədə mühakimə yürüdən şəxs etik normaları pozub?",
+            "options": {
+                "A": "Sizə ən ağır cəzanın verilməsini tələb edəcəm",
+                "B": "Gözlərimizin önündə baş verənlərə göz yummaq, olanlara susmaq ən böyük ədalətsizlikdir",
+                "C": "Bu məsələyə görə siz günahkarsınız, sizə nifrət edirəm",
+                "D": "Mənim fikrim belədir ki, onu bu yola biz təhrik etmişik, biz də səhvimizi düzəltməliyik",
+                "E": "İnanıram ki, birgə düşünüb hər kəs kəs üçün münasib çıxış yolu tapa bilərik"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 266,
+            "question": "Hansı sırada monoloji nitqin formaları verilib?",
+            "options": {
+                "A": "müsahibə, sual-cavab, debat",
+                "B": "mühazirə, məlumat, debat",
+                "C": "replika, diskussiya, məruzə",
+                "D": "çıxış, sual-cavab, nitq",
+                "E": "məruzə, mühazirə, çıxış"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 267,
+            "question": "Orfoqrafik səhvi göstərin:",
+            "options": {
+                "A": "məşhur müğənni",
+                "B": "Məlikməmmədin nağılı",
+                "C": "elmi müəssə",
+                "D": "isti kömbə",
+                "E": "ailə səadəti"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 268,
+            "question": "“Anam başımın yanında dua deyirdi” cümləsində ədəbi dilin hansı norması pozulub?",
+            "options": {
+                "A": "fonetik",
+                "B": "leksik",
+                "C": "qrammatik",
+                "D": "leksik, qrammatik",
+                "E": "orfoqrafik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 269,
+            "question": "Köhnəlmiş sözlər cərgəsini göstərin:",
+            "options": {
+                "A": "sürü, çağdaş, quzu",
+                "B": "yanacaq, çırpı, batman",
+                "C": "dəsmal, döşəmə, ləlöyün",
+                "D": "arşın, pioner, kolxoz",
+                "E": "yağmalamaq, suç, güzgü"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 270,
+            "question": "Türk mənşəli “çağdaş” sözü hansı alınma sözün qarşılığıdır?",
+            "options": {
+                "A": "mötəbər",
+                "B": "humanist",
+                "C": "müasir",
+                "D": "mübariz",
+                "E": "təzə"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 271,
+            "question": "Orfoepiyanın ünsürüdür:",
+            "options": {
+                "A": "tembr",
+                "B": "vurğu",
+                "C": "ahəngdarlıq",
+                "D": "diksiya",
+                "E": "temp"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 272,
+            "question": "Monoloji nitq haqqında deyilənlərdən biri səhvdir:",
+            "options": {
+                "A": "məruzə",
+                "B": "spontan nitq",
+                "C": "debat",
+                "D": "çıxış",
+                "E": "mühazirə"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 273,
+            "question": "Orfoqrafik və orfoepik normalar birlikdə hansı normanı təşkil edir?",
+            "options": {
+                "A": "qrammatik",
+                "B": "fonetik",
+                "C": "morfoloji",
+                "D": "leksik",
+                "E": "qrammatik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 274,
+            "question": "“Sizi 12-28 iyun tarixində tələbələrimizin əl işlərindən ibarət rəsm sərgisinə dəvət edirik”. Verilmiş nümunə hansı əməli yazı növünə aiddir?",
+            "options": {
+                "A": "elan",
+                "B": "ərizə",
+                "C": "məktub",
+                "D": "çağırış",
+                "E": "teleqram"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 275,
+            "question": "Nitq mədəniyyətinin əsas qoruyucusu və daşıyıcısı kimdir?",
+            "options": {
+                "A": "mədəniyyət xadimləri",
+                "B": "Milli məclis",
+                "C": "parlament",
+                "D": "xalq",
+                "E": "ədiblər"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 277,
+            "question": "Nitq mədəniyyətində estetikanın qarşıya qoyduğu məqsəd nədir?",
+            "options": {
+                "A": "sözlərin çoxmənalılığı",
+                "B": "dilin imkanları",
+                "C": "dilin gözəlliklərini məharətlə dinləyicilərə çatdırmaq",
+                "D": "sözlərin düzgün tələffüz qaydası",
+                "E": "sözlərin düzgün sıralama qaydası"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 278,
+            "question": "“O, ömrünü yelə verdi” cümləsi haqqında hansı fikir doğrudur?",
+            "options": {
+                "A": "İfadəli, düzgün və dəqiqdir.",
+                "B": "Dəqiqdir, ancaq ifadəli deyil",
+                "C": "Mədəni nitqin tələbinə cavab vermir",
+                "D": "Düzgündür, ancaq ifadəli deyil",
+                "E": "Ədəbi dilin sintaktik normasına cavab vermir"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 279,
+            "question": "Bunlardan biri sözlərdə yeni məna əmələ gətirir və fonesemantik vəzifə daşıyır:",
+            "options": {
+                "A": "söz vurğusu",
+                "B": "məntiqi vurğu",
+                "C": "temp",
+                "D": "emfatik vurğu",
+                "E": "pauza"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 280,
+            "question": "Vurğunun növlərindən biri səhv göstərilib:",
+            "options": {
+                "A": "məntiqi vurğu",
+                "B": "heca vurğusu",
+                "C": "söz vurğusu",
+                "D": "leksik vurğu",
+                "E": "həyəcanlı vurğu"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 281,
+            "question": "Nitq zamanı vurğu hansı tələbi yerinə yetirir?",
+            "options": {
+                "A": "dəqiqlik",
+                "B": "təmizlik",
+                "C": "aydınlıq",
+                "D": "təbiilik",
+                "E": "intonasiya"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 282,
+            "question": "Dialoji nitqin formaları hansılardır?",
+            "options": {
+                "A": "müsahibə, məruzə, polemika",
+                "B": "nəqletmə, mühazirə, disput",
+                "C": "diskussiya, müsahibə, müzakirə",
+                "D": "sual-cavab, müsahibə, rəy",
+                "E": "çıxış, sual-cavab, müzakirə"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 284,
+            "question": "Biri monoloji nitqə aid deyil:",
+            "options": {
+                "A": "Məruzə",
+                "B": "Müzakirə",
+                "C": "Mühazirə",
+                "D": "Tezis",
+                "E": "Rəy"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 285,
+            "question": "Professorun auditoriyada oxuduğu mühazirə natiqliyin hansı növünə aiddir?",
+            "options": {
+                "A": "akademik",
+                "B": "işgüzar",
+                "C": "siyasi",
+                "D": "inzibati-idarə",
+                "E": "bədii"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 287,
+            "question": "Nitqin bu növündə insanlar müxtəlif münasibətlə başqaları qarşısında çıxış etməli, nitq söyləməli olurlar:",
+            "options": {
+                "A": "Söhbət",
+                "B": "İctimai-məişət nitqi",
+                "C": "Dialoq",
+                "D": "Mühazirə",
+                "E": "Epiloq"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 288,
+            "question": "Vəkilin nitqi natiqliyin hansı formasına aiddir?",
+            "options": {
+                "A": "Çıxış",
+                "B": "Məhkəmə natiqliyi",
+                "C": "İctimai məişət natiqliyi",
+                "D": "Akademik natiqliyi",
+                "E": "Siyasi natiqlik"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 289,
+            "question": "Yazılı nitqdə məişət natiqliyinin ən sıx bağlı olduğu üslub:",
+            "options": {
+                "A": "rəsmi-işgüzar",
+                "B": "publisistik",
+                "C": "fərdi",
+                "D": "elmi",
+                "E": "bədii"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 290,
+            "question": "Qrammatik normanın pozulduğu bənd hansıdır?",
+            "options": {
+                "A": "bizimkilər",
+                "B": "beş şagirdlər",
+                "C": "yazışaq",
+                "D": "dostlarımla",
+                "E": "şagirdləriniz"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 291,
+            "question": "Bəndin birində morfoloji norma pozulub:",
+            "options": {
+                "A": "kitabımızın",
+                "B": "xoş gəlmisiniz",
+                "C": "nə yazmır, nə də oxumur",
+                "D": "bizim məktəb",
+                "E": "könlümdəkiləri"
+            },
+            "correct_answer": "C"
+        },
+        {
+            "id": 293,
+            "question": "Siz, sən, bəy, cənab, müəllim, xanım ifadələri danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "təşəkkür",
+                "B": "müraciət",
+                "C": "salamlama",
+                "D": "üzrxahlıq",
+                "E": "tanışlıq"
+            },
+            "correct_answer": "B"
+        },
+        {
+            "id": 294,
+            "question": "Salam, salaməleyküm, əleykümsalam, günaydın, sabahınız xeyir, axşamınız xeyir, xoş gəldiniz ifadələri danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "üzrxahlıq",
+                "B": "tanışlıq",
+                "C": "təşəkkür",
+                "D": "müraciət",
+                "E": "salamlaşma"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 295,
+            "question": "Xudahafiz, əlvida, salamat qalın, sağ olun, Allah amanında, gecəniz xeyirə qalsın, xeyirə qarşı gedin, yaxşı yol, görüşənə qədər ifadələri Azərbaycan dili danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "xudahafizləşmə",
+                "B": "salamlaşma",
+                "C": "üzrxahlıq",
+                "D": "tanışlıq",
+                "E": "təşəkkür"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 296,
+            "question": "Hansı bənddə sintaktik norma pozulmayıb?",
+            "options": {
+                "A": "Demişdim ki, bilmədiyin işlə məşğul olma, uduzarsan",
+                "B": "Heç kimsə səhvini etiraf etməsə də, biz günühkarı tapacayıq",
+                "C": "Bütün tələbələrimiz çox razıdırlar universitetdəki onlar üçün yaradılan şəraitdən",
+                "D": "Universitetimizin təməli 1976-cı ildə ulu öndər Heydər Əliyev tərəfindən qoyulub",
+                "E": "Nəqliyyat fakültəsində təhsil alanlar arasında sürətlə qızların sayı artır"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 297,
+            "question": "“Sağ ol (sağ olun), şad oldum, məmnun oldum, Allah razı olsun” ifadələri danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "tanışlıq",
+                "B": "salamlaşma",
+                "C": "xudahafizləşmə",
+                "D": "təşəkkür etmə",
+                "E": "üzrxahlıq"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 298,
+            "question": "“Zəhmət olmasa, bağışlayın, üzr istəyirəm, vaxtınızı aldım” ifadələri danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "üzrxahlıq",
+                "B": "xudahafizləşmə",
+                "C": "təşəkkür etmə",
+                "D": "tanışlıq",
+                "E": "salamlaşma"
+            },
+            "correct_answer": "A"
+        },
+        {
+            "id": 299,
+            "question": "“Təbrik edirəm, gözünüz aydın, mübarəkdir, gözünüz aydın olsun” ifadələri danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "üzrxahlıq",
+                "B": "salamlaşma",
+                "C": "tanışlıq",
+                "D": "təbrik etmə",
+                "E": "təşəkkür etmə"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 300,
+            "question": "“Allah sizə kömək olsun! Yastığınız yüngül olsun! Allah şəfa versin!” ifadələri danışıq etiketinin hansı qrupuna daxildir?",
+            "options": {
+                "A": "salamlaşma",
+                "B": "təşəkkür etmə",
+                "C": "xudahafizləşmə",
+                "D": "təbrik etmə",
+                "E": "alqış"
+            },
+            "correct_answer": "E"
+        },
+        {
+            "id": 301,
+            "question": "Natiqliyin belə bir sahəsi yoxdur:",
+            "options": {
+                "A": "akademik natiqlik",
+                "B": "bədii natiqlik",
+                "C": "məhkəmə natiqliyi",
+                "D": "iqtisadi natiqlik",
+                "E": "siyasi natiqlik"
+            },
+            "correct_answer": "D"
+        },
+        {
+            "id": 303,
+            "question": "Şad və bəd xəbərin çatdırılması zamanı onun təsirinə tab gətirməyib insanın həlak olması faktına el arasında nə deyirlər?",
+            "options": {
+                "A": "Daş ürək oldu",
+                "B": "Ürəyini itirdi",
+                "C": "Ürəyi partladı",
+                "D": "Ürəyi suya döndü",
+                "E": "Ürəyi yarıldı"
+            },
+            "correct_answer": "C"
+        }
+    ]
+}

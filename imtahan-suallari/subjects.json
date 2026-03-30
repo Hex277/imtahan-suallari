@@ -1,14 +1,14 @@
 [
   {
-    "id": "azerbaycan-dili",
+    "id": "adiak",
     "title": "Azərbaycan dilində işgüzar və akademik kommunikasiya",
     "icon": "🇦🇿",
     "count": 15
   },
   {
-    "id": "ingilis",
-    "title": "Xarici dildə işgüzar və akademik kommunikasiya",
-    "icon": "🇺🇸",
+    "id": "azerbaycan-tarixi",
+    "title": "Azərbaycan tarixi",
+    "icon": "📜",
     "count": 15
   },
   {

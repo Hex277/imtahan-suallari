@@ -1,4 +1,4 @@
-{questions12,33,52,55,402,392,381
+{
     "questions": [
         {
             "id": 1,
@@ -10,7 +10,7 @@
                 "D": "«İstiqlal» muzeyinin açılması",
                 "E": "Bakı teatr məktəbinin açılması"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
                 "D": "22",
                 "E": "30"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
                 "D": "Əbül-üla Gəncəvi, Qətran Təbrizi, Məhsəti Gəncəvi, Xəqani Şirvani, Nizami Gəncəvi",
                 "E": "Fələki Şirvani, Mücürəddin Beyləqani, Nizami Gəncəvi, Səfiəddin Ürməvi, Əvhədi"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 4,
@@ -46,7 +46,7 @@
                 "D": "Şamaxıda və Qubada",
                 "E": "Şuşada və Bakıda"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 5,
@@ -58,7 +58,7 @@
                 "D": "Hindistana gedən dəniz yolunu ələ keçirmək üçün",
                 "E": "Özbəkləri məğlub etmək üçün"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 6,
@@ -70,7 +70,7 @@
                 "D": "1,2,3",
                 "E": "2,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 7,
@@ -82,7 +82,7 @@
                 "D": "12 dekabr 1945-ci ildə",
                 "E": "24 iyun 1946-cı ildə"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 8,
@@ -94,7 +94,7 @@
                 "D": "Dəbil əmirliyinin yaranması,Salarilər dövlətinin yaranması,“Bərdə faciəsi”",
                 "E": "Salarilər dövlətinin yaranması, Bərdə faciəsi”, Dəbil əmirliyinin yaranması"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 9,
@@ -106,7 +106,7 @@
                 "D": "2,3,4,1",
                 "E": "2,3,1,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 10,
@@ -118,7 +118,7 @@
                 "D": "Şəki üsyançılarına kömək göstərməsi",
                 "E": "Xalqın vergilərdən azad edilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 11,
@@ -130,7 +130,7 @@
                 "D": "S.Ə.Şirvani",
                 "E": "Qasım bəy Zakir"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 13,
@@ -142,7 +142,7 @@
                 "D": "1,2",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 14,
@@ -154,7 +154,7 @@
                 "D": "Məişət kondisionerləri zavodu",
                 "E": "Dəniz vağzalı"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 15,
@@ -166,7 +166,7 @@
                 "D": "2,3",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 16,
@@ -178,7 +178,7 @@
                 "D": "Eldənizlər dövründə",
                 "E": "Səfəvilər dövründə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 17,
@@ -190,7 +190,7 @@
                 "D": "“Nərgiz” operası",
                 "E": "“Almaz” operası"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 18,
@@ -202,7 +202,7 @@
                 "D": "1,3,2,5,4",
                 "E": "5,3,2,4,1"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 19,
@@ -214,7 +214,7 @@
                 "D": "85",
                 "E": "96"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 20,
@@ -226,7 +226,7 @@
                 "D": "Vəzirlər",
                 "E": "Hökmdar tərəfindən təyin olunan məliklər."
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 21,
@@ -238,7 +238,7 @@
                 "D": "18 il",
                 "E": "21 il"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 22,
@@ -250,7 +250,7 @@
                 "D": "2,4",
                 "E": "2,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 23,
@@ -262,7 +262,7 @@
                 "D": "2,3,5",
                 "E": "4,5,6"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 24,
@@ -274,7 +274,7 @@
                 "D": "2,3,5",
                 "E": "3,4,6"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 25,
@@ -286,7 +286,7 @@
                 "D": "1,3,5",
                 "E": "2,3,6"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 26,
@@ -298,7 +298,7 @@
                 "D": "Skiflər Midiya dövlətini bir müddət öz təsirlərində saxlamışdılar.",
                 "E": "Skiflər Midiya hökmdarı Kaştariti ilə ittifaqda olmuşdur."
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 27,
@@ -310,7 +310,7 @@
                 "D": "II Sarqonan kitabəsində",
                 "E": "Heredotun «Tarix» əsərində"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 28,
@@ -322,7 +322,7 @@
                 "D": "4.3,2,1,5",
                 "E": "2,5,4,3,1"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 29,
@@ -334,7 +334,7 @@
                 "D": "2,3,6",
                 "E": "3,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 30,
@@ -346,7 +346,7 @@
                 "D": "Xilafətlə münasibətləri diplomatik yolla nizama salmaq, Azərbaycanın daxili müstəqilliyini saxlamaq",
                 "E": "İran feodallarına qarşı birgə mübarizə aparmaq"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 31,
@@ -358,7 +358,7 @@
                 "D": "Cənik",
                 "E": "Şəmşəddil"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 32,
@@ -370,7 +370,7 @@
                 "D": "1,2,3,4",
                 "E": "4,1,2,3"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 34,
@@ -382,7 +382,7 @@
                 "D": "Teymurilərlə",
                 "E": "Şeybanilərlə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 35,
@@ -394,7 +394,7 @@
                 "D": "3,5",
                 "E": "4,5"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 36,
@@ -406,7 +406,7 @@
                 "D": "14 yanvar 1920-ci ildə İrana qarşı.",
                 "E": "5 dekabr 1920-ci ildə Ermənistana qarşı."
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 37,
@@ -418,7 +418,7 @@
                 "D": "Alanlar",
                 "E": "Hunlar"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 38,
@@ -430,7 +430,7 @@
                 "D": "Suqovuşan qurultayının keçirilməsi",
                 "E": "Şəkidə Hacı Çələbi üsyanının baş verməsi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 39,
@@ -442,7 +442,7 @@
                 "D": "Bakıda “Muğan aləmi” Beynəlxalq Müsiqi Festivalı kecirildi",
                 "E": "Bakıda Dövlət Bayrağı meydanı acıldı"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 40,
@@ -454,7 +454,7 @@
                 "D": "Naxçıvana",
                 "E": "Qəzvinə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 41,
@@ -466,7 +466,7 @@
                 "D": "Əmlaki-xassə,vəqf, tiyul",
                 "E": "Mülk, tiyul, vəqf"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 42,
@@ -478,7 +478,7 @@
                 "D": "«Azərbaycanın müstəqilliyi haqqında» ümumxalq referendumu keçirildi",
                 "E": "Dünyada ən iri neft şirkətinin konsorsiumu ilə müqavilə imzalandı"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 43,
@@ -490,7 +490,7 @@
                 "D": "Şirvanda qiyam baş verdi",
                 "E": "Şirvanşahlar dövləti Səlcuq hücumuna məruz qaldı"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 44,
@@ -502,7 +502,7 @@
                 "D": "Kerifto",
                 "E": "“Qara daş”"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 45,
@@ -514,7 +514,7 @@
                 "D": "Talış, Şəki, Quba, Car-Balakən",
                 "E": "Quba, Car-Balakən, Talış, Şəki"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 46,
@@ -526,7 +526,7 @@
                 "D": "1,4",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 47,
@@ -538,7 +538,7 @@
                 "D": "Rəvvadilər,Sacilər",
                 "E": "Sacilər, Salarilər"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 48,
@@ -550,7 +550,7 @@
                 "D": "3,2,4,5,1",
                 "E": "1,5,4,3,2"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 49,
@@ -562,7 +562,7 @@
                 "D": "Səlcuqların",
                 "E": "Elxanilərin"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 50,
@@ -574,7 +574,7 @@
                 "D": "1,2,5,3,4",
                 "E": "3,4,5,2,1"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 51,
@@ -586,7 +586,19 @@
                 "D": "Cəlarilər Azərbaycan torpaqlarından qovuldular",
                 "E": "Məlik Əşrəf hakimiyyətə gəldi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
+        },
+        {
+            "id": 52,
+            "question": "Rusiya işğalından sonra Şimali Azərbaycanda yaradılmış dairələr:",
+            "options": {
+                "A": "Yelizavetpol, Şəmşəddil",
+                "B": "Qazax, Yelizavetpol",
+                "C": "Bakı, Quba",
+                "D": "Car-Balakən, Şəki",
+                "E": "Car-Balakən, Yelizavetpol"
+            },
+            "correct_answer": "E"
         },
         {
             "id": 53,
@@ -598,7 +610,7 @@
                 "D": "Sasanilərin",
                 "E": "Bizansın"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 54,
@@ -610,7 +622,7 @@
                 "D": "4,5",
                 "E": "1,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 56,
@@ -622,7 +634,7 @@
                 "D": "Vəqf",
                 "E": "Soyurqal"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 57,
@@ -634,7 +646,7 @@
                 "D": "1,5",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 58,
@@ -646,7 +658,7 @@
                 "D": "Səfəvilərin təyin etdikləri yeni torpaq vergisi.",
                 "E": "Elxanilərin təyin etdikləri yeni vergi növü."
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 59,
@@ -658,7 +670,7 @@
                 "D": "51",
                 "E": "74"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 60,
@@ -670,7 +682,7 @@
                 "D": "Tacəddin Urməvi",
                 "E": "Məhəmməd Naxçıvani"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 61,
@@ -682,7 +694,7 @@
                 "D": "Sasanilərlə",
                 "E": "Bizansla"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 62,
@@ -694,7 +706,7 @@
                 "D": "3,2,4.1",
                 "E": "3,4,2,1"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 63,
@@ -706,7 +718,7 @@
                 "D": "Rus qoşunları tərəfindən işgal edildilər.",
                 "E": "İran qarnizonunu tərk silah etdilər."
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 64,
@@ -718,7 +730,7 @@
                 "D": "Şahdağ döyüşü",
                 "E": "Terek döyüşü"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 65,
@@ -730,7 +742,7 @@
                 "D": "4,1,3,2",
                 "E": "4,3,1,2"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 66,
@@ -742,7 +754,7 @@
                 "D": "1,2,3,4",
                 "E": "1,4,5,6"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 67,
@@ -754,7 +766,7 @@
                 "D": "1,4",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 68,
@@ -766,7 +778,7 @@
                 "D": "Alt Paleolitdə",
                 "E": "Neolitdə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 69,
@@ -778,7 +790,7 @@
                 "D": "2,4",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 70,
@@ -790,7 +802,7 @@
                 "D": "“Əkinçi” qəzetinin nəşrə başlaması",
                 "E": "İlk orta məktəbin yaranması"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 71,
@@ -802,7 +814,7 @@
                 "D": "Həmədana",
                 "E": "Marağaya"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 72,
@@ -814,7 +826,7 @@
                 "D": "3,1,2,4",
                 "E": "1,2,4,3"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 73,
@@ -826,7 +838,7 @@
                 "D": "18",
                 "E": "29"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 74,
@@ -838,7 +850,7 @@
                 "D": "2,1,3",
                 "E": "3,2,1"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 75,
@@ -850,7 +862,7 @@
                 "D": "Erməni talanları və rus kəndliləri ilə yerli əhalinin münaqişələri",
                 "E": "Neft mədənlərində məcburi əməyin tətbiqi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 76,
@@ -862,7 +874,7 @@
                 "D": "Yerli feodalların əksəriyyəti öz torpaq mülkiyyətindən məhrum edildi.",
                 "E": "İcma torpaqları ləğv edildi."
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 77,
@@ -874,7 +886,7 @@
                 "D": "Muş döyüşündə",
                 "E": "Çabani döyüşündə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 78,
@@ -886,7 +898,7 @@
                 "D": "Ali məhkəmənin təqdimatı əsasında Prezident tərəfindən",
                 "E": "Milli Məclisin təqdimatı əsasında Prezident tərəfindən"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 79,
@@ -898,7 +910,7 @@
                 "D": "Demokratik, dünyəvi, federativ respublikadır:",
                 "E": "Demokratik, hüquqi, dünyəvi, unitar respublikadır:"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 80,
@@ -910,7 +922,7 @@
                 "D": "Hökümət evi",
                 "E": "Məişət Kondisionerləri zavodu"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 81,
@@ -922,7 +934,7 @@
                 "D": "Naxçıvan və Urmiya",
                 "E": "Gəncə və Girdman"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 82,
@@ -934,7 +946,7 @@
                 "D": "sasanilər",
                 "E": "alanlar"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 83,
@@ -946,7 +958,7 @@
                 "D": "Alban əlifbasından",
                 "E": "Pəhləvi yazı sistemindən"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 84,
@@ -958,7 +970,7 @@
                 "D": "39",
                 "E": "43"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 85,
@@ -970,7 +982,7 @@
                 "D": "5,2,1,3.4",
                 "E": "5,1,2,4.3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 86,
@@ -982,7 +994,7 @@
                 "D": "Gəncə və Qazaxda",
                 "E": "Bakı və Təbrizdə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 87,
@@ -994,7 +1006,7 @@
                 "D": "Azərbaycan mili teatrının yaradılması",
                 "E": "Abşeronda ilk neft fantanı"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 88,
@@ -1006,7 +1018,7 @@
                 "D": "İri torpaq sahibi",
                 "E": "Maliyyə müfəttişi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 89,
@@ -1018,7 +1030,7 @@
                 "D": "Əlincə qalası, Əsgəran qalası",
                 "E": "Mərdəkan qalaları, Cavanşir qalası"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 90,
@@ -1030,7 +1042,7 @@
                 "D": "Kadusi",
                 "E": "Udin"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 91,
@@ -1042,7 +1054,7 @@
                 "D": "M.Əliyev",
                 "E": "X.Xasməmmədov"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 92,
@@ -1054,7 +1066,7 @@
                 "D": "5",
                 "E": "7"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 93,
@@ -1066,7 +1078,7 @@
                 "D": "Atın əhilləşdirilməsi",
                 "E": "Əhalinin Naxçıvan,Qarabag və Qazax bölgələrində məskən salması."
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 94,
@@ -1078,7 +1090,7 @@
                 "D": "3,4",
                 "E": "1,5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 95,
@@ -1090,7 +1102,7 @@
                 "D": "Bazarla əlaqəsi olmayan, ayrı-ayrı malikanələr arasında mübadilə nəticəsində meydana gələn təsərrüfata",
                 "E": "Bazarla əlaqəsi olmayan, zəruri təsərrüfat mallarının malikanədən kənarda istehsal olunduğu təsərrüfata"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 96,
@@ -1102,7 +1114,7 @@
                 "D": "5,1,2,3,4",
                 "E": "5,4,1,2,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 97,
@@ -1114,7 +1126,7 @@
                 "D": "29",
                 "E": "18"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 98,
@@ -1126,7 +1138,7 @@
                 "D": "Bakı, Şirvan, İrəvan",
                 "E": "Qarabağ, Şəki, Şirvan"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 99,
@@ -1138,7 +1150,7 @@
                 "D": "Cavanşir",
                 "E": "Gavurqala"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 100,
@@ -1150,7 +1162,7 @@
                 "D": "2,3,6",
                 "E": "1,2,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 101,
@@ -1162,7 +1174,7 @@
                 "D": "Cizyə vergisini ləğv etdi",
                 "E": "İslam qanunlarını xristianlara zorla qəbul etdirdi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 102,
@@ -1174,7 +1186,7 @@
                 "D": "Assuriyanı",
                 "E": "Massagetləri"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 103,
@@ -1186,7 +1198,7 @@
                 "D": "3,5",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 104,
@@ -1198,7 +1210,7 @@
                 "D": "183",
                 "E": "188"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 105,
@@ -1210,7 +1222,7 @@
                 "D": "Yerli idarəçilik qurumlarının saxlanması üçün alınan vergi",
                 "E": "Ticarət yollarının qorunması üçün alınan vergi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 106,
@@ -1222,7 +1234,7 @@
                 "D": "Maldarlığın sənətkarlıqdan ayrılması",
                 "E": "Sənətkarlığın müstəqil sahəyə çevrilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 107,
@@ -1234,7 +1246,7 @@
                 "D": "Bəhrə",
                 "E": "Çobanbəyi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 108,
@@ -1246,7 +1258,7 @@
                 "D": "“Ər və arvad”",
                 "E": "“Harun və Leyla”"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 109,
@@ -1258,7 +1270,7 @@
                 "D": "1,2,5,6",
                 "E": "1,3,4,6"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 110,
@@ -1270,7 +1282,7 @@
                 "D": "Bəhruz Kəngərli",
                 "E": "Əzim Əzimzadə"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 111,
@@ -1282,7 +1294,7 @@
                 "D": "Divan və xalisə",
                 "E": "Xalisə və soyurqal"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 112,
@@ -1294,7 +1306,7 @@
                 "D": "SSRİ-də",
                 "E": "Fransada"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 113,
@@ -1306,7 +1318,7 @@
                 "D": "Qaçar",
                 "E": "Baharlı"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 114,
@@ -1318,7 +1330,7 @@
                 "D": "2,3",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 115,
@@ -1330,7 +1342,7 @@
                 "D": "15 noyabr 2003-cü ildə",
                 "E": "14 noyabr 2003-cü ildə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 116,
@@ -1342,7 +1354,7 @@
                 "D": "İbtidai insana aid alt çənə sümüyü",
                 "E": "Tikili qalıqları"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 117,
@@ -1354,7 +1366,7 @@
                 "D": "Təbrizdə",
                 "E": "Xoyda"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 118,
@@ -1366,7 +1378,7 @@
                 "D": "M.Ş.Vazeh və İ.Qriqoryevin “ Kitabi- türkü” dərsliyi",
                 "E": "Mirzə Kazımbəyin “Türk-tatar dilinin qrammatikası” dərsliyi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 119,
@@ -1378,7 +1390,7 @@
                 "D": "561",
                 "E": "560"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 120,
@@ -1390,7 +1402,7 @@
                 "D": "2,3,4",
                 "E": "1,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 121,
@@ -1402,7 +1414,7 @@
                 "D": "2,3.5",
                 "E": "1,2,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 122,
@@ -1414,7 +1426,7 @@
                 "D": "İqta, saray",
                 "E": "Xərac, cizyə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 123,
@@ -1426,7 +1438,7 @@
                 "D": "Hetlər",
                 "E": "Qıpçaqlar"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 124,
@@ -1438,7 +1450,7 @@
                 "D": "1,3",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 125,
@@ -1450,7 +1462,7 @@
                 "D": "Müsəlman Milli Şurası və “Hümmət” partiyasına",
                 "E": "Şaumyan başda olmaqla Bakı Xalq Komisarları Sovetinə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 126,
@@ -1462,7 +1474,7 @@
                 "D": "Şah I Abbasın dövründə",
                 "E": "Fərrux Yassarın dövründə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 127,
@@ -1474,7 +1486,7 @@
                 "D": "2,4,5",
                 "E": "1,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 128,
@@ -1486,7 +1498,7 @@
                 "D": "Suraxanıdakı hind atəşpərəstlərinin məbədi",
                 "E": "Şuşa qalası"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 129,
@@ -1498,7 +1510,7 @@
                 "D": "“Kəşkül”",
                 "E": "“Qafqaz”"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 130,
@@ -1510,7 +1522,7 @@
                 "D": "1,2,3",
                 "E": "1,3,2"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 131,
@@ -1522,7 +1534,7 @@
                 "D": "Ulaclar, azad kəndlilər",
                 "E": "Azad kəndlilər, patriklər"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 132,
@@ -1534,7 +1546,7 @@
                 "D": "A.A.Bakıxanov – “Gülüstani İrəm”",
                 "E": "M.Kazımbəy – “Quba tarixi”"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 133,
@@ -1546,7 +1558,7 @@
                 "D": "məhsulun onda birini dövlət xəzinəsinə verirdilər",
                 "E": "illik məhsulun beşdə birini dövlət xəzinəsinə verirdilər."
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 134,
@@ -1558,7 +1570,7 @@
                 "D": "Girdman qalası, Bakıda Qız qalası",
                 "E": "Təbrizdə «Həsən padşah camesi», Şirvan səddi"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 135,
@@ -1570,7 +1582,7 @@
                 "D": "”Mavi dəniz sahilində”",
                 "E": "“Neft və milyonlar səltənəti”"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 136,
@@ -1582,7 +1594,7 @@
                 "D": "1930-1940-cı illərdə",
                 "E": "1922-1936-cı illərdə"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 137,
@@ -1594,7 +1606,7 @@
                 "D": "4,5",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 138,
@@ -1606,7 +1618,7 @@
                 "D": "Midiyanı ələ keçirmək",
                 "E": "Manna torpaqlarının bütövlüyünü qorumaq"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 139,
@@ -1618,7 +1630,7 @@
                 "D": "Xüsusi Cənubi Qafqaz Komitəsi",
                 "E": "Müsəlman Milli Şurası"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 140,
@@ -1630,7 +1642,7 @@
                 "D": "Mingəçevir SES",
                 "E": "Əli- Bayramlı İES"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 141,
@@ -1642,7 +1654,7 @@
                 "D": "Qanunnamə»",
                 "E": "Əbhər sazişi «"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 142,
@@ -1654,7 +1666,7 @@
                 "D": "4,5",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 143,
@@ -1666,7 +1678,7 @@
                 "D": "Babadərviş",
                 "E": "Göytəpə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 144,
@@ -1678,7 +1690,7 @@
                 "D": "21",
                 "E": "13"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 145,
@@ -1690,7 +1702,7 @@
                 "D": "Aşşurbanipalın",
                 "E": "Uallinin"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 146,
@@ -1702,7 +1714,7 @@
                 "D": "İdarəçilikdə sərt mərkəzləşmə prinsipinə keçilməsi",
                 "E": "Yeni iqtisadi siyasətin tətbiq edilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 147,
@@ -1714,7 +1726,7 @@
                 "D": "Irəvan, Şamaxı, Şirvan, Gəncə səfəvilərə qaytarıldı.",
                 "E": "Xəzərsahili vilayətlərdən osmanlı qoşunları çıxarıldı"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 148,
@@ -1726,7 +1738,7 @@
                 "D": "4,5,6",
                 "E": "1,4,6"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 149,
@@ -1738,7 +1750,7 @@
                 "D": "15",
                 "E": "28"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 150,
@@ -1750,7 +1762,7 @@
                 "D": "Cavanşir və Cəbrayıl qəzalarına",
                 "E": "Şamaxı və Dərbənd quberniyalarına"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 151,
@@ -1762,7 +1774,7 @@
                 "D": "Üst paleolitdə",
                 "E": "Mezolitdə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 152,
@@ -1774,7 +1786,7 @@
                 "D": "Nadir şah Əfşarla toqquşması",
                 "E": "Qəbələ və Ərəşin asılı hala salınması"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 153,
@@ -1786,7 +1798,7 @@
                 "D": "sərkər",
                 "E": "əkər"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 154,
@@ -1798,7 +1810,7 @@
                 "D": "Həsən bəy Ordubadi",
                 "E": "İbn Xandəmir"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 155,
@@ -1810,7 +1822,7 @@
                 "D": "TÜRKSOY yaradıldı",
                 "E": "Kostitusiya məhkəməsinin yaradılması"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 156,
@@ -1822,7 +1834,7 @@
                 "D": "3,2,1",
                 "E": "2,1,3"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 157,
@@ -1834,7 +1846,7 @@
                 "D": "1,4",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 158,
@@ -1846,7 +1858,7 @@
                 "D": "İ.Mustafayev",
                 "E": "V.Axundov"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 159,
@@ -1858,7 +1870,7 @@
                 "D": "1.3.4",
                 "E": "2,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 160,
@@ -1870,7 +1882,7 @@
                 "D": "Bakı Sovetinin İnqilabı Müdafiə Komitəsi təşkil etməsi",
                 "E": "Erməni Milli Şurasının Bakı Sovetini müdafiə etməsi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 161,
@@ -1882,7 +1894,7 @@
                 "D": "Dünyada ilk dəfə buruq üsulu ilə neft quyusunun qazılması, milli teatrın əsasının qoyulması",
                 "E": "İlk əczaxanaların açılması, «Əkinçi» qəzetinin nəşri"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 162,
@@ -1894,7 +1906,7 @@
                 "D": "Almanlar və tacirlər",
                 "E": "Təriqətçilər və zadəganlar"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 163,
@@ -1906,7 +1918,7 @@
                 "D": "3,5",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 164,
@@ -1918,7 +1930,7 @@
                 "D": "2,5",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 165,
@@ -1930,7 +1942,7 @@
                 "D": "Keşkəl sahibləri",
                 "E": "Elatlar"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 166,
@@ -1942,7 +1954,7 @@
                 "D": "1,3,5",
                 "E": "1,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 167,
@@ -1954,7 +1966,7 @@
                 "D": "1,2",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 168,
@@ -1966,7 +1978,7 @@
                 "D": "Astiaqın",
                 "E": "Selevkin"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 169,
@@ -1978,7 +1990,7 @@
                 "D": "1,4",
                 "E": "2,5"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 170,
@@ -1990,7 +2002,7 @@
                 "D": "VII-VIII əsrlərdə",
                 "E": "I-IIəsrlərdə"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 171,
@@ -2002,7 +2014,7 @@
                 "D": "17",
                 "E": "5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 172,
@@ -2014,7 +2026,7 @@
                 "D": "Ermənistan Respublikası 15 noyabr 2020-ci il tarixinədək Azərbaycan Respublikasına Cəbrayıl rayonunu, 1 dekabr 2020-ci il tarixinədək isə Zəngilan rayonunu qaytarır",
                 "E": "Münaqişə tərəflərinin razılaşmalara əməl etməsinə nəzarətin səmərəliliyinin artırılması məqsədilə atəşkəsə nəzarət üzrə sülhməramlı mərkəz yaradılır"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 173,
@@ -2026,7 +2038,7 @@
                 "D": "Hərbi hakimiyyətə malik idi",
                 "E": "Məhkəmə işlərinə baxırdı"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 174,
@@ -2038,7 +2050,7 @@
                 "D": "2,4",
                 "E": "3,5"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 175,
@@ -2050,7 +2062,7 @@
                 "D": "2,4",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 176,
@@ -2062,7 +2074,7 @@
                 "D": "1994-cü il oktyabr, 1995-ci il mart",
                 "E": "1994-cü il iyul, 1995-ci il fevral"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 177,
@@ -2074,7 +2086,7 @@
                 "D": "Zəngilan",
                 "E": "Kəlbəcər"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 178,
@@ -2086,7 +2098,7 @@
                 "D": "686",
                 "E": "730"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 179,
@@ -2098,7 +2110,7 @@
                 "D": "2,3",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 180,
@@ -2110,7 +2122,7 @@
                 "D": "Cavanşir – Dərbəndlilər dövlətinin banisidir",
                 "E": "Mehranilər sülaləsi- Girdman dövlətinin əsasını qoymuşdur"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 181,
@@ -2122,7 +2134,7 @@
                 "D": "Qızıl Ordaya lazimi müqavimətin göstərilməsi",
                 "E": "Köçəri hərbi əyanların rolunun artması"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 182,
@@ -2134,7 +2146,7 @@
                 "D": "3,2,6",
                 "E": "4,5,6"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 183,
@@ -2146,7 +2158,7 @@
                 "D": "1,4",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 184,
@@ -2158,7 +2170,7 @@
                 "D": "1,2,4",
                 "E": "2,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 185,
@@ -2170,7 +2182,7 @@
                 "D": "Vəqf",
                 "E": "Mülk"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 186,
@@ -2182,7 +2194,7 @@
                 "D": "4,5",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 187,
@@ -2194,7 +2206,7 @@
                 "D": "Bəril",
                 "E": "Mütəsərrif"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 188,
@@ -2206,7 +2218,7 @@
                 "D": "Senzura ləğv edildi",
                 "E": "“H.Əliyev” ordeni təsis edildi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 189,
@@ -2218,7 +2230,7 @@
                 "D": "1,4,6",
                 "E": "1,3,6"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 190,
@@ -2230,7 +2242,7 @@
                 "D": "Lissabon Sammiti",
                 "E": "Xocalı faciəsi"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 191,
@@ -2242,7 +2254,7 @@
                 "D": "3,4",
                 "E": "5,6"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 192,
@@ -2254,7 +2266,7 @@
                 "D": "1,4",
                 "E": "2,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 193,
@@ -2266,7 +2278,7 @@
                 "D": "1,2,3",
                 "E": "2,3,6"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 194,
@@ -2278,7 +2290,7 @@
                 "D": "M.Nağıyev",
                 "E": "M.Muxtarov"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 195,
@@ -2290,7 +2302,7 @@
                 "D": "4,5",
                 "E": "2,3"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 196,
@@ -2302,7 +2314,7 @@
                 "D": "3,5",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 197,
@@ -2314,7 +2326,7 @@
                 "D": "Hülakü dövlətində kəndlilərin öz yaşayış yerlərinə təşkim edilməsi",
                 "E": "Çao adlanın kağız pulun tədavülə buraxılması"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 198,
@@ -2326,7 +2338,7 @@
                 "D": "Kərim xan Zəndi",
                 "E": "İbrahim xanı"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 199,
@@ -2338,7 +2350,7 @@
                 "D": "«Azərbaycan» qazetinin ana dilində nəşri",
                 "E": "Azərbaycana tam müstəqillik verilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 200,
@@ -2350,7 +2362,7 @@
                 "D": "33",
                 "E": "21"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 201,
@@ -2362,7 +2374,7 @@
                 "D": "Göy məscid",
                 "E": "Ərk qalası"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 202,
@@ -2374,7 +2386,7 @@
                 "D": "Naib",
                 "E": "Məlik"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 203,
@@ -2386,7 +2398,7 @@
                 "D": "3,4,5",
                 "E": "2.3,5"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 204,
@@ -2398,7 +2410,7 @@
                 "D": "Türkiyə, Rumıniya, Pakistan",
                 "E": "Türkiyyə, Pakistan, İran"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 205,
@@ -2410,7 +2422,7 @@
                 "D": "3,4,5,1,6,2",
                 "E": "1,3,4,6,5,2"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 206,
@@ -2422,7 +2434,7 @@
                 "D": "4,1,3,2",
                 "E": "2,4,3,1"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 207,
@@ -2434,7 +2446,7 @@
                 "D": "London",
                 "E": "Moskva"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 208,
@@ -2446,7 +2458,7 @@
                 "D": "1027-ci ildə Şəddadilər dövründə",
                 "E": "1017-ci ildə Şirvanşahlar dövründə"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 209,
@@ -2458,7 +2470,7 @@
                 "D": "Təkcə yoxsullar deyil, orta və iri feodallar da müflisləşdi",
                 "E": "Verginin ümumi miqdarı azaldıldı."
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 210,
@@ -2470,7 +2482,7 @@
                 "D": "Ağqoyunlu-Qaraqoyunlu",
                 "E": "Osmanlı-Qaraqoyunlu"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 211,
@@ -2482,7 +2494,7 @@
                 "D": "Balıq sənayesi",
                 "E": "Gön-dəri istehsalı"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 212,
@@ -2494,7 +2506,7 @@
                 "D": "Qaraqoyunlu Qara Yusifin qələbəsilə başa çatdılar",
                 "E": "Cəlairlərin qələbəsi ilə başa çatdılar"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 213,
@@ -2506,7 +2518,7 @@
                 "D": "İkihakimiyyətliyin mövcud olması",
                 "E": "M.Səid və Ağası xanın hakimiyyətinin mövcud olması"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 214,
@@ -2518,7 +2530,7 @@
                 "D": "2,1,3,4",
                 "E": "1,2,4,3"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 215,
@@ -2530,7 +2542,7 @@
                 "D": "Erkən dəmir",
                 "E": "Neolit"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 216,
@@ -2542,7 +2554,7 @@
                 "D": "Albaniyanın 2 hissəyə bölünməsi",
                 "E": "Dizrav döyüşü"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 217,
@@ -2554,7 +2566,7 @@
                 "D": "4,3,1,2",
                 "E": "1,3,2,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 218,
@@ -2566,7 +2578,7 @@
                 "D": "2,1,5,4,3",
                 "E": "1,2,5,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 219,
@@ -2578,7 +2590,7 @@
                 "D": "Rusiyanın müdaxiləsinə şərait yarandı",
                 "E": "Azərbaycan Ermənistanın hücumlarına məruz qaldı"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 220,
@@ -2590,7 +2602,7 @@
                 "D": "3,4",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 221,
@@ -2602,7 +2614,7 @@
                 "D": "1,3",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 222,
@@ -2614,7 +2626,7 @@
                 "D": "629-659-cu illərdə",
                 "E": "599-629-cu illərdə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 223,
@@ -2626,7 +2638,7 @@
                 "D": "Nazirlər Kabinetinin qərarı ilə.",
                 "E": "Referendumda qəbul edilmiş aktla."
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 224,
@@ -2638,7 +2650,7 @@
                 "D": "neft sənayesində məcburi əməkdən geniş istifadə olunması",
                 "E": "yeni neft yataqlarının isitifadəyə verilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 225,
@@ -2650,7 +2662,7 @@
                 "D": "Het dövləti ilə",
                 "E": "Əhəmənilər dövləti ilə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 226,
@@ -2662,7 +2674,7 @@
                 "D": "X.Xasməmmədov, H.Vəzirov, Ə.Ağayev",
                 "E": "Ə.M.Topçubaşov, Ə Ağayev, Ə.İbrahimov"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 227,
@@ -2674,7 +2686,7 @@
                 "D": "1,5",
                 "E": "4,5"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 228,
@@ -2686,7 +2698,7 @@
                 "D": "1,3,4",
                 "E": "2,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 229,
@@ -2698,7 +2710,7 @@
                 "D": "1847- ci ilin 20 aprelində qəbul olunmuş “Kəndli əsasnamələri”ndə",
                 "E": "1846- cı ilin dekabrında inzibati quruluşda dəyişiklik barədə çar fərmanında"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 230,
@@ -2710,7 +2722,7 @@
                 "D": "25",
                 "E": "35"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 231,
@@ -2722,7 +2734,7 @@
                 "D": "Kəndlilərə,fermer təsərrüfatlarına,kollektiv təsərrüfatlara",
                 "E": "Xəzinəyə, kəndliyə, mülkədarlara"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 232,
@@ -2734,7 +2746,7 @@
                 "D": "Cavanşir Xəzər xaqanlığı ilə ittifaq bağladı",
                 "E": "Cavanşir Bizans dövləti ilə ərəblərə qarşı ittifaq bağladı"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 233,
@@ -2746,7 +2758,7 @@
                 "D": "Hər iki döyüşdə Sasanilər qalib gəldi",
                 "E": "Birincidə qiyamçı dəstələri Sasanioərə qələbə çalsalarda, ikincidə məğlub oldular"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 234,
@@ -2758,7 +2770,7 @@
                 "D": "XV- XVI əsrlərə",
                 "E": "XV əsrə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 235,
@@ -2770,7 +2782,7 @@
                 "D": "“Bakı ağ neft zavodları ittifaqı”nın yaradılması",
                 "E": "Tiflis- İrəvan- Naxçıvan-Culfa teleqraf xəttinin çəkilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 236,
@@ -2782,7 +2794,7 @@
                 "D": "Xəraq,gezit",
                 "E": "Xərac,cizyə"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 237,
@@ -2794,7 +2806,7 @@
                 "D": "2,4",
                 "E": "3,5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 238,
@@ -2806,7 +2818,7 @@
                 "D": "Musa Nağıyev",
                 "E": "Zivər bəy Əhmədov"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 239,
@@ -2818,7 +2830,7 @@
                 "D": "Vahid mərkəzləşmiş dövlət quruldu",
                 "E": "Sasani ağalığına son qoyuldu"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 240,
@@ -2830,7 +2842,7 @@
                 "D": "mehranilər",
                 "E": "hunlar"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 241,
@@ -2842,7 +2854,7 @@
                 "D": "7",
                 "E": "10"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 242,
@@ -2854,7 +2866,7 @@
                 "D": "1,2.4",
                 "E": "3,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 243,
@@ -2866,7 +2878,7 @@
                 "D": "Təkəlilər",
                 "E": "Baharlılar"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 244,
@@ -2878,7 +2890,7 @@
                 "D": "3,1,4,2",
                 "E": "1,3,4,2"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 245,
@@ -2890,7 +2902,7 @@
                 "D": "Ərzaq vergisinin tətbiqi, ticarət azadlığı, icarə sistemi, kənddə müştərək müəssisələrin, kolxoz və sovxozların yaradılması nəzərdə tutulurdu",
                 "E": "torpaqların milliləşdirilərək Azərbaycan əhalisi arasında bərabər bölgüsünü həyata keçirmək"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 246,
@@ -2902,7 +2914,7 @@
                 "D": "Bələncər döyüşündə",
                 "E": "Avrayr döyüşündə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 247,
@@ -2914,7 +2926,7 @@
                 "D": "Milli azadlıq hərəkatı başladı",
                 "E": "Milli Məclisə seçkilər keçirildi"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 248,
@@ -2926,7 +2938,7 @@
                 "D": "Dəvdək, Musa Kalankatlı",
                 "E": "Xətib Təbrizi, İzzəddin Həsənoğlu"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 249,
@@ -2938,7 +2950,7 @@
                 "D": "3,4,1,2",
                 "E": "2,1,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 250,
@@ -2950,7 +2962,7 @@
                 "D": "Bizans",
                 "E": "Qıpçaqlar"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 251,
@@ -2962,7 +2974,7 @@
                 "D": "“Təcəddüd” qəzetinin nəşr edilməsi",
                 "E": "“Xalisə” torpaqalarının kəndlilər arasında bölüşdürülməsi"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 252,
@@ -2974,7 +2986,7 @@
                 "D": "861-ci ildə",
                 "E": "1027-ci ildə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 253,
@@ -2986,7 +2998,7 @@
                 "D": "Şirvanşahlara.",
                 "E": "Sacirlərə"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 254,
@@ -2998,7 +3010,7 @@
                 "D": "Dünyada ilk dəfə açıq dənizdə neft estekadaları quruldu",
                 "E": "Azərbaycan SSRİ-nin yeganə neft bazasına çevrildi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 255,
@@ -3010,7 +3022,7 @@
                 "D": "3,4",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 256,
@@ -3022,7 +3034,7 @@
                 "D": "3,",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 257,
@@ -3034,7 +3046,7 @@
                 "D": "Ataxaqanlıq",
                 "E": "Anaxaqanlıq"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 258,
@@ -3046,7 +3058,7 @@
                 "D": "3,4,6",
                 "E": "2,4,6"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 259,
@@ -3058,7 +3070,7 @@
                 "D": "İcma",
                 "E": "İqta"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 260,
@@ -3070,7 +3082,7 @@
                 "D": "1,2",
                 "E": "2,3"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 261,
@@ -3082,7 +3094,7 @@
                 "D": "4,5",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 262,
@@ -3094,7 +3106,7 @@
                 "D": "Cobanilər",
                 "E": "Cığataylar"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 263,
@@ -3106,7 +3118,7 @@
                 "D": "Malatya döyüşü baş verdi",
                 "E": "Gödək Əhməd hakimiyyəti ələ keçirdi"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 264,
@@ -3118,7 +3130,7 @@
                 "D": "1555",
                 "E": "1524"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 265,
@@ -3130,7 +3142,7 @@
                 "D": "Çar-Balakən dairəsi və İrəvan quberniyasına",
                 "E": "Gürcüstan –İmeratiya quberniyasına və Xəzər vilayətinə"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 266,
@@ -3142,7 +3154,7 @@
                 "D": "Öz təsərrüfatlarında kapitalist elementlərini tətbiq edən varlılar",
                 "E": "Muzdlu əməkdən istifadə edən kapitalistlər"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 267,
@@ -3154,7 +3166,7 @@
                 "D": "2,3",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 268,
@@ -3166,7 +3178,7 @@
                 "D": "22 il",
                 "E": "30 il"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 269,
@@ -3178,7 +3190,7 @@
                 "D": "65",
                 "E": "71"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 270,
@@ -3190,7 +3202,7 @@
                 "D": "Çaxmaqdaşından hazırlanmış əmək alətləri",
                 "E": "Siklopik tikililər"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 271,
@@ -3202,7 +3214,7 @@
                 "D": "Məzyədilər",
                 "E": "Sacilər"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 272,
@@ -3214,7 +3226,7 @@
                 "D": "2,3,5",
                 "E": "1,2,3"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 273,
@@ -3226,7 +3238,7 @@
                 "D": "65",
                 "E": "74"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 274,
@@ -3238,7 +3250,7 @@
                 "D": "Mahmudabad,Təbriz, Dərbənd",
                 "E": "Sultaniyyə, Bərdə, Beyləqan"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 275,
@@ -3250,7 +3262,7 @@
                 "D": "Ağqoyunlu dövləti ilə mübarizə",
                 "E": "Çapaqçur döyüşü"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 276,
@@ -3262,7 +3274,7 @@
                 "D": "1,2",
                 "E": "3,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 277,
@@ -3274,7 +3286,7 @@
                 "D": "M.Y.Qarabağlının «Tarixi səfa» əsəri",
                 "E": "A.Bakıxanovun «Gülüstani – İrəm» əsəri"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 278,
@@ -3286,7 +3298,7 @@
                 "D": "1846-cı il",
                 "E": "1866-cı il"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 279,
@@ -3298,7 +3310,7 @@
                 "D": "Feodalların xüsusi mülkiyyətində olan torpaq sahələri",
                 "E": "Dövlətə qulluq müqabilində ayrı-ayrı şəxslərə bağışlanılmış topaqlar"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 280,
@@ -3310,7 +3322,7 @@
                 "D": "2,4,6",
                 "E": "2,5,6"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 281,
@@ -3322,7 +3334,7 @@
                 "D": "1,3,2,4",
                 "E": "3,1,2,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 282,
@@ -3334,7 +3346,7 @@
                 "D": "Qəbilə icması formalaşanadək",
                 "E": "Qonşuluq icması yarananadək"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 283,
@@ -3346,7 +3358,7 @@
                 "D": "3,4,5,6",
                 "E": "1,2,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 284,
@@ -3358,7 +3370,7 @@
                 "D": "Azərbaycanın cənubunda, Muğanda, Mildə, Xəzər sahilində, Araz və Kür boyunda",
                 "E": "Kür və Araz boyunda, Xəzər sahilində, Dağlıq Qarabağda, Naxçıvanda"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 285,
@@ -3370,7 +3382,7 @@
                 "D": "4,3,1,2",
                 "E": "1,2,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 286,
@@ -3382,7 +3394,7 @@
                 "D": "3,4",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 287,
@@ -3394,7 +3406,7 @@
                 "D": "Qəbələ, Beyləqan,Şirvan, Naxçıvan, Mərənd",
                 "E": "Dərbənd, Gəncə, Bərdə, Təbriz, Marağa"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 288,
@@ -3406,7 +3418,7 @@
                 "D": "4,6",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 289,
@@ -3418,7 +3430,7 @@
                 "D": "Qoyluhisar döyüşü",
                 "E": "Otluqbeli döyüşü"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 290,
@@ -3430,7 +3442,7 @@
                 "D": "Sultan Məhəmməd, Ramazan Lənkərani",
                 "E": "Kəmaləddin Behzad, Sultan Məhəmməd"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 291,
@@ -3442,7 +3454,7 @@
                 "D": "I Şah Abbas",
                 "E": "Uzun Həsən"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 292,
@@ -3454,7 +3466,7 @@
                 "D": "76",
                 "E": "73"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 293,
@@ -3466,7 +3478,7 @@
                 "D": "Çar-Balakən, Zaqatala, Şəki ağalarına pay torpaqları verildi",
                 "E": "Quba, Şəki, Talış ağaları öz torpaqlarından məhrum edildilər"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 294,
@@ -3478,7 +3490,7 @@
                 "D": "Tiflis, Naxçıvan, Gəncə",
                 "E": "Təbriz, Ərdəbil, Bakı"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 295,
@@ -3490,7 +3502,7 @@
                 "D": "Bakının Rusiyanın mərkəzindən uzaqlığı",
                 "E": "İltizam sistemi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 296,
@@ -3502,7 +3514,7 @@
                 "D": "Bəyləri kənddə inzibati məhkəmə işlərindən kənar etdi:",
                 "E": "Kəndlilərin daşıdığı mükəlləfiyyətləri azaltdı"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 297,
@@ -3514,7 +3526,7 @@
                 "D": "416",
                 "E": "223"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 298,
@@ -3526,7 +3538,7 @@
                 "D": "19",
                 "E": "8"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 299,
@@ -3538,7 +3550,7 @@
                 "D": "5,2,4,1.3",
                 "E": "1.2.4,5.3"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 300,
@@ -3550,7 +3562,7 @@
                 "D": "2 noyabr 1993-cü ildə",
                 "E": "3 oktyabr 1993-cü ildə"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 301,
@@ -3562,7 +3574,7 @@
                 "D": "1,2,3",
                 "E": "3,5,6"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 302,
@@ -3574,7 +3586,7 @@
                 "D": "Urartunun",
                 "E": "Atropatenin"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 303,
@@ -3586,7 +3598,7 @@
                 "D": "Aqnazana",
                 "E": "Fanaaspa"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 304,
@@ -3598,7 +3610,7 @@
                 "D": "Kolt,Bələncər.",
                 "E": "Amid,Dizrav"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 305,
@@ -3610,7 +3622,7 @@
                 "D": "Parfiya ilə.",
                 "E": "Xəzərlərlə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 306,
@@ -3622,7 +3634,7 @@
                 "D": "2,3,5",
                 "E": "1,2,6"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 307,
@@ -3634,7 +3646,7 @@
                 "D": "1,2,3,4",
                 "E": "1,4,3,2"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 308,
@@ -3646,7 +3658,7 @@
                 "D": "1,2",
                 "E": "2,5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 309,
@@ -3658,7 +3670,7 @@
                 "D": "34",
                 "E": "55"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 310,
@@ -3670,7 +3682,7 @@
                 "D": "2,4,3,1",
                 "E": "3,4,1,2"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 311,
@@ -3682,7 +3694,7 @@
                 "D": "1,2,3",
                 "E": "1,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 312,
@@ -3694,7 +3706,7 @@
                 "D": "Naib",
                 "E": "Bəylərbəyi"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 313,
@@ -3706,7 +3718,7 @@
                 "D": "Rusiyada güclü kəndli çıxışlarının baş verməsi.",
                 "E": "II Yekatrinanın ölümü və hakimiyyətə gələn I Pavelin rus qoşunlarını geri çagırması."
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 314,
@@ -3718,7 +3730,7 @@
                 "D": "6",
                 "E": "10"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 315,
@@ -3730,7 +3742,7 @@
                 "D": "3,1,4,2",
                 "E": "2,3,4,1"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 316,
@@ -3742,7 +3754,7 @@
                 "D": "1847-1849-cu illərdə Tiflisdə şiə və sünni məktəblərinin açılması ilə.",
                 "E": "XIX əsrin 80-cı illərinin ortalarında rus-Azərbaycan məktəblərinin yaradılması ilə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 317,
@@ -3754,7 +3766,7 @@
                 "D": "Azərbaycanlıların kütləvi şəkildə Rusiyada təhsil almasından sonra.",
                 "E": "Rusların və almanların Azərbaycanda məskunlaşması ilə."
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 318,
@@ -3766,7 +3778,7 @@
                 "D": "2,4",
                 "E": "1,5"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 319,
@@ -3778,7 +3790,7 @@
                 "D": "Aqrar məsələni tamamilə kəndlilərin xeyrinə həll etməsi,yerli idarəetmə orqanlarını yaratması.",
                 "E": "Cənubi Azərbaycanın Sovet işgal qoşunlarından azad olunması."
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 320,
@@ -3790,7 +3802,7 @@
                 "D": "Xəzər dənizində dünyada ilk olararaq neft-mədən estakadaları quruldu.",
                 "E": "Elmlər Akademiyası təşkil edildi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 321,
@@ -3802,7 +3814,7 @@
                 "D": "17",
                 "E": "35"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 322,
@@ -3814,7 +3826,7 @@
                 "D": "Eneolit dövründə",
                 "E": "Orta tunc dövründə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 323,
@@ -3826,7 +3838,7 @@
                 "D": "Gərgərlər",
                 "E": "Lullubilər"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 324,
@@ -3838,7 +3850,7 @@
                 "D": "1,3",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 325,
@@ -3850,7 +3862,7 @@
                 "D": "Nvarsk müqaviləsi bağlanmışdır – Bizansla sasanilər arasında.",
                 "E": "Sasanilər sülaləsinin mənşəyi – türk idi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 326,
@@ -3862,7 +3874,7 @@
                 "D": "Midiya",
                 "E": "Skif carlığı"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 327,
@@ -3874,7 +3886,7 @@
                 "D": "5,4,2,1,3",
                 "E": "1,3,4,2,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 328,
@@ -3886,7 +3898,7 @@
                 "D": "Əmirlikləri idarə edirdi",
                 "E": "Mülki işlərlə məşqul olurdu və vergilərin toplanmasına nəzarət edirdi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 329,
@@ -3898,7 +3910,7 @@
                 "D": "2,5,4,3,1",
                 "E": "5,3,1,2,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 330,
@@ -3910,7 +3922,7 @@
                 "D": "1,3",
                 "E": "5,6"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 331,
@@ -3922,7 +3934,7 @@
                 "D": "3,5",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 332,
@@ -3934,7 +3946,7 @@
                 "D": "4,5",
                 "E": "2,5"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 333,
@@ -3946,7 +3958,7 @@
                 "D": "«Nəşt Behişt» sarayı",
                 "E": "Şəhriyar qalası"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 334,
@@ -3958,7 +3970,7 @@
                 "D": "Böyük ipək yolunu yenidən bərpa etmək",
                 "E": "Portuqaliyaya qarşı mübarizə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 335,
@@ -3970,7 +3982,7 @@
                 "D": "3,4",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 336,
@@ -3982,7 +3994,7 @@
                 "D": "Türkmənçay müqaviləsi",
                 "E": "Şamaxının Kələxana kəndində məqbərə və Nardaran kəndində məscid inşa edilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 337,
@@ -3994,7 +4006,7 @@
                 "D": "17",
                 "E": "32"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 338,
@@ -4006,7 +4018,7 @@
                 "D": "Şamaxı yaxınlığında Gülüstan qalası",
                 "E": "Şəkidə xan sarayı"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 339,
@@ -4018,7 +4030,7 @@
                 "D": "Maldar kəndlilərin otlaqlardan istifadə əvəzində ödədiyi vergi idi",
                 "E": "Məscidlərin və dini idarələrin xeyrinə verilən vergi idi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 340,
@@ -4030,7 +4042,7 @@
                 "D": "43",
                 "E": "50"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 341,
@@ -4042,7 +4054,7 @@
                 "D": "4,6",
                 "E": "1,6"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 342,
@@ -4054,7 +4066,7 @@
                 "D": "«Difai» partiyası",
                 "E": "«Müsəlman konstitusiya» partiyası"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 343,
@@ -4066,7 +4078,7 @@
                 "D": "2,3",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 344,
@@ -4078,7 +4090,7 @@
                 "D": "Avropa Şürasına",
                 "E": "ATƏT-ə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 345,
@@ -4090,7 +4102,7 @@
                 "D": "Kutilər",
                 "E": "Turukkilər"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 346,
@@ -4102,7 +4114,7 @@
                 "D": "Kiaksar Midiyada hakimiyyəti ələ aldı",
                 "E": "Sasanilər Midiyanı ələ keçirdilər"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 347,
@@ -4114,7 +4126,7 @@
                 "D": "Ərdəbil üsyanı",
                 "E": "Aquan kilsə məclisi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 348,
@@ -4126,7 +4138,7 @@
                 "D": "Sasanilərin dövlət idarəçiliyi qaydalarını qəti olaraq ləğv etmək",
                 "E": "Başqa dövlətlərlə sülh müqavilələri bağlamaq"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 349,
@@ -4138,7 +4150,7 @@
                 "D": "1,5",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 350,
@@ -4150,7 +4162,7 @@
                 "D": "1,3,4",
                 "E": "1,2.3"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 351,
@@ -4162,7 +4174,7 @@
                 "D": "Osmanlılar qalib gəldi",
                 "E": "Krım xanlığı Şirvan ordusunu məğlub etdi"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 352,
@@ -4174,7 +4186,7 @@
                 "D": "Quba, Şirvan, Gəncə",
                 "E": "Gəncə, Quba, Talış"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 353,
@@ -4186,7 +4198,7 @@
                 "D": "quberniya – qəza – sahə",
                 "E": "quberniya – vilayət – kənd"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 354,
@@ -4198,7 +4210,7 @@
                 "D": "2,3,4",
                 "E": "1,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 355,
@@ -4210,7 +4222,7 @@
                 "D": "İngilis hakimiyyətinə qarşı",
                 "E": "Bakı Sovetinə qarşı"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 356,
@@ -4222,7 +4234,7 @@
                 "D": "Moskva ətrafında döyüşlərdə göstərdiyi qəhrəmanlıq",
                 "E": "Stalinqrad döyüşündə qahrəmanlıq göstərərək hərbi texnikanı xilas etməsi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 357,
@@ -4234,7 +4246,7 @@
                 "D": "Azərbacan ensiklopediyasının nəşri ilə bağlı fərman verilmişdir",
                 "E": "İ.Əliyev Respublika prezidenti seçilmişdir"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 358,
@@ -4246,7 +4258,7 @@
                 "D": "1,2",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 359,
@@ -4258,7 +4270,7 @@
                 "D": "Metaldan ilk dəfə istifadə edilməsi.",
                 "E": "Xış əkinçiliyinin yaranması"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 360,
@@ -4270,7 +4282,7 @@
                 "D": "Selevkilərdən",
                 "E": "Alanlardan"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 361,
@@ -4282,7 +4294,7 @@
                 "D": "Salarilər",
                 "E": "Rəvvadilər"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 362,
@@ -4294,7 +4306,7 @@
                 "D": "836-cı il İkinci Həştadsər döyüçündə",
                 "E": "830-cu il Birinci Həmədan döyüşündə"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 363,
@@ -4306,7 +4318,7 @@
                 "D": "Şirvanşahlar dövləti qüvvətləndi.",
                 "E": "Şəddadilər dövləti müstəqil oldu."
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 364,
@@ -4318,7 +4330,7 @@
                 "D": "İncu",
                 "E": "Divan"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 365,
@@ -4330,7 +4342,7 @@
                 "D": "1,4",
                 "E": "2,5"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 366,
@@ -4342,7 +4354,7 @@
                 "D": "Təbriz, İstanbul",
                 "E": "Qəsri-Şirin, Amasiya"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 367,
@@ -4354,7 +4366,7 @@
                 "D": "35",
                 "E": "23"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 368,
@@ -4366,7 +4378,7 @@
                 "D": "4,5",
                 "E": "1,3"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 369,
@@ -4378,7 +4390,7 @@
                 "D": "1,3,4",
                 "E": "3,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 370,
@@ -4390,7 +4402,7 @@
                 "D": "2,5,6",
                 "E": "2,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 371,
@@ -4402,7 +4414,7 @@
                 "D": "“Qarabağ şikəstəsi”",
                 "E": "“Dərbəndli Fətəlinin İran mahnısı”"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 372,
@@ -4414,7 +4426,7 @@
                 "D": "1911-ci il - “Müsavat” partiyası",
                 "E": "1908-ci il – “Hümmət” təşkilatı"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 373,
@@ -4426,7 +4438,7 @@
                 "D": "3,4",
                 "E": "1,4"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 374,
@@ -4438,7 +4450,7 @@
                 "D": "Kollektivləşmə dövründə tətbiq edilməsi",
                 "E": "Zorakı yolla toplanması"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 375,
@@ -4450,7 +4462,7 @@
                 "D": "1,5",
                 "E": "3,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 376,
@@ -4462,7 +4474,7 @@
                 "D": "Vəcihə Səmədova",
                 "E": "Mikayıl Abdullayev"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 377,
@@ -4474,7 +4486,7 @@
                 "D": "Milli Elmlər Akademiyası",
                 "E": "Milli Məclis"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 378,
@@ -4486,7 +4498,7 @@
                 "D": "Azərbaycanlıların Ermənistandan deportasiyası başladı",
                 "E": "Gəncənin tarixi adı bərpa edildi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 379,
@@ -4498,7 +4510,7 @@
                 "D": "Dünya Azərbaycanlılarının II qurultayı",
                 "E": "İ.Əliyevin AŞ PA-nın vitse-prezidenti və büro üzvü seçilməsi"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 380,
@@ -4510,7 +4522,7 @@
                 "D": "Gərgərlərtərəfindən",
                 "E": "Arattalılartərəfindən"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 382,
@@ -4522,7 +4534,7 @@
                 "D": "Dərbənd səddini bərpa etdilər",
                 "E": "Yerli əhali arasında bütpərəstliyi yayırdılar"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 383,
@@ -4534,7 +4546,7 @@
                 "D": "Müaviyyə",
                 "E": "Usma əl-Kürdi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 384,
@@ -4546,7 +4558,7 @@
                 "D": "Bakı, Gəncə",
                 "E": "Şirvan, Bakı"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 385,
@@ -4558,7 +4570,7 @@
                 "D": "Hülakülər dövlətinin meydana gəlməsi",
                 "E": "Hülaki xanın hakimiyyətə gəlməsi"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 386,
@@ -4570,7 +4582,7 @@
                 "D": "Herat",
                 "E": "Təbriz"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 387,
@@ -4582,7 +4594,7 @@
                 "D": "Tərh",
                 "E": "Kayçur"
             },
-            "correct_answer": null
+            "correct_answer": "A"
         },
         {
             "id": 388,
@@ -4594,7 +4606,7 @@
                 "D": "Azərbaycanda mərkəzi hakimiyyət zəif olduğuna görə",
                 "E": "Rusiyaya qarşı xalqın narazılığının daha da genişlənməsinə görə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 389,
@@ -4606,7 +4618,7 @@
                 "D": "Şah İsmayıl Xətai",
                 "E": "Saib Təbrizi"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 390,
@@ -4618,7 +4630,7 @@
                 "D": "3,2,1,4",
                 "E": "4,1,3,2"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 391,
@@ -4630,7 +4642,7 @@
                 "D": "1828-1829-cu illərdə",
                 "E": "Türkmənçay müqaviləsi ilə"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 393,
@@ -4642,7 +4654,7 @@
                 "D": "Kəndlilərin az hissəsinə aid olan xüsusi torpaqlar idi.",
                 "E": "Dövlət qarşısında hərbi xidmətə görə ayrı- ayrı tayfalara verilirdi"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 394,
@@ -4654,7 +4666,7 @@
                 "D": "Hacı Zeynalabdin Şirvani – “Səyahət bağı”",
                 "E": "Abbasqulu ağa Bakıxanov – “Gülüstani- İrəm”"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 395,
@@ -4666,7 +4678,7 @@
                 "D": "Şəhər islahatının həyata keçırılməsi ilə",
                 "E": "Dərbənd quberniyasının ləğv edilməsi ilə"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 396,
@@ -4678,7 +4690,7 @@
                 "D": "3,1,2",
                 "E": "1,2,3"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 397,
@@ -4690,7 +4702,7 @@
                 "D": "heyvanların sayına görə köçəri maldarlar",
                 "E": "torpaqlardan istifadəyə görə dövlət kəndliləri"
             },
-            "correct_answer": null
+            "correct_answer": "B"
         },
         {
             "id": 398,
@@ -4702,7 +4714,7 @@
                 "D": "ortabablar",
                 "E": "qolçomaqlar"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 399,
@@ -4714,7 +4726,7 @@
                 "D": "1,3",
                 "E": "2,4"
             },
-            "correct_answer": null
+            "correct_answer": "D"
         },
         {
             "id": 400,
@@ -4726,7 +4738,7 @@
                 "D": "“Molla Nəsirəddin” curnalında dərc etdirdiyi karikatura",
                 "E": "“Abşeron bağları”"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 401,
@@ -4738,7 +4750,7 @@
                 "D": "Məhəmməd Mirzə Qacar",
                 "E": "Ehsan xan Naxçıvanski"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 403,
@@ -4750,7 +4762,7 @@
                 "D": "1,3",
                 "E": "1,2"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 404,
@@ -4762,7 +4774,7 @@
                 "D": "4,5,6",
                 "E": "3,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "C"
         },
         {
             "id": 405,
@@ -4774,7 +4786,7 @@
                 "D": "2,3,4",
                 "E": "2,4,5"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         },
         {
             "id": 406,
@@ -4786,7 +4798,7 @@
                 "D": "1,3.5",
                 "E": "2,3,4"
             },
-            "correct_answer": null
+            "correct_answer": "E"
         }
     ]
 }

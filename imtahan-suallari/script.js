@@ -272,7 +272,7 @@ if (window.location.pathname.endsWith("quiz.html")) {
             if (islenenQuizSayi >= 3) {
                 const limitHTML = `
                     <div style="text-align: center;">
-                        <img src="../images/freeplanremind.webp" alt="Limit" style="width: 200px; margin-bottom: 15px;">
+                        <img src="../images/freeplanreminder.webp" alt="Limit" style="width: 200px; margin-bottom: 15px;">
                         <h3 style="margin-bottom: 10px; color: #1e90ff;">Gündəlik limit doldu!</h3>
                         <p style="font-size: 15px; opacity: 0.9;">
                             Pulsuz hesabla gündə yalnız <b>3 fənn</b> (30 sual) işləyə bilərsiniz. Limitsiz suallar üçün Premium əldə edin.
